@@ -1,0 +1,6 @@
+<technique vs="Vegetation" ps="Unlit" psdefines="DIFFMAP" >
+    <pass name="base" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="deferred" psdefines="DEFERRED" />
+    <pass name="depth" vs="VegetationDepth" ps="Depth" />
+    <pass name="shadow" vs="VegetationShadow" ps="Shadow" />
+</technique>

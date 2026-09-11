@@ -1,0 +1,968 @@
+[
+  {
+    "id": "day1",
+    "BaseDropRate": 0,
+    "MaxDropPerRun": 0,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [],
+    "WeaponWeight": [],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day2",
+    "BaseDropRate": 0,
+    "MaxDropPerRun": 0,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [],
+    "WeaponWeight": [],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day3",
+    "BaseDropRate": 0,
+    "MaxDropPerRun": 0,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [],
+    "WeaponWeight": [],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day4",
+    "BaseDropRate": 40,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day5",
+    "BaseDropRate": 30,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day6",
+    "BaseDropRate": 25,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day7",
+    "BaseDropRate": 30,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 0,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day8",
+    "BaseDropRate": 20,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day9",
+    "BaseDropRate": 20,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day10",
+    "BaseDropRate": 20,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day11",
+    "BaseDropRate": 27,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day12",
+    "BaseDropRate": 26.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day13",
+    "BaseDropRate": 26,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day14",
+    "BaseDropRate": 25.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day15",
+    "BaseDropRate": 25,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day16",
+    "BaseDropRate": 24.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day17",
+    "BaseDropRate": 24,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day18",
+    "BaseDropRate": 23.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day19",
+    "BaseDropRate": 23,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day20",
+    "BaseDropRate": 22.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day21",
+    "BaseDropRate": 22,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day22",
+    "BaseDropRate": 21.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day23",
+    "BaseDropRate": 21,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day24",
+    "BaseDropRate": 20.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day25",
+    "BaseDropRate": 20,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day26",
+    "BaseDropRate": 19.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day27",
+    "BaseDropRate": 19,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day28",
+    "BaseDropRate": 18.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day29",
+    "BaseDropRate": 18,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  },
+  {
+    "id": "day30",
+    "BaseDropRate": 17.5,
+    "MaxDropPerRun": 100,
+    "MinDropPerRun": 0,
+    "MaxQuality": 1,
+    "CommonWeight": [
+      [
+        0,
+        100
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "WeaponWeight": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "BossGuaranteedDrops": 0
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "普通-幽灵",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 1,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "幽灵"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-牛头人",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "牛头人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-牛头人10",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": 10,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "牛头人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-蛞蝓",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "蛞蝓"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-石头人",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 3,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "石头人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-石头人20",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 3,
+    "maxRandomCount": 20,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "石头人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-小骷髅",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 1,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "小骷髅"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-双头骷髅",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "双头骷髅"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-冲锋大牛",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 4,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "冲锋大牛"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-冲锋大牛20",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 3,
+    "maxRandomCount": 20,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "冲锋大牛"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-骑狼哥布林",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 1,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "骑狼哥布林"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-巨斧哥布林",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "巨斧哥布林"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-弓箭骷髅20",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": 20,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "弓箭骷髅"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-弓箭骷髅",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "弓箭骷髅"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-弓箭鱼人20",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": 20,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "弓箭鱼人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-弓箭鱼人",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": -1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "弓箭鱼人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-炸弹人5",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": 5,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "炸弹人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "普通-炸弹人20",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 2,
+    "maxRandomCount": 20,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "炸弹人"
+    ],
+    "OverMax": true,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "boss-石头人",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 50,
+    "maxRandomCount": 1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "boss石头人"
+    ],
+    "OverMax": false,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "boss-哥布林王",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 50,
+    "maxRandomCount": 1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "boss哥布林王"
+    ],
+    "OverMax": false,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "boss-死灵",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 50,
+    "maxRandomCount": 1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "boss死灵"
+    ],
+    "OverMax": false,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "低品质晶石怪",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 1,
+    "maxRandomCount": 1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "低品质晶石1",
+      "低品质晶石2",
+      "低品质晶石3"
+    ],
+    "OverMax": false,
+    "spawnType": 0,
+    "Param": []
+  },
+  {
+    "id": "高品质晶石怪",
+    "GenCount": [
+      1
+    ],
+    "DifficultyValue": 1,
+    "maxRandomCount": 1,
+    "Interval": 0,
+    "wave": 1,
+    "monsterId": [
+      "高品质晶石1",
+      "高品质晶石2",
+      "高品质晶石3"
+    ],
+    "OverMax": false,
+    "spawnType": 0,
+    "Param": []
+  }
+]

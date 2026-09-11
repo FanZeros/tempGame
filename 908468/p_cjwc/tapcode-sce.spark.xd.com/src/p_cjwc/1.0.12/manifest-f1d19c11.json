@@ -1,0 +1,5302 @@
+{
+  "format": 1,
+  "target": "client",
+  "project_id": "p_cjwc",
+  "sources": {
+    "engine-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/engine-res/"
+    },
+    "official-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/official-res/"
+    }
+  },
+  "asset_prefixes": [
+    "assets",
+    "scripts"
+  ],
+  "entry": "main.lua",
+  "preload_groups": [
+    "#config",
+    "#config#refs"
+  ],
+  "files": [
+    {
+      "uuid": "7cvI_5tuWl3KkzERX_L8zg",
+      "ext": ".png",
+      "hash": "17807120",
+      "size": 355,
+      "fs_path": "image/nightgate/heroes/hero_10005.png"
+    },
+    {
+      "uuid": "A-EHYRmSD6dCB-10-nSZieDS",
+      "ext": ".json",
+      "hash": "a4501d16",
+      "size": 1015,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbabnormalstatus.json"
+    },
+    {
+      "uuid": "A0vlEcqJ5FBWtMUctyejIHq9",
+      "ext": ".png",
+      "hash": "e900e600",
+      "size": 223,
+      "fs_path": "image/nightgate/ui/hp_frame_7bdb2cae.png"
+    },
+    {
+      "uuid": "A1b2C3d4E5f6G7h8I9j0K_",
+      "ext": ".png",
+      "hash": "791e4ff7",
+      "size": 538,
+      "fs_path": "image/nightgate/skill_tree/generated/expansion_cursor_echo.png"
+    },
+    {
+      "uuid": "A2a_mTK9Pet5kY0iUers5vY9",
+      "ext": ".png",
+      "hash": "0e3eec03",
+      "size": 521,
+      "fs_path": "image/nightgate/skill_tree/asset_e795ba52.png"
+    },
+    {
+      "uuid": "A4yLaTivSQ1enh3k-6ILhQId",
+      "ext": ".png",
+      "hash": "2a0ee71e",
+      "size": 1104,
+      "fs_path": "image/nightgate/ui/1_gray_button_s_d984b83e.png"
+    },
+    {
+      "uuid": "A5oU6cgk-KTNu__mI-bytih9",
+      "ext": ".png",
+      "hash": "5d364b18",
+      "size": 361,
+      "hash@windows": "d0d468df",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/11_824c3b02.png"
+    },
+    {
+      "uuid": "A725qVbaCgIIKz6Jcij-9CIi",
+      "ext": ".png",
+      "hash": "8fe837da",
+      "size": 350,
+      "fs_path": "image/nightgate/skill_tree/asset_27b2cb04.png"
+    },
+    {
+      "uuid": "A8iIoTqEUWtSQAn3BqGK7v1z",
+      "ext": ".png",
+      "hash": "6faad057",
+      "size": 424,
+      "fs_path": "image/nightgate/heroes/dryadmatron_bd2623b0.png"
+    },
+    {
+      "uuid": "AAJteQInOxMDpJa_AUv3cc06",
+      "ext": ".wav",
+      "hash": "4dcaa1a9",
+      "size": 691244,
+      "fs_path": "audio/nightgate/win.wav"
+    },
+    {
+      "uuid": "AAPOsX9Oh0Irh0urT-RbvB2_",
+      "ext": ".png",
+      "hash": "189a3a79",
+      "size": 473,
+      "hash@windows": "faccacb5",
+      "size@windows": 159,
+      "fs_path": "image/nightgate/effects/blood_splash.png"
+    },
+    {
+      "uuid": "ABIEeXQ-pWNratxsCSKG0Fqx",
+      "ext": ".lua",
+      "hash": "734611cd",
+      "size": 5599,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/RewardAds.lua"
+    },
+    {
+      "uuid": "ABQQuegeSUXAAkRi2xzHKlAA",
+      "ext": ".png",
+      "hash": "de4cf6b6",
+      "size": 1232,
+      "fs_path": "image/nightgate/monsters/monster_shadow_aff5668f.png"
+    },
+    {
+      "uuid": "ABoQAb81wJixR6ttQm_vg2vf",
+      "ext": ".png",
+      "hash": "9942762f",
+      "size": 337,
+      "fs_path": "image/nightgate/skill_tree/asset_3f90f8c4.png"
+    },
+    {
+      "uuid": "ADUBiQKQYXccfYechlwRu-wr",
+      "ext": ".png",
+      "hash": "1179bde5",
+      "size": 440,
+      "fs_path": "image/nightgate/monsters/icegolem.png"
+    },
+    {
+      "uuid": "AFupObDmM-Z09z_fb-L3fNcU",
+      "ext": ".png",
+      "hash": "e99f6cc6",
+      "size": 520,
+      "fs_path": "image/nightgate/heroes/elfenchanter_bc245c20.png"
+    },
+    {
+      "uuid": "AGXOccBXvX-wf2EsUK8mfXVs",
+      "ext": ".png",
+      "hash": "26431481",
+      "size": 361,
+      "hash@windows": "e8963c58",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_6ebffe38.png"
+    },
+    {
+      "uuid": "AKvu4ZfsX2CbBZKnAzJhZXgT",
+      "ext": ".png",
+      "hash": "daeb0320",
+      "size": 3072,
+      "fs_path": "image/nightgate/ui/slotframe_circle_white_bginnerdeco_05c566d6.png"
+    },
+    {
+      "uuid": "ALMFGZ_e6oNJmBcrG7lYOVGX",
+      "ext": ".wav",
+      "hash": "c1646a96",
+      "size": 202028,
+      "fs_path": "audio/nightgate/tower_1.wav"
+    },
+    {
+      "uuid": "ALjoYSxpG1SdC3EHlZyniMjX",
+      "ext": ".png",
+      "hash": "3b1ac5f0",
+      "size": 162845,
+      "hash@windows": "a95cb308",
+      "size@windows": 242526,
+      "fs_path": "image/nightgate/branding/logo.png"
+    },
+    {
+      "uuid": "AM2QYS3dYc9lqKGvEczj-M9b",
+      "ext": ".lua",
+      "hash": "ef7ae5ca",
+      "size": 12134,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Prestige.lua"
+    },
+    {
+      "uuid": "AOVYsYg32u72nOyjZs8QVJr2",
+      "ext": ".png",
+      "hash": "0fcaec76",
+      "size": 669,
+      "hash@windows": "4294f8e6",
+      "size@windows": 1181,
+      "fs_path": "image/nightgate/environment/obelisk1-stand.png"
+    },
+    {
+      "uuid": "AOwUeZcp0ZNueZltfISAxgpi",
+      "ext": ".wav",
+      "hash": "ec1e95aa",
+      "size": 122044,
+      "fs_path": "audio/nightgate/exp.wav"
+    },
+    {
+      "uuid": "APTKEVzT1TCT4mpfYwAyFj-m",
+      "ext": ".png",
+      "hash": "bf6ca8c8",
+      "size": 535,
+      "fs_path": "image/nightgate/monsters/abysgorn.png"
+    },
+    {
+      "uuid": "ARDUcQ4nNBDCTgpw6zLshQoK",
+      "ext": ".png",
+      "hash": "810cf557",
+      "size": 2689,
+      "hash@windows": "1c4c351c",
+      "size@windows": 1681,
+      "fs_path": "image/nightgate/environment/obelisk1-animation1-activating-70x150_3e54acfa.png"
+    },
+    {
+      "uuid": "ASkwyXg7k7AKRgQF0wOZUwCw",
+      "ext": ".png",
+      "hash": "5ec1a53e",
+      "size": 246,
+      "fs_path": "image/nightgate/items/skill_borders_0_963a28ef.png"
+    },
+    {
+      "uuid": "ATdcKajPQXjzVJtodzm-X3Iz",
+      "ext": ".png",
+      "hash": "51e85db1",
+      "size": 363,
+      "fs_path": "image/nightgate/skill_tree/asset_6a5857c5.png"
+    },
+    {
+      "uuid": "AWieSTXp7HC-K8_6dmlZRT9u",
+      "ext": ".png",
+      "hash": "9a239692",
+      "size": 94,
+      "fs_path": "image/nightgate/items/fr_4e167535.png"
+    },
+    {
+      "uuid": "AY0AGcLfesj-1pGPqnfyBovL",
+      "ext": ".png",
+      "hash": "de819226",
+      "size": 471,
+      "fs_path": "image/nightgate/monsters/brassgolemidle.png"
+    },
+    {
+      "uuid": "AY7C6e4KK_f3KWyT6zi37lxP",
+      "ext": ".png",
+      "hash": "a6284c47",
+      "size": 440,
+      "fs_path": "image/nightgate/heroes/magicalfairy_e70440e3.png"
+    },
+    {
+      "uuid": "AYMgMQaHmdJSH28228FbohmM",
+      "ext": ".png",
+      "hash": "7a5a02aa",
+      "size": 1197,
+      "hash@windows": "b6005727",
+      "size@windows": 772,
+      "fs_path": "image/nightgate/effects/explosion_10.png"
+    },
+    {
+      "uuid": "AYbBYZ-91uC6vmc-qL0tiRMY",
+      "ext": ".png",
+      "hash": "896c0ea3",
+      "size": 361,
+      "hash@windows": "a5f2b261",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/aelrik_b561229c.png"
+    },
+    {
+      "uuid": "AZ0-qWkFV9IocXfygv2Uh61g",
+      "ext": ".png",
+      "hash": "ae6d5210",
+      "size": 1268,
+      "fs_path": "image/nightgate/monsters/orccaptain_7fb78bc0.png"
+    },
+    {
+      "uuid": "A_2GcTDlAHNK58SE1-1XNkpK",
+      "ext": ".png",
+      "hash": "d53cee53",
+      "size": 4811,
+      "fs_path": "image/nightgate/ui/square_background_grayscale_78d8a2ff.png"
+    },
+    {
+      "uuid": "AabLqT30a9Pmi-pTgNHSDV0M",
+      "ext": ".png",
+      "hash": "97ea1290",
+      "size": 134,
+      "fs_path": "image/nightgate/items/hk_68207e3f.png"
+    },
+    {
+      "uuid": "AaqAUcKghmtCJ3vwRa4E9MZm",
+      "ext": ".png",
+      "hash": "2ffba70d",
+      "size": 475,
+      "fs_path": "image/nightgate/heroes/dwarfpriest.png"
+    },
+    {
+      "uuid": "AbFXmZ17DddQAo3HZuf4SSov",
+      "ext": ".png",
+      "hash": "45426341",
+      "size": 361,
+      "hash@windows": "9f99c900",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_2e3965c2.png"
+    },
+    {
+      "uuid": "Adrpqf1HnLhm_0gOHP394N4t",
+      "ext": ".wav",
+      "hash": "009b5108",
+      "size": 165084,
+      "fs_path": "audio/nightgate/towerupgrade.wav"
+    },
+    {
+      "uuid": "AeEGER7zv6Z3qav6MlurU-ej",
+      "ext": ".png",
+      "hash": "8c51711d",
+      "size": 362,
+      "fs_path": "image/nightgate/skill_tree/asset_68965d17.png"
+    },
+    {
+      "uuid": "AeZCKQxVEfUVKTNlfZHEBDvN",
+      "ext": ".png",
+      "hash": "5257b4fc",
+      "size": 5881,
+      "hash@windows": "3ec4015d",
+      "size@windows": 1611,
+      "fs_path": "image/nightgate/effects/explosion.png"
+    },
+    {
+      "uuid": "AgC7geb-y-njEvE5x4qXhvvq",
+      "ext": ".png",
+      "hash": "6c451dd4",
+      "size": 154,
+      "fs_path": "image/nightgate/ui/frame_title_dots.png"
+    },
+    {
+      "uuid": "AgLKmVbXRAlM9q0KN1LUtwiL",
+      "ext": ".png",
+      "hash": "30c4ff69",
+      "size": 361,
+      "hash@windows": "cf9876c8",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_f6dc12ba.png"
+    },
+    {
+      "uuid": "Ag_X4d_RcGycMYJV8fLrdNQY",
+      "ext": ".png",
+      "hash": "d3d038ef",
+      "size": 350,
+      "fs_path": "image/nightgate/skill_tree/asset_f80bb2f4.png"
+    },
+    {
+      "uuid": "Agug6eMVhds4GR56keN84eXN",
+      "ext": ".png",
+      "hash": "024be1ed",
+      "size": 1139,
+      "fs_path": "image/nightgate/ui/1_orange_button_s_5b2b3229.png"
+    },
+    {
+      "uuid": "AiAyqbRqqcbZV9vQi6iDsZ0z",
+      "ext": ".png",
+      "hash": "840755ed",
+      "size": 475,
+      "fs_path": "image/nightgate/monsters/bazzle_a5028421.png"
+    },
+    {
+      "uuid": "AiEBUS6C0C54NwDpf3bT5ekU",
+      "ext": ".png",
+      "hash": "88223c1c",
+      "size": 941,
+      "hash@windows": "6607385d",
+      "size@windows": 805,
+      "fs_path": "image/nightgate/environment/base_grass.png"
+    },
+    {
+      "uuid": "AirwUenvzrcVwb9hqny7qrVp",
+      "ext": ".png",
+      "hash": "f344aacd",
+      "size": 466,
+      "fs_path": "image/nightgate/monsters/firecentipede.png"
+    },
+    {
+      "uuid": "AjgIIT0l6PvN8xK3-EXbHvig",
+      "ext": ".png",
+      "hash": "3cbff93b",
+      "size": 839,
+      "fs_path": "image/nightgate/ui/skill_paper_49ad7a61.png"
+    },
+    {
+      "uuid": "AlykcS_Lt_MEG5qcE149gzvu",
+      "ext": ".lua",
+      "hash": "d92bd7b4",
+      "size": 5381,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/SettingsPage.lua"
+    },
+    {
+      "uuid": "Am8ESZB_4QRVdJPhMRkSm_EB",
+      "ext": ".png",
+      "hash": "d825887c",
+      "size": 361,
+      "hash@windows": "5b5b619c",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/2_0e7ff0e3.png"
+    },
+    {
+      "uuid": "An5xkWjE316roOYXMZsuaf3Z",
+      "ext": ".json",
+      "hash": "e5f64026",
+      "size": 7393,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbtalent.json"
+    },
+    {
+      "uuid": "AnZccdck7-BNGb5nPzkf601A",
+      "ext": ".png",
+      "hash": "bcb3f10f",
+      "size": 361,
+      "hash@windows": "66eccdc7",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/12_4b6c9587.png"
+    },
+    {
+      "uuid": "AnxGyR0Arvv4EjXjpsnQx5Ca",
+      "ext": ".png",
+      "hash": "4d7c1561",
+      "size": 870,
+      "fs_path": "image/nightgate/ui/1_plus.png"
+    },
+    {
+      "uuid": "Ap1Y8ZkGTWqrkwiPKbtqK4wv",
+      "ext": ".png",
+      "hash": "e8374dd2",
+      "size": 438,
+      "fs_path": "image/nightgate/heroes/bippin.png"
+    },
+    {
+      "uuid": "ApOJkdESAcvl8sj5MqxW-3ao",
+      "ext": ".png",
+      "hash": "ba79b7c5",
+      "size": 778,
+      "fs_path": "image/nightgate/ui/skill_paper2_5a3f0617.png"
+    },
+    {
+      "uuid": "ArU_wWmp1eC1sGTQxmtfzKw8",
+      "ext": ".png",
+      "hash": "bf6ca8c8",
+      "size": 535,
+      "fs_path": "image/nightgate/monsters/abysgorn_0b44b3c9.png"
+    },
+    {
+      "uuid": "ArvRibQQf2uNs5s3HxLYN7du",
+      "ext": ".png",
+      "hash": "896c0ea3",
+      "size": 361,
+      "hash@windows": "a5f2b261",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/aelrik.png"
+    },
+    {
+      "uuid": "AsDioSRDQViOBHVNRbZ_BBAi",
+      "ext": ".lua",
+      "hash": "db08a462",
+      "size": 62792,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Battle.lua"
+    },
+    {
+      "uuid": "AtiUEehRK00d_OUm14xw6L1E",
+      "ext": ".xml",
+      "hash": "685fba4a",
+      "size": 62,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans.xml"
+    },
+    {
+      "uuid": "AtsPiYTMbN1n6VYjESsikYx6",
+      "ext": ".png",
+      "hash": "b5ab5328",
+      "size": 1746,
+      "fs_path": "image/nightgate/ui/square_frame_grayscale_e7b291ff.png"
+    },
+    {
+      "uuid": "AvGtubo3lqV0gHMwrQGohDOX",
+      "ext": ".png",
+      "hash": "a04ef1af",
+      "size": 291,
+      "fs_path": "image/nightgate/monsters/graverevenant_84d26f6a.png"
+    },
+    {
+      "uuid": "AxtTKQkcBZDFB5Jb349PNtRz",
+      "ext": ".png",
+      "hash": "daeb0320",
+      "size": 3072,
+      "fs_path": "image/nightgate/ui/slotframe_circle_white_bginnerdeco.png"
+    },
+    {
+      "uuid": "AyoWWd5L8B_9O2OBfpSr6KcI",
+      "ext": ".png",
+      "hash": "e318e4d0",
+      "size": 427,
+      "fs_path": "image/nightgate/monsters/unholyskull.png"
+    },
+    {
+      "uuid": "B-V08YwYVtD6QoLFIzauJ_19",
+      "ext": ".png",
+      "hash": "3555621d",
+      "size": 361,
+      "hash@windows": "88ea7e80",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/12_5478f6dc.png"
+    },
+    {
+      "uuid": "B-WCMeWC0tPssZ3f5wTK0JEu",
+      "ext": ".png",
+      "hash": "dd31218d",
+      "size": 361,
+      "hash@windows": "08843d96",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_eca44c7b.png"
+    },
+    {
+      "uuid": "B0LF4c0XA_L_N_Mkf_iuuUWU",
+      "ext": ".png",
+      "hash": "64d1051f",
+      "size": 361,
+      "hash@windows": "f36dc219",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_8eef3835.png"
+    },
+    {
+      "uuid": "B1JLidwRsunybJlWwzJLREk6",
+      "ext": ".png",
+      "hash": "4ed2219a",
+      "size": 325,
+      "fs_path": "image/nightgate/skill_tree/asset_f2b78b58.png"
+    },
+    {
+      "uuid": "B1SuUVqb7hUCotaWr-3Lcc7k",
+      "ext": ".png",
+      "hash": "76177dbd",
+      "size": 355,
+      "fs_path": "image/nightgate/skill_tree/asset_f338ac82.png"
+    },
+    {
+      "uuid": "B2c3D4e5F6g7H8i9J0k1L-",
+      "ext": ".png",
+      "hash": "e080ab9d",
+      "size": 604,
+      "fs_path": "image/nightgate/skill_tree/generated/expansion_wall_laststand.png"
+    },
+    {
+      "uuid": "B2dccYx3bBRJ_GgFPGCtXsay",
+      "ext": ".png",
+      "hash": "ab14eaac",
+      "size": 361,
+      "hash@windows": "1fa223a4",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_90e02db4.png"
+    },
+    {
+      "uuid": "B4Y2QVauWOBXpLV_GZjOvkcu",
+      "ext": ".json",
+      "hash": "2f19549a",
+      "size": 23635,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbmonster.json"
+    },
+    {
+      "uuid": "B5DI8eeSaUaaYmQ0sD1dJ9CD",
+      "ext": ".xml",
+      "hash": "685fba4a",
+      "size": 62,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans-Bold.xml"
+    },
+    {
+      "uuid": "B6gt-QM3A2EaI3tffaFIyFCx",
+      "ext": ".png",
+      "hash": "c914d215",
+      "size": 361,
+      "hash@windows": "40d1c21d",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_177f9cf2.png"
+    },
+    {
+      "uuid": "B8tSWbgAgfd-5SCmQrDF9_-U",
+      "ext": ".png",
+      "hash": "4fd114e1",
+      "size": 361,
+      "hash@windows": "8723cfb5",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_4c0d91fe.png"
+    },
+    {
+      "uuid": "B96ayRlXBpFC1k-W4Dk_DgZn",
+      "ext": ".png",
+      "hash": "151a7908",
+      "size": 361,
+      "hash@windows": "b4ff8bfe",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_d5129e3e.png"
+    },
+    {
+      "uuid": "BA99gcrGU_a1VjJLPOcA4TlK",
+      "ext": ".png",
+      "hash": "2de6e577",
+      "size": 361,
+      "hash@windows": "6028b5ff",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_90b695ac.png"
+    },
+    {
+      "uuid": "BBs3qYZZmfzGzMUjVgPFZUwt",
+      "ext": ".png",
+      "hash": "448b4fde",
+      "size": 351,
+      "fs_path": "image/nightgate/monsters/giantrat.png"
+    },
+    {
+      "uuid": "BDRpMRKnuKYf2bUwy3QNMbX3",
+      "ext": ".png",
+      "hash": "2ccca652",
+      "size": 424,
+      "fs_path": "image/nightgate/monsters/ashspider.png"
+    },
+    {
+      "uuid": "BDv1SdJngDqQYj7elonvtBQg",
+      "ext": ".png",
+      "hash": "788586b0",
+      "size": 507,
+      "fs_path": "image/nightgate/monsters/hungrymimic_bdec926d.png"
+    },
+    {
+      "uuid": "BEIdEWELvclKFKxq-pCxichD",
+      "ext": ".png",
+      "hash": "9e4f67ae",
+      "size": 352,
+      "fs_path": "image/nightgate/items/asset_905e5467.png"
+    },
+    {
+      "uuid": "BEKMCSohe9PlVaXk-pzMkUFl",
+      "ext": ".json",
+      "hash": "43acad6d",
+      "size": 1403,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbtrait.json"
+    },
+    {
+      "uuid": "BFWKIZETkC6Abs3MU-_x-k_x",
+      "ext": ".png",
+      "hash": "6892e271",
+      "size": 423,
+      "fs_path": "image/nightgate/skill_tree/asset_eaf297bf.png"
+    },
+    {
+      "uuid": "BGkigewAM96AvnsAsCAfaz-U",
+      "ext": ".png",
+      "hash": "cdeaecf2",
+      "size": 371,
+      "fs_path": "image/nightgate/monsters/waterelemental.png"
+    },
+    {
+      "uuid": "BGxAOeq1nxJA_j3SyoqOT7mt",
+      "ext": ".png",
+      "hash": "7c595686",
+      "size": 357,
+      "fs_path": "image/nightgate/ui/popup_window_e576119f.png"
+    },
+    {
+      "uuid": "BHMKuUHQbECSvTuybwxupQsA",
+      "ext": ".png",
+      "hash": "52c3225e",
+      "size": 291,
+      "fs_path": "image/nightgate/items/asset_e872f8d7.png"
+    },
+    {
+      "uuid": "BHOdeRgQYFTOVd-F9X-rMyJ-",
+      "ext": ".png",
+      "hash": "454de494",
+      "size": 632,
+      "fs_path": "image/nightgate/ui/hud_icon_magic_83362d1d.png"
+    },
+    {
+      "uuid": "BHsECZkdy2vfTrbLWO5elfqY",
+      "ext": ".png",
+      "hash": "7c993b40",
+      "size": 328,
+      "fs_path": "image/nightgate/skill_tree/asset_fb759301.png"
+    },
+    {
+      "uuid": "BLKIgTh4N6XyzOBlIfElsQY9",
+      "ext": ".png",
+      "hash": "59438e74",
+      "size": 361,
+      "hash@windows": "256e56d2",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_06fe7517.png"
+    },
+    {
+      "uuid": "BOGPqVgiIgabZ2Vas1HNAVYl",
+      "ext": ".png",
+      "hash": "f5124d19",
+      "size": 341,
+      "fs_path": "image/nightgate/monsters/blazingslug.png"
+    },
+    {
+      "uuid": "BQgEISxTKDE3sIOKcULuRGlk",
+      "ext": ".wav",
+      "hash": "729e51ab",
+      "size": 132344,
+      "fs_path": "audio/nightgate/ability.wav"
+    },
+    {
+      "uuid": "BRTXGcCj7fQz_WOi993nKGHJ",
+      "ext": ".png",
+      "hash": "1f60a550",
+      "size": 361,
+      "hash@windows": "99807f8b",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_bfb70cf3.png"
+    },
+    {
+      "uuid": "BRkiUU_dMXomIXILqRBMtImr",
+      "ext": ".lua",
+      "hash": "9679e4e0",
+      "size": 11914,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/CharacterDetails.lua"
+    },
+    {
+      "uuid": "BSUTARt1XYvrXggtE31cBAhT",
+      "ext": ".json",
+      "hash": "1944135e",
+      "size": 6902,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbmonsterwave.json"
+    },
+    {
+      "uuid": "BTTEcQkwex61jp3X2K-mQgG3",
+      "ext": ".png",
+      "hash": "ab7ede6d",
+      "size": 475,
+      "fs_path": "image/nightgate/heroes/masterillusionist.png"
+    },
+    {
+      "uuid": "BUGXsaJrKsYwDrsQCjV2qmlX",
+      "ext": ".png",
+      "hash": "523d2508",
+      "size": 361,
+      "hash@windows": "92c8074e",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/gameplayed_6c82dbdc.png"
+    },
+    {
+      "uuid": "BVFWiXo-Gc6RiRgZtD-FJqXL",
+      "ext": ".png",
+      "hash": "17d257c0",
+      "size": 429,
+      "fs_path": "image/nightgate/skill_tree/asset_3a98989a.png"
+    },
+    {
+      "uuid": "BWLxeZXYPkb9I9gjcxVzXDrn",
+      "ext": ".png",
+      "hash": "ebe8155b",
+      "size": 333,
+      "fs_path": "image/nightgate/skill_tree/asset_9b506db9.png"
+    },
+    {
+      "uuid": "BXZGCdpnCPscESD883P0uLO9",
+      "ext": ".lua",
+      "hash": "79ef7888",
+      "size": 2928,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/MonsterAffixes.lua"
+    },
+    {
+      "uuid": "BXb4MZtRojFEVUh4gf-vHYj7",
+      "ext": ".png",
+      "hash": "ce9a39d3",
+      "size": 571,
+      "fs_path": "image/nightgate/monsters/natureelemental_e6eacbb2.png"
+    },
+    {
+      "uuid": "BXfGMSnElm8HU29vWx6qhpSa",
+      "ext": ".png",
+      "hash": "6a9ab122",
+      "size": 416,
+      "fs_path": "image/nightgate/skill_tree/asset_c1985f68.png"
+    },
+    {
+      "uuid": "BY-GOdQagAsXvo7UG6Jp58dB",
+      "ext": ".png",
+      "hash": "5bee01db",
+      "size": 307,
+      "fs_path": "image/nightgate/skill_tree/asset_fc73a32b.png"
+    },
+    {
+      "uuid": "BY8-Se-aMAF9AdL2D30-HpJL",
+      "ext": ".png",
+      "hash": "10958cb4",
+      "size": 388,
+      "fs_path": "image/nightgate/heroes/capablecryomancer.png"
+    },
+    {
+      "uuid": "BZJvYXQERd_CvX3GWeRSbuzX",
+      "ext": ".json",
+      "hash": "9f422fef",
+      "size": 350,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/equip_tbequiprecycle.json"
+    },
+    {
+      "uuid": "B_CHoWrCBsEW1WkDeBWWUNOX",
+      "ext": ".png",
+      "hash": "0dc933e0",
+      "size": 269,
+      "fs_path": "image/nightgate/items/skill_borders_16_1b6e3835.png"
+    },
+    {
+      "uuid": "Ba06Od-iIvmuMRaTV9lihYAR",
+      "ext": ".png",
+      "hash": "82e20b07",
+      "size": 200,
+      "fs_path": "image/nightgate/ui/stats_title_5a4e36a7.png"
+    },
+    {
+      "uuid": "BazoMeHr068j6nTtbMq0EGNN",
+      "ext": ".png",
+      "hash": "75413f13",
+      "size": 241,
+      "fs_path": "image/nightgate/items/skill_borders_6_ada61628.png"
+    },
+    {
+      "uuid": "BcDo6TNrGrQL-ikp8ZzXcWYB",
+      "ext": ".png",
+      "hash": "352cc2e7",
+      "size": 283,
+      "fs_path": "image/nightgate/items/discordicon_7df1ec52.png"
+    },
+    {
+      "uuid": "BcclqeVna8NnPwFN4gkAE2KQ",
+      "ext": ".png",
+      "hash": "e7f5b2a6",
+      "size": 13316,
+      "fs_path": "image/nightgate/ui/bar_basic_5aadd308.png"
+    },
+    {
+      "uuid": "BgCviebFkuFhKjMsq6Cjz4K1",
+      "ext": ".json",
+      "groups": [
+        "#blocking",
+        "default"
+      ],
+      "source": "official-res",
+      "refs": [
+        "AvmfQQWPOJKQln4kISbq1qsK",
+        "B9gxWZGEvJv99DLadVBNjeBm",
+        "C5TH8Um7enDvsccQp0yKaFKv",
+        "ENWpeS8aUuN3DMZ4kLZtqc6Q",
+        "EPbSsW5xhUNav0MZt0b_VGe-",
+        "Ej2uwTLda_LOVYIAw4Bs_Hog",
+        "F4ItQUiV0gmvAelLXpk5yrTs",
+        "FmD_MVX6NJVaeW9vdQ4EIlTq",
+        "FmaJEb00vYdE9vFmbO60Xkn6",
+        "Fr5sya5vN3P0bfThXYJ2XcGw",
+        "G2FlEdwwzR0rliGuXVgGpK2C",
+        "Gegssbk9ZAijVsigDH-iMHAR",
+        "HBTyuRZ6z-VATB16tjmWi3Uo",
+        "HIsCIUT7yv1mueg3KlvzX2Xz",
+        "HTriplanarTech01aB2cDe",
+        "KTriplanarShaderFinal1",
+        "XimTixnDEW7k2OzjV7sFq9vM",
+        "iV_WrtdX3cKmljRIMhn5PZlT"
+      ],
+      "fs_path": "generated/__official_pinned_refs__.json"
+    },
+    {
+      "uuid": "BjI52Z8NVf1i3B1OzU7ZJiyC",
+      "ext": ".png",
+      "hash": "de32f762",
+      "size": 414,
+      "fs_path": "image/nightgate/monsters/adeptnecromancer_d1724069.png"
+    },
+    {
+      "uuid": "BjXTGaoQYKohW2bOKhn-zXWe",
+      "ext": ".json",
+      "hash": "77dd0f63",
+      "size": 19003,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbattribute.json"
+    },
+    {
+      "uuid": "Bk2iYa6oqDx9wHi9Gl8K6s3D",
+      "ext": ".lua",
+      "hash": "ba5bd10f",
+      "size": 22181,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Skills.lua"
+    },
+    {
+      "uuid": "Bk5-mYVJi4fo2aiZRa9l8dHF",
+      "ext": ".json",
+      "hash": "66594574",
+      "size": 2510,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/equip_tbequipstrengthen.json"
+    },
+    {
+      "uuid": "Bky7yWp5EmNsSC_hoSx1e7eD",
+      "ext": ".png",
+      "hash": "d27aaa8d",
+      "size": 361,
+      "hash@windows": "72ffd17a",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_c748a0ae.png"
+    },
+    {
+      "uuid": "BlEV6dZjKaH8bWukbvueCbn1",
+      "ext": ".json",
+      "hash": "532fb661",
+      "size": 520,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbbuff.json"
+    },
+    {
+      "uuid": "BmBUsep48QOpkSSEOckXf19O",
+      "ext": ".png",
+      "hash": "14a9a4c9",
+      "size": 368,
+      "fs_path": "image/nightgate/skill_tree/asset_7264f7cd.png"
+    },
+    {
+      "uuid": "Bo8p6dhuCydS-XAhUnY6Hi9P",
+      "ext": ".png",
+      "hash": "3797bd77",
+      "size": 345,
+      "fs_path": "image/nightgate/monsters/beryldoppleganger_a1a0d07d.png"
+    },
+    {
+      "uuid": "Bq2eiYL5wLjO30VLGBmtAXeq",
+      "ext": ".png",
+      "hash": "0e430fff",
+      "size": 431,
+      "fs_path": "image/nightgate/monsters/monstrous_rat.png"
+    },
+    {
+      "uuid": "BrdS8Zutd-WfY-32Mg0A3vn0",
+      "ext": ".png",
+      "hash": "cd0faeaa",
+      "size": 2375,
+      "fs_path": "image/nightgate/effects/polygradientmirrored_01da0c38.png"
+    },
+    {
+      "uuid": "BtH8Ae58rIQRblSRVxypjaLp",
+      "ext": ".png",
+      "hash": "231548a6",
+      "size": 361,
+      "hash@windows": "de29f779",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_34a5a979.png"
+    },
+    {
+      "uuid": "Bu3JWdQtv9Esv_N5sHK9Nb3t",
+      "ext": ".png",
+      "hash": "ce9a39d3",
+      "size": 571,
+      "fs_path": "image/nightgate/monsters/natureelemental.png"
+    },
+    {
+      "uuid": "BuTEieoKxnb2OCWKlztp5jcR",
+      "ext": ".png",
+      "hash": "8bc47efc",
+      "size": 361,
+      "hash@windows": "06d2b2a7",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/anointedhighpriest.png"
+    },
+    {
+      "uuid": "BuX6cTYduAxLO1jvZ46AGWcI",
+      "ext": ".png",
+      "hash": "1217f460",
+      "size": 348,
+      "fs_path": "image/nightgate/monsters/glowingwisp.png"
+    },
+    {
+      "uuid": "Bve-iTB3syVIA32JRjNTmxN5",
+      "ext": ".png",
+      "hash": "a864b5c0",
+      "size": 330,
+      "fs_path": "image/nightgate/skill_tree/asset_42d7de01.png"
+    },
+    {
+      "uuid": "BvfGOf9tD6VwXfRMSdjjkQ-D",
+      "ext": ".lua",
+      "hash": "abf84655",
+      "size": 3900,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/AnimatedButton.lua"
+    },
+    {
+      "uuid": "BwBVIaNm3wBDdECvC1fHPY-H",
+      "ext": ".png",
+      "hash": "8212392d",
+      "size": 349,
+      "fs_path": "image/nightgate/skill_tree/asset_aa904f05.png"
+    },
+    {
+      "uuid": "Bw_ccaBjDykpS892R5hO41M6",
+      "ext": ".png",
+      "hash": "f4f4df42",
+      "size": 361,
+      "hash@windows": "3609e5ef",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/totaldamage_e4ab383a.png"
+    },
+    {
+      "uuid": "Bx9WyTEDvayWl83YDH3qfbDv",
+      "ext": ".png",
+      "hash": "a6f12949",
+      "size": 361,
+      "hash@windows": "24f3ccd2",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_3be67e78.png"
+    },
+    {
+      "uuid": "C-2kMSir59EIfEQtJVYmcyYt",
+      "ext": ".png",
+      "hash": "79d44907",
+      "size": 473,
+      "hash@windows": "87865a77",
+      "size@windows": 168,
+      "fs_path": "image/nightgate/effects/xplosion_3_874a1d82.png"
+    },
+    {
+      "uuid": "C09mYV2OvbTxvC-zrk9E4bIm",
+      "ext": ".png",
+      "hash": "c0748555",
+      "size": 374,
+      "fs_path": "image/nightgate/skill_tree/asset_cca5afb4.png"
+    },
+    {
+      "uuid": "C0GhkSa4WX5uGeDTBjm2GREQ",
+      "ext": ".png",
+      "hash": "154fb4c3",
+      "size": 158557,
+      "hash@windows": "b3aa8b6c",
+      "size@windows": 73639,
+      "fs_path": "image/nightgate/effects/polyspriteglow.png"
+    },
+    {
+      "uuid": "C0qQmcqIM54nBRhK_UX0iAkc",
+      "ext": ".png",
+      "hash": "de9b8bcc",
+      "size": 393,
+      "fs_path": "image/nightgate/monsters/ghastlyeye_71a15989.png"
+    },
+    {
+      "uuid": "C1Bx2WA0Xp30tBydnItG061I",
+      "ext": ".png",
+      "hash": "b4f1e305",
+      "size": 361,
+      "hash@windows": "a9a752a2",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/skilltreecollected_340b1cd3.png"
+    },
+    {
+      "uuid": "C2GN0QoQcRfnSHbeFYuCTCyQ",
+      "ext": ".png",
+      "hash": "69a4fc31",
+      "size": 534,
+      "fs_path": "image/nightgate/monsters/menacingmedusa_56cff472.png"
+    },
+    {
+      "uuid": "C2buETLMAyPRTmpevI2L0aSe",
+      "ext": ".png",
+      "hash": "5f1f2047",
+      "size": 326,
+      "fs_path": "image/nightgate/items/asset_1adecd30.png"
+    },
+    {
+      "uuid": "C2fasRDIlrII4Xk54fypn1Dp",
+      "ext": ".png",
+      "hash": "d56824e2",
+      "size": 1844,
+      "fs_path": "image/nightgate/ui/skill_bar_tile.png"
+    },
+    {
+      "uuid": "C3d4E5f6G7h8I9j0K1l2M_",
+      "ext": ".png",
+      "hash": "c6240241",
+      "size": 532,
+      "fs_path": "image/nightgate/skill_tree/generated/expansion_hero_resonance.png"
+    },
+    {
+      "uuid": "C3vHYbuabSe_gEhEuPaE_kNu",
+      "ext": ".png",
+      "hash": "f6c2482b",
+      "size": 266,
+      "fs_path": "image/nightgate/items/skill_borders_10_e243c340.png"
+    },
+    {
+      "uuid": "C4QQWRUyLVv8zDUhotOojfGr",
+      "ext": ".wav",
+      "hash": "f498dec8",
+      "size": 19115388,
+      "fs_path": "audio/nightgate/12_swamp_orchestral.wav"
+    },
+    {
+      "uuid": "C5FeGXXe1x4JBs4zEr61UGTF",
+      "ext": ".png",
+      "hash": "d7a93122",
+      "size": 418,
+      "fs_path": "image/nightgate/monsters/aquadrake_78df9af0.png"
+    },
+    {
+      "uuid": "C6tpwb55287XooC7UeNQH6Ym",
+      "ext": ".png",
+      "hash": "b10f602e",
+      "size": 361,
+      "hash@windows": "5e4ec354",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_acc14086.png"
+    },
+    {
+      "uuid": "C8xqgfEX_i-6KkkeqK86xnJs",
+      "ext": ".png",
+      "hash": "9b7060af",
+      "size": 1197,
+      "hash@windows": "da301e87",
+      "size@windows": 832,
+      "fs_path": "image/nightgate/effects/xplosion_8.png"
+    },
+    {
+      "uuid": "C9wDscFepqqWBGYoIzvuoknN",
+      "ext": ".json",
+      "hash": "91b22274",
+      "size": 15135,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tblevel.json"
+    },
+    {
+      "uuid": "CAfIQaj3QJ7z5L-x15HQqRPM",
+      "ext": ".lua",
+      "hash": "7603e7e0",
+      "size": 9104,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/EconomySkills.lua"
+    },
+    {
+      "uuid": "CC_XeXHoS6oC08BOOlpvPia4",
+      "ext": ".png",
+      "hash": "0cbac413",
+      "size": 320797,
+      "hash@windows": "0c9fb436",
+      "size@windows": 361037,
+      "fs_path": "image/nightgate/branding/logo2_d9cc7319.png"
+    },
+    {
+      "uuid": "CEqBKegiqBOnXNKkaitjw4bJ",
+      "ext": ".png",
+      "hash": "1217f460",
+      "size": 348,
+      "fs_path": "image/nightgate/monsters/glowingwisp_61df3015.png"
+    },
+    {
+      "uuid": "CFM_AUIahCzqlVKhRLhuB_ME",
+      "ext": ".png",
+      "hash": "2ffba70d",
+      "size": 475,
+      "fs_path": "image/nightgate/heroes/dwarfpriest_1a2fa68e.png"
+    },
+    {
+      "uuid": "CF_QWaYtRkTbGktSqyfEtFCf",
+      "ext": ".png",
+      "hash": "bafa7010",
+      "size": 201,
+      "fs_path": "image/nightgate/ui/hp_red.png"
+    },
+    {
+      "uuid": "CHc7Afq8YIExwGfGqs4jDEBd",
+      "ext": ".json",
+      "hash": "ae8c917a",
+      "size": 170496,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/language_tblang.json"
+    },
+    {
+      "uuid": "CHtrEe7cFsqFdYkda76-38zR",
+      "ext": ".lua",
+      "hash": "97f79661",
+      "size": 10165,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Equipment.lua"
+    },
+    {
+      "uuid": "CISnyWtyr6qZp3QCSEd3Qa7s",
+      "ext": ".png",
+      "hash": "90080a90",
+      "size": 463,
+      "fs_path": "image/nightgate/monsters/ebonastaroth.png"
+    },
+    {
+      "uuid": "CM0RgSV_J0dtRod2oM7CwGh4",
+      "ext": ".png",
+      "hash": "6722934c",
+      "size": 95,
+      "fs_path": "image/nightgate/items/de_af61796b.png"
+    },
+    {
+      "uuid": "CMljia6r76AB1zrm_7oCUGe3",
+      "ext": ".png",
+      "hash": "448b4fde",
+      "size": 351,
+      "fs_path": "image/nightgate/monsters/giantrat_31b26c28.png"
+    },
+    {
+      "uuid": "CMtkwZW2BxZb4c54nZYSS4t6",
+      "ext": ".png",
+      "hash": "f5124d19",
+      "size": 341,
+      "fs_path": "image/nightgate/monsters/blazingslug_ce724668.png"
+    },
+    {
+      "uuid": "COotcUCWkvipOLCM3MIgQ-J1",
+      "ext": ".png",
+      "hash": "01aebc89",
+      "size": 281,
+      "fs_path": "image/nightgate/ui/1_basic_button_371080d2.png"
+    },
+    {
+      "uuid": "CPPFkco8-bIJ1mYEJRGqoYWt",
+      "ext": ".png",
+      "hash": "e494c7f3",
+      "size": 365,
+      "fs_path": "image/nightgate/items/skill_borders_1_466563dd.png"
+    },
+    {
+      "uuid": "CQcfEer94LsoPkiu2b1RWH_k",
+      "ext": ".png",
+      "hash": "154fb4c3",
+      "size": 158557,
+      "hash@windows": "b3aa8b6c",
+      "size@windows": 73639,
+      "fs_path": "image/nightgate/effects/polyspriteglow_0042440b.png"
+    },
+    {
+      "uuid": "CQwfgYpy1TWlIhfxBkna0GMI",
+      "ext": ".png",
+      "hash": "5b590ea6",
+      "size": 6034,
+      "fs_path": "image/nightgate/ui/background_fill.png"
+    },
+    {
+      "uuid": "CSmXKRpSAIKjZJYd2zO_68Cx",
+      "ext": ".png",
+      "hash": "7c595686",
+      "size": 357,
+      "fs_path": "image/nightgate/ui/popup_window.png"
+    },
+    {
+      "uuid": "CTOfsWuPiJ00DsbsodYnl-J4",
+      "ext": ".png",
+      "hash": "f344aacd",
+      "size": 466,
+      "fs_path": "image/nightgate/monsters/firecentipede_21332721.png"
+    },
+    {
+      "uuid": "CToYWUZLzgZK_MnIzlC4bYEd",
+      "ext": ".png",
+      "hash": "d8257d24",
+      "size": 452,
+      "fs_path": "image/nightgate/environment/dark_structure_red_full.png"
+    },
+    {
+      "uuid": "CUpBicoOz6T7U6GLAeFiZH0f",
+      "ext": ".png",
+      "hash": "b5ab5328",
+      "size": 1746,
+      "fs_path": "image/nightgate/ui/square_frame_grayscale.png"
+    },
+    {
+      "uuid": "CVlAIUi31TD9iwjrUcsj_Nxi",
+      "ext": ".png",
+      "hash": "536e053e",
+      "size": 361,
+      "fs_path": "image/nightgate/heroes/beginnerenchanter_ed5cc520.png"
+    },
+    {
+      "uuid": "CW46AbuPEBZK9jMMgKGL7T4e",
+      "ext": ".png",
+      "hash": "e99f6cc6",
+      "size": 520,
+      "fs_path": "image/nightgate/heroes/elfenchanter.png"
+    },
+    {
+      "uuid": "CWbs-ZXRW_5XRJlNzZ-hK-9u",
+      "ext": ".png",
+      "hash": "d99a62af",
+      "size": 151,
+      "fs_path": "image/nightgate/items/es_34312d5e.png"
+    },
+    {
+      "uuid": "CWhs-ROzoMf6PPNuzs3qZY5o",
+      "ext": ".png",
+      "hash": "c3e56b97",
+      "size": 588,
+      "fs_path": "image/nightgate/ui/hud_icon_menu_b15a854f.png"
+    },
+    {
+      "uuid": "CYrsSREJRcecNwQpLszV-GR3",
+      "ext": ".png",
+      "hash": "ab7ede6d",
+      "size": 475,
+      "fs_path": "image/nightgate/heroes/masterillusionist_89ab86e0.png"
+    },
+    {
+      "uuid": "C_6uyRegZ9zYpH2Scs1O3UQS",
+      "ext": ".png",
+      "hash": "4d7c1561",
+      "size": 870,
+      "fs_path": "image/nightgate/ui/1_plus_0ba1511f.png"
+    },
+    {
+      "uuid": "C_S7OTE1ouRBccVzsdStCvUG",
+      "ext": ".png",
+      "hash": "4061aa2e",
+      "size": 361,
+      "hash@windows": "13e332e7",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/currency/asset_21b188f2.png"
+    },
+    {
+      "uuid": "Ca4x-aM7Dgv04TKZ52X9vRRp",
+      "ext": ".png",
+      "hash": "6faad057",
+      "size": 424,
+      "fs_path": "image/nightgate/heroes/dryadmatron.png"
+    },
+    {
+      "uuid": "CaGHgVpyQmMqqNQ3reY0vg1-",
+      "ext": ".png",
+      "hash": "45070b32",
+      "size": 361,
+      "hash@windows": "9a1de198",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_1d52a72d.png"
+    },
+    {
+      "uuid": "CbIzGb264W8BqABX_vFUzR62",
+      "ext": ".png",
+      "hash": "5e5df6b5",
+      "size": 361,
+      "hash@windows": "fed01901",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_71f2856c.png"
+    },
+    {
+      "uuid": "CcriGdUv4GZNb8-rriFnvuCB",
+      "ext": ".png",
+      "hash": "27a2e0a6",
+      "size": 361,
+      "hash@windows": "a1d5319b",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_84595872.png"
+    },
+    {
+      "uuid": "CcxmKfIHyff8QSLnfpUH2IOU",
+      "ext": ".png",
+      "hash": "c3e56b97",
+      "size": 588,
+      "fs_path": "image/nightgate/ui/hud_icon_menu.png"
+    },
+    {
+      "uuid": "CdqQOUgZNGxQomdqfbpxokKM",
+      "ext": ".png",
+      "hash": "25124dc9",
+      "size": 509,
+      "fs_path": "image/nightgate/heroes/gnomewizard_c6942723.png"
+    },
+    {
+      "uuid": "CemLWdiMzas-04fidIHUjQ8r",
+      "ext": ".png",
+      "hash": "1124f4e3",
+      "size": 532,
+      "fs_path": "image/nightgate/heroes/expertdruid.png"
+    },
+    {
+      "uuid": "CesBif2maCR6NM3q4kLHuwhv",
+      "ext": ".png",
+      "hash": "d8257d24",
+      "size": 452,
+      "fs_path": "image/nightgate/environment/dark_structure_red_full_f8d046df.png"
+    },
+    {
+      "uuid": "CgEjEWUjP-_qWRSvZN5i5zxH",
+      "ext": ".wav",
+      "hash": "2e372b3f",
+      "size": 176444,
+      "fs_path": "audio/nightgate/coin.wav"
+    },
+    {
+      "uuid": "CiugEdMHmAkKl-nsLveXg6g3",
+      "ext": ".png",
+      "hash": "e459aa05",
+      "size": 469,
+      "fs_path": "image/nightgate/skill_tree/asset_4d66aaa7.png"
+    },
+    {
+      "uuid": "ClAGUSQR0EyEMnNNJ16qPTQK",
+      "ext": ".png",
+      "hash": "de9666f0",
+      "size": 272,
+      "fs_path": "image/nightgate/items/skill_borders_7_0b6572f0.png"
+    },
+    {
+      "uuid": "ClVX8Zcfsm51AePjZeBjoAxg",
+      "ext": ".png",
+      "hash": "0cbac413",
+      "size": 320797,
+      "hash@windows": "0c9fb436",
+      "size@windows": 361037,
+      "fs_path": "image/nightgate/branding/logo2.png"
+    },
+    {
+      "uuid": "CmsRYclGhBuZJy3vGfSS83S3",
+      "ext": ".png",
+      "hash": "54f695d7",
+      "size": 361,
+      "hash@windows": "e3e3bd6d",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/prestiged_8b334685.png"
+    },
+    {
+      "uuid": "CmtAIYG5lI3bnIM2L6L0lwS9",
+      "ext": ".png",
+      "hash": "ad0bbffb",
+      "size": 356,
+      "fs_path": "image/nightgate/skill_tree/asset_be96737b.png"
+    },
+    {
+      "uuid": "Cn6bmaRHGeRLwiV4f9tlymO8",
+      "ext": ".lua",
+      "hash": "5cc93349",
+      "size": 8068,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/OriginalWallData.lua"
+    },
+    {
+      "uuid": "CoKnAclnlF9RTjtZ-9Umn6Ex",
+      "ext": ".png",
+      "hash": "03145fb4",
+      "size": 269,
+      "fs_path": "image/nightgate/items/skill_borders_14_71376cdd.png"
+    },
+    {
+      "uuid": "CpD1qQ68jRIkK11w62mLoGWh",
+      "ext": ".png",
+      "hash": "1418459a",
+      "size": 361,
+      "hash@windows": "aa918031",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_a7369a92.png"
+    },
+    {
+      "uuid": "CrL3sZkNfxAOHpmkCqLgf0rf",
+      "ext": ".wav",
+      "hash": "adb8a55f",
+      "size": 275364,
+      "fs_path": "audio/nightgate/upgradesuccess.wav"
+    },
+    {
+      "uuid": "CsqT4SiC3Yv-yUQmwjUq_vtr",
+      "ext": ".png",
+      "hash": "2e7d7f39",
+      "size": 125,
+      "fs_path": "image/nightgate/items/jp_bc6cafcd.png"
+    },
+    {
+      "uuid": "CtWKkRPTdLuhun5DEkAsOlsI",
+      "ext": ".png",
+      "hash": "04abfaed",
+      "size": 452,
+      "fs_path": "image/nightgate/skill_tree/asset_77cbcb53.png"
+    },
+    {
+      "uuid": "CtiFMag0UBLTx5YH0q2aaOUK",
+      "ext": ".png",
+      "hash": "7b1475b0",
+      "size": 440,
+      "fs_path": "image/nightgate/monsters/adamantium_golem_2d61cd08.png"
+    },
+    {
+      "uuid": "CuHucQuOiZOehyY3B_U342R_",
+      "ext": ".png",
+      "hash": "a664df7c",
+      "size": 412,
+      "fs_path": "image/nightgate/monsters/bonegolem.png"
+    },
+    {
+      "uuid": "CuYbqXkInRCw9FLK-1Wf9smf",
+      "ext": ".png",
+      "hash": "0926b3e7",
+      "size": 2689,
+      "hash@windows": "1c4c351c",
+      "size@windows": 1681,
+      "fs_path": "image/nightgate/environment/obelisk1-animation1-activating-70x150.png"
+    },
+    {
+      "uuid": "Cuk7GUnL6m_6DPK6CFjWDMdy",
+      "ext": ".png",
+      "hash": "a997475b",
+      "size": 306,
+      "fs_path": "image/nightgate/skill_tree/asset_99493045.png"
+    },
+    {
+      "uuid": "CwY6CZg5BqYL0fw7bEeduICD",
+      "ext": ".png",
+      "hash": "14e48815",
+      "size": 361,
+      "hash@windows": "2fd4867c",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_e9540d4b.png"
+    },
+    {
+      "uuid": "CyDn0fvA9y66gmQE7g1yE4S3",
+      "ext": ".png",
+      "hash": "a8e1c9f8",
+      "size": 576,
+      "fs_path": "image/nightgate/ui/hud_icon_inventory.png"
+    },
+    {
+      "uuid": "D1-IaZa2zGEHQLrELZ-u0Ssm",
+      "ext": ".png",
+      "hash": "0c6c20a7",
+      "size": 494,
+      "fs_path": "image/nightgate/heroes/dryadmatriarch_4f9a48a2.png"
+    },
+    {
+      "uuid": "D1lnYSCTGLMD0EUM5XnZ3QoE",
+      "ext": ".png",
+      "hash": "524e0e97",
+      "size": 455,
+      "fs_path": "image/nightgate/monsters/seaspray.png"
+    },
+    {
+      "uuid": "D3za4RFjQ9SRJq13KPFWyZDK",
+      "ext": ".png",
+      "hash": "de4cf6b6",
+      "size": 1232,
+      "fs_path": "image/nightgate/monsters/monster_shadow.png"
+    },
+    {
+      "uuid": "D4e5F6g7H8i9J0k1L2m3N-",
+      "ext": ".png",
+      "hash": "d0e0880f",
+      "size": 500,
+      "fs_path": "image/nightgate/skill_tree/generated/expansion_archer_barrage.png"
+    },
+    {
+      "uuid": "D4t5QQdF_-ybdaCtSdMJc1P4",
+      "ext": ".png",
+      "hash": "5e7f9b11",
+      "size": 556,
+      "fs_path": "image/nightgate/monsters/goblinwolfrider_45885915.png"
+    },
+    {
+      "uuid": "D7JX4RVPkG-g1ZY4h7aKSbP8",
+      "ext": ".png",
+      "hash": "56db7160",
+      "size": 1725,
+      "hash@windows": "c6b65a81",
+      "size@windows": 903,
+      "fs_path": "image/nightgate/effects/xplosion_6.png"
+    },
+    {
+      "uuid": "D7Z0ucG7UejH4MIt0AFrs7jU",
+      "ext": ".wav",
+      "hash": "88fb96ae",
+      "size": 20321324,
+      "fs_path": "audio/nightgate/04_mountaingstrongholdbattle_orchestral.wav"
+    },
+    {
+      "uuid": "D7uZAcxG36M554f3lVE2G8lP",
+      "ext": ".png",
+      "hash": "2a0ee71e",
+      "size": 1104,
+      "fs_path": "image/nightgate/ui/1_gray_button_s.png"
+    },
+    {
+      "uuid": "D83jcf_AozMoc3SrusUDpy85",
+      "ext": ".png",
+      "hash": "e0a340ae",
+      "size": 364,
+      "fs_path": "image/nightgate/monsters/rind.png"
+    },
+    {
+      "uuid": "D9dpWTs-sXb9lm8WjPPYmiOQ",
+      "ext": ".png",
+      "hash": "57ac3de5",
+      "size": 793,
+      "hash@windows": "27681468",
+      "size@windows": 721,
+      "fs_path": "image/nightgate/environment/dungeontileset.png"
+    },
+    {
+      "uuid": "DAvjEeTt_Mad5tmrFOxuqM5T",
+      "ext": ".json",
+      "hash": "72cf5612",
+      "size": 66232,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/extraction_manifest.json"
+    },
+    {
+      "uuid": "DAvw2f4py2uhrsy0QAV4gO7l",
+      "ext": ".png",
+      "hash": "f82bc085",
+      "size": 361,
+      "hash@windows": "df539e40",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_2b76c57d.png"
+    },
+    {
+      "uuid": "DB0GIZuAWWkgptzSFKD7kTUQ",
+      "ext": ".png",
+      "hash": "51d8bef4",
+      "size": 265,
+      "fs_path": "image/nightgate/items/skill_borders_5_0520eff0.png"
+    },
+    {
+      "uuid": "DBteASsH4LDLcKjH0MC3PsVZ",
+      "ext": ".png",
+      "hash": "3a58f1a3",
+      "size": 436,
+      "fs_path": "image/nightgate/heroes/frostmagus_caa3633a.png"
+    },
+    {
+      "uuid": "DCW3KcOeazk4UASXkcSRbpkA",
+      "ext": ".png",
+      "hash": "57ac3de5",
+      "size": 793,
+      "hash@windows": "27681468",
+      "size@windows": 721,
+      "fs_path": "image/nightgate/environment/dungeontileset_c2d2cdff.png"
+    },
+    {
+      "uuid": "DDLqmSvoUBRrsBfV8VuIj52U",
+      "ext": ".png",
+      "hash": "3590cf7e",
+      "size": 526,
+      "fs_path": "image/nightgate/monsters/orcsavage_95a0064b.png"
+    },
+    {
+      "uuid": "DDPv4UE7OcSnJllCBJiTpPvs",
+      "ext": ".lua",
+      "hash": "28ccc8df",
+      "size": 3522,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Audio.lua"
+    },
+    {
+      "uuid": "DDjVeSAZlbQyUcv431hl10nJ",
+      "ext": ".png",
+      "hash": "8c9db7d8",
+      "size": 361,
+      "hash@windows": "5cd603f1",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/survivorinfinal_5772b72d.png"
+    },
+    {
+      "uuid": "DDkOQWeJz41E62OQwetRmUIQ",
+      "ext": ".png",
+      "hash": "c16d5b05",
+      "size": 1197,
+      "hash@windows": "7c2a7914",
+      "size@windows": 766,
+      "fs_path": "image/nightgate/effects/xplosion_9.png"
+    },
+    {
+      "uuid": "DFajYSC3nQofqLstpYbDjRG1",
+      "ext": ".png",
+      "hash": "d89b3ff7",
+      "size": 5528,
+      "fs_path": "image/nightgate/effects/polyspriteline_f562224c.png"
+    },
+    {
+      "uuid": "DHHbMa2Y0V5qPdKDhqVx-eFp",
+      "ext": ".png",
+      "hash": "25124dc9",
+      "size": 509,
+      "fs_path": "image/nightgate/heroes/gnomewizard.png"
+    },
+    {
+      "uuid": "DIXZkdjejtDoxM4DWykWTO8X",
+      "ext": ".png",
+      "hash": "d31ba8f7",
+      "size": 400,
+      "fs_path": "image/nightgate/skill_tree/asset_26e3cbcd.png"
+    },
+    {
+      "uuid": "DIaWGdownuIMVv-tCf3Wt9sn",
+      "ext": ".png",
+      "hash": "d89b3ff7",
+      "size": 5528,
+      "fs_path": "image/nightgate/effects/polyspriteline.png"
+    },
+    {
+      "uuid": "DIvj2XZtxiR-zvSN5v8KoKjz",
+      "ext": ".png",
+      "hash": "c2de66d9",
+      "size": 361,
+      "hash@windows": "ff9651b7",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/12_0c88ca3e.png"
+    },
+    {
+      "uuid": "DJvRgQT7X4PXTcQVWRT9A1VD",
+      "ext": ".png",
+      "hash": "515c083a",
+      "size": 326,
+      "fs_path": "image/nightgate/skill_tree/asset_6e170bf2.png"
+    },
+    {
+      "uuid": "DK10YXDIpWW_EYp0i5KzrkOl",
+      "ext": ".png",
+      "hash": "1124f4e3",
+      "size": 532,
+      "fs_path": "image/nightgate/heroes/expertdruid_57e23da8.png"
+    },
+    {
+      "uuid": "DKlBkTH1Nok9qm7g07hD1QsS",
+      "ext": ".wav",
+      "hash": "24f0b804",
+      "size": 176444,
+      "fs_path": "audio/nightgate/sword.wav"
+    },
+    {
+      "uuid": "DLR7mWWWJmidhOZMW3-7T8fO",
+      "ext": ".png",
+      "hash": "896c0ea3",
+      "size": 361,
+      "hash@windows": "a5f2b261",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_1b61c80a.png"
+    },
+    {
+      "uuid": "DLT5oZCx3qeXwC9o310kiMZ8",
+      "ext": ".png",
+      "hash": "6dbeaecf",
+      "size": 361,
+      "hash@windows": "1192733b",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_3952adb3.png"
+    },
+    {
+      "uuid": "DN1ooR-Hs4vLu-XiF-YLh4f3",
+      "ext": ".png",
+      "hash": "3eaa7d0c",
+      "size": 361,
+      "hash@windows": "8520100e",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_d7ec03fc.png"
+    },
+    {
+      "uuid": "DNeKcQ1eP-aGdx5xMRbxlNBk",
+      "ext": ".json",
+      "hash": "0e7b7aab",
+      "size": 612,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbprestige.json"
+    },
+    {
+      "uuid": "DOCG0Y_93rLFdcyold_AQTbg",
+      "ext": ".png",
+      "hash": "127bf534",
+      "size": 361,
+      "hash@windows": "fc01e2c4",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/currency/asset_b85ca26f.png"
+    },
+    {
+      "uuid": "DSvXkZTh7uoBLpb6cB1G222E",
+      "ext": ".png",
+      "hash": "1b7e0414",
+      "size": 361,
+      "hash@windows": "b2081dd8",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_4cc38a35.png"
+    },
+    {
+      "uuid": "DUFGKQwN_QGTpHPwxz9Xfaqf",
+      "ext": ".wav",
+      "hash": "2be19899",
+      "size": 245596,
+      "fs_path": "audio/nightgate/bow.wav"
+    },
+    {
+      "uuid": "DUcG-UL15G0-L2AyMFe_9eN_",
+      "ext": ".png",
+      "hash": "7bdd7f3c",
+      "size": 1204,
+      "fs_path": "image/nightgate/ui/icon_frame_8f51f514.png"
+    },
+    {
+      "uuid": "DWOaAT8zrooywS76WhXr3a71",
+      "ext": ".json",
+      "hash": "6b60f643",
+      "size": 57120,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbupgradetree.json"
+    },
+    {
+      "uuid": "DWvqWWSDaJvKdoq5na2T7hfS",
+      "ext": ".png",
+      "hash": "81054b8c",
+      "size": 360,
+      "fs_path": "image/nightgate/skill_tree/asset_c314f20d.png"
+    },
+    {
+      "uuid": "DXRpGXGkZkjq_9cldWDJRCvX",
+      "ext": ".wav",
+      "hash": "76769140",
+      "size": 705644,
+      "fs_path": "audio/nightgate/selectskill.wav"
+    },
+    {
+      "uuid": "DZWNWWGhbbjQ1Oy7hWxxPNCy",
+      "ext": ".png",
+      "hash": "9011f039",
+      "size": 517,
+      "fs_path": "image/nightgate/heroes/elfsharpshooter.png"
+    },
+    {
+      "uuid": "DZdC8RCambRzoN38TL8CDaM2",
+      "ext": ".lua",
+      "hash": "f481958b",
+      "size": 7246,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/BattleExpansion.lua"
+    },
+    {
+      "uuid": "D_jhKYRPjFpZQlsf-mrp_-fH",
+      "ext": ".json",
+      "hash": "fb08a825",
+      "size": 6429,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbhero.json"
+    },
+    {
+      "uuid": "Da9weZsjO_ZVg0Lz7uzRteCS",
+      "ext": ".png",
+      "hash": "352e729a",
+      "size": 346,
+      "fs_path": "image/nightgate/items/asset_0af4b5f3.png"
+    },
+    {
+      "uuid": "DaY4iZFFCevkbQRvvMTYESmN",
+      "ext": ".png",
+      "hash": "600e7713",
+      "size": 459,
+      "fs_path": "image/nightgate/skill_tree/boss_b45203d4.png"
+    },
+    {
+      "uuid": "DcGLaawZpgNeWldOmCkObWPf",
+      "ext": ".png",
+      "hash": "6c451dd4",
+      "size": 154,
+      "fs_path": "image/nightgate/ui/frame_title_dots_d340f74e.png"
+    },
+    {
+      "uuid": "DcRoATcaAQvm3T2LaM-xw6NV",
+      "ext": ".png",
+      "hash": "eb86e211",
+      "size": 361,
+      "hash@windows": "a2ae4294",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/16_bd156d8d.png"
+    },
+    {
+      "uuid": "DdGGsakX_DwxLtPK-4DamsQ7",
+      "ext": ".png",
+      "hash": "3cbff93b",
+      "size": 839,
+      "fs_path": "image/nightgate/ui/skill_paper.png"
+    },
+    {
+      "uuid": "DeLKqa-BWj_G7b_CiWm9ETZu",
+      "ext": ".png",
+      "hash": "146550aa",
+      "size": 361,
+      "hash@windows": "dc9e1f49",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/4_1ee1c7db.png"
+    },
+    {
+      "uuid": "DeMDyQrvM0HLSFVZ0nmuIjYV",
+      "ext": ".png",
+      "hash": "d9c55794",
+      "size": 361,
+      "hash@windows": "bbb53b3c",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_bc3a6246.png"
+    },
+    {
+      "uuid": "DeMuYb4l2KxmzTF-oRzZt26u",
+      "ext": ".png",
+      "hash": "0e6addce",
+      "size": 361,
+      "hash@windows": "4ff3eda4",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_111c0260.png"
+    },
+    {
+      "uuid": "Df68SSwmg9iAE3SVCTOiUAxY",
+      "ext": ".png",
+      "hash": "d6a4cfe6",
+      "size": 361,
+      "hash@windows": "aa269527",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/skilltreecount_e7f1479b.png"
+    },
+    {
+      "uuid": "DfAwoR6_4bszsbIqMfLvMOXP",
+      "ext": ".lua",
+      "hash": "c902c8a6",
+      "size": 6079,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Save.lua"
+    },
+    {
+      "uuid": "DfYb4ZEecgZE0uXNZ_SnkvMo",
+      "ext": ".png",
+      "hash": "363d2d03",
+      "size": 433,
+      "fs_path": "image/nightgate/skill_tree/a_f62b3428.png"
+    },
+    {
+      "uuid": "DfhDiRCxet4RhGA6p1G1lYwJ",
+      "ext": ".png",
+      "hash": "b89b628b",
+      "size": 1078,
+      "fs_path": "image/nightgate/ui/1_violet_button_s.png"
+    },
+    {
+      "uuid": "DhadYS10zx6Y8T4gvqxrWZjG",
+      "ext": ".png",
+      "hash": "97afde27",
+      "size": 321,
+      "fs_path": "image/nightgate/monsters/decrepitbones_fa91e8da.png"
+    },
+    {
+      "uuid": "Dj8RKYoWK20eLKk9CgEewM-E",
+      "ext": ".png",
+      "hash": "4ad190bb",
+      "size": 674,
+      "fs_path": "image/nightgate/ui/special_button.png"
+    },
+    {
+      "uuid": "DjUKselmqb9AZ1W2dwWbvI2Z",
+      "ext": ".png",
+      "hash": "cd0faeaa",
+      "size": 2375,
+      "fs_path": "image/nightgate/effects/polygradientmirrored.png"
+    },
+    {
+      "uuid": "DklC6So6MlBvr6tRzpV5P_tW",
+      "ext": ".png",
+      "hash": "944f3424",
+      "size": 262,
+      "fs_path": "image/nightgate/items/skill_borders_11_d7f64a26.png"
+    },
+    {
+      "uuid": "Dn6sKdGtV4GjeD00Ig1g3EjM",
+      "ext": ".png",
+      "hash": "30c15b64",
+      "size": 361,
+      "hash@windows": "5dc43259",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_d5c56df0.png"
+    },
+    {
+      "uuid": "DnkzSewHRC8M6enl4C5Iu-yQ",
+      "ext": ".png",
+      "hash": "ef3a918f",
+      "size": 447,
+      "fs_path": "image/nightgate/skill_tree/asset_647d64c1.png"
+    },
+    {
+      "uuid": "DtcY2djB9LjE1UlkmfYj-52U",
+      "ext": ".lua",
+      "hash": "83e9024a",
+      "size": 75938,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/OriginalData.lua"
+    },
+    {
+      "uuid": "DuUeKZKsChuBkhcV7EyX-eZy",
+      "ext": ".wav",
+      "hash": "36a4c4c4",
+      "size": 49684,
+      "fs_path": "audio/nightgate/clickybutton5b.wav"
+    },
+    {
+      "uuid": "DzS6kbuHCc0mXaUKSdoRfBKi",
+      "ext": ".png",
+      "hash": "5f604fd4",
+      "size": 551,
+      "fs_path": "image/nightgate/monsters/bugbearmonster_c0368d10.png"
+    },
+    {
+      "uuid": "DzfOMcBdoASVNjb9n1TyDh4F",
+      "ext": ".png",
+      "hash": "90080a90",
+      "size": 463,
+      "fs_path": "image/nightgate/monsters/ebonastaroth_5a9f2866.png"
+    },
+    {
+      "uuid": "DznayfDy1gxUdv_CdGYMBdaM",
+      "ext": ".png",
+      "hash": "56db7160",
+      "size": 1725,
+      "hash@windows": "c6b65a81",
+      "size@windows": 903,
+      "fs_path": "image/nightgate/effects/xplosion_6_ceaa6889.png"
+    },
+    {
+      "uuid": "E0zACTuD-CInK8jMQnwbIUDk",
+      "ext": ".png",
+      "hash": "bafa7010",
+      "size": 201,
+      "fs_path": "image/nightgate/ui/hp_red_59645d30.png"
+    },
+    {
+      "uuid": "E1_JgYzazig4MAVgXrmJi7Mq",
+      "ext": ".png",
+      "hash": "ff9201e6",
+      "size": 361,
+      "hash@windows": "dd914b47",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_3d4aa8a0.png"
+    },
+    {
+      "uuid": "E1zpuSUn8Z0XbASsftiN3bQu",
+      "ext": ".png",
+      "hash": "788586b0",
+      "size": 507,
+      "fs_path": "image/nightgate/monsters/hungrymimic.png"
+    },
+    {
+      "uuid": "E2kiCT_sA1u6Iv3fSmvpu_qs",
+      "ext": ".png",
+      "hash": "0d3a7394",
+      "size": 417,
+      "fs_path": "image/nightgate/input/s645_f41ce9de.png"
+    },
+    {
+      "uuid": "E3_6yRKWNEl17X2RfoMCnfXX",
+      "ext": ".png",
+      "hash": "1d96a7f3",
+      "size": 268,
+      "fs_path": "image/nightgate/items/skill_borders_3_e5cbdc9f.png"
+    },
+    {
+      "uuid": "E5f6G7h8I9j0K1l2M3n4O_",
+      "ext": ".png",
+      "hash": "c7b78c40",
+      "size": 535,
+      "fs_path": "image/nightgate/skill_tree/generated/prestige_afterglow.png"
+    },
+    {
+      "uuid": "EAQLcaEF3hoOZ7oN4gYph_WZ",
+      "ext": ".json",
+      "hash": "6a06507f",
+      "size": 14126,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbleveldrop.json"
+    },
+    {
+      "uuid": "EFJMOeYUMSxw_mCWMPfvZK5C",
+      "ext": ".png",
+      "hash": "a8fc7bd7",
+      "size": 361,
+      "hash@windows": "ac80d05b",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_c448523b.png"
+    },
+    {
+      "uuid": "EFrTwUCvWy-7wy7TBLVTMonb",
+      "ext": ".wav",
+      "hash": "6d25e05e",
+      "size": 1625372,
+      "fs_path": "audio/nightgate/defeat.wav"
+    },
+    {
+      "uuid": "EHIEaSjjCEqA1jqwNaZ4HR7C",
+      "ext": ".png",
+      "hash": "524e0e97",
+      "size": 455,
+      "fs_path": "image/nightgate/monsters/seaspray_9713c9b7.png"
+    },
+    {
+      "uuid": "EIgpAX7P-xs5XLaeCMA-RMaf",
+      "ext": ".png",
+      "hash": "5732a89a",
+      "size": 6545,
+      "hash@windows": "5b602b00",
+      "size@windows": 2905,
+      "fs_path": "image/nightgate/environment/summon_gate.png"
+    },
+    {
+      "uuid": "EIjtkWRDtb5DCEZ8PmiNCkLz",
+      "ext": ".lua",
+      "hash": "060cf9d1",
+      "size": 27922,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Renderer.lua"
+    },
+    {
+      "uuid": "EJ8MaU5wCLSVPYlBo5zPGYWw",
+      "ext": ".png",
+      "hash": "5eba3eb4",
+      "size": 1629,
+      "hash@windows": "5a82e0ba",
+      "size@windows": 564,
+      "fs_path": "image/nightgate/effects/xplosion_5.png"
+    },
+    {
+      "uuid": "EJL6iRkNv9rDimRS7w0HU_-7",
+      "ext": ".json",
+      "hash": "7eec0c8c",
+      "size": 444,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbequipforge.json"
+    },
+    {
+      "uuid": "EKsSkZKUrpQHvVAovHYAKO9f",
+      "ext": ".png",
+      "hash": "5eba3eb4",
+      "size": 1629,
+      "hash@windows": "5a82e0ba",
+      "size@windows": 564,
+      "fs_path": "image/nightgate/effects/xplosion_5_7f5c7736.png"
+    },
+    {
+      "uuid": "EQqDiYHJzd0H69pRRgFGy5NP",
+      "ext": ".lua",
+      "hash": "4b2b5209",
+      "size": 4246,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/OriginalUIData.lua"
+    },
+    {
+      "uuid": "EQuFuSv-pG8awSrKbTondnvr",
+      "ext": ".png",
+      "hash": "afd516e0",
+      "size": 330,
+      "fs_path": "image/nightgate/skill_tree/asset_6b06ffb8.png"
+    },
+    {
+      "uuid": "ERycUSIidPmRgu5vj9pC2bB8",
+      "ext": ".json",
+      "hash": "1279efc4",
+      "size": 6531,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbachievement.json"
+    },
+    {
+      "uuid": "ETAEUc_PI5dB8F_z_kZweD-A",
+      "ext": ".png",
+      "hash": "7bdd7f3c",
+      "size": 1204,
+      "fs_path": "image/nightgate/ui/icon_frame.png"
+    },
+    {
+      "uuid": "ETcykZYwjx4XfXDd5Qb_HcB3",
+      "ext": ".png",
+      "hash": "1179bde5",
+      "size": 440,
+      "fs_path": "image/nightgate/monsters/icegolem_6c94f477.png"
+    },
+    {
+      "uuid": "ETrOiRBrA0RQEovy4mwoQkeV",
+      "ext": ".png",
+      "hash": "c16d5b05",
+      "size": 1197,
+      "hash@windows": "7c2a7914",
+      "size@windows": 766,
+      "fs_path": "image/nightgate/effects/xplosion_9_6e866b5e.png"
+    },
+    {
+      "uuid": "EU3JSe0mutKOsbiaMPrhlB9D",
+      "ext": ".png",
+      "hash": "5b590ea6",
+      "size": 6034,
+      "fs_path": "image/nightgate/ui/background_fill_fc7af1b8.png"
+    },
+    {
+      "uuid": "EWKD0U4K7zvirIcv-4zyJA0K",
+      "ext": ".png",
+      "hash": "454de494",
+      "size": 632,
+      "fs_path": "image/nightgate/ui/hud_icon_magic.png"
+    },
+    {
+      "uuid": "EYIFIdfNIhtKVLlMOS3zi23z",
+      "ext": ".png",
+      "hash": "5e7f9b11",
+      "size": 556,
+      "fs_path": "image/nightgate/monsters/goblinwolfrider.png"
+    },
+    {
+      "uuid": "EYfLwcJSm6cwlflhy-zj2Gbq",
+      "ext": ".lua",
+      "hash": "0d70e767",
+      "size": 9810,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Config.lua"
+    },
+    {
+      "uuid": "EZ5GmXKI4SdB2FGtE97uztgX",
+      "ext": ".png",
+      "hash": "a8e1c9f8",
+      "size": 576,
+      "fs_path": "image/nightgate/ui/hud_icon_inventory_feeb3bea.png"
+    },
+    {
+      "uuid": "EZiYkRczZ_Atzn6L7K_YT3Ny",
+      "ext": ".png",
+      "hash": "d6b34e7d",
+      "size": 391,
+      "fs_path": "image/nightgate/heroes/halflingranger_1c7ac21d.png"
+    },
+    {
+      "uuid": "E_p5IavYprFNnrvxVy7sN7vF",
+      "ext": ".png",
+      "hash": "788586b0",
+      "size": 507,
+      "fs_path": "image/nightgate/skill_tree/asset_2e47857c.png"
+    },
+    {
+      "uuid": "Ec2pqT1GBvMx3vYV-BhQPHOB",
+      "ext": ".png",
+      "hash": "8bc47efc",
+      "size": 361,
+      "hash@windows": "06d2b2a7",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/anointedhighpriest_4eb50e06.png"
+    },
+    {
+      "uuid": "EcejoccYVUr2VVHhNdf4KTIp",
+      "ext": ".png",
+      "hash": "c9c58beb",
+      "size": 412,
+      "fs_path": "image/nightgate/heroes/exhumedcleric.png"
+    },
+    {
+      "uuid": "Ef1WEdLzjR0vLiMkRyX8OydW",
+      "ext": ".wav",
+      "hash": "46ad85f0",
+      "size": 176444,
+      "fs_path": "audio/nightgate/popup_buffselect.wav"
+    },
+    {
+      "uuid": "EfM-Wf9BuwyPJpWXbmOhwJFw",
+      "ext": ".png",
+      "hash": "01aebc89",
+      "size": 281,
+      "fs_path": "image/nightgate/ui/1_basic_button.png"
+    },
+    {
+      "uuid": "EgV_cXZt8iK_EZ6uDTEX0E3n",
+      "ext": ".png",
+      "hash": "2ccca652",
+      "size": 424,
+      "fs_path": "image/nightgate/monsters/ashspider_f9fe5ceb.png"
+    },
+    {
+      "uuid": "EgulgWJ1C7uQ6kpOGvHEyb91",
+      "ext": ".png",
+      "hash": "dc60b62b",
+      "size": 2332,
+      "fs_path": "image/nightgate/ui/title_frame_m_f8c72fcc.png"
+    },
+    {
+      "uuid": "EhXuIYWvObjr89BUXi1vv-Cg",
+      "ext": ".png",
+      "hash": "d7a93122",
+      "size": 418,
+      "fs_path": "image/nightgate/monsters/aquadrake.png"
+    },
+    {
+      "uuid": "EjTp0R07td7WcOHx9D2elKUJ",
+      "ext": ".png",
+      "hash": "c9c58beb",
+      "size": 412,
+      "fs_path": "image/nightgate/heroes/exhumedcleric_3d0e1996.png"
+    },
+    {
+      "uuid": "ElXwCXWkk4PySe1skFzTaQXa",
+      "ext": ".wav",
+      "hash": "3403302a",
+      "size": 17779200,
+      "fs_path": "audio/nightgate/02-home_town_orchestral.wav"
+    },
+    {
+      "uuid": "EpIyUaSri6GdQWx7JwP_CyFt",
+      "ext": ".png",
+      "hash": "5535d85d",
+      "size": 361,
+      "hash@windows": "d1b23ef4",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/5_28b35a21.png"
+    },
+    {
+      "uuid": "ErcJuXQ67vi3OzMenT-9jrUC",
+      "ext": ".lua",
+      "hash": "2348d9c4",
+      "size": 16427,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/SkillCanvas.lua"
+    },
+    {
+      "uuid": "EsWAeTEYsImRUnfA_q3K7yPP",
+      "ext": ".wav",
+      "hash": "4688683c",
+      "size": 352844,
+      "fs_path": "audio/nightgate/tower_20_ice.wav"
+    },
+    {
+      "uuid": "Et3Oia1BgX2PpZqO_r4ykv3Y",
+      "ext": ".png",
+      "hash": "2f57469c",
+      "size": 361,
+      "hash@windows": "ff1f5b9c",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/6_7b3bc124.png"
+    },
+    {
+      "uuid": "EuXiGZPiGYlvuoAPDAleqQ8_",
+      "ext": ".png",
+      "hash": "3513ca26",
+      "size": 127,
+      "fs_path": "image/nightgate/items/cn_a57d63b6.png"
+    },
+    {
+      "uuid": "EvAp-XEFrnPWjo6h73-dqZ1l",
+      "ext": ".png",
+      "hash": "1c814080",
+      "size": 266,
+      "fs_path": "image/nightgate/items/skill_borders_4_a378ac71.png"
+    },
+    {
+      "uuid": "EvwMsVFl2U8g5dI2qBIg9mDy",
+      "ext": ".png",
+      "hash": "b902169e",
+      "size": 510,
+      "fs_path": "image/nightgate/monsters/orcreaver.png"
+    },
+    {
+      "uuid": "EvxVkTc9fik2_7VSAl6Dqc_a",
+      "ext": ".png",
+      "hash": "f6cd3c0a",
+      "size": 346,
+      "fs_path": "image/nightgate/monsters/acidant_ea421486.png"
+    },
+    {
+      "uuid": "Ewxs4TJDE8wAThnM_wHCmdjZ",
+      "ext": ".png",
+      "hash": "8ffd7c3c",
+      "size": 198,
+      "fs_path": "image/nightgate/ui/inventory_gold_frame_15cdf6b9.png"
+    },
+    {
+      "uuid": "EyFjaVwt2wtG4xlhdIoae71P",
+      "ext": ".png",
+      "hash": "20b78f9d",
+      "size": 361,
+      "hash@windows": "2915cf2f",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/currency/asset_632cd9da.png"
+    },
+    {
+      "uuid": "EynjqYcOjuGF5X7iyC7bqPu1",
+      "ext": ".png",
+      "hash": "10958cb4",
+      "size": 388,
+      "fs_path": "image/nightgate/heroes/capablecryomancer_062213bb.png"
+    },
+    {
+      "uuid": "EyspUXpuVoKicONlC1E1iANo",
+      "ext": ".png",
+      "hash": "69a4fc31",
+      "size": 534,
+      "fs_path": "image/nightgate/monsters/menacingmedusa.png"
+    },
+    {
+      "uuid": "EzJsYSCfnfHUTiK863Jt9EhL",
+      "ext": ".png",
+      "hash": "21abe2f3",
+      "size": 500,
+      "fs_path": "image/nightgate/monsters/kragbit.png"
+    },
+    {
+      "uuid": "EzkfCbE1SedCsVeB9jCTHEGf",
+      "ext": ".ttf",
+      "hash": "13da9e7c",
+      "size": 6923212,
+      "refs": [
+        "AtiUEehRK00d_OUm14xw6L1E"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans.ttf"
+    },
+    {
+      "uuid": "EzpW0VXOR-OobPUAJxXZPPJ7",
+      "ext": ".png",
+      "hash": "16a946af",
+      "size": 195,
+      "fs_path": "image/nightgate/items/ko_7b97f197.png"
+    },
+    {
+      "uuid": "F-irceMvoRVmp6xSv7ivF-zY",
+      "ext": ".png",
+      "hash": "76d5ffd5",
+      "size": 5881,
+      "hash@windows": "3ec4015d",
+      "size@windows": 1611,
+      "fs_path": "image/nightgate/effects/explosion_d0d69f60.png"
+    },
+    {
+      "uuid": "F0_v8WvCLUUE2KFONlKo9mFS",
+      "ext": ".lua",
+      "hash": "6667cd31",
+      "size": 2247,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/LootSystem.lua"
+    },
+    {
+      "uuid": "F0sPEVEGjKJC8AZUoCrGH27R",
+      "ext": ".png",
+      "hash": "c0a75170",
+      "size": 7923,
+      "fs_path": "image/nightgate/ui/decorated_bar_e3c862de.png"
+    },
+    {
+      "uuid": "F2QwaXNQxwfEp7GJsA6-YPH5",
+      "ext": ".lua",
+      "hash": "b7c941a2",
+      "size": 53319,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/SelfTest.lua"
+    },
+    {
+      "uuid": "F3CHcSGALYpLaFsf_aMCx7IS",
+      "ext": ".png",
+      "hash": "f4d3418b",
+      "size": 268,
+      "fs_path": "image/nightgate/items/skill_borders_8_80c53c69.png"
+    },
+    {
+      "uuid": "F3ivSWso5mgh67fO1tj4M_vW",
+      "ext": ".json",
+      "hash": "9b3b016e",
+      "size": 13084,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbskill.json"
+    },
+    {
+      "uuid": "F4rqofHr9Nru6Y7d_1Od5HtS",
+      "ext": ".wav",
+      "hash": "a1cc10c3",
+      "size": 120184,
+      "fs_path": "audio/nightgate/bullet_impact_body_flesh_05.wav"
+    },
+    {
+      "uuid": "F4wS2UeViPxmgyKRxX7eZya1",
+      "ext": ".png",
+      "hash": "050ae877",
+      "size": 361,
+      "hash@windows": "9d8a1fd4",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_589426ae.png"
+    },
+    {
+      "uuid": "F6MtUfIKkemBkj4iVhS38MaM",
+      "ext": ".png",
+      "hash": "3a58f1a3",
+      "size": 436,
+      "fs_path": "image/nightgate/heroes/frostmagus.png"
+    },
+    {
+      "uuid": "F73XUf2wL3oQGdzKkJn2QB-O",
+      "ext": ".png",
+      "hash": "15714d67",
+      "size": 254,
+      "fs_path": "image/nightgate/skill_tree/asset_bc98f6a2.png"
+    },
+    {
+      "uuid": "F7mxqacdoQITrUJMl34cZRQe",
+      "ext": ".png",
+      "hash": "b89b628b",
+      "size": 1078,
+      "fs_path": "image/nightgate/ui/1_violet_button_s_f4d1cc12.png"
+    },
+    {
+      "uuid": "F9K_yc1fSmL-XdQ-yIyTs5Iq",
+      "ext": ".png",
+      "hash": "cc96ba40",
+      "size": 361,
+      "hash@windows": "11262b93",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/equipcollected_bd3a6ed7.png"
+    },
+    {
+      "uuid": "FAsOOflOlua0BR6toRe7aEex",
+      "ext": ".png",
+      "hash": "840755ed",
+      "size": 475,
+      "fs_path": "image/nightgate/monsters/bazzle.png"
+    },
+    {
+      "uuid": "FF6X8bc_Ha_wS1Kj6bJCM89D",
+      "ext": ".png",
+      "hash": "22a1f3e4",
+      "size": 361,
+      "hash@windows": "a8216e82",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_62eaca43.png"
+    },
+    {
+      "uuid": "FFTt8U6LsgdjM_f8N4VYrLkG",
+      "ext": ".png",
+      "hash": "309946d8",
+      "size": 560,
+      "fs_path": "image/nightgate/monsters/gnollwarlord.png"
+    },
+    {
+      "uuid": "FGOjqfYoXg9tQLbJqa17_wYI",
+      "ext": ".png",
+      "hash": "88223c1c",
+      "size": 941,
+      "hash@windows": "6607385d",
+      "size@windows": 805,
+      "fs_path": "image/nightgate/environment/base_grass_8836ef28.png"
+    },
+    {
+      "uuid": "FGWboaPtqk31OmA_6lfoq9Og",
+      "ext": ".png",
+      "hash": "a7e880f4",
+      "size": 98,
+      "fs_path": "image/nightgate/items/ru_7d7401ed.png"
+    },
+    {
+      "uuid": "FH73sQO0hfP0iWm7gsg0Fws_",
+      "ext": ".png",
+      "hash": "309946d8",
+      "size": 560,
+      "fs_path": "image/nightgate/monsters/gnollwarlord_19f52445.png"
+    },
+    {
+      "uuid": "FH9QQf-vouwHNgjnK_VNyPyj",
+      "ext": ".lua",
+      "hash": "266f1bdd",
+      "size": 5797,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/ExpansionSkills.lua"
+    },
+    {
+      "uuid": "FHtqqS88QwbOe2pJyeb72RbX",
+      "ext": ".png",
+      "hash": "7d451886",
+      "size": 419,
+      "fs_path": "image/nightgate/monsters/ossifiedslayer.png"
+    },
+    {
+      "uuid": "FI3Rkf3EWHJ7XNHjffYjtUTZ",
+      "ext": ".png",
+      "hash": "a3dc4902",
+      "size": 344,
+      "fs_path": "image/nightgate/skill_tree/asset_506cb6a0.png"
+    },
+    {
+      "uuid": "FJlJEUhlDiH9dS8SQ2Va8PkW",
+      "ext": ".png",
+      "hash": "591441e8",
+      "size": 518,
+      "fs_path": "image/nightgate/monsters/lizardfolkarcher.png"
+    },
+    {
+      "uuid": "FJnqEYm6WkAZK15ioGNbvkqm",
+      "ext": ".png",
+      "hash": "e693b5d0",
+      "size": 152,
+      "fs_path": "image/nightgate/ui/lock_d1428d4f.png"
+    },
+    {
+      "uuid": "FKclYS5jhuI6bsJGnaQabO4u",
+      "ext": ".png",
+      "hash": "3deef381",
+      "size": 384,
+      "fs_path": "image/nightgate/skill_tree/asset_7b8abb49.png"
+    },
+    {
+      "uuid": "FKgCkT17pNjH-EiLV_iZfPEP",
+      "ext": ".png",
+      "hash": "b2aa7bce",
+      "size": 400,
+      "fs_path": "image/nightgate/monsters/brittlearcher_3de15f16.png"
+    },
+    {
+      "uuid": "FKlMQQGzMgRqUzDT9RPSm-sR",
+      "ext": ".png",
+      "hash": "a04ef1af",
+      "size": 291,
+      "fs_path": "image/nightgate/monsters/graverevenant.png"
+    },
+    {
+      "uuid": "FMBM2d92fiMS6galmnIz95Uw",
+      "ext": ".png",
+      "hash": "e0a340ae",
+      "size": 364,
+      "fs_path": "image/nightgate/monsters/rind_eb07489a.png"
+    },
+    {
+      "uuid": "FP4_obI5oGWfT6ahrvJoWq97",
+      "ext": ".png",
+      "hash": "af4aa397",
+      "size": 361,
+      "hash@windows": "dd084ec2",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_6b982e86.png"
+    },
+    {
+      "uuid": "FPou4Q19TP2HTJeCFAGZvgpY",
+      "ext": ".png",
+      "hash": "8ffd7c3c",
+      "size": 198,
+      "fs_path": "image/nightgate/ui/inventory_gold_frame.png"
+    },
+    {
+      "uuid": "FQAtORly2HiAQx0mOHjE5m3u",
+      "ext": ".png",
+      "hash": "e7f5b2a6",
+      "size": 13316,
+      "fs_path": "image/nightgate/ui/bar_basic.png"
+    },
+    {
+      "uuid": "FQZKCcdEDB4mBXxoqSYlLnrG",
+      "ext": ".png",
+      "hash": "3cf28f93",
+      "size": 361,
+      "hash@windows": "b0f4b30c",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_86db8d9e.png"
+    },
+    {
+      "uuid": "FUCYIeiMAsWC_7fOoaENcykp",
+      "ext": ".png",
+      "hash": "c87916b4",
+      "size": 376,
+      "fs_path": "image/nightgate/skill_tree/asset_3bfb542d.png"
+    },
+    {
+      "uuid": "FVKkYcX98NydQ0efgEhRLwQt",
+      "ext": ".lua",
+      "hash": "e4c9d05e",
+      "size": 4618,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/ProjectileSystem.lua"
+    },
+    {
+      "uuid": "FVrZOQJzl11enBOpiZBAraEE",
+      "ext": ".png",
+      "hash": "0a4fb995",
+      "size": 373,
+      "fs_path": "image/nightgate/monsters/poisonghost_aa8824a5.png"
+    },
+    {
+      "uuid": "FXEm2c2lq4I4lID-kaMH-IeY",
+      "ext": ".png",
+      "hash": "4035937c",
+      "size": 457,
+      "fs_path": "image/nightgate/items/-_789ed50f.png"
+    },
+    {
+      "uuid": "FaNtcZ-5RnWoYv_bJoG2zeG1",
+      "ext": ".png",
+      "hash": "a454826b",
+      "size": 471,
+      "fs_path": "image/nightgate/monsters/owlbear_23a9d97d.png"
+    },
+    {
+      "uuid": "FbXJYfyITd9N9VNOTtcfaqsm",
+      "ext": ".png",
+      "hash": "3590cf7e",
+      "size": 526,
+      "fs_path": "image/nightgate/monsters/orcsavage.png"
+    },
+    {
+      "uuid": "FcODYZvjQZ7OkQb2vNDwRPID",
+      "ext": ".png",
+      "hash": "7d23297f",
+      "size": 272,
+      "fs_path": "image/nightgate/skill_tree/asset_76e031e3.png"
+    },
+    {
+      "uuid": "FdMPsYvd6Aj-hmpeSKfc5Op_",
+      "ext": ".png",
+      "hash": "c9b2de43",
+      "size": 361,
+      "hash@windows": "6af54e58",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_81198b74.png"
+    },
+    {
+      "uuid": "Ff-tgXCvoZSYnBumggRIFgtT",
+      "ext": ".ttf",
+      "hash": "c455d240",
+      "size": 7006220,
+      "refs": [
+        "B5DI8eeSaUaaYmQ0sD1dJ9CD"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans-Bold.ttf"
+    },
+    {
+      "uuid": "FghwaXuJOmoZ29o67mpiopNJ",
+      "ext": ".png",
+      "hash": "7e02a6c2",
+      "size": 361,
+      "hash@windows": "095cdbdc",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/14_07d228ec.png"
+    },
+    {
+      "uuid": "Fh5qWTsZJSlXCPQaY_Scd6rs",
+      "ext": ".png",
+      "hash": "3a50a19f",
+      "size": 361,
+      "hash@windows": "cb89acf8",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_c42da716.png"
+    },
+    {
+      "uuid": "FhHBUa6XDsYSk_mmajz1ko9L",
+      "ext": ".png",
+      "hash": "591441e8",
+      "size": 518,
+      "fs_path": "image/nightgate/monsters/lizardfolkarcher_aeb5c61c.png"
+    },
+    {
+      "uuid": "Fhle8fl219RtreOFsjw3xqam",
+      "ext": ".lua",
+      "hash": "2297ae8f",
+      "size": 4254,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "main.lua"
+    },
+    {
+      "uuid": "FieyiY_cy5veWJg7atMyaBj3",
+      "ext": ".lua",
+      "hash": "0b42935f",
+      "size": 2669,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/NightgateTheme.lua"
+    },
+    {
+      "uuid": "FiqYWYXh7MhCegNh8pHnWKev",
+      "ext": ".png",
+      "hash": "c1416712",
+      "size": 361,
+      "hash@windows": "b0e3d7fe",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/survivalday_a86b9cd8.png"
+    },
+    {
+      "uuid": "Fjy22XexhGhcRx4NC1TZi2KC",
+      "ext": ".png",
+      "hash": "6e49505a",
+      "size": 409,
+      "hash@windows": "66fefdae",
+      "size@windows": 142,
+      "fs_path": "image/nightgate/effects/blood_slash_e72f6ae6.png"
+    },
+    {
+      "uuid": "FkvtEXRmYiiCr0OK2yUdVZkk",
+      "ext": ".png",
+      "hash": "7a786658",
+      "size": 338,
+      "fs_path": "image/nightgate/skill_tree/asset_df330e97.png"
+    },
+    {
+      "uuid": "Flx10RMgPazhNmUbpdLiOycF",
+      "ext": ".wav",
+      "hash": "ea81da48",
+      "size": 432392,
+      "fs_path": "audio/nightgate/hellsphere.wav"
+    },
+    {
+      "uuid": "FmXMmbVRsPDwydHn-m6A00Aq",
+      "ext": ".png",
+      "hash": "d6b34e7d",
+      "size": 391,
+      "fs_path": "image/nightgate/heroes/halflingranger.png"
+    },
+    {
+      "uuid": "Fmk5MReyOAONwLUo_Zu4kYx8",
+      "ext": ".png",
+      "hash": "a6284c47",
+      "size": 440,
+      "fs_path": "image/nightgate/heroes/magicalfairy.png"
+    },
+    {
+      "uuid": "FmtOYVxBxiDDEX8-l8pR5daP",
+      "ext": ".png",
+      "hash": "d53cee53",
+      "size": 4811,
+      "fs_path": "image/nightgate/ui/square_background_grayscale.png"
+    },
+    {
+      "uuid": "FpLJwZzjhfPhx8ni3kp-0Fff",
+      "ext": ".png",
+      "hash": "d78d7696",
+      "size": 410,
+      "fs_path": "image/nightgate/items/steamicon_de915ab7.png"
+    },
+    {
+      "uuid": "FsjZAb8yBpYBdVHnRmWeAW8L",
+      "ext": ".png",
+      "hash": "0e430fff",
+      "size": 431,
+      "fs_path": "image/nightgate/monsters/monstrous_rat_c8bd79af.png"
+    },
+    {
+      "uuid": "FtwVWRldb5fYOEtuTH9X3idG",
+      "ext": ".png",
+      "hash": "21abe2f3",
+      "size": 500,
+      "fs_path": "image/nightgate/monsters/kragbit_e95af1b5.png"
+    },
+    {
+      "uuid": "FvhSCQj7FqnDxWf6hlDi6Tl9",
+      "ext": ".png",
+      "hash": "423343d2",
+      "size": 570,
+      "fs_path": "image/nightgate/heroes/ogremage_cd833069.png"
+    },
+    {
+      "uuid": "FxQ04Vn3Vmh09q4327Qi7lup",
+      "ext": ".png",
+      "hash": "f48c2159",
+      "size": 293,
+      "hash@windows": "1b7d2ccc",
+      "size@windows": 131,
+      "fs_path": "image/nightgate/effects/slash_8fbdb039.png"
+    },
+    {
+      "uuid": "G-jrgVJBNVw2eY4BP1Es3YOl",
+      "ext": ".png",
+      "hash": "5f604fd4",
+      "size": 551,
+      "fs_path": "image/nightgate/monsters/bugbearmonster.png"
+    },
+    {
+      "uuid": "G0S4OQqqnNMlr-zPEDugfsCj",
+      "ext": ".png",
+      "hash": "dc60b62b",
+      "size": 2332,
+      "fs_path": "image/nightgate/ui/title_frame_m.png"
+    },
+    {
+      "uuid": "G0gV8fyotU9lV-r5MzUsp32Q",
+      "ext": ".png",
+      "hash": "2a6452b9",
+      "size": 361,
+      "hash@windows": "89bbf8da",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_d64c5e38.png"
+    },
+    {
+      "uuid": "G29KGV2krzkmasbdCCTBHTyI",
+      "ext": ".png",
+      "hash": "12a9a361",
+      "size": 361,
+      "hash@windows": "ce31a271",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_103a0ec8.png"
+    },
+    {
+      "uuid": "G2El4ZlOUt1HHPSCypuksDzN",
+      "ext": ".png",
+      "hash": "8499ac5a",
+      "size": 361,
+      "hash@windows": "49d182ae",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_66558af5.png"
+    },
+    {
+      "uuid": "G2KW-bA487R9oGgSMr6oNQx5",
+      "ext": ".json",
+      "hash": "7ead8893",
+      "size": 19785,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/equip_tbequip.json"
+    },
+    {
+      "uuid": "G2Z9iYbpDh65I60_hHVoZVJo",
+      "ext": ".png",
+      "hash": "b2aa7bce",
+      "size": 400,
+      "fs_path": "image/nightgate/monsters/brittlearcher.png"
+    },
+    {
+      "uuid": "G3U40dBlBMuAwGwAkcGZm9MV",
+      "ext": ".png",
+      "hash": "457d37b2",
+      "size": 361,
+      "hash@windows": "8a9ddfad",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_cd79d87c.png"
+    },
+    {
+      "uuid": "G5Xp0Wci4BMxi_P9ljGbjhN4",
+      "ext": ".png",
+      "hash": "83abae68",
+      "size": 361,
+      "hash@windows": "21607e92",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/totalgold_76e38729.png"
+    },
+    {
+      "uuid": "G5j-KQA5Ij6hM0hkv9AQMsAG",
+      "ext": ".png",
+      "hash": "490845af",
+      "size": 434,
+      "fs_path": "image/nightgate/skill_tree/asset_77d725aa.png"
+    },
+    {
+      "uuid": "G6gV8VJkEgw8Z7uoCch8upug",
+      "ext": ".png",
+      "hash": "fd9f92c5",
+      "size": 755,
+      "fs_path": "image/nightgate/input/cursor_d7219acf.png"
+    },
+    {
+      "uuid": "G6xXKQ12SL7WR2DpzXe0vTUj",
+      "ext": ".png",
+      "hash": "b902169e",
+      "size": 510,
+      "fs_path": "image/nightgate/monsters/orcreaver_a68233c0.png"
+    },
+    {
+      "uuid": "G9M9Yd2xA-NWrNYXCO04dShL",
+      "ext": ".png",
+      "hash": "6e49505a",
+      "size": 409,
+      "hash@windows": "66fefdae",
+      "size@windows": 142,
+      "fs_path": "image/nightgate/effects/blood_slash.png"
+    },
+    {
+      "uuid": "GDFmoYe0mBBnViRYBi55V9aQ",
+      "ext": ".png",
+      "hash": "7d873d65",
+      "size": 361,
+      "hash@windows": "7a32e6b3",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/asset_16ee4a1a.png"
+    },
+    {
+      "uuid": "GE4libLa7NthBpnd5Z9SPtHZ",
+      "ext": ".png",
+      "hash": "3797bd77",
+      "size": 345,
+      "fs_path": "image/nightgate/monsters/beryldoppleganger.png"
+    },
+    {
+      "uuid": "GEoJOazWsFPDeR-hrIvMLgSm",
+      "ext": ".png",
+      "hash": "e8374dd2",
+      "size": 438,
+      "fs_path": "image/nightgate/heroes/bippin_26d3ff2f.png"
+    },
+    {
+      "uuid": "GFZ2gUz8krIXn4cVPHka8u5-",
+      "ext": ".png",
+      "hash": "550aa4d8",
+      "size": 266,
+      "fs_path": "image/nightgate/items/skill_borders_15_565aa7f3.png"
+    },
+    {
+      "uuid": "GGcW4asy-LskpgGkxzUzp3Wd",
+      "ext": ".png",
+      "hash": "3cdac742",
+      "size": 567,
+      "fs_path": "image/nightgate/monsters/barbedmanticore_d1365c78.png"
+    },
+    {
+      "uuid": "GHoLaUTK26dKxH7SYpUAt5q0",
+      "ext": ".png",
+      "hash": "b440fc9b",
+      "size": 269,
+      "fs_path": "image/nightgate/items/skill_borders_9_e2a3b9ce.png"
+    },
+    {
+      "uuid": "GIpj6Rja2xrFo7UvigTPCmFh",
+      "ext": ".png",
+      "hash": "218b4c0e",
+      "size": 253,
+      "fs_path": "image/nightgate/items/skill_borders_12_cf6a5b68.png"
+    },
+    {
+      "uuid": "GLatsWN7zD9hRegXjz3XrK4a",
+      "ext": ".png",
+      "hash": "b57d32cb",
+      "size": 361,
+      "hash@windows": "b6737339",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/boxkilled_c837b95f.png"
+    },
+    {
+      "uuid": "GLb0QYlvVhCJgT3k7iUjdK5i",
+      "ext": ".png",
+      "hash": "abca554c",
+      "size": 411,
+      "fs_path": "image/nightgate/monsters/bloatedzombie.png"
+    },
+    {
+      "uuid": "GM7EYTG2oIzSj1eUXpTQ1vL0",
+      "ext": ".png",
+      "hash": "ee8475e2",
+      "size": 452,
+      "fs_path": "image/nightgate/items/-_5716c5f7.png"
+    },
+    {
+      "uuid": "GMG_6VDB4NXr12sY7eaaW-oI",
+      "ext": ".png",
+      "hash": "0728d3f9",
+      "size": 483,
+      "fs_path": "image/nightgate/monsters/powerfulyak_acd1d5c0.png"
+    },
+    {
+      "uuid": "GMk_6U1GHTHHj6JLQzMWg7K_",
+      "ext": ".lua",
+      "hash": "50220cc6",
+      "size": 21616,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/OriginalMapData.lua"
+    },
+    {
+      "uuid": "GMupuVJxfiDHu2xuU6U2VZro",
+      "ext": ".png",
+      "hash": "89bd3bd4",
+      "size": 268,
+      "fs_path": "image/nightgate/items/skill_borders_17_034f1c34.png"
+    },
+    {
+      "uuid": "GOHCsbVIrUzCh-Hgqmhs21MQ",
+      "ext": ".png",
+      "hash": "13c412a8",
+      "size": 500,
+      "fs_path": "image/nightgate/monsters/armoredgoliath_9a3ad4e6.png"
+    },
+    {
+      "uuid": "GOoj2WeYEl2zAY7GnZIs3QXZ",
+      "ext": ".png",
+      "hash": "e900e600",
+      "size": 223,
+      "fs_path": "image/nightgate/ui/hp_frame.png"
+    },
+    {
+      "uuid": "GUMaIWijqTEAXiaL2G1r8rfs",
+      "ext": ".png",
+      "hash": "cd2086f2",
+      "size": 198,
+      "fs_path": "image/nightgate/items/gb_36b212fb.png"
+    },
+    {
+      "uuid": "GVWzUXe4hTktmqQRbvDpfqnr",
+      "ext": ".png",
+      "hash": "6608bffd",
+      "size": 583,
+      "fs_path": "image/nightgate/skill_tree/asset_47711094.png"
+    },
+    {
+      "uuid": "GV_vUWhAx3byDJUAzYiuRqMs",
+      "ext": ".png",
+      "hash": "b54240c5",
+      "size": 437,
+      "fs_path": "image/nightgate/skill_tree/asset_e7fc69ec.png"
+    },
+    {
+      "uuid": "GWp4wRY7t2-yBJbOjJLnNACI",
+      "ext": ".png",
+      "hash": "cdeaecf2",
+      "size": 371,
+      "fs_path": "image/nightgate/monsters/waterelemental_b1605110.png"
+    },
+    {
+      "uuid": "Ga6G6YIQP5V8-A17BvGnLqAN",
+      "ext": ".png",
+      "hash": "aba368d4",
+      "size": 361,
+      "hash@windows": "791c89b4",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_ba44350b.png"
+    },
+    {
+      "uuid": "GakhuRWFwXvV-hPdwhHgd5-A",
+      "ext": ".png",
+      "hash": "de9b8bcc",
+      "size": 393,
+      "fs_path": "image/nightgate/monsters/ghastlyeye.png"
+    },
+    {
+      "uuid": "Gc3PASwKlEM_LylwqrFUr-RO",
+      "ext": ".png",
+      "hash": "b8fac4ab",
+      "size": 361,
+      "hash@windows": "48cf645a",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_003a060b.png"
+    },
+    {
+      "uuid": "Ge-Xye7zkyDj03Q-VpOSBKS3",
+      "ext": ".png",
+      "hash": "e318e4d0",
+      "size": 427,
+      "fs_path": "image/nightgate/monsters/unholyskull_ac95c7a0.png"
+    },
+    {
+      "uuid": "Gei6MYewSp6JTT_crOY-Cxqo",
+      "ext": ".png",
+      "hash": "38fce9de",
+      "size": 361,
+      "hash@windows": "4c7042a3",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/enemieskilled_281a9c96.png"
+    },
+    {
+      "uuid": "GevJQSy7FzocMiWlgIX4iOJZ",
+      "ext": ".png",
+      "hash": "b51e54ff",
+      "size": 162845,
+      "hash@windows": "a95cb308",
+      "size@windows": 242526,
+      "fs_path": "image/nightgate/branding/logo_e2465625.png"
+    },
+    {
+      "uuid": "GhAJcWZ1cK2AhwmXA0DYqEOu",
+      "ext": ".json",
+      "hash": "de553814",
+      "size": 26816,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_quickupgrade.json"
+    },
+    {
+      "uuid": "GhdC0Ry_2hfb3g4BalmWbKLH",
+      "ext": ".png",
+      "hash": "0a4fb995",
+      "size": 373,
+      "fs_path": "image/nightgate/monsters/poisonghost.png"
+    },
+    {
+      "uuid": "Gij6SQdsP7I8X8QXGCTYiry3",
+      "ext": ".lua",
+      "hash": "f8b763f3",
+      "size": 9523,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/EconomyPage.lua"
+    },
+    {
+      "uuid": "Gl3-cf7u5yHXBSfKEfVNYX1A",
+      "ext": ".png",
+      "hash": "1b8e029b",
+      "size": 361,
+      "hash@windows": "3ef2343d",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/crystalkilled_6b90ffbe.png"
+    },
+    {
+      "uuid": "Gm0zqYshETyao2ZZVWWiMAZu",
+      "ext": ".png",
+      "hash": "53f39cef",
+      "size": 1693,
+      "hash@windows": "d5766af1",
+      "size@windows": 1093,
+      "fs_path": "image/nightgate/effects/xplosion_7.png"
+    },
+    {
+      "uuid": "GmZ8WR6qYOObmdV9aPAnVlpB",
+      "ext": ".png",
+      "hash": "9011f039",
+      "size": 517,
+      "fs_path": "image/nightgate/heroes/elfsharpshooter_6bad7f61.png"
+    },
+    {
+      "uuid": "Gmg1WeZ3AigTiyRVC_C8Yayx",
+      "ext": ".png",
+      "hash": "4fcbe3ca",
+      "size": 1277,
+      "fs_path": "image/nightgate/monsters/brakgul_4ba8a15c.png"
+    },
+    {
+      "uuid": "GoD7WR8p70H4tf6j9Zp7dIre",
+      "ext": ".png",
+      "hash": "349c2df2",
+      "size": 263,
+      "fs_path": "image/nightgate/items/skill_borders_13_c19d0622.png"
+    },
+    {
+      "uuid": "GohGEbDkVMzo7k0xrXzDL2NM",
+      "ext": ".png",
+      "hash": "9b7060af",
+      "size": 1197,
+      "hash@windows": "da301e87",
+      "size@windows": 832,
+      "fs_path": "image/nightgate/effects/xplosion_8_faa917b8.png"
+    },
+    {
+      "uuid": "Gp1J0R_Vux_VTUlFLss7970w",
+      "ext": ".png",
+      "hash": "536e053e",
+      "size": 361,
+      "hash@windows": "0caa78a8",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/heroes/beginnerenchanter.png"
+    },
+    {
+      "uuid": "GpXBQQWAyO9TGgL8-1kgjloK",
+      "ext": ".png",
+      "hash": "4fcbe3ca",
+      "size": 1277,
+      "fs_path": "image/nightgate/monsters/brakgul.png"
+    },
+    {
+      "uuid": "GpjHcTA7uK7KuDPkKhcdRS55",
+      "ext": ".png",
+      "hash": "7b1475b0",
+      "size": 440,
+      "fs_path": "image/nightgate/monsters/adamantium_golem.png"
+    },
+    {
+      "uuid": "GqIUWf4vxWyujg0cd4BVM9T7",
+      "ext": ".png",
+      "hash": "423343d2",
+      "size": 570,
+      "fs_path": "image/nightgate/heroes/ogremage.png"
+    },
+    {
+      "uuid": "Gry0STw5SUmCoi_D47LiDtpY",
+      "ext": ".png",
+      "hash": "f48c2159",
+      "size": 293,
+      "hash@windows": "1b7d2ccc",
+      "size@windows": 131,
+      "fs_path": "image/nightgate/effects/slash.png"
+    },
+    {
+      "uuid": "GsFmKWKybJhVRnJENQ4VvT7k",
+      "ext": ".png",
+      "hash": "13c412a8",
+      "size": 500,
+      "fs_path": "image/nightgate/monsters/armoredgoliath.png"
+    },
+    {
+      "uuid": "GscsiVo0bS0WqYcW33EeoXd1",
+      "ext": ".png",
+      "hash": "c052813a",
+      "size": 334,
+      "fs_path": "image/nightgate/skill_tree/asset_b01bbd5c.png"
+    },
+    {
+      "uuid": "GuA0IaMXq8VwBoAeBeAh1AqR",
+      "ext": ".png",
+      "hash": "e2e4222c",
+      "size": 483,
+      "fs_path": "image/nightgate/skill_tree/asset_0e9622a6.png"
+    },
+    {
+      "uuid": "Gw7G-XcxVsdVFLUCj-2rHbT_",
+      "ext": ".png",
+      "hash": "d56824e2",
+      "size": 1844,
+      "fs_path": "image/nightgate/ui/skill_bar_tile_1e0e0847.png"
+    },
+    {
+      "uuid": "GxNIIc-S62nyjxlEEWFxR1cY",
+      "ext": ".png",
+      "hash": "c0a75170",
+      "size": 7923,
+      "fs_path": "image/nightgate/ui/decorated_bar.png"
+    },
+    {
+      "uuid": "Gy8A4VKcF2b91Cv9e8yrtwoJ",
+      "ext": ".png",
+      "hash": "6506c5a9",
+      "size": 368,
+      "fs_path": "image/nightgate/skill_tree/asset_63a6ecc0.png"
+    },
+    {
+      "uuid": "GyJjwRSmaHbWNvwuFasEePaB",
+      "ext": ".png",
+      "hash": "889f2814",
+      "size": 415,
+      "fs_path": "image/nightgate/skill_tree/asset_d9396d23.png"
+    },
+    {
+      "uuid": "Gyo4gSOIswlgVv1WqeGoLS2G",
+      "ext": ".png",
+      "hash": "82e20b07",
+      "size": 200,
+      "fs_path": "image/nightgate/ui/stats_title.png"
+    },
+    {
+      "uuid": "GzaGkXybPjkvOutFfxuZxovN",
+      "ext": ".png",
+      "hash": "11eebeb3",
+      "size": 339,
+      "fs_path": "image/nightgate/skill_tree/asset_85644034.png"
+    },
+    {
+      "uuid": "H-cd2as2xWyQUjrNkiWhAGFr",
+      "ext": ".png",
+      "hash": "194c632c",
+      "size": 110,
+      "fs_path": "image/nightgate/ui/universalpanel1_e8a610e2.png"
+    },
+    {
+      "uuid": "H1XXaeL3HrqEHq5kiffF7BVG",
+      "ext": ".png",
+      "hash": "ae6d5210",
+      "size": 1268,
+      "fs_path": "image/nightgate/monsters/orccaptain.png"
+    },
+    {
+      "uuid": "H2FduUSvoKtNYYJB5q9c_xll",
+      "ext": ".png",
+      "hash": "0e9e258b",
+      "size": 365,
+      "fs_path": "image/nightgate/skill_tree/asset_907405bc.png"
+    },
+    {
+      "uuid": "H323mbwLf3lT7dejXfpwOHjZ",
+      "ext": ".png",
+      "hash": "f66c9bd1",
+      "size": 260,
+      "fs_path": "image/nightgate/items/skill_borders_2_24bedc87.png"
+    },
+    {
+      "uuid": "H4XHmWATXOtt8t5adBqCERqG",
+      "ext": ".png",
+      "hash": "49bdb27d",
+      "size": 473,
+      "hash@windows": "85539c2a",
+      "size@windows": 921,
+      "fs_path": "image/nightgate/effects/xplosion_4.png"
+    },
+    {
+      "uuid": "H4g-kb-BrO9i3tYkl3VbqLPR",
+      "ext": ".png",
+      "hash": "49bdb27d",
+      "size": 473,
+      "hash@windows": "85539c2a",
+      "size@windows": 921,
+      "fs_path": "image/nightgate/effects/xplosion_4_ac05ff9b.png"
+    },
+    {
+      "uuid": "H54pwftTHEqM3HUCSD1kUlqE",
+      "ext": ".png",
+      "hash": "938a31bb",
+      "size": 1111,
+      "fs_path": "image/nightgate/ui/1_blue_button_s_b5ddc967.png"
+    },
+    {
+      "uuid": "H69k6cj4LgQiDAmFpuDC6hr0",
+      "ext": ".png",
+      "hash": "7d451886",
+      "size": 419,
+      "fs_path": "image/nightgate/monsters/ossifiedslayer_620dfc56.png"
+    },
+    {
+      "uuid": "H8L-4Tt07DCxJ0_OJHEAS5SA",
+      "ext": ".png",
+      "hash": "a454826b",
+      "size": 471,
+      "fs_path": "image/nightgate/monsters/owlbear.png"
+    },
+    {
+      "uuid": "H8kI8XABeD6poZKzXomueFhq",
+      "ext": ".json",
+      "hash": "0df35056",
+      "size": 2879,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "data/nightgate/battle_tbfinalnight.json"
+    },
+    {
+      "uuid": "H9Gb2a8cu0i9seIiCye3Ow-i",
+      "ext": ".png",
+      "hash": "38facc85",
+      "size": 665,
+      "hash@windows": "395d3970",
+      "size@windows": 707,
+      "fs_path": "image/nightgate/environment/caverntileset_233c6f62.png"
+    },
+    {
+      "uuid": "HA9ZgcpFEeCoVvbpdDA-Ap-o",
+      "ext": ".png",
+      "hash": "938a31bb",
+      "size": 1111,
+      "fs_path": "image/nightgate/ui/1_blue_button_s.png"
+    },
+    {
+      "uuid": "HAdNeVB4VbhZ2FwtSnVRPVej",
+      "ext": ".png",
+      "hash": "f6cd3c0a",
+      "size": 346,
+      "fs_path": "image/nightgate/monsters/acidant.png"
+    },
+    {
+      "uuid": "HECFEcJtj3YwYhB-KFjX8vCK",
+      "ext": ".png",
+      "hash": "17a529d0",
+      "size": 361,
+      "hash@windows": "d3804289",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_b5563504.png"
+    },
+    {
+      "uuid": "HGvQ0X_gYCKUHmedcyR6ZFjg",
+      "ext": ".png",
+      "hash": "a93fc068",
+      "size": 359,
+      "fs_path": "image/nightgate/skill_tree/asset_fa13ee3d.png"
+    },
+    {
+      "uuid": "HJ9REVC2hi08U2d74IlIqFjE",
+      "ext": ".png",
+      "hash": "44bebbb1",
+      "size": 281,
+      "fs_path": "image/nightgate/skill_tree/asset_eb469894.png"
+    },
+    {
+      "uuid": "HKPDIZ1AHEy2jei7PesjASyE",
+      "ext": ".png",
+      "hash": "2ff94bbd",
+      "size": 85,
+      "fs_path": "image/nightgate/ui/separator_15bd65f8.png"
+    },
+    {
+      "uuid": "HKcfkUrat7o17_XWhbfGrQgN",
+      "ext": ".png",
+      "hash": "194c632c",
+      "size": 110,
+      "fs_path": "image/nightgate/ui/universalpanel1.png"
+    },
+    {
+      "uuid": "HKpoKbx8FdVe9EQ1IbUNrkvq",
+      "ext": ".png",
+      "hash": "024be1ed",
+      "size": 1139,
+      "fs_path": "image/nightgate/ui/1_orange_button_s.png"
+    },
+    {
+      "uuid": "HLdT4VM-JZ4xqwvogXesjSbT",
+      "ext": ".png",
+      "hash": "0728d3f9",
+      "size": 483,
+      "fs_path": "image/nightgate/monsters/powerfulyak.png"
+    },
+    {
+      "uuid": "HNBW2eXc1Ri1syaRFreWHzv1",
+      "ext": ".png",
+      "hash": "e14b743d",
+      "size": 440,
+      "fs_path": "image/nightgate/skill_tree/asset_a56859a1.png"
+    },
+    {
+      "uuid": "HOvTMcnckQ1juQMQ7Ntbih-d",
+      "ext": ".png",
+      "hash": "bdaaf32c",
+      "size": 361,
+      "hash@windows": "09c13010",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_a377a2c4.png"
+    },
+    {
+      "uuid": "HSdQmUAqXfGk39Iti_uWB4K3",
+      "ext": ".png",
+      "hash": "de32f762",
+      "size": 414,
+      "fs_path": "image/nightgate/monsters/adeptnecromancer.png"
+    },
+    {
+      "uuid": "HTEisYbHj27_JNx31_q-mDRk",
+      "ext": ".png",
+      "hash": "d5140b78",
+      "size": 299,
+      "fs_path": "image/nightgate/skill_tree/asset_7ab7669d.png"
+    },
+    {
+      "uuid": "HVH1YZEDdLzJVUYVBJQlBWX_",
+      "ext": ".png",
+      "hash": "754e5e8f",
+      "size": 329,
+      "fs_path": "image/nightgate/skill_tree/asset_09197b8c.png"
+    },
+    {
+      "uuid": "HVsqoT8dbc2HaCp3-BeTUD2x",
+      "ext": ".lua",
+      "hash": "37e57d29",
+      "size": 91372,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/AppUI.lua"
+    },
+    {
+      "uuid": "HWK6EZy8T4BGJBTRo7fPoyNs",
+      "ext": ".png",
+      "hash": "a3425ed4",
+      "size": 361,
+      "hash@windows": "5c86c445",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_8117d062.png"
+    },
+    {
+      "uuid": "H_IYiU5B4CmUob_H2ubRKq5h",
+      "ext": ".png",
+      "hash": "31abd234",
+      "size": 313,
+      "fs_path": "image/nightgate/skill_tree/asset_0b6e2021.png"
+    },
+    {
+      "uuid": "HaM0ac12_c8KiwoFeoaWDVIs",
+      "ext": ".png",
+      "hash": "d2f69a65",
+      "size": 283,
+      "fs_path": "image/nightgate/skill_tree/asset_176cfafc.png"
+    },
+    {
+      "uuid": "HfKNUbYNSk5Bj0d5ycMxQvVg",
+      "ext": ".png",
+      "hash": "38facc85",
+      "size": 665,
+      "hash@windows": "395d3970",
+      "size@windows": 707,
+      "fs_path": "image/nightgate/environment/caverntileset.png"
+    },
+    {
+      "uuid": "Hfj3gRPQu_9pbwoQ71SBojFD",
+      "ext": ".png",
+      "hash": "79d44907",
+      "size": 473,
+      "hash@windows": "87865a77",
+      "size@windows": 168,
+      "fs_path": "image/nightgate/effects/xplosion_3.png"
+    },
+    {
+      "uuid": "HftXifjBNBHrqkCUFVNJEpZK",
+      "ext": ".png",
+      "hash": "804c1fcf",
+      "size": 430,
+      "fs_path": "image/nightgate/skill_tree/asset_97025161.png"
+    },
+    {
+      "uuid": "Hh364Ze9O9nqVrSVKNuARwL5",
+      "ext": ".png",
+      "hash": "a1192cdf",
+      "size": 669,
+      "hash@windows": "19441d54",
+      "size@windows": 1181,
+      "fs_path": "image/nightgate/environment/obelisk1-stand_3039e22c.png"
+    },
+    {
+      "uuid": "HhKQ8ePFI260m1y2Ga_I8ymM",
+      "ext": ".png",
+      "hash": "b37c5ef4",
+      "size": 510,
+      "fs_path": "image/nightgate/items/-_c1eef605.png"
+    },
+    {
+      "uuid": "Hhab0XiLxajGAqvHUkDxayci",
+      "ext": ".png",
+      "hash": "0c6c20a7",
+      "size": 494,
+      "fs_path": "image/nightgate/heroes/dryadmatriarch.png"
+    },
+    {
+      "uuid": "Hhl8AVFT9yeuJDtKQIiS_PUt",
+      "ext": ".png",
+      "hash": "a664df7c",
+      "size": 412,
+      "fs_path": "image/nightgate/monsters/bonegolem_62642797.png"
+    },
+    {
+      "uuid": "HjKJ8T54kMdWoTFNrT3PNJUf",
+      "ext": ".png",
+      "hash": "c55e7f70",
+      "size": 361,
+      "hash@windows": "311e3f66",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/currency/asset_90278eb1.png"
+    },
+    {
+      "uuid": "HklH6WGsKqfgRbR0C5xF38u-",
+      "ext": ".png",
+      "hash": "ce41a475",
+      "size": 361,
+      "hash@windows": "4eeba717",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/equipment/asset_80ec424e.png"
+    },
+    {
+      "uuid": "Hlru4fwcMNpaz-5bhAiexk60",
+      "ext": ".png",
+      "hash": "daeeac4f",
+      "size": 8028,
+      "fs_path": "image/nightgate/ui/frame_square_256.png"
+    },
+    {
+      "uuid": "HlxjGUzBbjGnn3Jr95ES5byA",
+      "ext": ".png",
+      "hash": "97afde27",
+      "size": 321,
+      "fs_path": "image/nightgate/monsters/decrepitbones.png"
+    },
+    {
+      "uuid": "HmIwAe1ubJfzaFsc7vrA-MYO",
+      "ext": ".png",
+      "hash": "16136f8a",
+      "size": 447,
+      "fs_path": "image/nightgate/skill_tree/asset_1931f7f6.png"
+    },
+    {
+      "uuid": "HmpTCXyRtCYBBMU7e3uXKkHF",
+      "ext": ".png",
+      "hash": "4ad190bb",
+      "size": 674,
+      "fs_path": "image/nightgate/ui/special_button_18abb87d.png"
+    },
+    {
+      "uuid": "HmqDMTsv-B-hY_5_zbpYW974",
+      "ext": ".lua",
+      "hash": "23fb822a",
+      "size": 5806,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/HeroSkillData.lua"
+    },
+    {
+      "uuid": "HogoscNtapH_taWL2m7vhAPG",
+      "ext": ".png",
+      "hash": "3cdac742",
+      "size": 567,
+      "fs_path": "image/nightgate/monsters/barbedmanticore.png"
+    },
+    {
+      "uuid": "HqZhESTBP1PJuSZ4rbv-NJ2k",
+      "ext": ".png",
+      "hash": "2ff94bbd",
+      "size": 85,
+      "fs_path": "image/nightgate/ui/separator.png"
+    },
+    {
+      "uuid": "HrEf8QgIvfSJiqXD8XefmXlN",
+      "ext": ".png",
+      "hash": "e693b5d0",
+      "size": 152,
+      "fs_path": "image/nightgate/ui/lock.png"
+    },
+    {
+      "uuid": "HrUnWWN1rJ2ET3_lO6RiJ7pZ",
+      "ext": ".png",
+      "hash": "de819226",
+      "size": 471,
+      "fs_path": "image/nightgate/monsters/brassgolemidle_22485b4f.png"
+    },
+    {
+      "uuid": "HsA52XLTbBNZAvPu1vCIp9G-",
+      "ext": ".lua",
+      "hash": "6a941352",
+      "size": 5483,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/BattleEffects.lua"
+    },
+    {
+      "uuid": "HtrakTgnbE07aNtHiERepWZX",
+      "ext": ".png",
+      "hash": "ba79b7c5",
+      "size": 778,
+      "fs_path": "image/nightgate/ui/skill_paper2.png"
+    },
+    {
+      "uuid": "Hu2N8cRyttDPPH5dNvnyE4_6",
+      "ext": ".png",
+      "hash": "abca554c",
+      "size": 411,
+      "fs_path": "image/nightgate/monsters/bloatedzombie_1ec2f8f9.png"
+    },
+    {
+      "uuid": "HuMCyR-oXBkv1N-UwIsp8KoN",
+      "ext": ".png",
+      "hash": "189a3a79",
+      "size": 473,
+      "hash@windows": "faccacb5",
+      "size@windows": 159,
+      "fs_path": "image/nightgate/effects/blood_splash_f4d2faad.png"
+    },
+    {
+      "uuid": "HvAkKdxzFX_LTHqo0WitXHL1",
+      "ext": ".png",
+      "hash": "daeeac4f",
+      "size": 8028,
+      "fs_path": "image/nightgate/ui/frame_square_256_bcb517df.png"
+    },
+    {
+      "uuid": "Hwsk0Q-r-4Ukwc7ZoWVVeJiA",
+      "ext": ".png",
+      "hash": "7a5a02aa",
+      "size": 1197,
+      "hash@windows": "b6005727",
+      "size@windows": 772,
+      "fs_path": "image/nightgate/effects/explosion_10_1586a889.png"
+    },
+    {
+      "uuid": "HwuD4bCxStr676btnvor2bur",
+      "ext": ".png",
+      "hash": "4f340652",
+      "size": 361,
+      "hash@windows": "47e4a2a0",
+      "size@windows": 473,
+      "fs_path": "image/nightgate/achievements/bossdefeated_4a433817.png"
+    },
+    {
+      "uuid": "HzM3ebRdqaY01T1CUp_QgCXd",
+      "ext": ".png",
+      "hash": "53f39cef",
+      "size": 1693,
+      "hash@windows": "d5766af1",
+      "size@windows": 1093,
+      "fs_path": "image/nightgate/effects/xplosion_7_21f6d5b8.png"
+    },
+    {
+      "uuid": "HzjJaVvqeNWNyb1pBbgkN_M9",
+      "ext": ".png",
+      "hash": "e8deef65",
+      "size": 279,
+      "fs_path": "image/nightgate/skill_tree/asset_82c2920d.png"
+    },
+    {
+      "uuid": "I9z6gfjVHK7Ys9zEwmWrdg",
+      "ext": ".png",
+      "hash": "67a7005c",
+      "size": 489,
+      "fs_path": "image/nightgate/heroes/hero_10001.png"
+    },
+    {
+      "uuid": "KCx5PBrAXH_qqGnG_WbrvQ",
+      "ext": ".png",
+      "hash": "18687693",
+      "size": 391,
+      "fs_path": "image/nightgate/heroes/hero_10006.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000001",
+      "ext": ".png",
+      "hash": "5c71257a",
+      "size": 291546,
+      "fs_path": "image/nightgate/environment/battle_terrain_1920x1080.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000002",
+      "ext": ".png",
+      "hash": "6ce37918",
+      "size": 40649,
+      "hash@windows": "c9d808df",
+      "size@windows": 10736,
+      "fs_path": "image/nightgate/environment/atlases/base_grass_atlas.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000003",
+      "ext": ".png",
+      "hash": "a1679525",
+      "size": 173677,
+      "hash@windows": "bd45d579",
+      "size@windows": 73306,
+      "fs_path": "image/nightgate/environment/atlases/caverntileset_atlas.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000004",
+      "ext": ".png",
+      "hash": "e5acd31f",
+      "size": 173677,
+      "hash@windows": "d511a77b",
+      "size@windows": 77718,
+      "fs_path": "image/nightgate/environment/atlases/dungeontileset_atlas.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000005",
+      "ext": ".png",
+      "hash": "081b4f3b",
+      "size": 2157,
+      "hash@windows": "5a834a24",
+      "size@windows": 1716,
+      "fs_path": "image/nightgate/environment/decor/barricade_-_3_6789610404654070821.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000006",
+      "ext": ".png",
+      "hash": "0334d2e7",
+      "size": 9301,
+      "hash@windows": "51a9d2b4",
+      "size@windows": 5898,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_1_9187204500459698637.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000007",
+      "ext": ".png",
+      "hash": "4cd89c3c",
+      "size": 9173,
+      "hash@windows": "452a1b53",
+      "size@windows": 5831,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_2_8884869989411407586.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000008",
+      "ext": ".png",
+      "hash": "eb1d535b",
+      "size": 9173,
+      "hash@windows": "a746bd31",
+      "size@windows": 5837,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_4_2938107044044646195.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000009",
+      "ext": ".png",
+      "hash": "7c939e66",
+      "size": 6673,
+      "hash@windows": "951a1d55",
+      "size@windows": 4777,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_7_6876617273598474766.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000010",
+      "ext": ".png",
+      "hash": "d8ba303d",
+      "size": 6673,
+      "hash@windows": "e8bd6fba",
+      "size@windows": 4799,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_8_1765639209842631154.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000011",
+      "ext": ".png",
+      "hash": "d4b99e52",
+      "size": 6465,
+      "hash@windows": "a1f6ce46",
+      "size@windows": 3121,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_no_leaves_0_4825225142874042769.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000012",
+      "ext": ".png",
+      "hash": "afd85136",
+      "size": 4817,
+      "hash@windows": "9f12d48f",
+      "size@windows": 2508,
+      "fs_path": "image/nightgate/environment/decor/birch_trees_no_leaves_4_3613254811590661545.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000013",
+      "ext": ".png",
+      "hash": "47809e68",
+      "size": 1357,
+      "hash@windows": "66d2e6e1",
+      "size@windows": 794,
+      "fs_path": "image/nightgate/environment/decor/bushes_0_2898626419080562982.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000014",
+      "ext": ".png",
+      "hash": "d049e555",
+      "size": 1453,
+      "hash@windows": "4ab023ae",
+      "size@windows": 954,
+      "fs_path": "image/nightgate/environment/decor/bushes_3_182775921134940210.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000015",
+      "ext": ".png",
+      "hash": "1efc09a5",
+      "size": 1357,
+      "hash@windows": "b6cd2be5",
+      "size@windows": 795,
+      "fs_path": "image/nightgate/environment/decor/bushes_6_5527994284752738130.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000016",
+      "ext": ".png",
+      "hash": "90cdf259",
+      "size": 1453,
+      "hash@windows": "c3e9e521",
+      "size@windows": 953,
+      "fs_path": "image/nightgate/environment/decor/bushes_7_4965341585877159079.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000017",
+      "ext": ".png",
+      "hash": "6f0b8deb",
+      "size": 1905,
+      "hash@windows": "82a4b1b0",
+      "size@windows": 1321,
+      "fs_path": "image/nightgate/environment/decor/bushes_9_2196052830328198180.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000018",
+      "ext": ".png",
+      "hash": "5972dcfd",
+      "size": 3553,
+      "hash@windows": "b74e45db",
+      "size@windows": 3572,
+      "fs_path": "image/nightgate/environment/decor/campfire_15_8498491447288069141.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000019",
+      "ext": ".png",
+      "hash": "365a353f",
+      "size": 4961,
+      "hash@windows": "25e16f9c",
+      "size@windows": 3733,
+      "fs_path": "image/nightgate/environment/decor/campfire_19_3299070936922382154.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000020",
+      "ext": ".png",
+      "hash": "dca6aecf",
+      "size": 1325,
+      "hash@windows": "f2514728",
+      "size@windows": 864,
+      "fs_path": "image/nightgate/environment/decor/campfire1_-_fire_0_4564966005366393382.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000021",
+      "ext": ".png",
+      "hash": "bf734787",
+      "size": 1325,
+      "hash@windows": "fca393ac",
+      "size@windows": 750,
+      "fs_path": "image/nightgate/environment/decor/campfire2-_fire_0_6217739707884782476.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000022",
+      "ext": ".png",
+      "hash": "5732a89a",
+      "size": 6545,
+      "hash@windows": "f3cf600f",
+      "size@windows": 2720,
+      "fs_path": "image/nightgate/environment/decor/dark_structure_red_full_10_7228823554896977869.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000023",
+      "ext": ".png",
+      "hash": "d3925523",
+      "size": 61177,
+      "hash@windows": "7b15d7a3",
+      "size@windows": 26319,
+      "fs_path": "image/nightgate/environment/decor/dragon_fossil_-_complete_-_with_grass_5890359827836776202.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000024",
+      "ext": ".png",
+      "hash": "bfd0f870",
+      "size": 2061,
+      "hash@windows": "f0cd3df6",
+      "size@windows": 1041,
+      "fs_path": "image/nightgate/environment/decor/enemy_flag1animation_0_7941507260530112812.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000025",
+      "ext": ".png",
+      "hash": "a31cdb97",
+      "size": 1789,
+      "hash@windows": "5a262404",
+      "size@windows": 717,
+      "fs_path": "image/nightgate/environment/decor/enemy_flag2_animation_0_4419358219962461203.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000026",
+      "ext": ".png",
+      "hash": "1905d364",
+      "size": 383,
+      "fs_path": "image/nightgate/environment/decor/generic_nature_particles96x96_0_8248204224048295770.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000027",
+      "ext": ".png",
+      "hash": "b0e68a04",
+      "size": 1009,
+      "hash@windows": "da106c8e",
+      "size@windows": 298,
+      "fs_path": "image/nightgate/environment/decor/insects-butterfly3-flying-4_frames-150x106_0_8503443062660218703.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000028",
+      "ext": ".png",
+      "hash": "3a4e8685",
+      "size": 2417,
+      "hash@windows": "b74d051e",
+      "size@windows": 1640,
+      "fs_path": "image/nightgate/environment/decor/obelisk1-animation1-activating-70x150_0_218116098737731651.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000029",
+      "ext": ".png",
+      "hash": "53909891",
+      "size": 669,
+      "hash@windows": "a0aa8731",
+      "size@windows": 1181,
+      "fs_path": "image/nightgate/environment/decor/obelisk1-stand_8754527296730694111.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000030",
+      "ext": ".png",
+      "hash": "eb211638",
+      "size": 1325,
+      "hash@windows": "5b6c717c",
+      "size@windows": 889,
+      "fs_path": "image/nightgate/environment/decor/pillars_and_generic_support2_32_6585540789747054795.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000031",
+      "ext": ".png",
+      "hash": "52f68673",
+      "size": 1085,
+      "hash@windows": "cd11b198",
+      "size@windows": 652,
+      "fs_path": "image/nightgate/environment/decor/pillars_and_generic_support2_33_7023598589015784677.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000032",
+      "ext": ".png",
+      "hash": "e1acc5ee",
+      "size": 1633,
+      "hash@windows": "d18ab848",
+      "size@windows": 2881,
+      "fs_path": "image/nightgate/environment/decor/shrubs_1_4393163343461612432.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000033",
+      "ext": ".png",
+      "hash": "6bd4ee9f",
+      "size": 1633,
+      "hash@windows": "18d0da9f",
+      "size@windows": 2881,
+      "fs_path": "image/nightgate/environment/decor/shrubs_2_1807052709138934123.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000034",
+      "ext": ".png",
+      "hash": "fc608680",
+      "size": 2337,
+      "hash@windows": "2b6a7c36",
+      "size@windows": 1945,
+      "fs_path": "image/nightgate/environment/decor/shrubs_3_7211374339191969316.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000035",
+      "ext": ".png",
+      "hash": "a560d2b9",
+      "size": 585,
+      "hash@windows": "786a11ef",
+      "size@windows": 953,
+      "fs_path": "image/nightgate/environment/decor/small_animals_-_bird-_idle_-_sideview_0_7383120301556931929.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000036",
+      "ext": ".png",
+      "hash": "c4bb2a82",
+      "size": 5649,
+      "hash@windows": "7f12de70",
+      "size@windows": 4466,
+      "fs_path": "image/nightgate/environment/decor/standard_6331964941016924062.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000037",
+      "ext": ".png",
+      "hash": "59d6ea47",
+      "size": 1469,
+      "hash@windows": "327d15fc",
+      "size@windows": 2541,
+      "fs_path": "image/nightgate/environment/decor/tall_dry_grass_ish_24_8335493264601981221.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000038",
+      "ext": ".png",
+      "hash": "3fe63c26",
+      "size": 1633,
+      "hash@windows": "d9d52da6",
+      "size@windows": 876,
+      "fs_path": "image/nightgate/environment/decor/tall_dry_grass_ish_29_8899331501160332979.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000039",
+      "ext": ".png",
+      "hash": "03fc935f",
+      "size": 2017,
+      "hash@windows": "2ec1ec92",
+      "size@windows": 1203,
+      "fs_path": "image/nightgate/environment/decor/tall_dry_grass_ish_31_1732057685339711228.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000040",
+      "ext": ".png",
+      "hash": "fe467ecf",
+      "size": 1905,
+      "hash@windows": "0e93025b",
+      "size@windows": 1213,
+      "fs_path": "image/nightgate/environment/decor/tall_dry_grass_ish_32_4613848346568988641.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000041",
+      "ext": ".png",
+      "hash": "1a081077",
+      "size": 47577,
+      "hash@windows": "5a9aecbd",
+      "size@windows": 19466,
+      "fs_path": "image/nightgate/environment/decor/tent_2_-_on_grass_5943195538564979483.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000042",
+      "ext": ".png",
+      "hash": "372c2c48",
+      "size": 11509,
+      "hash@windows": "6f2dcd91",
+      "size@windows": 5129,
+      "fs_path": "image/nightgate/environment/decor/tent_2_-_small_-_on_grass_1016354746829182241.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000043",
+      "ext": ".png",
+      "hash": "50a452b4",
+      "size": 11541,
+      "hash@windows": "2696f44e",
+      "size@windows": 5713,
+      "fs_path": "image/nightgate/environment/decor/trees_11_6777071857347773847.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000044",
+      "ext": ".png",
+      "hash": "3f6dfd1b",
+      "size": 11541,
+      "hash@windows": "bfcc54c4",
+      "size@windows": 5377,
+      "fs_path": "image/nightgate/environment/decor/trees_2_7347466015968495674.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000045",
+      "ext": ".png",
+      "hash": "6d1050cd",
+      "size": 13541,
+      "hash@windows": "965098c7",
+      "size@windows": 6309,
+      "fs_path": "image/nightgate/environment/decor/trees_4_5438314998650678180.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000046",
+      "ext": ".png",
+      "hash": "98da951f",
+      "size": 13573,
+      "hash@windows": "8a0e1135",
+      "size@windows": 6380,
+      "fs_path": "image/nightgate/environment/decor/trees_6_5382451988541194059.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000047",
+      "ext": ".png",
+      "hash": "f072a481",
+      "size": 11541,
+      "hash@windows": "0dcd6e45",
+      "size@windows": 5358,
+      "fs_path": "image/nightgate/environment/decor/trees_8_7958995388120577761.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000048",
+      "ext": ".png",
+      "hash": "8a4b1da1",
+      "size": 526,
+      "fs_path": "image/nightgate/environment/decor/trees_shadow1_71515217530527531.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000049",
+      "ext": ".png",
+      "hash": "c4ebedaf",
+      "size": 2561,
+      "hash@windows": "b6558a68",
+      "size@windows": 654,
+      "fs_path": "image/nightgate/environment/decor/trees_shadow2_8896972637764061471.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000050",
+      "ext": ".png",
+      "hash": "776c2a7c",
+      "size": 2109,
+      "hash@windows": "c984f07f",
+      "size@windows": 1428,
+      "fs_path": "image/nightgate/environment/decor/vegetations2_0_3999947665755880956.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000051",
+      "ext": ".png",
+      "hash": "42e2ac29",
+      "size": 1501,
+      "hash@windows": "d038cb6e",
+      "size@windows": 1150,
+      "fs_path": "image/nightgate/environment/decor/vegetations2_6_6805839398881732372.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000052",
+      "ext": ".png",
+      "hash": "27460082",
+      "size": 1693,
+      "hash@windows": "eaa1a363",
+      "size@windows": 1132,
+      "fs_path": "image/nightgate/environment/decor/vegetations2_7_9201146428494093757.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000053",
+      "ext": ".png",
+      "hash": "27185bb1",
+      "size": 665,
+      "hash@windows": "2ef86dc5",
+      "size@windows": 405,
+      "fs_path": "image/nightgate/environment/decor/vegetations4_0_8185799857658069040.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000054",
+      "ext": ".png",
+      "hash": "2d01c583",
+      "size": 585,
+      "hash@windows": "2dfe2eaf",
+      "size@windows": 366,
+      "fs_path": "image/nightgate/environment/decor/vegetations4_13_6809071859882770206.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000055",
+      "ext": ".png",
+      "hash": "efb1e304",
+      "size": 665,
+      "hash@windows": "00e6906b",
+      "size@windows": 406,
+      "fs_path": "image/nightgate/environment/decor/vegetations4_3_6402386288809996213.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000056",
+      "ext": ".png",
+      "hash": "7127c537",
+      "size": 765,
+      "hash@windows": "96a0c83e",
+      "size@windows": 439,
+      "fs_path": "image/nightgate/environment/decor/vegetations4_5_5434478363707567223.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000057",
+      "ext": ".png",
+      "hash": "66ea1ea3",
+      "size": 1325,
+      "hash@windows": "2c0e64ab",
+      "size@windows": 1073,
+      "fs_path": "image/nightgate/environment/decor/vegetations7_7_6634726679257044184.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000058",
+      "ext": ".png",
+      "hash": "6a5e43e3",
+      "size": 16293,
+      "hash@windows": "2a3708d9",
+      "size@windows": 8354,
+      "fs_path": "image/nightgate/environment/decor/watchtower_-_back_4068040309977753777.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000059",
+      "ext": ".png",
+      "hash": "d3708e12",
+      "size": 571,
+      "fs_path": "image/nightgate/skills/asset_0382df82.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000060",
+      "ext": ".png",
+      "hash": "de4cf6b6",
+      "size": 1232,
+      "fs_path": "image/nightgate/skills/circle_b3888a73.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000061",
+      "ext": ".png",
+      "hash": "de4cf6b6",
+      "size": 1232,
+      "fs_path": "image/nightgate/skills/circle.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000062",
+      "ext": ".png",
+      "hash": "16fad784",
+      "size": 441,
+      "fs_path": "image/nightgate/skills/dogen1_bf9f5157.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000063",
+      "ext": ".png",
+      "hash": "16fad784",
+      "size": 441,
+      "fs_path": "image/nightgate/skills/dogen1.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000064",
+      "ext": ".png",
+      "hash": "8fa6bc55",
+      "size": 417,
+      "fs_path": "image/nightgate/skills/dogen2_89c14b36.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000065",
+      "ext": ".png",
+      "hash": "8fa6bc55",
+      "size": 417,
+      "fs_path": "image/nightgate/skills/dogen2.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000066",
+      "ext": ".png",
+      "hash": "0fac7680",
+      "size": 480,
+      "fs_path": "image/nightgate/skills/dogen3_a7b5375d.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000067",
+      "ext": ".png",
+      "hash": "0fac7680",
+      "size": 480,
+      "fs_path": "image/nightgate/skills/dogen3.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000068",
+      "ext": ".png",
+      "hash": "294ec3f1",
+      "size": 508,
+      "fs_path": "image/nightgate/skills/dogen4_52193f0d.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000069",
+      "ext": ".png",
+      "hash": "294ec3f1",
+      "size": 508,
+      "fs_path": "image/nightgate/skills/dogen4.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000070",
+      "ext": ".png",
+      "hash": "23888f86",
+      "size": 148,
+      "fs_path": "image/nightgate/skills/enemyshoot1_99e88b60.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000071",
+      "ext": ".png",
+      "hash": "23888f86",
+      "size": 148,
+      "fs_path": "image/nightgate/skills/enemyshoot1.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000072",
+      "ext": ".png",
+      "hash": "093de6f4",
+      "size": 147,
+      "fs_path": "image/nightgate/skills/enemyshoot2_e176a27c.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000073",
+      "ext": ".png",
+      "hash": "093de6f4",
+      "size": 147,
+      "fs_path": "image/nightgate/skills/enemyshoot2.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000074",
+      "ext": ".png",
+      "hash": "f7a0bc63",
+      "size": 1688,
+      "fs_path": "image/nightgate/skills/fire_spell_5-sheet_867d1649.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000075",
+      "ext": ".png",
+      "hash": "f7a0bc63",
+      "size": 1688,
+      "fs_path": "image/nightgate/skills/fire_spell_5-sheet.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000076",
+      "ext": ".png",
+      "hash": "6695747a",
+      "size": 350,
+      "fs_path": "image/nightgate/skills/holy_devotion_sword_48x48_7de1d176.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000077",
+      "ext": ".png",
+      "hash": "6695747a",
+      "size": 350,
+      "fs_path": "image/nightgate/skills/holy_devotion_sword_48x48.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000078",
+      "ext": ".png",
+      "hash": "db7a3254",
+      "size": 840,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_01_ec87abb2.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000079",
+      "ext": ".png",
+      "hash": "db7a3254",
+      "size": 840,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_01.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000080",
+      "ext": ".png",
+      "hash": "f0878c6f",
+      "size": 753,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_02_9fe9132d.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000081",
+      "ext": ".png",
+      "hash": "f0878c6f",
+      "size": 753,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_02.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000082",
+      "ext": ".png",
+      "hash": "17ca92e8",
+      "size": 774,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_03_ae255b1a.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000083",
+      "ext": ".png",
+      "hash": "17ca92e8",
+      "size": 774,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_03.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000084",
+      "ext": ".png",
+      "hash": "01c6c6bc",
+      "size": 783,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_04_d4512bb8.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000085",
+      "ext": ".png",
+      "hash": "01c6c6bc",
+      "size": 783,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_04.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000086",
+      "ext": ".png",
+      "hash": "e3286dc0",
+      "size": 854,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_05_c293d26e.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000087",
+      "ext": ".png",
+      "hash": "e3286dc0",
+      "size": 854,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_05.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000088",
+      "ext": ".png",
+      "hash": "e9e9e440",
+      "size": 786,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_06_fe9b84e8.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000089",
+      "ext": ".png",
+      "hash": "e9e9e440",
+      "size": 786,
+      "fs_path": "image/nightgate/skills/ice_chunk_mid_06.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000090",
+      "ext": ".png",
+      "hash": "6c7c0430",
+      "size": 3093,
+      "fs_path": "image/nightgate/skills/nature_forestry_80x176_3e2c4f22.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000091",
+      "ext": ".png",
+      "hash": "6c7c0430",
+      "size": 3093,
+      "fs_path": "image/nightgate/skills/nature_forestry_80x176.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000092",
+      "ext": ".png",
+      "hash": "fa9603fd",
+      "size": 489,
+      "fs_path": "image/nightgate/skills/nature_ii_16x32_7b3da25c.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000093",
+      "ext": ".png",
+      "hash": "fa9603fd",
+      "size": 489,
+      "fs_path": "image/nightgate/skills/nature_ii_16x32.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000094",
+      "ext": ".png",
+      "hash": "5c9ed3c6",
+      "size": 200,
+      "fs_path": "image/nightgate/skills/nature_trap_a_64x32_9999aa36.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000095",
+      "ext": ".png",
+      "hash": "5c9ed3c6",
+      "size": 200,
+      "fs_path": "image/nightgate/skills/nature_trap_a_64x32.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000096",
+      "ext": ".png",
+      "hash": "15c5b1fd",
+      "size": 152,
+      "fs_path": "image/nightgate/skills/nature_trap_b_48x32_41da85ab.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000097",
+      "ext": ".png",
+      "hash": "15c5b1fd",
+      "size": 152,
+      "fs_path": "image/nightgate/skills/nature_trap_b_48x32.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000098",
+      "ext": ".png",
+      "hash": "4407da7d",
+      "size": 202,
+      "fs_path": "image/nightgate/skills/prite-0001_ab61ba29.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000099",
+      "ext": ".png",
+      "hash": "4407da7d",
+      "size": 202,
+      "fs_path": "image/nightgate/skills/prite-0001.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000100",
+      "ext": ".png",
+      "hash": "286cbb0c",
+      "size": 278,
+      "fs_path": "image/nightgate/skills/prite-0002_9f701a29.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000101",
+      "ext": ".png",
+      "hash": "286cbb0c",
+      "size": 278,
+      "fs_path": "image/nightgate/skills/prite-0002.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000102",
+      "ext": ".png",
+      "hash": "1cf86228",
+      "size": 326,
+      "fs_path": "image/nightgate/skills/prite-0003_aa566311.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000103",
+      "ext": ".png",
+      "hash": "1cf86228",
+      "size": 326,
+      "fs_path": "image/nightgate/skills/prite-0003.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000104",
+      "ext": ".png",
+      "hash": "9efffd87",
+      "size": 190,
+      "fs_path": "image/nightgate/skills/prite-0004_bb42544b.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000105",
+      "ext": ".png",
+      "hash": "9efffd87",
+      "size": 190,
+      "fs_path": "image/nightgate/skills/prite-0004.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000106",
+      "ext": ".png",
+      "hash": "7fb13483",
+      "size": 534,
+      "fs_path": "image/nightgate/skills/prite-0005_11890f99.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000107",
+      "ext": ".png",
+      "hash": "7fb13483",
+      "size": 534,
+      "fs_path": "image/nightgate/skills/prite-0005.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000108",
+      "ext": ".png",
+      "hash": "26a1826a",
+      "size": 1082,
+      "fs_path": "image/nightgate/skills/prite-0006_057e9652.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000109",
+      "ext": ".png",
+      "hash": "26a1826a",
+      "size": 1082,
+      "fs_path": "image/nightgate/skills/prite-0006.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000110",
+      "ext": ".png",
+      "hash": "809aa851",
+      "size": 764,
+      "fs_path": "image/nightgate/skills/prite-0007_586872fa.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000111",
+      "ext": ".png",
+      "hash": "809aa851",
+      "size": 764,
+      "fs_path": "image/nightgate/skills/prite-0007.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000112",
+      "ext": ".png",
+      "hash": "d66b0395",
+      "size": 475,
+      "fs_path": "image/nightgate/skills/prite-0008_9bc33152.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000113",
+      "ext": ".png",
+      "hash": "d66b0395",
+      "size": 475,
+      "fs_path": "image/nightgate/skills/prite-0008.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000114",
+      "ext": ".png",
+      "hash": "afba782f",
+      "size": 440,
+      "fs_path": "image/nightgate/skills/prite-0009_61d5e5ff.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000115",
+      "ext": ".png",
+      "hash": "afba782f",
+      "size": 440,
+      "fs_path": "image/nightgate/skills/prite-0009.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000116",
+      "ext": ".png",
+      "hash": "6facb4dc",
+      "size": 320,
+      "fs_path": "image/nightgate/skills/res_48_75acc93e.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000117",
+      "ext": ".png",
+      "hash": "6facb4dc",
+      "size": 320,
+      "fs_path": "image/nightgate/skills/res_48.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000118",
+      "ext": ".png",
+      "hash": "e4e52948",
+      "size": 1083,
+      "fs_path": "image/nightgate/skills/spell_11-sheet_6c2dd9c2.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000119",
+      "ext": ".png",
+      "hash": "e4e52948",
+      "size": 1083,
+      "fs_path": "image/nightgate/skills/spell_11-sheet.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000120",
+      "ext": ".png",
+      "hash": "9101434f",
+      "size": 208,
+      "fs_path": "image/nightgate/skills/spell_2_blue-sheet_c5cd7b6f.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000121",
+      "ext": ".png",
+      "hash": "9101434f",
+      "size": 208,
+      "fs_path": "image/nightgate/skills/spell_2_blue-sheet.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000122",
+      "ext": ".png",
+      "hash": "7872e001",
+      "size": 18383,
+      "fs_path": "image/nightgate/skills/spell_5-sheet_red_b5a1a679.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000123",
+      "ext": ".png",
+      "hash": "7872e001",
+      "size": 18383,
+      "fs_path": "image/nightgate/skills/spell_5-sheet_red.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000124",
+      "ext": ".png",
+      "hash": "17a2e38e",
+      "size": 2091,
+      "fs_path": "image/nightgate/skills/spell_6.3-sheet_994d034a.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000125",
+      "ext": ".png",
+      "hash": "17a2e38e",
+      "size": 2091,
+      "fs_path": "image/nightgate/skills/spell_6.3-sheet.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000126",
+      "ext": ".png",
+      "hash": "6f1c0cb8",
+      "size": 298,
+      "fs_path": "image/nightgate/skills/spell_7_red-sheet_773253b9.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000127",
+      "ext": ".png",
+      "hash": "6f1c0cb8",
+      "size": 298,
+      "fs_path": "image/nightgate/skills/spell_7_red-sheet.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000128",
+      "ext": ".png",
+      "hash": "7e7d7c89",
+      "size": 270,
+      "fs_path": "image/nightgate/skills/spell_projectiles_sprite_sheet_6e536945.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000129",
+      "ext": ".png",
+      "hash": "7e7d7c89",
+      "size": 270,
+      "fs_path": "image/nightgate/skills/spell_projectiles_sprite_sheet.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000130",
+      "ext": ".png",
+      "hash": "cbbf03f1",
+      "size": 151,
+      "fs_path": "image/nightgate/skills/sprite-0002_538b50c5.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000131",
+      "ext": ".png",
+      "hash": "cbbf03f1",
+      "size": 151,
+      "fs_path": "image/nightgate/skills/sprite-0002.png"
+    },
+    {
+      "uuid": "NgAutoMeta20260816000000000132",
+      "ext": ".png",
+      "hash": "97cbe440",
+      "size": 1187900,
+      "fs_path": "image/nightgate/ui/home_reference_1920x1080.png"
+    },
+    {
+      "uuid": "NgBattleEquipmentBox00001",
+      "ext": ".png",
+      "hash": "1816a0db",
+      "size": 1929,
+      "fs_path": "image/nightgate/ui/battle/equip_box.png"
+    },
+    {
+      "uuid": "NgDifficultyNext000000000000001",
+      "ext": ".png",
+      "hash": "aa4bcc80",
+      "size": 826,
+      "fs_path": "image/nightgate/ui/difficulty/next.png"
+    },
+    {
+      "uuid": "NgDifficultyPrevious0000000001",
+      "ext": ".png",
+      "hash": "173894b1",
+      "size": 808,
+      "fs_path": "image/nightgate/ui/difficulty/previous.png"
+    },
+    {
+      "uuid": "NgEqUiCharacterChange001",
+      "ext": ".png",
+      "hash": "88f8016c",
+      "size": 1155,
+      "fs_path": "image/nightgate/ui/equipment/character_change.png"
+    },
+    {
+      "uuid": "NgEqUiCharacterRowBg0001",
+      "ext": ".png",
+      "hash": "aaa4a0ed",
+      "size": 230,
+      "fs_path": "image/nightgate/ui/equipment/character_row_bg.png"
+    },
+    {
+      "uuid": "NgEqUiCharacterTip000001",
+      "ext": ".png",
+      "hash": "87e233a5",
+      "size": 833,
+      "fs_path": "image/nightgate/ui/equipment/character_tip.png"
+    },
+    {
+      "uuid": "NgEqUiDetailActionButton00001",
+      "ext": ".png",
+      "hash": "d7928d05",
+      "size": 1104,
+      "fs_path": "image/nightgate/ui/equipment/detail_action_button.png"
+    },
+    {
+      "uuid": "NgEqUiDetailButton00000000001",
+      "ext": ".png",
+      "hash": "3089c5e8",
+      "size": 1126,
+      "fs_path": "image/nightgate/ui/equipment/detail_button.png"
+    },
+    {
+      "uuid": "NgEqUiDetailClose000000000001",
+      "ext": ".png",
+      "hash": "2097af62",
+      "size": 859,
+      "fs_path": "image/nightgate/ui/equipment/detail_close.png"
+    },
+    {
+      "uuid": "NgEqUiDetailLockButton0000001",
+      "ext": ".png",
+      "hash": "0be778a7",
+      "size": 1103,
+      "fs_path": "image/nightgate/ui/equipment/detail_lock_button.png"
+    },
+    {
+      "uuid": "NgEqUiDetailWindow00000000001",
+      "ext": ".png",
+      "hash": "d461c3de",
+      "size": 9793,
+      "fs_path": "image/nightgate/ui/equipment/detail_window.png"
+    },
+    {
+      "uuid": "NgEqUiDirectionArrow0001",
+      "ext": ".png",
+      "hash": "d4f77e81",
+      "size": 4139,
+      "fs_path": "image/nightgate/ui/equipment/direction_arrow.png"
+    },
+    {
+      "uuid": "NgEqUiDirectionDown00001",
+      "ext": ".png",
+      "hash": "eecc294f",
+      "size": 4041,
+      "fs_path": "image/nightgate/ui/equipment/direction_down.png"
+    },
+    {
+      "uuid": "NgEqUiDirectionLeft00001",
+      "ext": ".png",
+      "hash": "d57be71a",
+      "size": 4196,
+      "fs_path": "image/nightgate/ui/equipment/direction_left.png"
+    },
+    {
+      "uuid": "NgEqUiDirectionRight0001",
+      "ext": ".png",
+      "hash": "d4f77e81",
+      "size": 4139,
+      "fs_path": "image/nightgate/ui/equipment/direction_right.png"
+    },
+    {
+      "uuid": "NgEqUiDirectionUp0000001",
+      "ext": ".png",
+      "hash": "ce962a0e",
+      "size": 3997,
+      "fs_path": "image/nightgate/ui/equipment/direction_up.png"
+    },
+    {
+      "uuid": "NgEqUiEquipmentAddBg001",
+      "ext": ".png",
+      "hash": "02ae7f45",
+      "size": 231,
+      "fs_path": "image/nightgate/ui/equipment/equipment_add_bg.png"
+    },
+    {
+      "uuid": "NgEqUiEquipmentAddIcon1",
+      "ext": ".png",
+      "hash": "a0d46035",
+      "size": 493,
+      "fs_path": "image/nightgate/ui/equipment/equipment_add_icon.png"
+    },
+    {
+      "uuid": "NgEqUiEquipmentBorder01",
+      "ext": ".png",
+      "hash": "54d1e098",
+      "size": 332,
+      "fs_path": "image/nightgate/ui/equipment/equipment_cell_border.png"
+    },
+    {
+      "uuid": "NgEqUiEquipmentCellBg001",
+      "ext": ".png",
+      "hash": "bba08994",
+      "size": 5015,
+      "fs_path": "image/nightgate/ui/equipment/equipment_cell_bg.png"
+    },
+    {
+      "uuid": "NgEqUiEquipmentEquipped1",
+      "ext": ".png",
+      "hash": "d7b98bc8",
+      "size": 160,
+      "fs_path": "image/nightgate/ui/equipment/equipment_equipped.png"
+    },
+    {
+      "uuid": "NgEqUiEquipmentLock0001",
+      "ext": ".png",
+      "hash": "17057927",
+      "size": 150,
+      "fs_path": "image/nightgate/ui/equipment/equipment_lock.png"
+    },
+    {
+      "uuid": "NgFinishButton0000000000000001",
+      "ext": ".png",
+      "hash": "024be1ed",
+      "size": 1139,
+      "fs_path": "image/nightgate/ui/finish/button.png"
+    },
+    {
+      "uuid": "NgFinishTableBg00000000000001",
+      "ext": ".png",
+      "hash": "c23f0631",
+      "size": 668,
+      "fs_path": "image/nightgate/ui/finish/table_bg.png"
+    },
+    {
+      "uuid": "NgFinishTitle00000000000000001",
+      "ext": ".png",
+      "hash": "9fab1b34",
+      "size": 763,
+      "fs_path": "image/nightgate/ui/finish/title.png"
+    },
+    {
+      "uuid": "NgFinishWindow0000000000000001",
+      "ext": ".png",
+      "hash": "6a0e0a05",
+      "size": 8616,
+      "fs_path": "image/nightgate/ui/finish/window.png"
+    },
+    {
+      "uuid": "NgHomeCnClean202608160000000001",
+      "ext": ".png",
+      "hash": "9ed9c118",
+      "size": 2410758,
+      "fs_path": "image/nightgate/ui/home_cn_clean.png"
+    },
+    {
+      "uuid": "NgOriginalWallLayer000001",
+      "ext": ".png",
+      "hash": "f986012d",
+      "size": 58951,
+      "fs_path": "image/nightgate/environment/wall_layer_1920x1080.png"
+    },
+    {
+      "uuid": "NgQuickPanelCellBg00000000001",
+      "ext": ".png",
+      "hash": "5322300f",
+      "size": 941,
+      "fs_path": "image/nightgate/ui/quickpanel/cell_bg.png"
+    },
+    {
+      "uuid": "NgTopbarAchievement000000001",
+      "ext": ".png",
+      "hash": "e9877633",
+      "size": 579,
+      "fs_path": "image/nightgate/ui/topbar/achievement.png"
+    },
+    {
+      "uuid": "NgTopbarLock0000000000000001",
+      "ext": ".png",
+      "hash": "e693b5d0",
+      "size": 152,
+      "fs_path": "image/nightgate/ui/topbar/lock.png"
+    },
+    {
+      "uuid": "NgTopbarOptions0000000000001",
+      "ext": ".png",
+      "hash": "ce43dd3f",
+      "size": 700,
+      "fs_path": "image/nightgate/ui/topbar/options.png"
+    },
+    {
+      "uuid": "NgTopbarQuest000000000000001",
+      "ext": ".png",
+      "hash": "203a8c7d",
+      "size": 634,
+      "fs_path": "image/nightgate/ui/topbar/quest.png"
+    },
+    {
+      "uuid": "NgTopbarSeparator000000000001",
+      "ext": ".png",
+      "hash": "f8b190fb",
+      "size": 131,
+      "fs_path": "image/nightgate/ui/topbar/separator.png"
+    },
+    {
+      "uuid": "NgTopbarSkillTip000000000001",
+      "ext": ".png",
+      "hash": "beabe066",
+      "size": 824,
+      "fs_path": "image/nightgate/ui/topbar/skill_tip.png"
+    },
+    {
+      "uuid": "NgtSkillPage20260819Q7Zx",
+      "ext": ".lua",
+      "hash": "0c7150ae",
+      "size": 14212,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/SkillPage.lua"
+    },
+    {
+      "uuid": "NgtTutorial20260819K4vR2",
+      "ext": ".lua",
+      "hash": "a430392b",
+      "size": 7968,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "nightgate/Tutorial.lua"
+    },
+    {
+      "uuid": "XyltWUaGQ02GPquNIAl63Q",
+      "ext": ".json",
+      "hash": "e57ec9e6",
+      "size": 300,
+      "groups": [
+        "#config",
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "BgCviebFkuFhKjMsq6Cjz4K1"
+      ],
+      "fs_path": "settings.json"
+    },
+    {
+      "uuid": "__gaBxKIGiwRZXGUeh71kw",
+      "ext": ".png",
+      "hash": "8e07d46f",
+      "size": 384,
+      "fs_path": "image/nightgate/heroes/hero_10002.png"
+    },
+    {
+      "uuid": "bFDIO7i8_9bKpX17pK8oWA",
+      "ext": ".png",
+      "hash": "2a2f2723",
+      "size": 448,
+      "fs_path": "image/nightgate/heroes/hero_10003.png"
+    },
+    {
+      "uuid": "bOvZNevxn2vy2mAJxljeZw",
+      "ext": ".png",
+      "hash": "a363d59d",
+      "size": 380,
+      "fs_path": "image/nightgate/heroes/hero_10008.png"
+    },
+    {
+      "uuid": "ioQWvwsXasogu2vBdlKBqw",
+      "ext": ".png",
+      "hash": "53930f2d",
+      "size": 419,
+      "fs_path": "image/nightgate/heroes/hero_10004.png"
+    },
+    {
+      "uuid": "s73evCR2h7jzKns87W4NOg",
+      "ext": ".png",
+      "hash": "ad44e0e6",
+      "size": 406,
+      "fs_path": "image/nightgate/heroes/hero_10009.png"
+    },
+    {
+      "uuid": "uX2p6PZcraLI4_E2sQb6sQ",
+      "ext": ".png",
+      "hash": "b8507934",
+      "size": 499,
+      "fs_path": "image/nightgate/heroes/hero_10007.png"
+    }
+  ],
+  "metadata": {
+    "total_files": 663,
+    "local_files": 662,
+    "remote_files": 1,
+    "total_size": 84443017,
+    "preload_files": 1,
+    "preload_size": 300,
+    "groups": {
+      "#blocking": {
+        "files": 58,
+        "size": 997803
+      },
+      "default": {
+        "files": 663,
+        "size": 84443736
+      },
+      "#config": {
+        "files": 1,
+        "size": 300
+      }
+    }
+  }
+}

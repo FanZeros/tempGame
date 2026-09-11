@@ -1,0 +1,7 @@
+<!--
+	Global default font fallback configuration
+	This file is loaded when a font has no specific .xml config Used primarily for emoji support via Twemoji
+-->
+<font>
+	<fallback name="Fonts/Twemoji.Mozilla.ttf" />
+</font>

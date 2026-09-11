@@ -1,0 +1,13 @@
+//#define M_PI 3.14159265358979323846 defined by bgfx already
+#define M_INV_PI 0.31830988618
+#define M_EPSILON 0.0001
+
+#ifdef PBR
+#define ROUGHNESS_FLOOR 0.004
+#define METALNESS_FLOOR 0.03
+#endif
+
+#define RENDER_QUALITY_LOW 0
+#define RENDER_QUALITY_MEDIUM 1
+#define RENDER_QUALITY_HIGH 2
+#define RENDER_QUALITY_FULL 3

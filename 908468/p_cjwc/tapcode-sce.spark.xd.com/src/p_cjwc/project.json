@@ -1,0 +1,41 @@
+{
+  "project_id": "p_cjwc",
+  "version": "1.0.12",
+  "author": {
+    "id": "160100802"
+  },
+  "taptap_publish": {
+    "title": "夜门防线",
+    "description": "《夜门防线》是一款像素风四面塔防游戏。怪物会从地图中央出现，并向四面城墙发起进攻。玩家需要解锁弓箭手、秘法师、德鲁伊等英雄，搭配技能树和装备，守住城墙并熬过一夜又一夜。每次挑战都能积累资源、强化能力，并通过转生开启更深入的成长路线。",
+    "category": "strategy",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "这是我独立制作的一款塔防游戏。我希望保留简单直接的防守乐趣，同时让英雄解锁、技能树、装备和转生系统拥有足够的成长空间。目前游戏仍在持续完善，后续会增加第10夜之后的关卡、技能树分支、更多英雄、装备和怪物，也会继续优化操作手感与战斗特效。感谢大家试玩，希望听到你们最真实的感受。",
+    "app_platforms": "1,2",
+    "developer_id": 430147,
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/p_cjwc/1786958019793-rec_e1088ca9-a97a-4ad3-aafa-921aee695ce3.mp4",
+    "app_id": 908468,
+    "miniapp_id": "tapmctcbczvmjfrmou",
+    "icon": "https://package-pd.tapsce.cn/minigame/d1eb9318b5c0e1963cc4a70a28de95eba395e9ac.png"
+  },
+  "assets": {
+    "icon": "./game_material/ICON_2026-08-16T13-31-33_01.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-08-16T13-31-33_01.png",
+      "./game_material/SCREENSHOT_2026-08-16T13-31-33_02.png",
+      "./game_material/SCREENSHOT_2026-08-16T13-31-33_03.png"
+    ],
+    "promotional_image": "./game_material/PROMO_2026-08-16T13-31-33_01.jpg",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/夜门防线/ICON_2026-08-16T13-31-33_01.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/夜门防线/SCREENSHOT_2026-08-16T13-31-33_01.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/夜门防线/SCREENSHOT_2026-08-16T13-31-33_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/夜门防线/SCREENSHOT_2026-08-16T13-31-33_03.png"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/夜门防线/PROMO_2026-08-16T13-31-33_01.jpg",
+    "cover_horizontal": "./game_material/COVER_HORIZONTAL_2026-08-16T13-32-50_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/夜门防线/COVER_HORIZONTAL_2026-08-16T13-32-50_01.png",
+    "cover_vertical": "./game_material/cover_vertical.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_cjwc/cover_vertical.png"
+  }
+}

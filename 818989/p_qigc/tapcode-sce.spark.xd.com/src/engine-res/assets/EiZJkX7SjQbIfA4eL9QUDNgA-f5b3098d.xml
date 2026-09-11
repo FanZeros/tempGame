@@ -1,0 +1,3 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/GrassPS" vsdefines="SPEED_GRASS" psdefines="SPEED_GRASS ALPHAMASK" shaderlab="Model/Grass.shader" shadingmodel="pbs">
+  <pass name="litalpha" psdefines="SPECMAP AMBIENT" depthtest="true" depthwrite="true" blend="alpha" alphatest="true" />
+</technique>

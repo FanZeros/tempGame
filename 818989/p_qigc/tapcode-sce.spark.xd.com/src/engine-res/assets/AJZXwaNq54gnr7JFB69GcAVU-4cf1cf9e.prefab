@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<node>
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="DefaultMale" />
+	<attribute name="Tags" />
+	<attribute name="Position" value="0.00 0.00 0.00" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="1.00 1.00 1.00" />
+	<attribute name="Variables" />
+	<component type="AnimatedModel">
+		<attribute name="Model" value="Model;DefaultMale/Meshes/DefaultMale_Skin.mdl" />
+		<attribute name="Material" value="Material;DefaultMale/Materials/DefaultMale_Bottom.xml;DefaultMale/Materials/DefaultMale_Face.xml;DefaultMale/Materials/DefaultMale_Hair.xml;DefaultMale/Materials/DefaultMale_Body.xml;DefaultMale/Materials/DefaultMale_Top.xml;DefaultMale/Materials/DefaultMale_Shoes.xml;" />
+		<attribute name="Cast Shadows" value="true" />
+	</component>
+</node>

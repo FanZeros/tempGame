@@ -1,0 +1,193 @@
+{
+    "name": "DefaultMaleCharacterFSM",
+    "defaultBlendTime": 0.2,
+
+    "boneMasks": {
+        "UpperBody": { "startBone": "Bip001 Spine" }
+    },
+
+    "parameters": {
+        "moveSpeed": {
+            "type": "float",
+            "default": 0.0,
+            "min": 0.0,
+            "max": 10.0
+        },
+        "isGrounded": {
+            "type": "bool",
+            "default": true
+        },
+        "isJumping": {
+            "type": "bool",
+            "default": false
+        },
+        "isArmed": {
+            "type": "bool",
+            "default": false
+        },
+        "jump": {
+            "type": "trigger"
+        },
+        "shoot": {
+            "type": "trigger"
+        },
+        "reload": {
+            "type": "trigger"
+        }
+    },
+
+    "layers": [
+        {
+            "name": "Base",
+            "defaultState": "Locomotion",
+            "states": {
+                "Locomotion": {
+                    "blendSpace": "urhox-libs/Animation/FSM/DefaultMaleMovementBlendSpace.blendspace",
+                    "loop": true
+                },
+                "JumpStart": {
+                    "animation": "DefaultMale/Animations/DefaultMale_JumpStart.ani",
+                    "loop": false,
+                    "speed": 1.0,
+                    "blendTime": 0.1
+                },
+                "JumpAir": {
+                    "animation": "DefaultMale/Animations/DefaultMale_JumpAir.ani",
+                    "loop": true,
+                    "speed": 1.0
+                },
+                "JumpLanding": {
+                    "animation": "DefaultMale/Animations/DefaultMale_JumpLanding.ani",
+                    "loop": false,
+                    "speed": 1.0
+                }
+            },
+            "transitions": [
+                {
+                    "from": "*",
+                    "to": "JumpStart",
+                    "condition": "jump",
+                    "priority": 10,
+                    "blendTime": 0.1
+                },
+                {
+                    "from": "JumpStart",
+                    "to": "JumpAir",
+                    "condition": "animationFinished and not isGrounded",
+                    "blendTime": 0.15
+                },
+                {
+                    "from": "JumpStart",
+                    "to": "Locomotion",
+                    "condition": "isGrounded",
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "Locomotion",
+                    "to": "JumpAir",
+                    "condition": "not isGrounded",
+                    "priority": 5,
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "JumpAir",
+                    "to": "JumpLanding",
+                    "condition": "isGrounded and stateTime > 0.5",
+                    "priority": 2,
+                    "blendTime": 0.1
+                },
+                {
+                    "from": "JumpAir",
+                    "to": "Locomotion",
+                    "condition": "isGrounded",
+                    "priority": 1,
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "JumpLanding",
+                    "to": "Locomotion",
+                    "condition": "animationFinished or moveSpeed > 0.5",
+                    "blendTime": 0.2
+                }
+            ]
+        },
+        {
+            "name": "UpperBody",
+            "boneMask": "UpperBody",
+            "defaultState": "Empty",
+            "states": {
+                "Empty": {
+                    "empty": true
+                },
+                "RifleIdle": {
+                    "animation": "DefaultMale/Animations/DefaultMale_RifleIdle.ani",
+                    "loop": true,
+                    "speed": 1.0
+                },
+                "RifleShoot": {
+                    "animation": "DefaultMale/Animations/DefaultMale_RifleShoot.ani",
+                    "loop": false,
+                    "speed": 1.0,
+                    "blendTime": 0.1
+                },
+                "RifleReload": {
+                    "animation": "DefaultMale/Animations/DefaultMale_RifleReload.ani",
+                    "loop": false,
+                    "speed": 1.0
+                }
+            },
+            "transitions": [
+                {
+                    "from": "Empty",
+                    "to": "RifleIdle",
+                    "condition": "isArmed",
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "RifleIdle",
+                    "to": "Empty",
+                    "condition": "not isArmed",
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "RifleIdle",
+                    "to": "RifleShoot",
+                    "condition": "shoot",
+                    "priority": 10,
+                    "blendTime": 0.05
+                },
+                {
+                    "from": "RifleShoot",
+                    "to": "RifleIdle",
+                    "condition": "animationFinished and isArmed",
+                    "blendTime": 0.15
+                },
+                {
+                    "from": "RifleShoot",
+                    "to": "Empty",
+                    "condition": "animationFinished and not isArmed",
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "RifleIdle",
+                    "to": "RifleReload",
+                    "condition": "reload",
+                    "priority": 5,
+                    "blendTime": 0.15
+                },
+                {
+                    "from": "RifleReload",
+                    "to": "RifleIdle",
+                    "condition": "animationFinished and isArmed",
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "RifleReload",
+                    "to": "Empty",
+                    "condition": "animationFinished and not isArmed",
+                    "blendTime": 0.2
+                }
+            ]
+        }
+    ]
+}

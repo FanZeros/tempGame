@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "幽灵",
+    "max_hp": 8,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 0,
+      "Param": []
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/幽灵.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "牛头人",
+    "max_hp": 16,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 0,
+      "Param": []
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 4,
+    "wall_attack_interval_sec": 2,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 2,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/牛头人.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "石头人",
+    "max_hp": 25,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 0,
+      "Param": []
+    },
+    "march_speed": 0.5,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 2,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 3,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/石头人.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "小骷髅",
+    "max_hp": 6,
+    "monster_type": 0,
+    "radius": 0.35,
+    "behavior": {
+      "MoveType": 0,
+      "Param": []
+    },
+    "march_speed": 1.2,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/DecrepitBones.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "双头骷髅",
+    "max_hp": 15,
+    "monster_type": 1,
+    "radius": 0.7,
+    "behavior": {
+      "MoveType": 4,
+      "Param": [
+        [
+          1,
+          "2"
+        ],
+        [
+          2,
+          "小骷髅"
+        ]
+      ]
+    },
+    "march_speed": 0.7,
+    "wall_hit_per_tick": 3,
+    "wall_attack_interval_sec": 1,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 4,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/双头骷髅.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "冲锋大牛",
+    "max_hp": 35,
+    "monster_type": 1,
+    "radius": 0.8,
+    "behavior": {
+      "MoveType": 1,
+      "Param": []
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 5,
+    "wall_attack_interval_sec": 2,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/PowerfulYak.prefab",
+    "rigid_inv_mass": 0.6,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "骑狼哥布林",
+    "max_hp": 15,
+    "monster_type": 1,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 1,
+      "Param": []
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/骑狼哥布林.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "巨斧哥布林",
+    "max_hp": 19,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 9,
+      "Param": []
+    },
+    "march_speed": 0.7,
+    "wall_hit_per_tick": 10,
+    "wall_attack_interval_sec": 4,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 2,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/OrcReaver.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "炸弹人",
+    "max_hp": 25,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 2,
+      "Param": []
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 15,
+    "wall_attack_interval_sec": 1,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 3,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/GnollWarlord.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "死灵-小骷髅",
+    "max_hp": 50,
+    "monster_type": 3,
+    "radius": 0.7,
+    "behavior": {
+      "MoveType": 7,
+      "Param": [
+        [
+          7,
+          "4"
+        ],
+        [
+          8,
+          "8"
+        ],
+        [
+          9,
+          "6"
+        ],
+        [
+          10,
+          "小骷髅"
+        ],
+        [
+          11,
+          "1"
+        ],
+        [
+          14,
+          "50"
+        ]
+      ]
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 10,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 2,
+    "death_drop_gold": 10,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/死灵法师.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "死灵-小弓箭",
+    "max_hp": 50,
+    "monster_type": 3,
+    "radius": 0.7,
+    "behavior": {
+      "MoveType": 7,
+      "Param": [
+        [
+          7,
+          "5"
+        ],
+        [
+          8,
+          "8"
+        ],
+        [
+          9,
+          "8"
+        ],
+        [
+          10,
+          "弓箭小骷髅"
+        ],
+        [
+          11,
+          "1"
+        ],
+        [
+          14,
+          "50"
+        ]
+      ]
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 10,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 2,
+    "death_drop_gold": 10,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/死灵法师.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "弓箭骷髅",
+    "max_hp": 10,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 8,
+      "Param": [
+        [
+          7,
+          "4"
+        ],
+        [
+          12,
+          "Assets/GameRes/entity/skill/A怪物投射1.prefab"
+        ],
+        [
+          13,
+          "1"
+        ]
+      ]
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 5,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 2,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/弓箭骷髅.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "弓箭小骷髅",
+    "max_hp": 8,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 8,
+      "Param": [
+        [
+          7,
+          "4"
+        ],
+        [
+          12,
+          "Assets/GameRes/entity/skill/A怪物投射1.prefab"
+        ],
+        [
+          13,
+          "0.7"
+        ]
+      ]
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 3,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 2,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/弓箭骷髅.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "弓箭鱼人",
+    "max_hp": 15,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 8,
+      "Param": [
+        [
+          7,
+          "5"
+        ],
+        [
+          12,
+          "Assets/GameRes/entity/skill/A怪物投射2.prefab"
+        ],
+        [
+          13,
+          "1"
+        ]
+      ]
+    },
+    "march_speed": 0.6,
+    "wall_hit_per_tick": 8,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 3,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/弓箭骷髅.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "蛞蝓",
+    "max_hp": 15,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 4,
+      "Param": [
+        [
+          1,
+          "2"
+        ],
+        [
+          2,
+          "分裂蛞蝓"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0.5,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/蛞蝓.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "分裂蛞蝓",
+    "max_hp": 15,
+    "monster_type": 1,
+    "radius": 0.3,
+    "behavior": {
+      "MoveType": 0,
+      "Param": []
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0.5,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/蛞蝓.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "boss石头人",
+    "max_hp": 180,
+    "monster_type": 4,
+    "radius": 1.4,
+    "behavior": {
+      "MoveType": 6,
+      "Param": [
+        [
+          5,
+          "4"
+        ],
+        [
+          6,
+          "4"
+        ]
+      ]
+    },
+    "march_speed": 0.5,
+    "wall_hit_per_tick": 50,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 30,
+    "death_drop_crystal": 5,
+    "prefab_path": "Assets/GameRes/entity/character/monster/石头人.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 3
+  },
+  {
+    "id": "boss哥布林王",
+    "max_hp": 300,
+    "monster_type": 4,
+    "radius": 1.5,
+    "behavior": {
+      "MoveType": 6,
+      "Param": [
+        [
+          5,
+          "4"
+        ],
+        [
+          6,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.5,
+    "wall_hit_per_tick": 80,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 40,
+    "death_drop_crystal": 10,
+    "prefab_path": "Assets/GameRes/entity/character/monster/哥布林王.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 5
+  },
+  {
+    "id": "boss死灵",
+    "max_hp": 200,
+    "monster_type": 4,
+    "radius": 1.3,
+    "behavior": {
+      "MoveType": 7,
+      "Param": [
+        [
+          7,
+          "5"
+        ],
+        [
+          8,
+          "10"
+        ],
+        [
+          9,
+          "7"
+        ],
+        [
+          10,
+          "炸弹人"
+        ]
+      ]
+    },
+    "march_speed": 0.5,
+    "wall_hit_per_tick": 80,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 40,
+    "death_drop_crystal": 10,
+    "prefab_path": "Assets/GameRes/entity/character/monster/死灵法师.prefab",
+    "rigid_inv_mass": 0,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 5
+  },
+  {
+    "id": "宝箱怪",
+    "max_hp": 20,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 3,
+      "Param": []
+    },
+    "march_speed": 0,
+    "wall_hit_per_tick": 0,
+    "wall_attack_interval_sec": 999,
+    "wait_sec": 999,
+    "defense": 0,
+    "death_drop_gold": 6,
+    "death_drop_crystal": 3,
+    "prefab_path": "Assets/GameRes/entity/character/monster/宝箱怪.prefab",
+    "rigid_inv_mass": 0,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0,
+    "SpecType": 1,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "大宝箱怪",
+    "max_hp": 50,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 3,
+      "Param": []
+    },
+    "march_speed": 0,
+    "wall_hit_per_tick": 0,
+    "wall_attack_interval_sec": 999,
+    "wait_sec": 999,
+    "defense": 0,
+    "death_drop_gold": 15,
+    "death_drop_crystal": 5,
+    "prefab_path": "Assets/GameRes/entity/character/monster/宝箱怪.prefab",
+    "rigid_inv_mass": 0,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0,
+    "SpecType": 1,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "低品质晶石1",
+    "max_hp": 6,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 5,
+      "Param": [
+        [
+          3,
+          "6"
+        ],
+        [
+          4,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 0,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/晶石怪/Rind.prefab",
+    "rigid_inv_mass": 0.5,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 2,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "低品质晶石2",
+    "max_hp": 6,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 5,
+      "Param": [
+        [
+          3,
+          "6"
+        ],
+        [
+          4,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 0,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/晶石怪/GlowingWisp.prefab",
+    "rigid_inv_mass": 0.5,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 2,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "低品质晶石3",
+    "max_hp": 6,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 5,
+      "Param": [
+        [
+          3,
+          "6"
+        ],
+        [
+          4,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 0,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/晶石怪/GhastlyEye.prefab",
+    "rigid_inv_mass": 0.5,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 2,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "高品质晶石1",
+    "max_hp": 18,
+    "monster_type": 1,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 5,
+      "Param": [
+        [
+          3,
+          "5"
+        ],
+        [
+          4,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 0,
+    "death_drop_crystal": 5,
+    "prefab_path": "Assets/GameRes/entity/character/monster/晶石怪/BerylDoppleganger.prefab",
+    "rigid_inv_mass": 0.5,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 2,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "高品质晶石2",
+    "max_hp": 18,
+    "monster_type": 2,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 5,
+      "Param": [
+        [
+          3,
+          "7"
+        ],
+        [
+          4,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 0,
+    "death_drop_crystal": 5,
+    "prefab_path": "Assets/GameRes/entity/character/monster/晶石怪/Seaspray.prefab",
+    "rigid_inv_mass": 0.5,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 2,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "高品质晶石3",
+    "max_hp": 18,
+    "monster_type": 2,
+    "radius": 0.6,
+    "behavior": {
+      "MoveType": 5,
+      "Param": [
+        [
+          3,
+          "7"
+        ],
+        [
+          4,
+          "3"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 0,
+    "death_drop_gold": 0,
+    "death_drop_crystal": 5,
+    "prefab_path": "Assets/GameRes/entity/character/monster/晶石怪/IceGolem.prefab",
+    "rigid_inv_mass": 0.5,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 2,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "1003测试",
+    "max_hp": 6,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 1,
+      "Param": []
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1,
+    "wait_sec": 0.5,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/可爱小老鼠.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "1004测试",
+    "max_hp": 6,
+    "monster_type": 0,
+    "radius": 0.4,
+    "behavior": {
+      "MoveType": 2,
+      "Param": []
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 2,
+    "wall_attack_interval_sec": 1,
+    "wait_sec": 0.5,
+    "defense": 0,
+    "death_drop_gold": 1,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/可爱小老鼠.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "攻城巨兽测试",
+    "max_hp": 120,
+    "monster_type": 4,
+    "radius": 1.2,
+    "behavior": {
+      "MoveType": 6,
+      "Param": [
+        [
+          5,
+          "4"
+        ],
+        [
+          6,
+          "2"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 40,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 5,
+    "death_drop_gold": 20,
+    "death_drop_crystal": 5,
+    "prefab_path": "Assets/GameRes/entity/character/monster/ArmoredGoliath.prefab",
+    "rigid_inv_mass": 0.15,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "召怪测试",
+    "max_hp": 80,
+    "monster_type": 4,
+    "radius": 1,
+    "behavior": {
+      "MoveType": 7,
+      "Param": [
+        [
+          7,
+          "4"
+        ],
+        [
+          8,
+          "2"
+        ],
+        [
+          9,
+          "3"
+        ],
+        [
+          10,
+          "小骷髅"
+        ],
+        [
+          11,
+          "2.5"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 10,
+    "wall_attack_interval_sec": 3,
+    "wait_sec": 0,
+    "defense": 2,
+    "death_drop_gold": 10,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/ArmoredGoliath.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "投射物测试",
+    "max_hp": 80,
+    "monster_type": 4,
+    "radius": 1,
+    "behavior": {
+      "MoveType": 8,
+      "Param": [
+        [
+          7,
+          "4"
+        ],
+        [
+          12,
+          "Assets/GameRes/entity/skill/A怪物投射1.prefab"
+        ],
+        [
+          13,
+          "0.5"
+        ]
+      ]
+    },
+    "march_speed": 0.8,
+    "wall_hit_per_tick": 10,
+    "wall_attack_interval_sec": 1.5,
+    "wait_sec": 0,
+    "defense": 2,
+    "death_drop_gold": 10,
+    "death_drop_crystal": 2,
+    "prefab_path": "Assets/GameRes/entity/character/monster/弓箭骷髅.prefab",
+    "rigid_inv_mass": 0.2,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  },
+  {
+    "id": "蓄力攻击测试",
+    "max_hp": 30,
+    "monster_type": 0,
+    "radius": 0.5,
+    "behavior": {
+      "MoveType": 9,
+      "Param": []
+    },
+    "march_speed": 0.7,
+    "wall_hit_per_tick": 4,
+    "wall_attack_interval_sec": 2,
+    "wait_sec": 0.2,
+    "defense": 0,
+    "death_drop_gold": 2,
+    "death_drop_crystal": 0,
+    "prefab_path": "Assets/GameRes/entity/character/monster/巨斧哥布林.prefab",
+    "rigid_inv_mass": 1,
+    "march_center_deadzone": 0.12,
+    "march_origin_orbit_speed": 0.4,
+    "SpecType": 0,
+    "DeadSummonBox": 0
+  }
+]

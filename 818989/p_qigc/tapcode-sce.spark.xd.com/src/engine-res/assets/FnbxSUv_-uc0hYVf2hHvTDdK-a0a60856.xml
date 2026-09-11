@@ -1,0 +1,4 @@
+<technique vs="Unlit" ps="Unlit" vsdefines="NOUV" >
+    <pass name="alpha" depthwrite="false" blend="multiply" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+</technique>

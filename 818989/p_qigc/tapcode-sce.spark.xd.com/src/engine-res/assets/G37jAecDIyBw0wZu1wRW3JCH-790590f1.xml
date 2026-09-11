@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<texture>
+	<mipmap enable="false" />
+	<quality low="0" />
+	<compress format="ASTC4X4" />
+	<srgb enable="false" />
+</texture>
+

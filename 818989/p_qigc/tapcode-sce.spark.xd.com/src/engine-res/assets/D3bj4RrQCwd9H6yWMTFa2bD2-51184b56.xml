@@ -1,0 +1,24 @@
+<material>
+    <technique name="EngineRes/Techniques/CEPBR/PBRMobileDIffNormalAOGlossMetal.xml" />
+	<!--<technique name="EngineRes/Techniques/CEPBR/PBRNoTexture.xml" />-->
+    <texture unit="0" name="Textures/panaromaEnvHDR.dds" />
+    <texture unit="1" name="Textures/panaromaDiffuseHDR.dds" />
+    <texture unit="2" name="Textures/mesh_04 - Default_BaseColor 512.tga" />
+	<texture unit="3" name="Textures/mesh_04 - Default_OcclusionGlossinessMetallic 512.tga" />
+    <texture unit="4" name="Textures/mesh_04 - Default_Normal 512.tga" />
+	<texture unit="5" name="Textures/panaroma512Brdf.dds" />
+	<parameter name="EnvMt0" value="1 0 0 0" />
+    <parameter name="EnvMt1" value="0 1 0 0" />
+    <parameter name="EnvMt2" value="0 0 1 0" />
+    <parameter name="EnvMt3" value="0 0 0 1" />
+    <parameter name="MatDiffColor" value="1.0 1.0 1.0 1.0" />
+    <parameter name="MatSpecColor" value="1.0 1.0 1.0 1.0" />
+    <parameter name="Glossiness" value="0.7" />
+    <parameter name="MetalOrSpec" value="0" />
+    <parameter name="Reflectivity" value="0.85" />
+    <parameter name="Exposure" value="0" />
+    <parameter name="DoDiffuse" value="0" />
+    <parameter name="DoSpecular" value="0" />
+    <parameter name="DoDiffuseIbl" value="1" />
+    <parameter name="DoSpecularIbl" value="1" />
+</material>

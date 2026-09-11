@@ -1,0 +1,28 @@
+{
+	"files": [
+		{
+			"name": "debugviewlightmapdensity",
+			"type": 1,
+			"vs_defines": [
+				""
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS"
+			]
+		},
+		{
+			"name": "debugviewmeshlodlevel",
+			"type": 1,
+			"vs_defines": [
+				""
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS"
+			]
+		}
+	]
+}
+
+

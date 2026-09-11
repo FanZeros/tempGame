@@ -1,0 +1,3 @@
+{
+    "blocking_exts": [".lua", ".json", ".xml", ".material", ".prefab", ".effect", ".fsm", ".blendspace", ".cube", ".mdl", ".skel", ".atlas", ".vox", ".shader"]
+}

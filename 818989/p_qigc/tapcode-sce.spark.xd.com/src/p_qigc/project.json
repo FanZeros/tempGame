@@ -1,0 +1,45 @@
+{
+  "project_id": "p_qigc",
+  "version": "1.0.278",
+  "author": {
+    "id": "1576069892"
+  },
+  "taptap_publish": {
+    "title": "灰界：我重生异世",
+    "description": "欢迎来到灰界旅行，希望你能在这里玩得开心。",
+    "category": "rpg",
+    "screen_orientation": "portrait",
+    "developer_id": 380197,
+    "collection_type": "sce",
+    "trial_note": "大家好，我是觉浅湖工作室，希望大家玩得开心。",
+    "app_platforms": "1,2",
+    "app_id": 818989,
+    "miniapp_id": "tapmcqqqc3rybtuwkj",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/p_qigc/1776359793331-rec_3c16fb22-18f3-4656-a0a5-79210a83b284.mp4",
+    "icon": "https://package-pd.tapsce.cn/minigame/947b42d9797de25e63c5bef11f5c3affd9a0554c.png"
+  },
+  "assets": {
+    "icon": "./game_material/ICON_2026-04-16T17-21-43_01.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-04-16T17-21-43_01.jpg",
+      "./game_material/SCREENSHOT_2026-04-16T17-21-43_02.png",
+      "./game_material/SCREENSHOT_2026-04-16T17-21-43_03.jpg"
+    ],
+    "promotional_image": "./game_material/promotional.png",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/灰界冒险录/ICON_2026-04-16T17-21-43_01.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/灰界冒险录/SCREENSHOT_2026-04-16T17-21-43_01.jpg",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/灰界冒险录/SCREENSHOT_2026-04-16T17-21-43_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/灰界冒险录/SCREENSHOT_2026-04-16T17-21-43_03.jpg"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_qigc/promotional.png",
+    "cover_horizontal": "./game_material/COVER_HORIZONTAL_2026-04-16T17-22-48_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/灰界冒险录/COVER_HORIZONTAL_2026-04-16T17-22-48_01.png",
+    "cover_vertical": "./game_material/cover_vertical.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_qigc/cover_vertical.png"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_qigc_1779546632562.png",
+    "generated_at": "2026-05-23T14:30:32.685Z"
+  }
+}

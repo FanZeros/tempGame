@@ -1,0 +1,80 @@
+[
+  {
+    "id": 80000,
+    "name": "passive_name_1",
+    "icon": "解锁弓箭手-艾琳被动",
+    "Pos": 0,
+    "AttrConfig": [
+      {
+        "type": 68,
+        "value": 2
+      }
+    ],
+    "unlockattr": 69
+  },
+  {
+    "id": 80001,
+    "name": "passive_name_2",
+    "icon": "解锁弓箭手-米娅被动",
+    "Pos": 0,
+    "AttrConfig": [
+      {
+        "type": 67,
+        "value": 1.5
+      }
+    ],
+    "unlockattr": 0
+  },
+  {
+    "id": 90000,
+    "name": "trait_name_1",
+    "icon": "解锁爆炸箭",
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 75,
+        "value": 5
+      }
+    ],
+    "unlockattr": 71
+  },
+  {
+    "id": 90001,
+    "name": "trait_name_2",
+    "icon": "解锁穿透箭",
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 76,
+        "value": 5
+      }
+    ],
+    "unlockattr": 72
+  },
+  {
+    "id": 90002,
+    "name": "trait_name_3",
+    "icon": "解锁火焰箭",
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 77,
+        "value": 5
+      }
+    ],
+    "unlockattr": 73
+  },
+  {
+    "id": 90003,
+    "name": "trait_name_4",
+    "icon": "解锁冰冻箭",
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 78,
+        "value": 5
+      }
+    ],
+    "unlockattr": 74
+  }
+]

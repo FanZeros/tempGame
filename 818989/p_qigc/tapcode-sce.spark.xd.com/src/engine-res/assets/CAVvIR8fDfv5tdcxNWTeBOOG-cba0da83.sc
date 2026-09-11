@@ -1,0 +1,27 @@
+vec4 vTexCoord  : TEXCOORD0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 vTangent   : TANGENT   = vec4(0.0, 0.0, 0.0, 0.0);
+vec3 vNormal    : NORMAL    = vec3(0.0, 0.0, 1.0);
+vec4 vColor     : COLOR0    = vec4(1.0, 1.0, 1.0, 1.0);
+vec4 vOutlineColor : COLOR1 = vec4(1.0, 1.0, 1.0, 1.0);
+hvec4 vWorldPos : TEXCOORD1 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+hvec4 vScreenPos : TEXCOORD2 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+vec2 vOutlineParams : TEXCOORD12 = vec2(0.0, 0.1);
+
+hvec4 a_position  : POSITION;
+hvec3 a_normal    : NORMAL;
+hvec2 a_texcoord0 : TEXCOORD0;
+hvec4 a_color0    : COLOR0;
+hvec4 a_color1    : COLOR1;
+hvec4 a_color2    : COLOR2;
+hvec4 a_color3    : COLOR3;
+hvec2 a_texcoord1 : TEXCOORD1;
+hvec4 a_tangent   : TANGENT;
+hvec4 a_weight    : BLENDWEIGHT;
+hvec4 a_indices   : BLENDINDICES;
+
+hvec4 i_data0     : TEXCOORD3;
+hvec4 i_data1     : TEXCOORD4;
+hvec4 i_data2     : TEXCOORD5;
+hvec4 i_data3     : TEXCOORD6;
+hvec4 i_data4     : TEXCOORD7;
+hvec4 i_data5     : TEXCOORD8;

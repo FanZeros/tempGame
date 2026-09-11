@@ -1,0 +1,30 @@
+<renderpath>
+    <rendertarget name="HDR128" tag="AutoExposure" size="128 128" format="rgba16f" filter="true" />
+    <rendertarget name="HistogramRows" tag="AutoExposure" size="16 128" format="rgba32f" filter="false" />
+    <rendertarget name="Histogram" tag="AutoExposure" size="16 1" format="rgba32f" filter="false" />
+    <rendertarget name="AdaptedLum" tag="AutoExposure" size="1 1" format="rgba16f" filter="false" persistent="true" />
+    <rendertarget name="PrevAdaptedLum" tag="AutoExposure" size="1 1" format="rgba16f" filter="false" />
+
+    <command type="quad" tag="AutoExposure" vs="CopyFramebuffer" ps="CopyFramebuffer" output="HDR128">
+        <texture unit="diffuse" name="viewport" />
+    </command>
+
+    <command type="quad" tag="AutoExposure" vs="HistogramBuildUE" ps="HistogramBuildUE" output="HistogramRows" disableDepthStencilRT="true">
+        <execution name="ApplyUEAutoExposureParameters" />
+        <texture unit="diffuse" name="HDR128" />
+    </command>
+
+    <command type="quad" tag="AutoExposure" vs="HistogramReduce" ps="HistogramReduce" output="Histogram" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="HistogramRows" />
+    </command>
+
+    <command type="quad" tag="AutoExposure" vs="CopyFramebuffer" ps="CopyFramebuffer" output="PrevAdaptedLum">
+        <texture unit="diffuse" name="AdaptedLum" />
+    </command>
+
+    <command type="quad" tag="AutoExposure" vs="HistogramExposureUE" ps="HistogramExposureUE" output="AdaptedLum" disableDepthStencilRT="true">
+        <execution name="ApplyUEAutoExposureParameters" />
+        <texture unit="diffuse" name="Histogram" />
+        <texture unit="normal" name="PrevAdaptedLum" />
+    </command>
+</renderpath>

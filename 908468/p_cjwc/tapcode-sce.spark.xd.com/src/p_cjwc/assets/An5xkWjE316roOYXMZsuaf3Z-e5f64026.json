@@ -1,0 +1,371 @@
+[
+  {
+    "heroid": "10001",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10002",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10003",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10004",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10005",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10006",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10007",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10008",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  },
+  {
+    "heroid": "10009",
+    "upgradeConfig": [
+      {
+        "index": 1,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 2,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 3,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": false
+      },
+      {
+        "index": 4,
+        "maxlevel": 5,
+        "cost": 20,
+        "attribute": 2,
+        "value": 4,
+        "currency": 2,
+        "isMax": true
+      }
+    ]
+  }
+]

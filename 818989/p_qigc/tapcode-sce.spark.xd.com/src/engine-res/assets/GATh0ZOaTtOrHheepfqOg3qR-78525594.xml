@@ -1,0 +1,4 @@
+<technique vs="Unlit" ps="Unlit" vsdefines="VERTEXCOLOR NOUV" psdefines="VERTEXCOLOR">
+    <pass name="alpha" depthwrite="false" blend="add" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+</technique>

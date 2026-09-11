@@ -1,0 +1,11 @@
+<technique vs="ShaderLab/Terrain/TileCliff" ps="ShaderLab/Terrain/TileCliff" shaderlab="Terrain/TileCliff.shader">
+  <pass name="base" vsdefines="NORMALMAP CLIFF1 AO" psdefines="NORMALMAP PACKEDNORMAL AMBIENT CLIFF1 AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="litbase" vsdefines="NORMALMAP CLIFF1 AO" psdefines="NORMALMAP PACKEDNORMAL AMBIENT CLIFF1 AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="light" vsdefines="NORMALMAP CLIFF1 AO" psdefines="NORMALMAP PACKEDNORMAL CLIFF1 AO" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="depth" vs="Depth" ps="Depth" psexcludes="PACKEDNORMAL" />
+  <pass name="shadow" vs="Shadow" ps="Shadow" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" blend="alpha" depthwrite="false" depthtest="less" />
+  <pass name="outsurface" vs="Highlight" ps="Highlight" blend="alpha" depthtest="equal" depthwrite="false" />
+  <pass name="xray" vs="PBRPiplineVS" ps="ShaderLab/Model/XRayPS" depthtest="greater" depthwrite="false" />
+  <pass name="mix" vsdefines="NORMALMAP CLIFF1" psdefines="NORMALMAP CLIFF1" />
+</technique>

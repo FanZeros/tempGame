@@ -1,0 +1,26 @@
+<!-- DOF (Depth of Field) Post Process Effect -->
+<!-- Place this BEFORE Bloom or after scene rendering for best results -->
+<!-- Requires depth buffer to be available -->
+<renderpath>
+    <command type="quad" tag="DOF" vs="DOF" ps="DOF" output="viewport">
+        <texture unit="diffuse" name="viewport" />
+        <texture unit="normal" name="depth_buffer" />
+
+        <!-- DOFParams1: focalDistance, focalRange, maxBlur, blurQuality -->
+        <!-- focalDistance: distance in world units to focus point (default: 15.0) -->
+        <!-- focalRange: depth range that stays in focus (default: 30.0) -->
+        <!-- maxBlur: maximum blur radius in pixels (default: 4.0) -->
+        <!-- blurQuality: 0=low(4 samples), 1=medium(8 samples), 2=high(16 samples) -->
+        <parameter name="DOFParams1" value="15.0 30.0 4.0 1.0" />
+
+        <!-- DOFParams2: nearBlurScale, farBlurScale, bokehBrightness, unused -->
+        <!-- nearBlurScale: blur intensity for near objects (default: 0.3) -->
+        <!-- farBlurScale: blur intensity for far objects (default: 0.8) -->
+        <!-- bokehBrightness: brightness boost for bokeh highlights (default: 0.3) -->
+        <parameter name="DOFParams2" value="0.3 0.8 0.3 0.0" />
+
+        <!-- DOFParams3: texelSizeX, texelSizeY, unused, unused -->
+        <!-- These should be set programmatically to 1/screenWidth, 1/screenHeight -->
+        <parameter name="DOFParams3" value="0.00052 0.00093 0.0 0.0" />
+    </command>
+</renderpath>

@@ -1,0 +1,1830 @@
+{
+  "source_install": "D:\\SteamLibrary\\steamapps\\common\\Nightgate Defense Demo",
+  "asset_count": 362,
+  "assets": [
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/bgm/02-home_town_orchestral.wav",
+      "output": "assets/audio/nightgate/02-home_town_orchestral.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/bgm/04_mountaingstrongholdbattle_orchestral.wav",
+      "output": "assets/audio/nightgate/04_mountaingstrongholdbattle_orchestral.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/bgm/12_swamp_orchestral.wav",
+      "output": "assets/audio/nightgate/12_swamp_orchestral.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/ability.wav",
+      "output": "assets/audio/nightgate/ability.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/bow.wav",
+      "output": "assets/audio/nightgate/bow.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/bullet_impact_body_flesh_05.wav",
+      "output": "assets/audio/nightgate/bullet_impact_body_flesh_05.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/clickybutton5b.wav",
+      "output": "assets/audio/nightgate/clickybutton5b.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/coin.wav",
+      "output": "assets/audio/nightgate/coin.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/defeat.wav",
+      "output": "assets/audio/nightgate/defeat.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/exp.wav",
+      "output": "assets/audio/nightgate/exp.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/battle/hellsphere.wav",
+      "output": "assets/audio/nightgate/hellsphere.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/popup_buffselect.wav",
+      "output": "assets/audio/nightgate/popup_buffselect.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/selectskill.wav",
+      "output": "assets/audio/nightgate/selectskill.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/battle/sword.wav",
+      "output": "assets/audio/nightgate/sword.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/battle/tower_1.wav",
+      "output": "assets/audio/nightgate/tower_1.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/battle/tower_20_ice.wav",
+      "output": "assets/audio/nightgate/tower_20_ice.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/towerupgrade.wav",
+      "output": "assets/audio/nightgate/towerupgrade.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/upgradesuccess.wav",
+      "output": "assets/audio/nightgate/upgradesuccess.wav"
+    },
+    {
+      "kind": "audio",
+      "source": "assets/gameres/music/sound/win.wav",
+      "output": "assets/audio/nightgate/win.wav"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_quickupgrade.json",
+      "output": "assets/data/nightgate/battle_quickupgrade.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbabnormalstatus.json",
+      "output": "assets/data/nightgate/battle_tbabnormalstatus.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbachievement.json",
+      "output": "assets/data/nightgate/battle_tbachievement.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbattribute.json",
+      "output": "assets/data/nightgate/battle_tbattribute.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbbuff.json",
+      "output": "assets/data/nightgate/battle_tbbuff.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbequipforge.json",
+      "output": "assets/data/nightgate/battle_tbequipforge.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbfinalnight.json",
+      "output": "assets/data/nightgate/battle_tbfinalnight.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbhero.json",
+      "output": "assets/data/nightgate/battle_tbhero.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tblevel.json",
+      "output": "assets/data/nightgate/battle_tblevel.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbleveldrop.json",
+      "output": "assets/data/nightgate/battle_tbleveldrop.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbmonster.json",
+      "output": "assets/data/nightgate/battle_tbmonster.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbmonsterwave.json",
+      "output": "assets/data/nightgate/battle_tbmonsterwave.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbprestige.json",
+      "output": "assets/data/nightgate/battle_tbprestige.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbskill.json",
+      "output": "assets/data/nightgate/battle_tbskill.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbtalent.json",
+      "output": "assets/data/nightgate/battle_tbtalent.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbtrait.json",
+      "output": "assets/data/nightgate/battle_tbtrait.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/battle_tbupgradetree.json",
+      "output": "assets/data/nightgate/battle_tbupgradetree.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/equip_tbequip.json",
+      "output": "assets/data/nightgate/equip_tbequip.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/equip_tbequiprecycle.json",
+      "output": "assets/data/nightgate/equip_tbequiprecycle.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/equip_tbequipstrengthen.json",
+      "output": "assets/data/nightgate/equip_tbequipstrengthen.json"
+    },
+    {
+      "kind": "data",
+      "source": "assets/gameres/config/language_tblang.json",
+      "output": "assets/data/nightgate/language_tblang.json"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/bossdefeated.png",
+      "output": "assets/image/nightgate/achievements/bossdefeated_4a433817.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/boxkilled.png",
+      "output": "assets/image/nightgate/achievements/boxkilled_c837b95f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/crystalkilled.png",
+      "output": "assets/image/nightgate/achievements/crystalkilled_6b90ffbe.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/enemieskilled.png",
+      "output": "assets/image/nightgate/achievements/enemieskilled_281a9c96.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/equipcollected.png",
+      "output": "assets/image/nightgate/achievements/equipcollected_bd3a6ed7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/gameplayed.png",
+      "output": "assets/image/nightgate/achievements/gameplayed_6c82dbdc.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/prestiged.png",
+      "output": "assets/image/nightgate/achievements/prestiged_8b334685.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/skilltreecollected.png",
+      "output": "assets/image/nightgate/achievements/skilltreecollected_340b1cd3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/skilltreecount.png",
+      "output": "assets/image/nightgate/achievements/skilltreecount_e7f1479b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/survivalday.png",
+      "output": "assets/image/nightgate/achievements/survivalday_a86b9cd8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/survivorinfinal.png",
+      "output": "assets/image/nightgate/achievements/survivorinfinal_5772b72d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/totaldamage.png",
+      "output": "assets/image/nightgate/achievements/totaldamage_e4ab383a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/achievement/totalgold.png",
+      "output": "assets/image/nightgate/achievements/totalgold_76e38729.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/logo2.png",
+      "output": "assets/image/nightgate/branding/logo2_d9cc7319.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/logo.png",
+      "output": "assets/image/nightgate/branding/logo_e2465625.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/res/天赋精华.png",
+      "output": "assets/image/nightgate/currency/asset_21b188f2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/res/金币.png",
+      "output": "assets/image/nightgate/currency/asset_632cd9da.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/res/水晶.png",
+      "output": "assets/image/nightgate/currency/asset_90278eb1.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/res/装备碎片.png",
+      "output": "assets/image/nightgate/currency/asset_b85ca26f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/blood slash.png",
+      "output": "assets/image/nightgate/effects/blood_slash_e72f6ae6.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/blood splash.png",
+      "output": "assets/image/nightgate/effects/blood_splash_f4d2faad.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/explosion_10.png",
+      "output": "assets/image/nightgate/effects/explosion_10_1586a889.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/explosion.png",
+      "output": "assets/image/nightgate/effects/explosion_d0d69f60.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/polygradientmirrored.png",
+      "output": "assets/image/nightgate/effects/polygradientmirrored_01da0c38.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/polyspriteglow.png",
+      "output": "assets/image/nightgate/effects/polyspriteglow_0042440b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/polyspriteline.png",
+      "output": "assets/image/nightgate/effects/polyspriteline_f562224c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/slash.png",
+      "output": "assets/image/nightgate/effects/slash_8fbdb039.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_3.png",
+      "output": "assets/image/nightgate/effects/xplosion_3_874a1d82.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_4.png",
+      "output": "assets/image/nightgate/effects/xplosion_4_ac05ff9b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_5.png",
+      "output": "assets/image/nightgate/effects/xplosion_5_7f5c7736.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_6.png",
+      "output": "assets/image/nightgate/effects/xplosion_6_ceaa6889.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_7.png",
+      "output": "assets/image/nightgate/effects/xplosion_7_21f6d5b8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_8.png",
+      "output": "assets/image/nightgate/effects/xplosion_8_faa917b8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/effect/textures/_xplosion_9.png",
+      "output": "assets/image/nightgate/effects/xplosion_9_6e866b5e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/map/res/base grass.png",
+      "output": "assets/image/nightgate/environment/base_grass_8836ef28.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/map/res/caverntileset.png",
+      "output": "assets/image/nightgate/environment/caverntileset_233c6f62.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/map/res/dark_structure_red_full.png",
+      "output": "assets/image/nightgate/environment/dark_structure_red_full_f8d046df.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/map/res/dungeontileset.png",
+      "output": "assets/image/nightgate/environment/dungeontileset_c2d2cdff.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/map/res/de/obelisk1-animation1-activating-70x150.png",
+      "output": "assets/image/nightgate/environment/obelisk1-animation1-activating-70x150_3e54acfa.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/map/res/de/obelisk1-stand.png",
+      "output": "assets/image/nightgate/environment/obelisk1-stand_3039e22c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/箭矢11.png",
+      "output": "assets/image/nightgate/equipment/11_824c3b02.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/戒指12.png",
+      "output": "assets/image/nightgate/equipment/12_0c88ca3e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/法杖12.png",
+      "output": "assets/image/nightgate/equipment/12_4b6c9587.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/箭矢12.png",
+      "output": "assets/image/nightgate/equipment/12_5478f6dc.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/法杖14.png",
+      "output": "assets/image/nightgate/equipment/14_07d228ec.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/法杖16.png",
+      "output": "assets/image/nightgate/equipment/16_bd156d8d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/法杖2.png",
+      "output": "assets/image/nightgate/equipment/2_0e7ff0e3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/箭矢4.png",
+      "output": "assets/image/nightgate/equipment/4_1ee1c7db.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/戒指5.png",
+      "output": "assets/image/nightgate/equipment/5_28b35a21.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/a待定/法杖6.png",
+      "output": "assets/image/nightgate/equipment/6_7b3bc124.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/黑鹿之角.png",
+      "output": "assets/image/nightgate/equipment/asset_003a060b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/蓝宝石戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_06fe7517.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/古木法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_103a0ec8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/箭矢/毒箭.png",
+      "output": "assets/image/nightgate/equipment/asset_111c0260.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/魔力戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_177f9cf2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/铜饰法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_1d52a72d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/活力戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_2b76c57d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/古旧戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_2e3965c2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/寒枝弓.png",
+      "output": "assets/image/nightgate/equipment/asset_3952adb3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/旅行者戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_3be67e78.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/琥珀戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_4c0d91fe.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/箭矢/穿甲箭.png",
+      "output": "assets/image/nightgate/equipment/asset_4cc38a35.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/元素法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_589426ae.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/狩猎短弓.png",
+      "output": "assets/image/nightgate/equipment/asset_62eaca43.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/金戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_66558af5.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/黑木弓.png",
+      "output": "assets/image/nightgate/equipment/asset_6b982e86.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/榆木弓.png",
+      "output": "assets/image/nightgate/equipment/asset_71f2856c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/护身戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_80ec424e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/贤者法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_8117d062.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/箭矢/精制箭.png",
+      "output": "assets/image/nightgate/equipment/asset_81198b74.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/学者戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_84595872.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/魔王戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_86db8d9e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/仪式法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_8eef3835.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/咒术法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_90e02db4.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/箭矢/神罚箭矢.png",
+      "output": "assets/image/nightgate/equipment/asset_a377a2c4.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/箭矢/黑羽箭.png",
+      "output": "assets/image/nightgate/equipment/asset_a7369a92.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/暗黑魔戒.png",
+      "output": "assets/image/nightgate/equipment/asset_acc14086.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/至尊魔戒.png",
+      "output": "assets/image/nightgate/equipment/asset_b5563504.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/水晶法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_ba44350b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/灵能法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_bfb70cf3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/角弓.png",
+      "output": "assets/image/nightgate/equipment/asset_c42da716.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/边境长弓.png",
+      "output": "assets/image/nightgate/equipment/asset_c448523b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/魔导师法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_c748a0ae.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/弓/游侠弓.png",
+      "output": "assets/image/nightgate/equipment/asset_cd79d87c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/法杖/学徒法杖.png",
+      "output": "assets/image/nightgate/equipment/asset_d5c56df0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/银戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_d64c5e38.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/戒指/红宝石戒指.png",
+      "output": "assets/image/nightgate/equipment/asset_eca44c7b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/equip/箭矢/铁箭.png",
+      "output": "assets/image/nightgate/equipment/asset_f6dc12ba.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/aelrik.png",
+      "output": "assets/image/nightgate/heroes/aelrik_b561229c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/anointedhighpriest.png",
+      "output": "assets/image/nightgate/heroes/anointedhighpriest_4eb50e06.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/秘法师.png",
+      "output": "assets/image/nightgate/heroes/asset_16ee4a1a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/弓箭手.png",
+      "output": "assets/image/nightgate/heroes/asset_1b61c80a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/花灵.png",
+      "output": "assets/image/nightgate/heroes/asset_34a5a979.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/元素师.png",
+      "output": "assets/image/nightgate/heroes/asset_3d4aa8a0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/野性祭司.png",
+      "output": "assets/image/nightgate/heroes/asset_6ebffe38.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/天启卫士.png",
+      "output": "assets/image/nightgate/heroes/asset_90b695ac.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/圣言者.png",
+      "output": "assets/image/nightgate/heroes/asset_bc3a6246.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/德鲁伊.png",
+      "output": "assets/image/nightgate/heroes/asset_d5129e3e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/审判官.png",
+      "output": "assets/image/nightgate/heroes/asset_d7ec03fc.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/hero/奥术师.png",
+      "output": "assets/image/nightgate/heroes/asset_e9540d4b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/beginnerenchanter.png",
+      "output": "assets/image/nightgate/heroes/beginnerenchanter_ed5cc520.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/bippin.png",
+      "output": "assets/image/nightgate/heroes/bippin_26d3ff2f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/capablecryomancer.png",
+      "output": "assets/image/nightgate/heroes/capablecryomancer_062213bb.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/dryadmatriarch.png",
+      "output": "assets/image/nightgate/heroes/dryadmatriarch_4f9a48a2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/dryadmatron.png",
+      "output": "assets/image/nightgate/heroes/dryadmatron_bd2623b0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/dwarfpriest.png",
+      "output": "assets/image/nightgate/heroes/dwarfpriest_1a2fa68e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/elfenchanter.png",
+      "output": "assets/image/nightgate/heroes/elfenchanter_bc245c20.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/elfsharpshooter.png",
+      "output": "assets/image/nightgate/heroes/elfsharpshooter_6bad7f61.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/exhumedcleric.png",
+      "output": "assets/image/nightgate/heroes/exhumedcleric_3d0e1996.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/expertdruid.png",
+      "output": "assets/image/nightgate/heroes/expertdruid_57e23da8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/frostmagus.png",
+      "output": "assets/image/nightgate/heroes/frostmagus_caa3633a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/gnomewizard.png",
+      "output": "assets/image/nightgate/heroes/gnomewizard_c6942723.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/halflingranger.png",
+      "output": "assets/image/nightgate/heroes/halflingranger_1c7ac21d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/magicalfairy.png",
+      "output": "assets/image/nightgate/heroes/magicalfairy_e70440e3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/masterillusionist.png",
+      "output": "assets/image/nightgate/heroes/masterillusionist_89ab86e0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/hero/res/ogremage.png",
+      "output": "assets/image/nightgate/heroes/ogremage_cd833069.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/input/cursor.png",
+      "output": "assets/image/nightgate/input/cursor_d7219acf.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/input/s645.png",
+      "output": "assets/image/nightgate/input/s645_f41ce9de.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁弓箭手-艾琳被动.png",
+      "output": "assets/image/nightgate/items/-_5716c5f7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁弓箭手-米娅被动.png",
+      "output": "assets/image/nightgate/items/-_789ed50f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁弓箭手-米娅.png",
+      "output": "assets/image/nightgate/items/-_c1eef605.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁火焰箭.png",
+      "output": "assets/image/nightgate/items/asset_0af4b5f3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁穿透箭.png",
+      "output": "assets/image/nightgate/items/asset_1adecd30.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁冰冻箭.png",
+      "output": "assets/image/nightgate/items/asset_905e5467.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/trait/解锁爆炸箭.png",
+      "output": "assets/image/nightgate/items/asset_e872f8d7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/cn.png",
+      "output": "assets/image/nightgate/items/cn_a57d63b6.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/de.png",
+      "output": "assets/image/nightgate/items/de_af61796b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/discordicon.png",
+      "output": "assets/image/nightgate/items/discordicon_7df1ec52.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/es.png",
+      "output": "assets/image/nightgate/items/es_34312d5e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/fr.png",
+      "output": "assets/image/nightgate/items/fr_4e167535.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/gb.png",
+      "output": "assets/image/nightgate/items/gb_36b212fb.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/hk.png",
+      "output": "assets/image/nightgate/items/hk_68207e3f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/jp.png",
+      "output": "assets/image/nightgate/items/jp_bc6cafcd.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/ko.png",
+      "output": "assets/image/nightgate/items/ko_7b97f197.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/country/ru.png",
+      "output": "assets/image/nightgate/items/ru_7d7401ed.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_0.png",
+      "output": "assets/image/nightgate/items/skill_borders_0_963a28ef.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_10.png",
+      "output": "assets/image/nightgate/items/skill_borders_10_e243c340.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_11.png",
+      "output": "assets/image/nightgate/items/skill_borders_11_d7f64a26.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_12.png",
+      "output": "assets/image/nightgate/items/skill_borders_12_cf6a5b68.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_13.png",
+      "output": "assets/image/nightgate/items/skill_borders_13_c19d0622.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_14.png",
+      "output": "assets/image/nightgate/items/skill_borders_14_71376cdd.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_15.png",
+      "output": "assets/image/nightgate/items/skill_borders_15_565aa7f3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_16.png",
+      "output": "assets/image/nightgate/items/skill_borders_16_1b6e3835.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_17.png",
+      "output": "assets/image/nightgate/items/skill_borders_17_034f1c34.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_1.png",
+      "output": "assets/image/nightgate/items/skill_borders_1_466563dd.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_2.png",
+      "output": "assets/image/nightgate/items/skill_borders_2_24bedc87.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_3.png",
+      "output": "assets/image/nightgate/items/skill_borders_3_e5cbdc9f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_4.png",
+      "output": "assets/image/nightgate/items/skill_borders_4_a378ac71.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_5.png",
+      "output": "assets/image/nightgate/items/skill_borders_5_0520eff0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_6.png",
+      "output": "assets/image/nightgate/items/skill_borders_6_ada61628.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_7.png",
+      "output": "assets/image/nightgate/items/skill_borders_7_0b6572f0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_8.png",
+      "output": "assets/image/nightgate/items/skill_borders_8_80c53c69.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill borders/skill borders_9.png",
+      "output": "assets/image/nightgate/items/skill_borders_9_e2a3b9ce.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/steamicon.png",
+      "output": "assets/image/nightgate/items/steamicon_de915ab7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/abysgorn.png",
+      "output": "assets/image/nightgate/monsters/abysgorn_0b44b3c9.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/acidant.png",
+      "output": "assets/image/nightgate/monsters/acidant_ea421486.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/adamantium golem.png",
+      "output": "assets/image/nightgate/monsters/adamantium_golem_2d61cd08.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/adeptnecromancer.png",
+      "output": "assets/image/nightgate/monsters/adeptnecromancer_d1724069.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/aquadrake.png",
+      "output": "assets/image/nightgate/monsters/aquadrake_78df9af0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/armoredgoliath.png",
+      "output": "assets/image/nightgate/monsters/armoredgoliath_9a3ad4e6.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/ashspider.png",
+      "output": "assets/image/nightgate/monsters/ashspider_f9fe5ceb.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/barbedmanticore.png",
+      "output": "assets/image/nightgate/monsters/barbedmanticore_d1365c78.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/bazzle.png",
+      "output": "assets/image/nightgate/monsters/bazzle_a5028421.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/beryldoppleganger.png",
+      "output": "assets/image/nightgate/monsters/beryldoppleganger_a1a0d07d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/blazingslug.png",
+      "output": "assets/image/nightgate/monsters/blazingslug_ce724668.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/bloatedzombie.png",
+      "output": "assets/image/nightgate/monsters/bloatedzombie_1ec2f8f9.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/bonegolem.png",
+      "output": "assets/image/nightgate/monsters/bonegolem_62642797.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/brakgul.png",
+      "output": "assets/image/nightgate/monsters/brakgul_4ba8a15c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/brassgolemidle.png",
+      "output": "assets/image/nightgate/monsters/brassgolemidle_22485b4f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/brittlearcher.png",
+      "output": "assets/image/nightgate/monsters/brittlearcher_3de15f16.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/bugbearmonster.png",
+      "output": "assets/image/nightgate/monsters/bugbearmonster_c0368d10.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/decrepitbones.png",
+      "output": "assets/image/nightgate/monsters/decrepitbones_fa91e8da.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/ebonastaroth.png",
+      "output": "assets/image/nightgate/monsters/ebonastaroth_5a9f2866.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/firecentipede.png",
+      "output": "assets/image/nightgate/monsters/firecentipede_21332721.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/ghastlyeye.png",
+      "output": "assets/image/nightgate/monsters/ghastlyeye_71a15989.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/giantrat.png",
+      "output": "assets/image/nightgate/monsters/giantrat_31b26c28.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/glowingwisp.png",
+      "output": "assets/image/nightgate/monsters/glowingwisp_61df3015.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/gnollwarlord.png",
+      "output": "assets/image/nightgate/monsters/gnollwarlord_19f52445.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/goblinwolfrider.png",
+      "output": "assets/image/nightgate/monsters/goblinwolfrider_45885915.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/graverevenant.png",
+      "output": "assets/image/nightgate/monsters/graverevenant_84d26f6a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/hungrymimic.png",
+      "output": "assets/image/nightgate/monsters/hungrymimic_bdec926d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/icegolem.png",
+      "output": "assets/image/nightgate/monsters/icegolem_6c94f477.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/kragbit.png",
+      "output": "assets/image/nightgate/monsters/kragbit_e95af1b5.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/lizardfolkarcher.png",
+      "output": "assets/image/nightgate/monsters/lizardfolkarcher_aeb5c61c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/menacingmedusa.png",
+      "output": "assets/image/nightgate/monsters/menacingmedusa_56cff472.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/monster_shadow.png",
+      "output": "assets/image/nightgate/monsters/monster_shadow_aff5668f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/monstrous rat.png",
+      "output": "assets/image/nightgate/monsters/monstrous_rat_c8bd79af.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/natureelemental.png",
+      "output": "assets/image/nightgate/monsters/natureelemental_e6eacbb2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/orccaptain.png",
+      "output": "assets/image/nightgate/monsters/orccaptain_7fb78bc0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/orcreaver.png",
+      "output": "assets/image/nightgate/monsters/orcreaver_a68233c0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/orcsavage.png",
+      "output": "assets/image/nightgate/monsters/orcsavage_95a0064b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/ossifiedslayer.png",
+      "output": "assets/image/nightgate/monsters/ossifiedslayer_620dfc56.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/owlbear.png",
+      "output": "assets/image/nightgate/monsters/owlbear_23a9d97d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/poisonghost.png",
+      "output": "assets/image/nightgate/monsters/poisonghost_aa8824a5.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/powerfulyak.png",
+      "output": "assets/image/nightgate/monsters/powerfulyak_acd1d5c0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/rind.png",
+      "output": "assets/image/nightgate/monsters/rind_eb07489a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/seaspray.png",
+      "output": "assets/image/nightgate/monsters/seaspray_9713c9b7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/unholyskull.png",
+      "output": "assets/image/nightgate/monsters/unholyskull_ac95c7a0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/character/monster/res/waterelemental.png",
+      "output": "assets/image/nightgate/monsters/waterelemental_b1605110.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/a待定.png",
+      "output": "assets/image/nightgate/skill_tree/a_f62b3428.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/古树突刺.png",
+      "output": "assets/image/nightgate/skill_tree/asset_09197b8c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/投射物释放个数.png",
+      "output": "assets/image/nightgate/skill_tree/asset_0b6e2021.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/城防值加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_0e9622a6.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/秘法斩击.png",
+      "output": "assets/image/nightgate/skill_tree/asset_176cfafc.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/光辉之矛.png",
+      "output": "assets/image/nightgate/skill_tree/asset_1931f7f6.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/投射物范围.png",
+      "output": "assets/image/nightgate/skill_tree/asset_26e3cbcd.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/金币掉落加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_27b2cb04.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针击杀宝箱怪.png",
+      "output": "assets/image/nightgate/skill_tree/asset_2e47857c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/暴击伤害加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_3a98989a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/晶石怪个数.png",
+      "output": "assets/image/nightgate/skill_tree/asset_3bfb542d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/技能持续时长.png",
+      "output": "assets/image/nightgate/skill_tree/asset_3f90f8c4.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/神圣技能基础伤害.png",
+      "output": "assets/image/nightgate/skill_tree/asset_42d7de01.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/寄生花种.png",
+      "output": "assets/image/nightgate/skill_tree/asset_47711094.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针造成伤害加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_4d66aaa7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/技能冷却.png",
+      "output": "assets/image/nightgate/skill_tree/asset_506cb6a0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/城墙防御.png",
+      "output": "assets/image/nightgate/skill_tree/asset_63a6ecc0.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/暴击率.png",
+      "output": "assets/image/nightgate/skill_tree/asset_647d64c1.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/魔法技能基础伤害.png",
+      "output": "assets/image/nightgate/skill_tree/asset_68965d17.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针攻击基础攻击.png",
+      "output": "assets/image/nightgate/skill_tree/asset_6a5857c5.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针冷却缩短.png",
+      "output": "assets/image/nightgate/skill_tree/asset_6b06ffb8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/奥数飞弹.png",
+      "output": "assets/image/nightgate/skill_tree/asset_6e170bf2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针作用范围加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_7264f7cd.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/弓箭处决.png",
+      "output": "assets/image/nightgate/skill_tree/asset_76e031e3.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/投射物穿透率.png",
+      "output": "assets/image/nightgate/skill_tree/asset_77cbcb53.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/城墙反伤比例.png",
+      "output": "assets/image/nightgate/skill_tree/asset_77d725aa.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/弓箭攻击冷却.png",
+      "output": "assets/image/nightgate/skill_tree/asset_7ab7669d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/材料翻倍.png",
+      "output": "assets/image/nightgate/skill_tree/asset_7b8abb49.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针随机攻击.png",
+      "output": "assets/image/nightgate/skill_tree/asset_82c2920d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针随机攻击冷却.png",
+      "output": "assets/image/nightgate/skill_tree/asset_85644034.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/投射物大小.png",
+      "output": "assets/image/nightgate/skill_tree/asset_907405bc.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针暴击率.png",
+      "output": "assets/image/nightgate/skill_tree/asset_97025161.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/弓箭进入狂暴状态概率.png",
+      "output": "assets/image/nightgate/skill_tree/asset_99493045.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/城防值.png",
+      "output": "assets/image/nightgate/skill_tree/asset_9b506db9.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/高品质晶石.png",
+      "output": "assets/image/nightgate/skill_tree/asset_a56859a1.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/英雄普通攻击基础伤害.png",
+      "output": "assets/image/nightgate/skill_tree/asset_aa904f05.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针暴击伤害加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_b01bbd5c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/每秒城墙耐久值恢复.png",
+      "output": "assets/image/nightgate/skill_tree/asset_bc98f6a2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/弓箭攻击力.png",
+      "output": "assets/image/nightgate/skill_tree/asset_be96737b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/普通怪物掉落晶石概率.png",
+      "output": "assets/image/nightgate/skill_tree/asset_c1985f68.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/天罚大剑.png",
+      "output": "assets/image/nightgate/skill_tree/asset_c314f20d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/元素法球.png",
+      "output": "assets/image/nightgate/skill_tree/asset_cca5afb4.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针随机攻击次数.png",
+      "output": "assets/image/nightgate/skill_tree/asset_d9396d23.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/火爪.png",
+      "output": "assets/image/nightgate/skill_tree/asset_df330e97.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/所有伤害加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_e795ba52.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/受到伤害减免.png",
+      "output": "assets/image/nightgate/skill_tree/asset_e7fc69ec.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/指针造成两次伤害概率.png",
+      "output": "assets/image/nightgate/skill_tree/asset_eaf297bf.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/生命值.png",
+      "output": "assets/image/nightgate/skill_tree/asset_eb469894.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/闪避.png",
+      "output": "assets/image/nightgate/skill_tree/asset_f2b78b58.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/自然技能基础伤害.png",
+      "output": "assets/image/nightgate/skill_tree/asset_f338ac82.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/生命加成.png",
+      "output": "assets/image/nightgate/skill_tree/asset_f80bb2f4.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/英雄普通攻击冷却.png",
+      "output": "assets/image/nightgate/skill_tree/asset_fa13ee3d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/金币个数.png",
+      "output": "assets/image/nightgate/skill_tree/asset_fb759301.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/圣域.png",
+      "output": "assets/image/nightgate/skill_tree/asset_fc73a32b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/item/skill/弓箭对boss增伤.png",
+      "output": "assets/image/nightgate/skill_tree/boss_b45203d4.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/神圣锚.png",
+      "output": "assets/image/nightgate/skills/asset_0382df82.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/circle.png",
+      "output": "assets/image/nightgate/skills/circle_b3888a73.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_dogen1.png",
+      "output": "assets/image/nightgate/skills/dogen1_bf9f5157.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_dogen2.png",
+      "output": "assets/image/nightgate/skills/dogen2_89c14b36.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_dogen3.png",
+      "output": "assets/image/nightgate/skills/dogen3_a7b5375d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_dogen4.png",
+      "output": "assets/image/nightgate/skills/dogen4_52193f0d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/enemyshoot1.png",
+      "output": "assets/image/nightgate/skills/enemyshoot1_99e88b60.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/enemyshoot2.png",
+      "output": "assets/image/nightgate/skills/enemyshoot2_e176a27c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/fire spell 5-sheet.png",
+      "output": "assets/image/nightgate/skills/fire_spell_5-sheet_867d1649.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/holy_devotion_sword_48x48.png",
+      "output": "assets/image/nightgate/skills/holy_devotion_sword_48x48_7de1d176.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/ice_chunk_mid_01.png",
+      "output": "assets/image/nightgate/skills/ice_chunk_mid_01_ec87abb2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/ice_chunk_mid_02.png",
+      "output": "assets/image/nightgate/skills/ice_chunk_mid_02_9fe9132d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/ice_chunk_mid_03.png",
+      "output": "assets/image/nightgate/skills/ice_chunk_mid_03_ae255b1a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/ice_chunk_mid_04.png",
+      "output": "assets/image/nightgate/skills/ice_chunk_mid_04_d4512bb8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/ice_chunk_mid_05.png",
+      "output": "assets/image/nightgate/skills/ice_chunk_mid_05_c293d26e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/ice_chunk_mid_06.png",
+      "output": "assets/image/nightgate/skills/ice_chunk_mid_06_fe9b84e8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/nature_forestry_80x176.png",
+      "output": "assets/image/nightgate/skills/nature_forestry_80x176_3e2c4f22.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/nature_ii_16x32.png",
+      "output": "assets/image/nightgate/skills/nature_ii_16x32_7b3da25c.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/nature_trap_a_64x32.png",
+      "output": "assets/image/nightgate/skills/nature_trap_a_64x32_9999aa36.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/nature_trap_b_48x32.png",
+      "output": "assets/image/nightgate/skills/nature_trap_b_48x32_41da85ab.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0001.png",
+      "output": "assets/image/nightgate/skills/prite-0001_ab61ba29.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0002.png",
+      "output": "assets/image/nightgate/skills/prite-0002_9f701a29.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0003.png",
+      "output": "assets/image/nightgate/skills/prite-0003_aa566311.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0004.png",
+      "output": "assets/image/nightgate/skills/prite-0004_bb42544b.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0005.png",
+      "output": "assets/image/nightgate/skills/prite-0005_11890f99.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0006.png",
+      "output": "assets/image/nightgate/skills/prite-0006_057e9652.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0007.png",
+      "output": "assets/image/nightgate/skills/prite-0007_586872fa.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0008.png",
+      "output": "assets/image/nightgate/skills/prite-0008_9bc33152.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/_prite-0009.png",
+      "output": "assets/image/nightgate/skills/prite-0009_61d5e5ff.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/res_48.png",
+      "output": "assets/image/nightgate/skills/res_48_75acc93e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/spell 11-sheet.png",
+      "output": "assets/image/nightgate/skills/spell_11-sheet_6c2dd9c2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/spell 2_blue-sheet.png",
+      "output": "assets/image/nightgate/skills/spell_2_blue-sheet_c5cd7b6f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/spell 5-sheet_red.png",
+      "output": "assets/image/nightgate/skills/spell_5-sheet_red_b5a1a679.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/spell 6.3-sheet.png",
+      "output": "assets/image/nightgate/skills/spell_6.3-sheet_994d034a.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/spell 7_red-sheet.png",
+      "output": "assets/image/nightgate/skills/spell_7_red-sheet_773253b9.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/spell projectiles sprite sheet.png",
+      "output": "assets/image/nightgate/skills/spell_projectiles_sprite_sheet_6e536945.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/entity/skill/res/sprite-0002.png",
+      "output": "assets/image/nightgate/skills/sprite-0002_538b50c5.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/1_basic_button.png",
+      "output": "assets/image/nightgate/ui/1_basic_button_371080d2.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/1_blue_button_s.png",
+      "output": "assets/image/nightgate/ui/1_blue_button_s_b5ddc967.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/1_gray_button_s.png",
+      "output": "assets/image/nightgate/ui/1_gray_button_s_d984b83e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/1_orange_button_s.png",
+      "output": "assets/image/nightgate/ui/1_orange_button_s_5b2b3229.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/1_plus.png",
+      "output": "assets/image/nightgate/ui/1_plus_0ba1511f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/1_violet_button_s.png",
+      "output": "assets/image/nightgate/ui/1_violet_button_s_f4d1cc12.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/background_fill.png",
+      "output": "assets/image/nightgate/ui/background_fill_fc7af1b8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/bar_basic.png",
+      "output": "assets/image/nightgate/ui/bar_basic_5aadd308.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/decorated_bar.png",
+      "output": "assets/image/nightgate/ui/decorated_bar_e3c862de.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/frame_square_256.png",
+      "output": "assets/image/nightgate/ui/frame_square_256_bcb517df.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/frame_title_dots.png",
+      "output": "assets/image/nightgate/ui/frame_title_dots_d340f74e.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/hp_frame.png",
+      "output": "assets/image/nightgate/ui/hp_frame_7bdb2cae.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/hp_red.png",
+      "output": "assets/image/nightgate/ui/hp_red_59645d30.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/hud_icon_inventory.png",
+      "output": "assets/image/nightgate/ui/hud_icon_inventory_feeb3bea.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/hud_icon_magic.png",
+      "output": "assets/image/nightgate/ui/hud_icon_magic_83362d1d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/hud_icon_menu.png",
+      "output": "assets/image/nightgate/ui/hud_icon_menu_b15a854f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/icon_frame.png",
+      "output": "assets/image/nightgate/ui/icon_frame_8f51f514.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/inventory_gold_frame.png",
+      "output": "assets/image/nightgate/ui/inventory_gold_frame_15cdf6b9.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/lock.png",
+      "output": "assets/image/nightgate/ui/lock_d1428d4f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/popup_window.png",
+      "output": "assets/image/nightgate/ui/popup_window_e576119f.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/separator.png",
+      "output": "assets/image/nightgate/ui/separator_15bd65f8.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/skill_bar_tile.png",
+      "output": "assets/image/nightgate/ui/skill_bar_tile_1e0e0847.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/skill_paper2.png",
+      "output": "assets/image/nightgate/ui/skill_paper2_5a3f0617.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/skill_paper.png",
+      "output": "assets/image/nightgate/ui/skill_paper_49ad7a61.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/slotframe_circle_white_bginnerdeco.png",
+      "output": "assets/image/nightgate/ui/slotframe_circle_white_bginnerdeco_05c566d6.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/special_button.png",
+      "output": "assets/image/nightgate/ui/special_button_18abb87d.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/square_background_grayscale.png",
+      "output": "assets/image/nightgate/ui/square_background_grayscale_78d8a2ff.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/square_frame_grayscale.png",
+      "output": "assets/image/nightgate/ui/square_frame_grayscale_e7b291ff.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/stats_title.png",
+      "output": "assets/image/nightgate/ui/stats_title_5a4e36a7.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/title_frame_m.png",
+      "output": "assets/image/nightgate/ui/title_frame_m_f8c72fcc.png"
+    },
+    {
+      "kind": "image",
+      "source": "assets/gameres/texture/common/universalpanel1.png",
+      "output": "assets/image/nightgate/ui/universalpanel1_e8a610e2.png"
+    }
+  ],
+  "errors": [
+    {
+      "source": "packages/com.unity.textmeshpro/editor resources/gizmos/tmp - dropdown icon.psd",
+      "error": "File cab-1551932efe118118e9cdff858eee389f not found in D:\\SteamLibrary\\steamapps\\common\\Nightgate Defense Demo\\Nightgate_Defense_Data\\StreamingAssets\\yoo\\DefaultPackage"
+    },
+    {
+      "source": "packages/com.unity.textmeshpro/editor resources/gizmos/tmp - font asset icon.psd",
+      "error": "File cab-1551932efe118118e9cdff858eee389f not found in D:\\SteamLibrary\\steamapps\\common\\Nightgate Defense Demo\\Nightgate_Defense_Data\\StreamingAssets\\yoo\\DefaultPackage"
+    },
+    {
+      "source": "packages/com.unity.textmeshpro/editor resources/gizmos/tmp - text component icon.psd",
+      "error": "File cab-1551932efe118118e9cdff858eee389f not found in D:\\SteamLibrary\\steamapps\\common\\Nightgate Defense Demo\\Nightgate_Defense_Data\\StreamingAssets\\yoo\\DefaultPackage"
+    }
+  ]
+}

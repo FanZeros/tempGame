@@ -1,0 +1,8 @@
+<technique vs="PBRFoliageX" ps="PBRFoliageX" psdefines="PBR IBL">
+    <pass name="base" psdefines="AMBIENT" srgbsoftresolve="true" />
+    <pass name="litbase" psdefines="AMBIENT" srgbsoftresolve="true" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" />
+    <pass name="material" psdefines="MATERIAL" depthtest="equal" depthwrite="false" />
+    <pass name="depth" vs="Depth" ps="Depth" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+</technique>

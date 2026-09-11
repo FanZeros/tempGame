@@ -1,0 +1,103 @@
+<renderpath>
+    <!-- UE Gaussian Bloom (BLOOM_MODE_UE)
+         Structure matches UE AddGaussianBloomPasses + FSceneDownsampleChain (6 stages, 1/2 ~ 1/64):
+         setup -> 5x downsample -> per stage from smallest [X blur -> Y blur (+additive accumulate)] -> combine.
+         The Down chain doubles as the accumulation chain in Y passes (DownN can be overwritten
+         once its X pass has read it). metadata drives per-stage CPU gaussian kernel dispatch
+         in View::ApplyBloomUEParameters -->
+    <rendertarget name="BloomUEDown2" tag="BloomHDRUE" sizedivisor="2 2" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUEDown4" tag="BloomHDRUE" sizedivisor="4 4" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUEDown8" tag="BloomHDRUE" sizedivisor="8 8" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUEDown16" tag="BloomHDRUE" sizedivisor="16 16" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUEDown32" tag="BloomHDRUE" sizedivisor="32 32" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUEDown64" tag="BloomHDRUE" sizedivisor="64 64" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUETemp2" tag="BloomHDRUE" sizedivisor="2 2" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUETemp4" tag="BloomHDRUE" sizedivisor="4 4" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUETemp8" tag="BloomHDRUE" sizedivisor="8 8" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUETemp16" tag="BloomHDRUE" sizedivisor="16 16" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUETemp32" tag="BloomHDRUE" sizedivisor="32 32" format="rg11b10" filter="true" />
+    <rendertarget name="BloomUETemp64" tag="BloomHDRUE" sizedivisor="64 64" format="rg11b10" filter="true" />
+
+    <!-- Bright extraction, full-res viewport directly into 1/2 RT (bilinear = 2x2 box) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLOOM_SETUP" psdefines="BLOOM_SETUP" metadata="setup" output="BloomUEDown2" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="viewport" />
+        <texture unit="emissive" name="AdaptedLum" />
+    </command>
+
+    <!-- Downsample chain (PostProcessDownsample.usf QUALITY_HIGH 4-tap) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="DOWNSAMPLE_4" psdefines="DOWNSAMPLE_4" output="BloomUEDown4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown2" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="DOWNSAMPLE_8" psdefines="DOWNSAMPLE_8" output="BloomUEDown8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown4" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="DOWNSAMPLE_16" psdefines="DOWNSAMPLE_16" output="BloomUEDown16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown8" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="DOWNSAMPLE_32" psdefines="DOWNSAMPLE_32" output="BloomUEDown32" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown16" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="DOWNSAMPLE_64" psdefines="DOWNSAMPLE_64" output="BloomUEDown64" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown32" />
+    </command>
+
+    <!-- Stage 6 (UE Bloom6, 1/64): first stage has no additive -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:6:x" output="BloomUETemp64" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown64" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:6:y" output="BloomUEDown64" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUETemp64" />
+    </command>
+
+    <!-- Stage 5 (UE Bloom5, 1/32): Y pass accumulates the previous stage -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:5:x" output="BloomUETemp32" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown32" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR COMBINE_ADDITIVE" psdefines="BLUR COMBINE_ADDITIVE" metadata="blur:5:y" output="BloomUEDown32" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUETemp32" />
+        <texture unit="normal" name="BloomUEDown64" />
+    </command>
+
+    <!-- Stage 4 (UE Bloom4, 1/16) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:4:x" output="BloomUETemp16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown16" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR COMBINE_ADDITIVE" psdefines="BLUR COMBINE_ADDITIVE" metadata="blur:4:y" output="BloomUEDown16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUETemp16" />
+        <texture unit="normal" name="BloomUEDown32" />
+    </command>
+
+    <!-- Stage 3 (UE Bloom3, 1/8) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:3:x" output="BloomUETemp8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown8" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR COMBINE_ADDITIVE" psdefines="BLUR COMBINE_ADDITIVE" metadata="blur:3:y" output="BloomUEDown8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUETemp8" />
+        <texture unit="normal" name="BloomUEDown16" />
+    </command>
+
+    <!-- Stage 2 (UE Bloom2, 1/4) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:2:x" output="BloomUETemp4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown4" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR COMBINE_ADDITIVE" psdefines="BLUR COMBINE_ADDITIVE" metadata="blur:2:y" output="BloomUEDown4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUETemp4" />
+        <texture unit="normal" name="BloomUEDown8" />
+    </command>
+
+    <!-- Stage 1 (UE Bloom1, 1/2) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR" psdefines="BLUR" metadata="blur:1:x" output="BloomUETemp2" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUEDown2" />
+    </command>
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="BLUR COMBINE_ADDITIVE" psdefines="BLUR COMBINE_ADDITIVE" metadata="blur:1:y" output="BloomUEDown2" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="BloomUETemp2" />
+        <texture unit="normal" name="BloomUEDown4" />
+    </command>
+
+    <!-- Final combine + tonemap tail (bloom weight fixed at 1, intensity/tint baked into blur weights) -->
+    <command type="quad" tag="BloomHDRUE" vs="BloomUE" ps="BloomUE" vsdefines="COMBINE" psdefines="COMBINE" metadata="combine" output="viewport" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="viewport" />
+        <texture unit="normal" name="BloomUEDown2" />
+        <texture unit="emissive" name="AdaptedLum" />
+    </command>
+</renderpath>

@@ -1,0 +1,127 @@
+<renderpath>
+    <rendertarget name="GBufferA" sizedivisor="1 1" format="rgba" />
+    <rendertarget name="GBufferB" sizedivisor="1 1" format="rgba" />
+    <rendertarget name="GBufferC" sizedivisor="1 1" format="rgba" />
+    <rendertarget name="GBufferD" sizedivisor="1 1" format="rgba" />
+    
+    <!-- clear depth:1.0 -->
+    <command type="clear" depth="1.0" stencil="0" linkDepth="depth_buffer" />
+
+    <!-- render pre-z buffer -->
+    <command type="scenepass" pass="depth" output="depth_buffer" />
+
+    <!-- generate ssao -->
+    <command type="computepass" pass="ssao" >
+        <texture unit="0" name="depth_buffer" />
+        <!-- [0.0,  ~ ] World (view) space size of the occlusion sphere. -->
+        <parameter name="radius" value="1" />
+        <!-- [0.0, 5.0] Effect strength linear multiplier -->
+		<parameter name="shadowMultiplier" value="1.4" />
+        <!-- [0.5, 5.0] Effect strength pow modifier -->
+		<parameter name="shadowPower" value="1.1" />
+        <!-- [0.0, 1.0] Effect max limit (applied after multiplier but before blur) -->
+		<parameter name="shadowClamp" value="0.98" />
+        <!-- [0.0, 0.2] Limits self-shadowing (makes the sampling area less of a hemisphere, more of a spherical cone, to avoid self-shadowing and various artifacts due to low tessellation and depth buffer imprecision, etc.) -->
+		<parameter name="horizonAngleThreshold" value="0.1" />
+        <!-- [0.0,  ~ ] Distance to start start fading out the effect. -->
+		<parameter name="fadeOutFrom" value="0.1" />
+        <!-- [0.0,  ~ ] Distance at which the effect is faded out. -->
+		<parameter name="fadeOutTo" value="500" />
+        <!-- [ -1,  3 ] Effect quality; -1 - lowest (low, half res checkerboard), 0 - low, 1 - medium, 2 - high, 3 - very high / adaptive; each quality level is roughly 2x more costly than the previous, except the q3 which is variable but, in general, above q2. -->
+		<parameter name="adaptiveQualityLimit" value="0.6" />
+        <!-- [0.0, 1.0] (only for Quality Level 3) -->
+		<parameter name="qualityLevel" value="3" />
+        <!-- [  0,   6] Number of edge-sensitive smart blur passes to apply. Quality 0 is an exception with only one 'dumb' blur pass used. -->
+		<parameter name="blurPassCount" value="6" />
+        <!-- [0.0, 1.0] (How much to bleed over edges; 1: not at all, 0.5: half-half; 0.0: completely ignore edges) -->
+		<parameter name="sharpness" value="0.9" />
+        <!-- [0.0,  PI] Used to rotate sampling kernel; If using temporal AA / supersampling, suggested to rotate by ( (frame%3)/3.0*PI ) or similar. Kernel is already symmetrical, which is why we use PI and not 2*PI. -->
+		<parameter name="temporalSupersamplingAngleOffset" value="0.0" />
+        <!-- [0.0, 2.0] Used to scale sampling kernel; If using temporal AA / supersampling, suggested to scale by ( 1.0f + (((frame%3)-1.0)/3.0)*0.1 ) or similar. -->
+		<parameter name="temporalSupersamplingRadiusOffset" value="1.0" />
+        <!-- [0.0, 5.0] Used for high-res detail AO using neighboring depth pixels: adds a lot of detail but also reduces temporal stability (adds aliasing). -->
+		<parameter name="detailShadowStrength" value="1" />
+        <!-- [true/false] If true normals will be generated from depth. -->
+        <parameter name="generateNormals" value="true" />
+    </command>
+
+    <!-- clear color:fog depth:1.0 stencil:0 -->
+    <command type="clear" color="0 0 0 0">
+        <output index="0" name="GBufferA" />
+        <output index="1" name="GBufferB" />
+        <output index="2" name="GBufferC" />
+        <output index="3" name="GBufferD" />
+    </command>
+
+    <!-- opaque - basepass -->
+    <command type="scenepass" pass="deferred" vertexlights="true" metadata="gbuffer" highPriorityDepthTest="equal" depthstencil="depth_buffer">
+        <output index="0" name="GBufferA" />
+        <output index="1" name="GBufferB" />
+        <output index="2" name="GBufferC" />
+        <output index="3" name="GBufferD" />
+    </command>
+    <command type="scenepass" pass="outstrokedeferred" depthstencil="depth_buffer">
+        <output index="0" name="GBufferA" />
+        <output index="1" name="GBufferB" />
+        <output index="2" name="GBufferC" />
+        <output index="3" name="GBufferD" />
+    </command>
+
+    <!-- deferred light pass -->
+    <command type="lightvolumes" vs="PBR/StandardPBRDeferred" ps="PBR/StandardPBRDeferred" psdefines="AMBIENT AO DEFERRED" disableDepthStencilRT="true">
+        <texture unit="0" name="GBufferA" />
+        <texture unit="1" name="GBufferB" />
+        <texture unit="2" name="GBufferC" />
+        <texture unit="3" name="GBufferD" />
+        <texture unit="4" name="depth_buffer" />
+    </command>
+
+    <!-- alpha -->
+    <command type="scenepass" pass="postopaque" depthstencil="depth_buffer">
+        <output index="0" name="viewport" />
+    </command>
+
+    <!-- alpha -->
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" depthstencil="depth_buffer">
+        <output index="0" name="viewport" />
+    </command>
+    <command type="scenepass" pass="postalpha" sort="backtofront" depthstencil="depth_buffer">
+        <output index="0" name="viewport" />
+    </command>
+
+    <!-- highlight -->
+    <command type="scenepass" pass="outsurface" blend="alpha" renderMask="7" depthstencil="depth_buffer">
+        <parameter name="SurfaceColor" value="0.0 1.0 0.3 0.8" />
+    </command>
+
+    <!-- innerstroke -->
+    <command type="scenepass" pass="innerstroke" renderMask="7" depthstencil="depth_buffer">
+        <parameter name="StrokeWidth" value="2" />
+    </command>
+
+    <!-- outstroke -->
+    <command type="scenepass" pass="outstroke" renderMask="7" depthstencil="depth_buffer">
+        <parameter name="StrokeWidth" value="7" />
+    </command>
+
+    <!-- single layer water -->
+    <command type="scenepass" pass="singlelayerwater" />
+
+    <!-- 简单图形，例如碰撞 -->
+    <command type="sendevent" name="SimpleGeometry">
+    </command>
+
+    <!-- 画刷指示器 -->
+    <command type="sendevent" name="LightweightScene">
+    </command>
+
+    <!-- 描边、高亮 -->
+    <command type="sendevent" name="OutsideStroke">
+    </command>
+
+    <!-- 台阶、裂缝的线框 -->
+    <command type="sendevent" name="FinalRender">
+    </command>
+
+    <postprocess type="postprocess" name="EngineRes/PostProcess/EditorPostProcess.xml" />
+</renderpath>

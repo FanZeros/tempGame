@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<metahuman>
+	<body name="characters0/human/body/model.prefab">
+		<param name="thigh_scale" type="Float" value="1" />
+		<param name="calf_scale" type="Float" value="1" />
+		<param name="neck_scale" type="Float" value="1" />
+		<param name="buttocks_scale" type="Float" value="1" />
+		<param name="arm_length" type="Float" value="1" />
+		<param name="stomach_waist_length" type="Float" value="1" />
+		<param name="foot_scale" type="Float" value="1" />
+		<param name="neck_length" type="Float" value="1" />
+		<param name="upperarm_scale" type="Float" value="1" />
+		<param name="stomach_waist_scale" type="Float" value="1" />
+		<param name="chest_scale" type="Float" value="1" />
+		<param name="forearm_scale" type="Float" value="1" />
+		<param name="hand_scale" type="Float" value="1" />
+		<param name="head_scale" type="Float" value="1" />
+		<param name="shoulder_size" type="Float" value="1" />
+		<param name="leg_length" type="Float" value="1" />
+	</body>
+	<part name="characters0/human/clothes/clothes/sk_basic_model2/model.prefab" />
+</metahuman>

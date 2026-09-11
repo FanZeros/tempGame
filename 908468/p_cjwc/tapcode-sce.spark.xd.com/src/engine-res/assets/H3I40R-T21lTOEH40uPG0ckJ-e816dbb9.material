@@ -1,0 +1,10 @@
+<material>
+    <technique name="EngineRes/Particle/common/techniques/DiffUnlitMeshParticleAlpha.xml" />
+    <texture unit="diffuse" name="EngineRes/Particle/common/materials/OrientParticle.TGA" />
+    <parameter name="SoftParticleFadeScale" value="0.01" />
+    <parameter name="uvDiffParams" type="Vector4" value="1 1 0 0" />
+    <parameter name="uvNoiseParams" type="Vector4" value="1 1 0.1 0.1" />
+	<parameter name="uvMaskParams" type="Vector4" value="1 1 0 0" />
+	<parameter name="uvDissolveParams" type="Vector4" value="1 1 0 0" />
+    <cull value="ccw" />
+</material>

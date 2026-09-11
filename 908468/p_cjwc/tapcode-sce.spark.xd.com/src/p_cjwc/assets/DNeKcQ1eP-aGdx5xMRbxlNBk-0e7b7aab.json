@@ -1,0 +1,47 @@
+[
+  {
+    "type": 64,
+    "value": 50,
+    "Target": 0
+  },
+  {
+    "type": 65,
+    "value": 50,
+    "Target": 0
+  },
+  {
+    "type": 59,
+    "value": 2,
+    "Target": 0
+  },
+  {
+    "type": 7,
+    "value": 10,
+    "Target": 0
+  },
+  {
+    "type": 30,
+    "value": 10,
+    "Target": 0
+  },
+  {
+    "type": 28,
+    "value": 15,
+    "Target": 0
+  },
+  {
+    "type": 34,
+    "value": 5,
+    "Target": 0
+  },
+  {
+    "type": 35,
+    "value": 50,
+    "Target": 0
+  },
+  {
+    "type": 66,
+    "value": 1,
+    "Target": 0
+  }
+]

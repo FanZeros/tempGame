@@ -1,0 +1,731 @@
+[
+  {
+    "id": 1,
+    "name": "attribute_name_1",
+    "desc": "生命值",
+    "shortname": "attribute_title_name_1",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 2,
+    "name": "attribute_name_2",
+    "desc": "攻击",
+    "shortname": "attribute_title_name_2",
+    "isReduce": false,
+    "icon": "攻击",
+    "useCharacterType": false
+  },
+  {
+    "id": 3,
+    "name": "attribute_name_3",
+    "desc": "城墙防御",
+    "shortname": "attribute_title_name_3",
+    "isReduce": false,
+    "icon": "城墙防御",
+    "useCharacterType": false
+  },
+  {
+    "id": 4,
+    "name": "attribute_name_4",
+    "desc": "暴击率",
+    "shortname": "attribute_title_name_4",
+    "isReduce": false,
+    "icon": "暴击率",
+    "useCharacterType": true
+  },
+  {
+    "id": 5,
+    "name": "attribute_name_5",
+    "desc": "暴击伤害加成",
+    "shortname": "attribute_title_name_5",
+    "isReduce": false,
+    "icon": "暴击伤害加成",
+    "useCharacterType": true
+  },
+  {
+    "id": 6,
+    "name": "attribute_name_6",
+    "desc": "护盾",
+    "shortname": "attribute_title_name_6",
+    "isReduce": false,
+    "icon": "护盾",
+    "useCharacterType": false
+  },
+  {
+    "id": 7,
+    "name": "attribute_name_7",
+    "desc": "闪避（最大85%）",
+    "shortname": "attribute_title_name_7",
+    "isReduce": false,
+    "icon": "闪避",
+    "useCharacterType": false
+  },
+  {
+    "id": 8,
+    "name": "attribute_name_8",
+    "desc": "所有伤害加成",
+    "shortname": "attribute_title_name_8",
+    "isReduce": false,
+    "icon": "所有伤害加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 9,
+    "name": "attribute_name_9",
+    "desc": "每4秒城墙耐久值恢复",
+    "shortname": "attribute_title_name_9",
+    "isReduce": false,
+    "icon": "每秒城墙耐久值恢复",
+    "useCharacterType": false
+  },
+  {
+    "id": 10,
+    "name": "attribute_name_10",
+    "desc": "受到伤害减免",
+    "shortname": "attribute_title_name_10",
+    "isReduce": false,
+    "icon": "受到伤害减免",
+    "useCharacterType": false
+  },
+  {
+    "id": 11,
+    "name": "attribute_name_11",
+    "desc": "格挡值",
+    "shortname": "attribute_title_name_11",
+    "isReduce": false,
+    "icon": "格挡值",
+    "useCharacterType": false
+  },
+  {
+    "id": 12,
+    "name": "attribute_name_12",
+    "desc": "技能冷却",
+    "shortname": "attribute_title_name_12",
+    "isReduce": true,
+    "icon": "技能冷却",
+    "useCharacterType": true
+  },
+  {
+    "id": 13,
+    "name": "attribute_name_13",
+    "desc": "投射物释放个数",
+    "shortname": "attribute_title_name_13",
+    "isReduce": false,
+    "icon": "投射物释放个数",
+    "useCharacterType": true
+  },
+  {
+    "id": 14,
+    "name": "attribute_name_14",
+    "desc": "技能持续时长",
+    "shortname": "attribute_title_name_14",
+    "isReduce": false,
+    "icon": "技能持续时长",
+    "useCharacterType": true
+  },
+  {
+    "id": 15,
+    "name": "attribute_name_15",
+    "desc": "投射物大小",
+    "shortname": "attribute_title_name_15",
+    "isReduce": false,
+    "icon": "投射物大小",
+    "useCharacterType": true
+  },
+  {
+    "id": 16,
+    "name": "attribute_name_16",
+    "desc": "投射物穿透率",
+    "shortname": "attribute_title_name_16",
+    "isReduce": false,
+    "icon": "投射物穿透率",
+    "useCharacterType": true
+  },
+  {
+    "id": 17,
+    "name": "attribute_name_17",
+    "desc": "投射物范围",
+    "shortname": "attribute_title_name_17",
+    "isReduce": false,
+    "icon": "投射物范围",
+    "useCharacterType": true
+  },
+  {
+    "id": 18,
+    "name": "attribute_name_18",
+    "desc": "防御加成",
+    "shortname": "attribute_title_name_18",
+    "isReduce": false,
+    "icon": "防御加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 19,
+    "name": "attribute_name_19",
+    "desc": "生命加成",
+    "shortname": "attribute_title_name_19",
+    "isReduce": false,
+    "icon": "生命加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 20,
+    "name": "attribute_name_20",
+    "desc": "移速加成",
+    "shortname": "attribute_title_name_20",
+    "isReduce": false,
+    "icon": "移速加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 21,
+    "name": "attribute_name_21",
+    "desc": "城墙反伤比例",
+    "shortname": "attribute_title_name_21",
+    "isReduce": false,
+    "icon": "城墙反伤比例",
+    "useCharacterType": false
+  },
+  {
+    "id": 22,
+    "name": "attribute_name_22",
+    "desc": "敌人攻击速度加成",
+    "shortname": "attribute_title_name_22",
+    "isReduce": false,
+    "icon": "敌人攻击速度加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 23,
+    "name": "attribute_name_23",
+    "desc": "金币掉落加成",
+    "shortname": "attribute_title_name_23",
+    "isReduce": false,
+    "icon": "金币掉落加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 24,
+    "name": "attribute_name_24",
+    "desc": "指针攻击基础攻击",
+    "shortname": "attribute_title_name_24",
+    "isReduce": false,
+    "icon": "指针攻击基础攻击",
+    "useCharacterType": false
+  },
+  {
+    "id": 25,
+    "name": "attribute_name_25",
+    "desc": "指针造成伤害加成",
+    "shortname": "attribute_title_name_25",
+    "isReduce": false,
+    "icon": "指针造成伤害加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 26,
+    "name": "attribute_name_26",
+    "desc": "指针暴击率",
+    "shortname": "attribute_title_name_26",
+    "isReduce": false,
+    "icon": "指针暴击率",
+    "useCharacterType": false
+  },
+  {
+    "id": 27,
+    "name": "attribute_name_27",
+    "desc": "指针暴击伤害加成",
+    "shortname": "attribute_title_name_27",
+    "isReduce": false,
+    "icon": "指针暴击伤害加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 28,
+    "name": "attribute_name_28",
+    "desc": "指针作用范围加成",
+    "shortname": "attribute_title_name_28",
+    "isReduce": false,
+    "icon": "指针作用范围加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 29,
+    "name": "attribute_name_29",
+    "desc": "指针冷却缩短",
+    "shortname": "attribute_title_name_29",
+    "isReduce": false,
+    "icon": "指针冷却缩短",
+    "useCharacterType": false
+  },
+  {
+    "id": 30,
+    "name": "attribute_name_30",
+    "desc": "指针造成两次伤害概率",
+    "shortname": "attribute_title_name_30",
+    "isReduce": false,
+    "icon": "指针造成两次伤害概率",
+    "useCharacterType": false
+  },
+  {
+    "id": 31,
+    "name": "attribute_name_31",
+    "desc": "弓箭攻击力",
+    "shortname": "attribute_title_name_31",
+    "isReduce": false,
+    "icon": "弓箭攻击力",
+    "useCharacterType": false
+  },
+  {
+    "id": 32,
+    "name": "attribute_name_32",
+    "desc": "弓箭攻击冷却",
+    "shortname": "attribute_title_name_32",
+    "isReduce": false,
+    "icon": "弓箭攻击冷却",
+    "useCharacterType": false
+  },
+  {
+    "id": 33,
+    "name": "attribute_name_33",
+    "desc": "召唤弓箭手人数",
+    "shortname": "attribute_title_name_33",
+    "isReduce": false,
+    "icon": "弓箭手",
+    "useCharacterType": false
+  },
+  {
+    "id": 34,
+    "name": "attribute_name_34",
+    "desc": "弓箭手进入狂暴状态概率",
+    "shortname": "attribute_title_name_34",
+    "isReduce": false,
+    "icon": "弓箭进入狂暴状态概率",
+    "useCharacterType": false
+  },
+  {
+    "id": 35,
+    "name": "attribute_name_35",
+    "desc": "箭矢对boss增伤",
+    "shortname": "attribute_title_name_35",
+    "isReduce": false,
+    "icon": "弓箭对boss增伤",
+    "useCharacterType": false
+  },
+  {
+    "id": 36,
+    "name": "attribute_name_36",
+    "desc": "箭矢处决-对低血量敌人斩杀概率",
+    "shortname": "attribute_title_name_36",
+    "isReduce": false,
+    "icon": "弓箭处决",
+    "useCharacterType": false
+  },
+  {
+    "id": 37,
+    "name": "attribute_name_37",
+    "desc": "解锁奥术师",
+    "shortname": "attribute_title_name_37",
+    "isReduce": false,
+    "icon": "奥术师",
+    "useCharacterType": false
+  },
+  {
+    "id": 38,
+    "name": "attribute_name_38",
+    "desc": "解锁秘法师",
+    "shortname": "attribute_title_name_38",
+    "isReduce": false,
+    "icon": "秘法师",
+    "useCharacterType": false
+  },
+  {
+    "id": 39,
+    "name": "attribute_name_39",
+    "desc": "解锁元素师",
+    "shortname": "attribute_title_name_39",
+    "isReduce": false,
+    "icon": "元素师",
+    "useCharacterType": false
+  },
+  {
+    "id": 40,
+    "name": "attribute_name_40",
+    "desc": "解锁圣言者",
+    "shortname": "attribute_title_name_40",
+    "isReduce": false,
+    "icon": "圣言者",
+    "useCharacterType": false
+  },
+  {
+    "id": 41,
+    "name": "attribute_name_41",
+    "desc": "解锁天启卫士",
+    "shortname": "attribute_title_name_41",
+    "isReduce": false,
+    "icon": "天启卫士",
+    "useCharacterType": false
+  },
+  {
+    "id": 42,
+    "name": "attribute_name_42",
+    "desc": "解锁审判官",
+    "shortname": "attribute_title_name_42",
+    "isReduce": false,
+    "icon": "审判官",
+    "useCharacterType": false
+  },
+  {
+    "id": 43,
+    "name": "attribute_name_43",
+    "desc": "解锁德鲁伊",
+    "shortname": "attribute_title_name_43",
+    "isReduce": false,
+    "icon": "德鲁伊",
+    "useCharacterType": false
+  },
+  {
+    "id": 44,
+    "name": "attribute_name_44",
+    "desc": "解锁野性祭司",
+    "shortname": "attribute_title_name_44",
+    "isReduce": false,
+    "icon": "野性祭司",
+    "useCharacterType": false
+  },
+  {
+    "id": 45,
+    "name": "attribute_name_45",
+    "desc": "解锁花灵",
+    "shortname": "attribute_title_name_45",
+    "isReduce": false,
+    "icon": "花灵",
+    "useCharacterType": false
+  },
+  {
+    "id": 46,
+    "name": "attribute_name_46",
+    "desc": "英雄普通攻击基础伤害",
+    "shortname": "attribute_title_name_46",
+    "isReduce": false,
+    "icon": "英雄普通攻击基础伤害",
+    "useCharacterType": false
+  },
+  {
+    "id": 47,
+    "name": "attribute_name_47",
+    "desc": "英雄普通攻击冷却",
+    "shortname": "attribute_title_name_47",
+    "isReduce": false,
+    "icon": "英雄普通攻击冷却",
+    "useCharacterType": false
+  },
+  {
+    "id": 48,
+    "name": "attribute_name_48",
+    "desc": "魔法技能基础伤害",
+    "shortname": "attribute_title_name_48",
+    "isReduce": false,
+    "icon": "魔法技能基础伤害",
+    "useCharacterType": false
+  },
+  {
+    "id": 49,
+    "name": "attribute_name_49",
+    "desc": "神圣技能基础伤害",
+    "shortname": "attribute_title_name_49",
+    "isReduce": false,
+    "icon": "神圣技能基础伤害",
+    "useCharacterType": false
+  },
+  {
+    "id": 50,
+    "name": "attribute_name_50",
+    "desc": "自然技能基础伤害",
+    "shortname": "attribute_title_name_50",
+    "isReduce": false,
+    "icon": "自然技能基础伤害",
+    "useCharacterType": false
+  },
+  {
+    "id": 52,
+    "name": "attribute_name_51",
+    "desc": "城防值",
+    "shortname": "attribute_title_name_51",
+    "isReduce": false,
+    "icon": "城防值",
+    "useCharacterType": false
+  },
+  {
+    "id": 53,
+    "name": "attribute_name_52",
+    "desc": "城防值加成",
+    "shortname": "attribute_title_name_52",
+    "isReduce": false,
+    "icon": "城防值加成",
+    "useCharacterType": false
+  },
+  {
+    "id": 54,
+    "name": "attribute_name_53",
+    "desc": "每4s触发一次随机指针攻击",
+    "shortname": "attribute_title_name_53",
+    "isReduce": false,
+    "icon": "指针随机攻击",
+    "useCharacterType": false
+  },
+  {
+    "id": 55,
+    "name": "attribute_name_54",
+    "desc": "随机指针攻击冷却",
+    "shortname": "attribute_title_name_54",
+    "isReduce": false,
+    "icon": "指针随机攻击冷却",
+    "useCharacterType": false
+  },
+  {
+    "id": 56,
+    "name": "attribute_name_55",
+    "desc": "随机指针攻击次数",
+    "shortname": "attribute_title_name_55",
+    "isReduce": false,
+    "icon": "指针随机攻击次数",
+    "useCharacterType": false
+  },
+  {
+    "id": 57,
+    "name": "attribute_name_56",
+    "desc": "指针击杀怪物时产生宝箱怪概率",
+    "shortname": "attribute_title_name_56",
+    "isReduce": false,
+    "icon": "指针击杀宝箱怪",
+    "useCharacterType": false
+  },
+  {
+    "id": 58,
+    "name": "attribute_name_57",
+    "desc": "金币掉落个数",
+    "shortname": "attribute_title_name_57",
+    "isReduce": false,
+    "icon": "金币个数",
+    "useCharacterType": false
+  },
+  {
+    "id": 59,
+    "name": "attribute_name_58",
+    "desc": "每晚额外召唤晶石怪个数",
+    "shortname": "attribute_title_name_58",
+    "isReduce": false,
+    "icon": "晶石怪个数",
+    "useCharacterType": false
+  },
+  {
+    "id": 60,
+    "name": "attribute_name_59",
+    "desc": "掉落材料数量翻倍概率",
+    "shortname": "attribute_title_name_59",
+    "isReduce": false,
+    "icon": "材料翻倍",
+    "useCharacterType": false
+  },
+  {
+    "id": 61,
+    "name": "attribute_name_60",
+    "desc": "召唤晶石怪品质提升概率",
+    "shortname": "attribute_title_name_60",
+    "isReduce": false,
+    "icon": "高品质晶石",
+    "useCharacterType": false
+  },
+  {
+    "id": 62,
+    "name": "attribute_name_61",
+    "desc": "晶石掉落加成",
+    "shortname": "attribute_title_name_61",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 63,
+    "name": "attribute_name_62",
+    "desc": "普通怪物掉落晶石概率",
+    "shortname": "attribute_title_name_62",
+    "isReduce": false,
+    "icon": "普通怪物掉落晶石概率",
+    "useCharacterType": false
+  },
+  {
+    "id": 64,
+    "name": "attribute_name_63",
+    "desc": "结算时金币额外获得",
+    "shortname": "attribute_title_name_63",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 65,
+    "name": "attribute_name_64",
+    "desc": "结算时晶石额外获得",
+    "shortname": "attribute_title_name_64",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 66,
+    "name": "attribute_name_65",
+    "desc": "战中随机召龙助战",
+    "shortname": "attribute_title_name_65",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 67,
+    "name": "attribute_name_66",
+    "desc": "弓箭手连射概率",
+    "shortname": "attribute_title_name_66",
+    "isReduce": false,
+    "icon": "弓箭手连射概率",
+    "useCharacterType": false
+  },
+  {
+    "id": 68,
+    "name": "attribute_name_67",
+    "desc": "弓箭手散射概率",
+    "shortname": "attribute_title_name_67",
+    "isReduce": false,
+    "icon": "弓箭手散射概率",
+    "useCharacterType": false
+  },
+  {
+    "id": 69,
+    "name": "attribute_name_68",
+    "desc": "解锁弓箭手-艾琳被动",
+    "shortname": "attribute_title_name_68",
+    "isReduce": false,
+    "icon": "解锁弓箭手-艾琳被动",
+    "useCharacterType": false
+  },
+  {
+    "id": 70,
+    "name": "attribute_name_69",
+    "desc": "解锁弓箭手-米娅",
+    "shortname": "attribute_title_name_69",
+    "isReduce": false,
+    "icon": "解锁弓箭手-米娅",
+    "useCharacterType": false
+  },
+  {
+    "id": 71,
+    "name": "attribute_name_70",
+    "desc": "解锁爆炸箭",
+    "shortname": "attribute_title_name_70",
+    "isReduce": false,
+    "icon": "解锁爆炸箭",
+    "useCharacterType": false
+  },
+  {
+    "id": 72,
+    "name": "attribute_name_71",
+    "desc": "解锁穿透箭",
+    "shortname": "attribute_title_name_71",
+    "isReduce": false,
+    "icon": "解锁穿透箭",
+    "useCharacterType": false
+  },
+  {
+    "id": 73,
+    "name": "attribute_name_72",
+    "desc": "解锁火焰箭",
+    "shortname": "attribute_title_name_72",
+    "isReduce": false,
+    "icon": "解锁火焰箭",
+    "useCharacterType": false
+  },
+  {
+    "id": 74,
+    "name": "attribute_name_73",
+    "desc": "解锁冰冻箭",
+    "shortname": "attribute_title_name_73",
+    "isReduce": false,
+    "icon": "解锁冰冻箭",
+    "useCharacterType": false
+  },
+  {
+    "id": 75,
+    "name": "attribute_name_74",
+    "desc": "释放爆炸箭概率",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 76,
+    "name": "attribute_name_75",
+    "desc": "释放穿透箭概率",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 77,
+    "name": "attribute_name_76",
+    "desc": "释放火焰箭概率",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 78,
+    "name": "attribute_name_77",
+    "desc": "释放冰冻箭概率",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 79,
+    "name": "attribute_name_78",
+    "desc": "敌人血量额外加成",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 80,
+    "name": "attribute_name_79",
+    "desc": "敌人攻击额外加成",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 81,
+    "name": "attribute_name_80",
+    "desc": "敌人移动速度",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  },
+  {
+    "id": 82,
+    "name": "attribute_name_81",
+    "desc": "装备掉落率加成",
+    "shortname": "",
+    "isReduce": false,
+    "icon": "",
+    "useCharacterType": false
+  }
+]

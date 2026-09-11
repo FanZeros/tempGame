@@ -1,0 +1,44 @@
+[
+  {
+    "type": 1,
+    "Priority": 10,
+    "MaxStack": 1,
+    "CanCoexist": true,
+    "EffectPath": "Assets/GameRes/entity/state/冻结状态.prefab"
+  },
+  {
+    "type": 2,
+    "Priority": 20,
+    "MaxStack": 1,
+    "CanCoexist": true,
+    "EffectPath": "Assets/GameRes/entity/state/眩晕状态.prefab"
+  },
+  {
+    "type": 3,
+    "Priority": 0,
+    "MaxStack": 3,
+    "CanCoexist": true,
+    "EffectPath": "Assets/GameRes/entity/state/减速状态.prefab"
+  },
+  {
+    "type": 4,
+    "Priority": 0,
+    "MaxStack": 1,
+    "CanCoexist": true,
+    "EffectPath": "Assets/GameRes/entity/state/灼烧状态.prefab"
+  },
+  {
+    "type": 5,
+    "Priority": 0,
+    "MaxStack": 1,
+    "CanCoexist": true,
+    "EffectPath": "Assets/GameRes/entity/state/中毒状态.prefab"
+  },
+  {
+    "type": 6,
+    "Priority": 15,
+    "MaxStack": 1,
+    "CanCoexist": true,
+    "EffectPath": "Assets/GameRes/entity/state/麻痹状态.prefab"
+  }
+]

@@ -1,0 +1,4 @@
+<technique vs="Basic" ps="Basic" vsdefines="VERTEXCOLOR" psdefines="VERTEXCOLOR">
+    <pass name="alpha" vsdefines="CONTROL3D" psdefines="CONTROL3D" depthwrite="false" depthtest="greater" blend="alpha" />
+    <pass name="outsurface" depthwrite="true" depthtest="lessequal" blend="replace" />
+</technique>

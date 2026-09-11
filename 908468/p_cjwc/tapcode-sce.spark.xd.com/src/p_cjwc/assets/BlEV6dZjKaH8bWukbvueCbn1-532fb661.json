@@ -1,0 +1,33 @@
+[
+  {
+    "id": 5000,
+    "desc": "",
+    "Type": 1,
+    "stackPolicy": 1,
+    "maxStacks": 1,
+    "duration": -1,
+    "AttrConfig": []
+  },
+  {
+    "id": 5001,
+    "desc": "",
+    "Type": 2,
+    "stackPolicy": 1,
+    "maxStacks": 1,
+    "duration": 4,
+    "AttrConfig": [
+      {
+        "type": 15,
+        "value": 100
+      },
+      {
+        "type": 31,
+        "value": 10
+      },
+      {
+        "type": 16,
+        "value": 100
+      }
+    ]
+  }
+]

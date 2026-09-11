@@ -1,0 +1,24 @@
+<technique vs="Voxel/PBRVoxelDda" ps="Voxel/PBRVoxelDda" vsdefines="NOUV" psdefines="PBR IBL VOXELPALETTE VOXELJITTER">
+    <!-- Front faces + conservative depth (SV_DepthGreaterEqual): the DDA hit is always
+         at or behind the rasterized box front face, so hardware early-Z can reject
+         fragments already occluded by nearer written depth BEFORE the march runs —
+         mutually occluding volumes stop paying full price. Requires front-to-back
+         opaque sorting (scenepass default) and the no-discard miss path in the shader.
+         Camera inside the box clips the front shell: VoxelDdaDrawable swaps to
+         PBRVoxelDdaInside.xml (back faces, plain depth) for those volumes.
+         Per-volume parameters come from the volume-info table (TU_CUSTOM1); the
+         occupancy atlas page rides TU_VOLUMEMAP. VoxelVolumeIndex is only consumed by
+         the non-instanced single-batch fallback (Batch::SetMaterialInstanceData). -->
+    <pass name="deferredvox" cull="ccw" depthwrite="true" depthtest="lessequal"
+          vsdefines="NOUV" psdefines="DEFERRED CONSERVATIVE_DEPTH_GE" />
+    <pass name="shadow" cull="ccw" depthwrite="true"
+          vsdefines="NOUV" psdefines="SHADOW" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.85" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+    <parameter name="VoxelVolumeIndex" value="0" />
+</technique>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+    UE M_CarPaint_Master migration target.
+    Uses the project clear-coat PBR shader variant without modifying PBRClearCoat.xml.
+-->
+<technique vs="ShadingModels/PBRLit/PBRLitSolid_VS" ps="ShadingModels/PBRLit/PBRLitSolid_ClearCoat"
+           psdefines="PBR CLEAR_COAT CLEAR_COAT_ROUGHNESS_MAP">
+    <pass name="base" />
+    <pass name="litbase" psdefines="AMBIENT" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" />
+    <pass name="depth" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+
+    <texture unit="emissive" name="Textures/DefaultRoughnessMetallic.tga" />
+
+    <parameter name="MatDiffColor" value="0.01685 0.03314 0.11914 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0.8" />
+    <parameter name="Roughness" value="0.522" />
+
+    <parameter name="ClearCoatIntensity" value="1.0" />
+    <parameter name="ClearCoatMinRoughness" value="0.04" />
+    <parameter name="ClearCoatMaxRoughness" value="0.08" />
+    <parameter name="DetailRoughnessSize" value="5.0" />
+</technique>

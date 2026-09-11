@@ -1,0 +1,26 @@
+[
+  {
+    "Quality": 0,
+    "recycleCount": 3
+  },
+  {
+    "Quality": 1,
+    "recycleCount": 6
+  },
+  {
+    "Quality": 2,
+    "recycleCount": 12
+  },
+  {
+    "Quality": 3,
+    "recycleCount": 24
+  },
+  {
+    "Quality": 4,
+    "recycleCount": 48
+  },
+  {
+    "Quality": 5,
+    "recycleCount": 96
+  }
+]

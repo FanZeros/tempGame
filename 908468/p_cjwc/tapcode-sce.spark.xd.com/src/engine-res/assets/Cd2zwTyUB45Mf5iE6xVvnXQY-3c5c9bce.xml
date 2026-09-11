@@ -1,0 +1,10 @@
+<cube name="DuskSpecularHDR_QualityLow.dds">
+    <quality low="0" />
+    <srgb enable="false" />
+    <platform name="android">
+        <compress format="ASTC_6X6" quality="medium" />
+    </platform>
+    <platform name="ios">
+        <compress format="ASTC_6X6" quality="medium" />
+    </platform>
+</cube>

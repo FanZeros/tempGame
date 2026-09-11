@@ -1,0 +1,60 @@
+<renderpath zPrepass="true" > 
+    <!-- clear color:fog depth:1.0 stencil:0 -->
+    <command type="clear" color="fog" depth="1.0" stencil="0" />
+
+    <!-- alphatest pre z-pass -->
+    <command type="scenepass" pass="depth" renderMask="2" highPriorityColorWrite="false" />
+
+    <!-- opaque -->
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" renderMask="1" />
+    <command type="forwardlights" pass="light" renderMask="1" />
+    <command type="scenepass" pass="postopaque" renderMask="1" />
+
+    <!-- no blend litalpha -->
+    <command type="scenepass" pass="alphanoblend" />
+
+    <!-- XRay -->
+    <command type="scenepass" pass="xray" renderMask="7" >
+        <parameter name="FresnelColor" value="0.27 0.94 0.94 0.4" />
+    </command>
+
+    <!-- alphatest -->
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" renderMask="2" ignorePassResolve="true" highPriorityDepthTest="equal" />
+    <command type="forwardlights" pass="light" renderMask="2" ignorePassResolve="true" highPriorityDepthTest="equal" />
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" renderMask="2" ignorePassResolve="true" highPriorityDepthTest="equal" />
+
+    <!-- palnnershadow - alpha -->
+    <command type="planershadow" pass="planershadow" renderMask="4" />
+
+    <!-- alpha -->
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" renderMask="4" />
+    <command type="scenepass" pass="postalpha" sort="backtofront" renderMask="4" />
+
+    <!-- CIPRstroke -->
+    <command type="scenepass" pass="ciprstroke" renderMask="7" >
+        <parameter name="OutlineControl" value="0.005 0.3 10.0" />
+    </command>
+
+    <!-- CIPRstroke -->
+    <command type="scenepass" pass="ciprstroke" ignorePassResolve="true" renderMask="7">
+        <parameter name="OutlineControl" value="0.007 0.4 20.0" />
+    </command>
+
+    <!-- 简单图形，例如碰撞 -->
+    <command type="sendevent" name="SimpleGeometry">
+    </command>
+
+    <!-- 画刷指示器 -->
+    <command type="sendevent" name="LightweightScene">
+    </command>
+
+    <!-- 描边、高亮 -->
+    <command type="sendevent" name="OutsideStroke">
+    </command>
+
+    <!-- 台阶、裂缝的线框 -->
+    <command type="sendevent" name="FinalRender">
+    </command>
+
+    <postprocess type="postprocess" name="EngineRes/PostProcess/EditorPostProcess.xml" />
+</renderpath>

@@ -1,0 +1,1142 @@
+[
+  {
+    "id": 1000,
+    "name": "黑木弓",
+    "icon": "黑木弓",
+    "Quality": 0,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 20
+      },
+      {
+        "type": 4,
+        "value": 2
+      }
+    ],
+    "MergeTargetId": 1001,
+    "Series": ""
+  },
+  {
+    "id": 1001,
+    "name": "黑木弓",
+    "icon": "黑木弓",
+    "Quality": 1,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 30
+      },
+      {
+        "type": 4,
+        "value": 3
+      }
+    ],
+    "MergeTargetId": 1002,
+    "Series": ""
+  },
+  {
+    "id": 1002,
+    "name": "黑木弓",
+    "icon": "黑木弓",
+    "Quality": 2,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 45
+      },
+      {
+        "type": 4,
+        "value": 6
+      }
+    ],
+    "MergeTargetId": 1003,
+    "Series": ""
+  },
+  {
+    "id": 1003,
+    "name": "黑木弓",
+    "icon": "黑木弓",
+    "Quality": 3,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 70
+      },
+      {
+        "type": 4,
+        "value": 8
+      }
+    ],
+    "MergeTargetId": 1004,
+    "Series": ""
+  },
+  {
+    "id": 1004,
+    "name": "黑木弓",
+    "icon": "黑木弓",
+    "Quality": 4,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 120
+      },
+      {
+        "type": 4,
+        "value": 10
+      }
+    ],
+    "MergeTargetId": 1005,
+    "Series": ""
+  },
+  {
+    "id": 1005,
+    "name": "黑木弓",
+    "icon": "黑木弓",
+    "Quality": 5,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 150
+      },
+      {
+        "type": 4,
+        "value": 15
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 1010,
+    "name": "榆木弓",
+    "icon": "榆木弓",
+    "Quality": 0,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 10
+      },
+      {
+        "type": 32,
+        "value": 5
+      }
+    ],
+    "MergeTargetId": 1011,
+    "Series": ""
+  },
+  {
+    "id": 1011,
+    "name": "榆木弓",
+    "icon": "榆木弓",
+    "Quality": 1,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 15
+      },
+      {
+        "type": 32,
+        "value": 10
+      }
+    ],
+    "MergeTargetId": 1012,
+    "Series": ""
+  },
+  {
+    "id": 1012,
+    "name": "榆木弓",
+    "icon": "榆木弓",
+    "Quality": 2,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 25
+      },
+      {
+        "type": 32,
+        "value": 17
+      }
+    ],
+    "MergeTargetId": 1013,
+    "Series": ""
+  },
+  {
+    "id": 1013,
+    "name": "榆木弓",
+    "icon": "榆木弓",
+    "Quality": 3,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 40
+      },
+      {
+        "type": 32,
+        "value": 24
+      }
+    ],
+    "MergeTargetId": 1014,
+    "Series": ""
+  },
+  {
+    "id": 1014,
+    "name": "榆木弓",
+    "icon": "榆木弓",
+    "Quality": 4,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 60
+      },
+      {
+        "type": 32,
+        "value": 35
+      }
+    ],
+    "MergeTargetId": 1015,
+    "Series": ""
+  },
+  {
+    "id": 1015,
+    "name": "榆木弓",
+    "icon": "榆木弓",
+    "Quality": 5,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 80
+      },
+      {
+        "type": 32,
+        "value": 50
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 1020,
+    "name": "游侠弓",
+    "icon": "游侠弓",
+    "Quality": 0,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 10
+      },
+      {
+        "type": 17,
+        "value": 10
+      },
+      {
+        "type": 16,
+        "value": 2
+      }
+    ],
+    "MergeTargetId": 1021,
+    "Series": ""
+  },
+  {
+    "id": 1021,
+    "name": "游侠弓",
+    "icon": "游侠弓",
+    "Quality": 1,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 15
+      },
+      {
+        "type": 17,
+        "value": 15
+      },
+      {
+        "type": 16,
+        "value": 5
+      }
+    ],
+    "MergeTargetId": 1022,
+    "Series": ""
+  },
+  {
+    "id": 1022,
+    "name": "游侠弓",
+    "icon": "游侠弓",
+    "Quality": 2,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 25
+      },
+      {
+        "type": 17,
+        "value": 20
+      },
+      {
+        "type": 16,
+        "value": 8
+      }
+    ],
+    "MergeTargetId": 1023,
+    "Series": ""
+  },
+  {
+    "id": 1023,
+    "name": "游侠弓",
+    "icon": "游侠弓",
+    "Quality": 3,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 40
+      },
+      {
+        "type": 17,
+        "value": 25
+      },
+      {
+        "type": 16,
+        "value": 12
+      }
+    ],
+    "MergeTargetId": 1024,
+    "Series": ""
+  },
+  {
+    "id": 1024,
+    "name": "游侠弓",
+    "icon": "游侠弓",
+    "Quality": 4,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 60
+      },
+      {
+        "type": 17,
+        "value": 30
+      },
+      {
+        "type": 16,
+        "value": 20
+      }
+    ],
+    "MergeTargetId": 1025,
+    "Series": ""
+  },
+  {
+    "id": 1025,
+    "name": "游侠弓",
+    "icon": "游侠弓",
+    "Quality": 5,
+    "Pos": 1,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 80
+      },
+      {
+        "type": 17,
+        "value": 40
+      },
+      {
+        "type": 16,
+        "value": 25
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 2000,
+    "name": "铁箭",
+    "icon": "铁箭",
+    "Quality": 0,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 1
+      },
+      {
+        "type": 5,
+        "value": 10
+      }
+    ],
+    "MergeTargetId": 2001,
+    "Series": ""
+  },
+  {
+    "id": 2001,
+    "name": "铁箭",
+    "icon": "铁箭",
+    "Quality": 1,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 2
+      },
+      {
+        "type": 5,
+        "value": 15
+      }
+    ],
+    "MergeTargetId": 2002,
+    "Series": ""
+  },
+  {
+    "id": 2002,
+    "name": "铁箭",
+    "icon": "铁箭",
+    "Quality": 2,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 4
+      },
+      {
+        "type": 5,
+        "value": 25
+      }
+    ],
+    "MergeTargetId": 2003,
+    "Series": ""
+  },
+  {
+    "id": 2003,
+    "name": "铁箭",
+    "icon": "铁箭",
+    "Quality": 3,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 7
+      },
+      {
+        "type": 5,
+        "value": 40
+      }
+    ],
+    "MergeTargetId": 2004,
+    "Series": ""
+  },
+  {
+    "id": 2004,
+    "name": "铁箭",
+    "icon": "铁箭",
+    "Quality": 4,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 10
+      },
+      {
+        "type": 5,
+        "value": 55
+      }
+    ],
+    "MergeTargetId": 2005,
+    "Series": ""
+  },
+  {
+    "id": 2005,
+    "name": "铁箭",
+    "icon": "铁箭",
+    "Quality": 5,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 12
+      },
+      {
+        "type": 5,
+        "value": 80
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 2010,
+    "name": "穿甲箭",
+    "icon": "穿甲箭",
+    "Quality": 0,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 1
+      },
+      {
+        "type": 16,
+        "value": 10
+      }
+    ],
+    "MergeTargetId": 2011,
+    "Series": ""
+  },
+  {
+    "id": 2011,
+    "name": "穿甲箭",
+    "icon": "穿甲箭",
+    "Quality": 1,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 2
+      },
+      {
+        "type": 16,
+        "value": 15
+      }
+    ],
+    "MergeTargetId": 2012,
+    "Series": ""
+  },
+  {
+    "id": 2012,
+    "name": "穿甲箭",
+    "icon": "穿甲箭",
+    "Quality": 2,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 3
+      },
+      {
+        "type": 16,
+        "value": 25
+      }
+    ],
+    "MergeTargetId": 2013,
+    "Series": ""
+  },
+  {
+    "id": 2013,
+    "name": "穿甲箭",
+    "icon": "穿甲箭",
+    "Quality": 3,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 5
+      },
+      {
+        "type": 16,
+        "value": 40
+      }
+    ],
+    "MergeTargetId": 2014,
+    "Series": ""
+  },
+  {
+    "id": 2014,
+    "name": "穿甲箭",
+    "icon": "穿甲箭",
+    "Quality": 4,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 9
+      },
+      {
+        "type": 16,
+        "value": 55
+      }
+    ],
+    "MergeTargetId": 2015,
+    "Series": ""
+  },
+  {
+    "id": 2015,
+    "name": "穿甲箭",
+    "icon": "穿甲箭",
+    "Quality": 5,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 11
+      },
+      {
+        "type": 16,
+        "value": 80
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 2020,
+    "name": "精制箭",
+    "icon": "精制箭",
+    "Quality": 0,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 2
+      }
+    ],
+    "MergeTargetId": 2021,
+    "Series": ""
+  },
+  {
+    "id": 2021,
+    "name": "精制箭",
+    "icon": "精制箭",
+    "Quality": 1,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 3
+      }
+    ],
+    "MergeTargetId": 2022,
+    "Series": ""
+  },
+  {
+    "id": 2022,
+    "name": "精制箭",
+    "icon": "精制箭",
+    "Quality": 2,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 5
+      }
+    ],
+    "MergeTargetId": 2023,
+    "Series": ""
+  },
+  {
+    "id": 2023,
+    "name": "精制箭",
+    "icon": "精制箭",
+    "Quality": 3,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 8
+      }
+    ],
+    "MergeTargetId": 2024,
+    "Series": ""
+  },
+  {
+    "id": 2024,
+    "name": "精制箭",
+    "icon": "精制箭",
+    "Quality": 4,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 11
+      }
+    ],
+    "MergeTargetId": 2025,
+    "Series": ""
+  },
+  {
+    "id": 2025,
+    "name": "精制箭",
+    "icon": "精制箭",
+    "Quality": 5,
+    "Pos": 2,
+    "AttrConfig": [
+      {
+        "type": 31,
+        "value": 14
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 3000,
+    "name": "贤者法杖",
+    "icon": "贤者法杖",
+    "Quality": 0,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 3
+      },
+      {
+        "type": 47,
+        "value": 5
+      }
+    ],
+    "MergeTargetId": 3001,
+    "Series": ""
+  },
+  {
+    "id": 3001,
+    "name": "贤者法杖",
+    "icon": "贤者法杖",
+    "Quality": 1,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 5
+      },
+      {
+        "type": 47,
+        "value": 10
+      }
+    ],
+    "MergeTargetId": 3002,
+    "Series": ""
+  },
+  {
+    "id": 3002,
+    "name": "贤者法杖",
+    "icon": "贤者法杖",
+    "Quality": 2,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 8
+      },
+      {
+        "type": 47,
+        "value": 17
+      }
+    ],
+    "MergeTargetId": 3003,
+    "Series": ""
+  },
+  {
+    "id": 3003,
+    "name": "贤者法杖",
+    "icon": "贤者法杖",
+    "Quality": 3,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 12
+      },
+      {
+        "type": 47,
+        "value": 24
+      }
+    ],
+    "MergeTargetId": 3004,
+    "Series": ""
+  },
+  {
+    "id": 3004,
+    "name": "贤者法杖",
+    "icon": "贤者法杖",
+    "Quality": 4,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 15
+      },
+      {
+        "type": 47,
+        "value": 35
+      }
+    ],
+    "MergeTargetId": 3005,
+    "Series": ""
+  },
+  {
+    "id": 3005,
+    "name": "贤者法杖",
+    "icon": "贤者法杖",
+    "Quality": 5,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 18
+      },
+      {
+        "type": 47,
+        "value": 50
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 3010,
+    "name": "铜饰法杖",
+    "icon": "铜饰法杖",
+    "Quality": 0,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 3
+      },
+      {
+        "type": 13,
+        "value": 20
+      }
+    ],
+    "MergeTargetId": 3011,
+    "Series": ""
+  },
+  {
+    "id": 3011,
+    "name": "铜饰法杖",
+    "icon": "铜饰法杖",
+    "Quality": 1,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 5
+      },
+      {
+        "type": 13,
+        "value": 30
+      }
+    ],
+    "MergeTargetId": 3012,
+    "Series": ""
+  },
+  {
+    "id": 3012,
+    "name": "铜饰法杖",
+    "icon": "铜饰法杖",
+    "Quality": 2,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 8
+      },
+      {
+        "type": 13,
+        "value": 50
+      }
+    ],
+    "MergeTargetId": 3013,
+    "Series": ""
+  },
+  {
+    "id": 3013,
+    "name": "铜饰法杖",
+    "icon": "铜饰法杖",
+    "Quality": 3,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 12
+      },
+      {
+        "type": 13,
+        "value": 80
+      }
+    ],
+    "MergeTargetId": 3014,
+    "Series": ""
+  },
+  {
+    "id": 3014,
+    "name": "铜饰法杖",
+    "icon": "铜饰法杖",
+    "Quality": 4,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 15
+      },
+      {
+        "type": 13,
+        "value": 100
+      }
+    ],
+    "MergeTargetId": 3015,
+    "Series": ""
+  },
+  {
+    "id": 3015,
+    "name": "铜饰法杖",
+    "icon": "铜饰法杖",
+    "Quality": 5,
+    "Pos": 3,
+    "AttrConfig": [
+      {
+        "type": 46,
+        "value": 18
+      },
+      {
+        "type": 13,
+        "value": 150
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 4000,
+    "name": "学者戒指",
+    "icon": "学者戒指",
+    "Quality": 0,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 20
+      },
+      {
+        "type": 16,
+        "value": 6
+      }
+    ],
+    "MergeTargetId": 4001,
+    "Series": ""
+  },
+  {
+    "id": 4001,
+    "name": "学者戒指",
+    "icon": "学者戒指",
+    "Quality": 1,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 30
+      },
+      {
+        "type": 16,
+        "value": 12
+      }
+    ],
+    "MergeTargetId": 4002,
+    "Series": ""
+  },
+  {
+    "id": 4002,
+    "name": "学者戒指",
+    "icon": "学者戒指",
+    "Quality": 2,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 45
+      },
+      {
+        "type": 16,
+        "value": 18
+      }
+    ],
+    "MergeTargetId": 4003,
+    "Series": ""
+  },
+  {
+    "id": 4003,
+    "name": "学者戒指",
+    "icon": "学者戒指",
+    "Quality": 3,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 70
+      },
+      {
+        "type": 16,
+        "value": 25
+      }
+    ],
+    "MergeTargetId": 4004,
+    "Series": ""
+  },
+  {
+    "id": 4004,
+    "name": "学者戒指",
+    "icon": "学者戒指",
+    "Quality": 4,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 120
+      },
+      {
+        "type": 16,
+        "value": 30
+      }
+    ],
+    "MergeTargetId": 4005,
+    "Series": ""
+  },
+  {
+    "id": 4005,
+    "name": "学者戒指",
+    "icon": "学者戒指",
+    "Quality": 5,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 150
+      },
+      {
+        "type": 16,
+        "value": 40
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  },
+  {
+    "id": 4010,
+    "name": "蓝宝石戒指",
+    "icon": "蓝宝石戒指",
+    "Quality": 0,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 20
+      },
+      {
+        "type": 4,
+        "value": 2
+      }
+    ],
+    "MergeTargetId": 4011,
+    "Series": ""
+  },
+  {
+    "id": 4011,
+    "name": "蓝宝石戒指",
+    "icon": "蓝宝石戒指",
+    "Quality": 1,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 30
+      },
+      {
+        "type": 4,
+        "value": 3
+      }
+    ],
+    "MergeTargetId": 4012,
+    "Series": ""
+  },
+  {
+    "id": 4012,
+    "name": "蓝宝石戒指",
+    "icon": "蓝宝石戒指",
+    "Quality": 2,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 45
+      },
+      {
+        "type": 4,
+        "value": 6
+      }
+    ],
+    "MergeTargetId": 4013,
+    "Series": ""
+  },
+  {
+    "id": 4013,
+    "name": "蓝宝石戒指",
+    "icon": "蓝宝石戒指",
+    "Quality": 3,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 70
+      },
+      {
+        "type": 4,
+        "value": 8
+      }
+    ],
+    "MergeTargetId": 4014,
+    "Series": ""
+  },
+  {
+    "id": 4014,
+    "name": "蓝宝石戒指",
+    "icon": "蓝宝石戒指",
+    "Quality": 4,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 120
+      },
+      {
+        "type": 4,
+        "value": 10
+      }
+    ],
+    "MergeTargetId": 4015,
+    "Series": ""
+  },
+  {
+    "id": 4015,
+    "name": "蓝宝石戒指",
+    "icon": "蓝宝石戒指",
+    "Quality": 5,
+    "Pos": 4,
+    "AttrConfig": [
+      {
+        "type": 8,
+        "value": 150
+      },
+      {
+        "type": 4,
+        "value": 15
+      }
+    ],
+    "MergeTargetId": 0,
+    "Series": ""
+  }
+]

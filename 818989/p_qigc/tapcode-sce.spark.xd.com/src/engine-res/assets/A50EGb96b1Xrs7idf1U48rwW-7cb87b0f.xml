@@ -1,0 +1,3 @@
+<technique vs="Basic" ps="Basic">
+    <pass name="base" />
+</technique>

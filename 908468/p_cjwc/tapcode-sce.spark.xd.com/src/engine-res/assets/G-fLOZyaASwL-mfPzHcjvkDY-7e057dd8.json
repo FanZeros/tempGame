@@ -1,0 +1,42 @@
+[
+    {
+        "FileName": "defaultlambert.xml",
+        "Name": "t_fJCXK8G7fmUBVfWI",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "particlelambert.xml",
+        "Name": "t_1ExRgpdAJ1FOFo196A",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "unlitstealth.xml",
+        "Name": "t_RSjabijdQytynBSW",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "defaultmetallicroughness.xml",
+        "Name": "PBR",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "graylevelfive.xml",
+        "Name": "t_VeyWUlVjVWKRB2gM",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "grayleveltwo.xml",
+        "Name": "t_i9ROxD7Mi0lbU1Bl",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "hairsimulation.xml",
+        "Name": "t_dybZgz7CeSVJoksV",
+        "ImagePath": "editor/techniques/base_material.png"
+    },
+    {
+        "FileName": "staticobject.xml",
+        "Name": "t_pcsBd521pRekoblA",
+        "ImagePath": "editor/techniques/base_material.png"
+    }
+]

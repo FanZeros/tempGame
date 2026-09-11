@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- One-shot masonry dust burst for voxel destruction impacts. activetime cuts emission after
+     a brief puff; the owning script removes the node once the last particle has faded. -->
+<particleeffect>
+	<material name="Materials/Smoke.xml" />
+	<numparticles value="26" />
+	<updateinvisible enable="false" />
+	<relative enable="false" />
+	<scaled enable="true" />
+	<sorted enable="true" />
+	<emittertype value="Sphere" />
+	<emittersize value="0.5 0.5 0.5" />
+	<direction min="-0.6 0.1 -0.6" max="0.6 1.0 0.6" />
+	<constantforce value="0 -0.6 0" />
+	<dampingforce value="1.4" />
+	<activetime value="0.15" />
+	<inactivetime value="9999" />
+	<emissionrate min="160" max="180" />
+	<particlesize min="0.3 0.3" max="0.65 0.65" />
+	<timetolive min="0.5" max="1.1" />
+	<velocity min="1.2" max="3.2" />
+	<rotation min="0" max="360" />
+	<rotationspeed min="-50" max="50" />
+	<sizedelta add="0.9" mul="1.5" />
+	<colorfade color="0.62 0.52 0.44 0.5" time="0" />
+	<colorfade color="0.55 0.47 0.4 0.28" time="0.3" />
+	<colorfade color="0.5 0.44 0.38 0" time="1.1" />
+</particleeffect>

@@ -1,0 +1,627 @@
+[
+  {
+    "id": 1,
+    "MonsterWave": [
+      "普通-幽灵"
+    ],
+    "Duration": 12,
+    "TotalDifficultyValue": 18,
+    "dropId": "day1",
+    "BaseAddHpPct": 0,
+    "BaseAddAtkPct": 0,
+    "GenSmallChest": 0,
+    "GenBigChest": 0,
+    "GoldDropBonus": 0,
+    "CrystalDropBonus": 0,
+    "CallCrystalMonsterCount": 0,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 2,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人10"
+    ],
+    "Duration": 8,
+    "TotalDifficultyValue": 54,
+    "dropId": "day2",
+    "BaseAddHpPct": 30,
+    "BaseAddAtkPct": 0,
+    "GenSmallChest": 0.2,
+    "GenBigChest": 0,
+    "GoldDropBonus": 100,
+    "CrystalDropBonus": 100,
+    "CallCrystalMonsterCount": 1,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 3,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 7,
+    "TotalDifficultyValue": 90,
+    "dropId": "day3",
+    "BaseAddHpPct": 100,
+    "BaseAddAtkPct": 2,
+    "GenSmallChest": 0.25,
+    "GenBigChest": 0,
+    "GoldDropBonus": 200,
+    "CrystalDropBonus": 200,
+    "CallCrystalMonsterCount": 1,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 4,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人",
+      "普通-石头人20",
+      "普通-炸弹人5"
+    ],
+    "Duration": 7,
+    "TotalDifficultyValue": 158,
+    "dropId": "day4",
+    "BaseAddHpPct": 210,
+    "BaseAddAtkPct": 3,
+    "GenSmallChest": 0.3,
+    "GenBigChest": 0,
+    "GoldDropBonus": 300,
+    "CrystalDropBonus": 300,
+    "CallCrystalMonsterCount": 1,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 5,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人",
+      "boss-石头人"
+    ],
+    "Duration": 10,
+    "TotalDifficultyValue": 271,
+    "dropId": "day5",
+    "BaseAddHpPct": 430,
+    "BaseAddAtkPct": 14,
+    "GenSmallChest": 0.35,
+    "GenBigChest": 0,
+    "GoldDropBonus": 400,
+    "CrystalDropBonus": 400,
+    "CallCrystalMonsterCount": 2,
+    "SummonDragonCount": 1,
+    "isBossLevel": 1
+  },
+  {
+    "id": 6,
+    "MonsterWave": [
+      "普通-牛头人",
+      "普通-小骷髅",
+      "普通-弓箭骷髅20"
+    ],
+    "Duration": 6.4,
+    "TotalDifficultyValue": 294,
+    "dropId": "day6",
+    "BaseAddHpPct": 710,
+    "BaseAddAtkPct": 30,
+    "GenSmallChest": 0.4,
+    "GenBigChest": 0,
+    "GoldDropBonus": 500,
+    "CrystalDropBonus": 500,
+    "CallCrystalMonsterCount": 2,
+    "SummonDragonCount": 0.3,
+    "isBossLevel": 0
+  },
+  {
+    "id": 7,
+    "MonsterWave": [
+      "普通-小骷髅",
+      "普通-骑狼哥布林"
+    ],
+    "Duration": 15,
+    "TotalDifficultyValue": 362,
+    "dropId": "day7",
+    "BaseAddHpPct": 975,
+    "BaseAddAtkPct": 48,
+    "GenSmallChest": 0.45,
+    "GenBigChest": 0,
+    "GoldDropBonus": 600,
+    "CrystalDropBonus": 600,
+    "CallCrystalMonsterCount": 2,
+    "SummonDragonCount": 0.6,
+    "isBossLevel": 0
+  },
+  {
+    "id": 8,
+    "MonsterWave": [
+      "普通-石头人",
+      "普通-双头骷髅",
+      "普通-冲锋大牛20"
+    ],
+    "Duration": 6.8,
+    "TotalDifficultyValue": 430,
+    "dropId": "day8",
+    "BaseAddHpPct": 1980,
+    "BaseAddAtkPct": 68,
+    "GenSmallChest": 0.5,
+    "GenBigChest": 0.05,
+    "GoldDropBonus": 700,
+    "CrystalDropBonus": 700,
+    "CallCrystalMonsterCount": 3,
+    "SummonDragonCount": 0.3,
+    "isBossLevel": 0
+  },
+  {
+    "id": 9,
+    "MonsterWave": [
+      "普通-石头人",
+      "普通-巨斧哥布林",
+      "普通-炸弹人20"
+    ],
+    "Duration": 7,
+    "TotalDifficultyValue": 498,
+    "dropId": "day9",
+    "BaseAddHpPct": 3025,
+    "BaseAddAtkPct": 90,
+    "GenSmallChest": 0.55,
+    "GenBigChest": 0.06,
+    "GoldDropBonus": 800,
+    "CrystalDropBonus": 800,
+    "CallCrystalMonsterCount": 3,
+    "SummonDragonCount": 0.3,
+    "isBossLevel": 0
+  },
+  {
+    "id": 10,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-巨斧哥布林",
+      "boss-哥布林王",
+      "普通-骑狼哥布林",
+      "普通-双头骷髅"
+    ],
+    "Duration": 15,
+    "TotalDifficultyValue": 720,
+    "dropId": "day10",
+    "BaseAddHpPct": 3810,
+    "BaseAddAtkPct": 114,
+    "GenSmallChest": 0.6,
+    "GenBigChest": 0.07,
+    "GoldDropBonus": 900,
+    "CrystalDropBonus": 900,
+    "CallCrystalMonsterCount": 3,
+    "SummonDragonCount": 2,
+    "isBossLevel": 1
+  },
+  {
+    "id": 11,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 7.6,
+    "TotalDifficultyValue": 634,
+    "dropId": "day11",
+    "BaseAddHpPct": 1585,
+    "BaseAddAtkPct": 140,
+    "GenSmallChest": 0.65,
+    "GenBigChest": 0.08,
+    "GoldDropBonus": 1000,
+    "CrystalDropBonus": 1100,
+    "CallCrystalMonsterCount": 4,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 12,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 7.8,
+    "TotalDifficultyValue": 702,
+    "dropId": "day12",
+    "BaseAddHpPct": 1910,
+    "BaseAddAtkPct": 168,
+    "GenSmallChest": 0.7,
+    "GenBigChest": 0.09,
+    "GoldDropBonus": 1100,
+    "CrystalDropBonus": 1200,
+    "CallCrystalMonsterCount": 4,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 13,
+    "MonsterWave": [
+      "普通-双头骷髅"
+    ],
+    "Duration": 8,
+    "TotalDifficultyValue": 770,
+    "dropId": "day13",
+    "BaseAddHpPct": 2265,
+    "BaseAddAtkPct": 198,
+    "GenSmallChest": 0.75,
+    "GenBigChest": 0.1,
+    "GoldDropBonus": 1200,
+    "CrystalDropBonus": 1300,
+    "CallCrystalMonsterCount": 4,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 14,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 8.2,
+    "TotalDifficultyValue": 838,
+    "dropId": "day14",
+    "BaseAddHpPct": 2650,
+    "BaseAddAtkPct": 230,
+    "GenSmallChest": 0.8,
+    "GenBigChest": 0.11,
+    "GoldDropBonus": 1300,
+    "CrystalDropBonus": 1400,
+    "CallCrystalMonsterCount": 5,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 15,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 8.4,
+    "TotalDifficultyValue": 1087,
+    "dropId": "day15",
+    "BaseAddHpPct": 3065,
+    "BaseAddAtkPct": 264,
+    "GenSmallChest": 0.85,
+    "GenBigChest": 0.12,
+    "GoldDropBonus": 1400,
+    "CrystalDropBonus": 1500,
+    "CallCrystalMonsterCount": 5,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 16,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 8.6,
+    "TotalDifficultyValue": 974,
+    "dropId": "day16",
+    "BaseAddHpPct": 3510,
+    "BaseAddAtkPct": 300,
+    "GenSmallChest": 0.9,
+    "GenBigChest": 0.13,
+    "GoldDropBonus": 1500,
+    "CrystalDropBonus": 1600,
+    "CallCrystalMonsterCount": 5,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 17,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 8.8,
+    "TotalDifficultyValue": 1042,
+    "dropId": "day17",
+    "BaseAddHpPct": 3985,
+    "BaseAddAtkPct": 338,
+    "GenSmallChest": 0.95,
+    "GenBigChest": 0.14,
+    "GoldDropBonus": 1600,
+    "CrystalDropBonus": 1700,
+    "CallCrystalMonsterCount": 6,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 18,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 9,
+    "TotalDifficultyValue": 1110,
+    "dropId": "day18",
+    "BaseAddHpPct": 4490,
+    "BaseAddAtkPct": 378,
+    "GenSmallChest": 1,
+    "GenBigChest": 0.15,
+    "GoldDropBonus": 1700,
+    "CrystalDropBonus": 1800,
+    "CallCrystalMonsterCount": 6,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 19,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 9.2,
+    "TotalDifficultyValue": 1178,
+    "dropId": "day19",
+    "BaseAddHpPct": 5025,
+    "BaseAddAtkPct": 420,
+    "GenSmallChest": 1.05,
+    "GenBigChest": 0.16,
+    "GoldDropBonus": 1800,
+    "CrystalDropBonus": 1900,
+    "CallCrystalMonsterCount": 6,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 20,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 9.4,
+    "TotalDifficultyValue": 1495,
+    "dropId": "day20",
+    "BaseAddHpPct": 5590,
+    "BaseAddAtkPct": 464,
+    "GenSmallChest": 1.1,
+    "GenBigChest": 0.17,
+    "GoldDropBonus": 1900,
+    "CrystalDropBonus": 2000,
+    "CallCrystalMonsterCount": 7,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 21,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 9.6,
+    "TotalDifficultyValue": 1314,
+    "dropId": "day21",
+    "BaseAddHpPct": 6185,
+    "BaseAddAtkPct": 510,
+    "GenSmallChest": 1.15,
+    "GenBigChest": 0.18,
+    "GoldDropBonus": 2000,
+    "CrystalDropBonus": 2100,
+    "CallCrystalMonsterCount": 7,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 22,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 9.8,
+    "TotalDifficultyValue": 1382,
+    "dropId": "day22",
+    "BaseAddHpPct": 6810,
+    "BaseAddAtkPct": 558,
+    "GenSmallChest": 1.2,
+    "GenBigChest": 0.19,
+    "GoldDropBonus": 2100,
+    "CrystalDropBonus": 2200,
+    "CallCrystalMonsterCount": 7,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 23,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 10,
+    "TotalDifficultyValue": 1450,
+    "dropId": "day23",
+    "BaseAddHpPct": 7465,
+    "BaseAddAtkPct": 608,
+    "GenSmallChest": 1.25,
+    "GenBigChest": 0.2,
+    "GoldDropBonus": 2200,
+    "CrystalDropBonus": 2300,
+    "CallCrystalMonsterCount": 8,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 24,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 10.2,
+    "TotalDifficultyValue": 1518,
+    "dropId": "day24",
+    "BaseAddHpPct": 8150,
+    "BaseAddAtkPct": 660,
+    "GenSmallChest": 1.3,
+    "GenBigChest": 0.21,
+    "GoldDropBonus": 2300,
+    "CrystalDropBonus": 2400,
+    "CallCrystalMonsterCount": 8,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 25,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 10.4,
+    "TotalDifficultyValue": 1903,
+    "dropId": "day25",
+    "BaseAddHpPct": 8865,
+    "BaseAddAtkPct": 714,
+    "GenSmallChest": 1.35,
+    "GenBigChest": 0.22,
+    "GoldDropBonus": 2400,
+    "CrystalDropBonus": 2500,
+    "CallCrystalMonsterCount": 8,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 26,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人",
+      "boss-哥布林王",
+      "普通-骑狼哥布林",
+      "普通-双头骷髅"
+    ],
+    "Duration": 10.6,
+    "TotalDifficultyValue": 1654,
+    "dropId": "day26",
+    "BaseAddHpPct": 9610,
+    "BaseAddAtkPct": 770,
+    "GenSmallChest": 1.4,
+    "GenBigChest": 0.23,
+    "GoldDropBonus": 2500,
+    "CrystalDropBonus": 2600,
+    "CallCrystalMonsterCount": 9,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 27,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 10.8,
+    "TotalDifficultyValue": 1722,
+    "dropId": "day27",
+    "BaseAddHpPct": 10385,
+    "BaseAddAtkPct": 828,
+    "GenSmallChest": 1.45,
+    "GenBigChest": 0.24,
+    "GoldDropBonus": 2600,
+    "CrystalDropBonus": 2700,
+    "CallCrystalMonsterCount": 9,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 28,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 11,
+    "TotalDifficultyValue": 1790,
+    "dropId": "day28",
+    "BaseAddHpPct": 11190,
+    "BaseAddAtkPct": 888,
+    "GenSmallChest": 1.5,
+    "GenBigChest": 0.25,
+    "GoldDropBonus": 2700,
+    "CrystalDropBonus": 2800,
+    "CallCrystalMonsterCount": 9,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 29,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 11.2,
+    "TotalDifficultyValue": 1858,
+    "dropId": "day29",
+    "BaseAddHpPct": 12025,
+    "BaseAddAtkPct": 950,
+    "GenSmallChest": 1.55,
+    "GenBigChest": 0.26,
+    "GoldDropBonus": 2800,
+    "CrystalDropBonus": 2900,
+    "CallCrystalMonsterCount": 10,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 30,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人"
+    ],
+    "Duration": 11.4,
+    "TotalDifficultyValue": 2311,
+    "dropId": "day30",
+    "BaseAddHpPct": 12890,
+    "BaseAddAtkPct": 1014,
+    "GenSmallChest": 1.6,
+    "GenBigChest": 0.27,
+    "GoldDropBonus": 2900,
+    "CrystalDropBonus": 3000,
+    "CallCrystalMonsterCount": 10,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  },
+  {
+    "id": 10999,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-巨斧哥布林",
+      "boss-死灵",
+      "boss-哥布林王",
+      "普通-骑狼哥布林",
+      "普通-双头骷髅"
+    ],
+    "Duration": 20,
+    "TotalDifficultyValue": 1200,
+    "dropId": "day10",
+    "BaseAddHpPct": 5000,
+    "BaseAddAtkPct": 350,
+    "GenSmallChest": 2.5,
+    "GenBigChest": 0.07,
+    "GoldDropBonus": 800,
+    "CrystalDropBonus": 1000,
+    "CallCrystalMonsterCount": 5,
+    "SummonDragonCount": 6,
+    "isBossLevel": 1
+  },
+  {
+    "id": 99999,
+    "MonsterWave": [
+      "普通-幽灵",
+      "普通-牛头人",
+      "boss-哥布林王",
+      "普通-骑狼哥布林",
+      "普通-双头骷髅"
+    ],
+    "Duration": 7.8,
+    "TotalDifficultyValue": 800,
+    "dropId": "day10",
+    "BaseAddHpPct": 0,
+    "BaseAddAtkPct": 0,
+    "GenSmallChest": 0.6,
+    "GenBigChest": 0.07,
+    "GoldDropBonus": 900,
+    "CrystalDropBonus": 1000,
+    "CallCrystalMonsterCount": 3,
+    "SummonDragonCount": 0,
+    "isBossLevel": 0
+  }
+]

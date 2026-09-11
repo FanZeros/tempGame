@@ -1,0 +1,175 @@
+[
+  {
+    "difficulty": 0,
+    "Cost": 0,
+    "AttrConfig": [],
+    "leveldifficultyAdd": 0
+  },
+  {
+    "difficulty": 1,
+    "Cost": 50000,
+    "AttrConfig": [
+      {
+        "type": 79,
+        "value": 100
+      },
+      {
+        "type": 80,
+        "value": 50
+      },
+      {
+        "type": 81,
+        "value": 10
+      },
+      {
+        "type": 59,
+        "value": 5
+      },
+      {
+        "type": 64,
+        "value": 100
+      },
+      {
+        "type": 65,
+        "value": 100
+      },
+      {
+        "type": 82,
+        "value": 20
+      }
+    ],
+    "leveldifficultyAdd": 100
+  },
+  {
+    "difficulty": 2,
+    "Cost": 100000,
+    "AttrConfig": [
+      {
+        "type": 79,
+        "value": 200
+      },
+      {
+        "type": 80,
+        "value": 100
+      },
+      {
+        "type": 81,
+        "value": 10
+      },
+      {
+        "type": 59,
+        "value": 10
+      },
+      {
+        "type": 64,
+        "value": 200
+      },
+      {
+        "type": 65,
+        "value": 200
+      },
+      {
+        "type": 82,
+        "value": 50
+      }
+    ],
+    "leveldifficultyAdd": 200
+  },
+  {
+    "difficulty": 3,
+    "Cost": 150000,
+    "AttrConfig": [
+      {
+        "type": 79,
+        "value": 500
+      },
+      {
+        "type": 80,
+        "value": 200
+      },
+      {
+        "type": 81,
+        "value": 10
+      },
+      {
+        "type": 59,
+        "value": 15
+      },
+      {
+        "type": 64,
+        "value": 400
+      },
+      {
+        "type": 65,
+        "value": 400
+      },
+      {
+        "type": 82,
+        "value": 100
+      }
+    ],
+    "leveldifficultyAdd": 300
+  },
+  {
+    "difficulty": 4,
+    "Cost": 200000,
+    "AttrConfig": [
+      {
+        "type": 79,
+        "value": 800
+      },
+      {
+        "type": 80,
+        "value": 500
+      },
+      {
+        "type": 59,
+        "value": 20
+      },
+      {
+        "type": 64,
+        "value": 600
+      },
+      {
+        "type": 65,
+        "value": 600
+      },
+      {
+        "type": 82,
+        "value": 250
+      }
+    ],
+    "leveldifficultyAdd": 400
+  },
+  {
+    "difficulty": 5,
+    "Cost": 300000,
+    "AttrConfig": [
+      {
+        "type": 79,
+        "value": 1400
+      },
+      {
+        "type": 80,
+        "value": 800
+      },
+      {
+        "type": 59,
+        "value": 30
+      },
+      {
+        "type": 64,
+        "value": 1000
+      },
+      {
+        "type": 65,
+        "value": 1000
+      },
+      {
+        "type": 82,
+        "value": 400
+      }
+    ],
+    "leveldifficultyAdd": 500
+  }
+]

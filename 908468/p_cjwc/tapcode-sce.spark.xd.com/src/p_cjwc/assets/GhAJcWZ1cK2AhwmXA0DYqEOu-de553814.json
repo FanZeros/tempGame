@@ -1,0 +1,1638 @@
+[
+  {
+    "id": 1,
+    "Type": 8,
+    "Target": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxLevel": 500,
+    "EffectValue": 5,
+    "Cost": [
+      {
+        "level": 0,
+        "cost": 1
+      },
+      {
+        "level": 1,
+        "cost": 2
+      },
+      {
+        "level": 2,
+        "cost": 3
+      },
+      {
+        "level": 3,
+        "cost": 3
+      },
+      {
+        "level": 4,
+        "cost": 4
+      },
+      {
+        "level": 5,
+        "cost": 5
+      },
+      {
+        "level": 6,
+        "cost": 6
+      },
+      {
+        "level": 7,
+        "cost": 6
+      },
+      {
+        "level": 8,
+        "cost": 7
+      },
+      {
+        "level": 9,
+        "cost": 8
+      },
+      {
+        "level": 10,
+        "cost": 9
+      },
+      {
+        "level": 11,
+        "cost": 9
+      },
+      {
+        "level": 12,
+        "cost": 10
+      },
+      {
+        "level": 13,
+        "cost": 11
+      },
+      {
+        "level": 14,
+        "cost": 12
+      },
+      {
+        "level": 15,
+        "cost": 12
+      },
+      {
+        "level": 16,
+        "cost": 13
+      },
+      {
+        "level": 17,
+        "cost": 14
+      },
+      {
+        "level": 18,
+        "cost": 15
+      },
+      {
+        "level": 19,
+        "cost": 15
+      },
+      {
+        "level": 20,
+        "cost": 16
+      },
+      {
+        "level": 21,
+        "cost": 17
+      },
+      {
+        "level": 22,
+        "cost": 18
+      },
+      {
+        "level": 23,
+        "cost": 18
+      },
+      {
+        "level": 24,
+        "cost": 19
+      },
+      {
+        "level": 25,
+        "cost": 20
+      },
+      {
+        "level": 26,
+        "cost": 21
+      },
+      {
+        "level": 27,
+        "cost": 21
+      },
+      {
+        "level": 28,
+        "cost": 22
+      },
+      {
+        "level": 29,
+        "cost": 23
+      },
+      {
+        "level": 30,
+        "cost": 24
+      },
+      {
+        "level": 31,
+        "cost": 24
+      },
+      {
+        "level": 32,
+        "cost": 25
+      },
+      {
+        "level": 33,
+        "cost": 26
+      },
+      {
+        "level": 34,
+        "cost": 27
+      },
+      {
+        "level": 35,
+        "cost": 27
+      },
+      {
+        "level": 36,
+        "cost": 28
+      },
+      {
+        "level": 37,
+        "cost": 29
+      },
+      {
+        "level": 38,
+        "cost": 30
+      },
+      {
+        "level": 39,
+        "cost": 30
+      },
+      {
+        "level": 40,
+        "cost": 31
+      },
+      {
+        "level": 41,
+        "cost": 32
+      },
+      {
+        "level": 42,
+        "cost": 33
+      },
+      {
+        "level": 43,
+        "cost": 33
+      },
+      {
+        "level": 44,
+        "cost": 34
+      },
+      {
+        "level": 45,
+        "cost": 35
+      },
+      {
+        "level": 46,
+        "cost": 36
+      },
+      {
+        "level": 47,
+        "cost": 36
+      },
+      {
+        "level": 48,
+        "cost": 37
+      },
+      {
+        "level": 49,
+        "cost": 38
+      },
+      {
+        "level": 50,
+        "cost": 39
+      },
+      {
+        "level": 51,
+        "cost": 39
+      },
+      {
+        "level": 52,
+        "cost": 40
+      },
+      {
+        "level": 53,
+        "cost": 41
+      },
+      {
+        "level": 54,
+        "cost": 42
+      },
+      {
+        "level": 55,
+        "cost": 42
+      },
+      {
+        "level": 56,
+        "cost": 43
+      },
+      {
+        "level": 57,
+        "cost": 44
+      },
+      {
+        "level": 58,
+        "cost": 45
+      },
+      {
+        "level": 59,
+        "cost": 45
+      },
+      {
+        "level": 60,
+        "cost": 46
+      },
+      {
+        "level": 61,
+        "cost": 47
+      },
+      {
+        "level": 62,
+        "cost": 48
+      },
+      {
+        "level": 63,
+        "cost": 48
+      },
+      {
+        "level": 64,
+        "cost": 49
+      },
+      {
+        "level": 65,
+        "cost": 50
+      },
+      {
+        "level": 66,
+        "cost": 51
+      },
+      {
+        "level": 67,
+        "cost": 51
+      },
+      {
+        "level": 68,
+        "cost": 52
+      },
+      {
+        "level": 69,
+        "cost": 53
+      },
+      {
+        "level": 70,
+        "cost": 54
+      },
+      {
+        "level": 71,
+        "cost": 54
+      },
+      {
+        "level": 72,
+        "cost": 55
+      },
+      {
+        "level": 73,
+        "cost": 56
+      },
+      {
+        "level": 74,
+        "cost": 57
+      },
+      {
+        "level": 75,
+        "cost": 57
+      },
+      {
+        "level": 76,
+        "cost": 58
+      },
+      {
+        "level": 77,
+        "cost": 59
+      },
+      {
+        "level": 78,
+        "cost": 60
+      },
+      {
+        "level": 79,
+        "cost": 60
+      },
+      {
+        "level": 80,
+        "cost": 61
+      },
+      {
+        "level": 81,
+        "cost": 62
+      },
+      {
+        "level": 82,
+        "cost": 63
+      },
+      {
+        "level": 83,
+        "cost": 63
+      },
+      {
+        "level": 84,
+        "cost": 64
+      },
+      {
+        "level": 85,
+        "cost": 65
+      },
+      {
+        "level": 86,
+        "cost": 66
+      },
+      {
+        "level": 87,
+        "cost": 66
+      },
+      {
+        "level": 88,
+        "cost": 67
+      },
+      {
+        "level": 89,
+        "cost": 68
+      },
+      {
+        "level": 90,
+        "cost": 69
+      },
+      {
+        "level": 91,
+        "cost": 69
+      },
+      {
+        "level": 92,
+        "cost": 70
+      },
+      {
+        "level": 93,
+        "cost": 71
+      },
+      {
+        "level": 94,
+        "cost": 72
+      },
+      {
+        "level": 95,
+        "cost": 72
+      },
+      {
+        "level": 96,
+        "cost": 73
+      },
+      {
+        "level": 97,
+        "cost": 74
+      },
+      {
+        "level": 98,
+        "cost": 75
+      },
+      {
+        "level": 99,
+        "cost": 75
+      },
+      {
+        "level": 100,
+        "cost": 76
+      },
+      {
+        "level": 101,
+        "cost": 77
+      },
+      {
+        "level": 102,
+        "cost": 78
+      },
+      {
+        "level": 103,
+        "cost": 78
+      },
+      {
+        "level": 104,
+        "cost": 79
+      },
+      {
+        "level": 105,
+        "cost": 80
+      },
+      {
+        "level": 106,
+        "cost": 81
+      },
+      {
+        "level": 107,
+        "cost": 81
+      },
+      {
+        "level": 108,
+        "cost": 82
+      },
+      {
+        "level": 109,
+        "cost": 83
+      },
+      {
+        "level": 110,
+        "cost": 84
+      },
+      {
+        "level": 111,
+        "cost": 84
+      },
+      {
+        "level": 112,
+        "cost": 85
+      },
+      {
+        "level": 113,
+        "cost": 86
+      },
+      {
+        "level": 114,
+        "cost": 87
+      },
+      {
+        "level": 115,
+        "cost": 87
+      },
+      {
+        "level": 116,
+        "cost": 88
+      },
+      {
+        "level": 117,
+        "cost": 89
+      },
+      {
+        "level": 118,
+        "cost": 90
+      },
+      {
+        "level": 119,
+        "cost": 90
+      },
+      {
+        "level": 120,
+        "cost": 91
+      },
+      {
+        "level": 121,
+        "cost": 92
+      },
+      {
+        "level": 122,
+        "cost": 93
+      },
+      {
+        "level": 123,
+        "cost": 93
+      },
+      {
+        "level": 124,
+        "cost": 94
+      },
+      {
+        "level": 125,
+        "cost": 95
+      },
+      {
+        "level": 126,
+        "cost": 96
+      },
+      {
+        "level": 127,
+        "cost": 96
+      },
+      {
+        "level": 128,
+        "cost": 97
+      },
+      {
+        "level": 129,
+        "cost": 98
+      },
+      {
+        "level": 130,
+        "cost": 99
+      },
+      {
+        "level": 131,
+        "cost": 99
+      },
+      {
+        "level": 132,
+        "cost": 100
+      },
+      {
+        "level": 133,
+        "cost": 101
+      },
+      {
+        "level": 134,
+        "cost": 102
+      },
+      {
+        "level": 135,
+        "cost": 102
+      },
+      {
+        "level": 136,
+        "cost": 103
+      },
+      {
+        "level": 137,
+        "cost": 104
+      },
+      {
+        "level": 138,
+        "cost": 105
+      },
+      {
+        "level": 139,
+        "cost": 105
+      },
+      {
+        "level": 140,
+        "cost": 106
+      },
+      {
+        "level": 141,
+        "cost": 107
+      },
+      {
+        "level": 142,
+        "cost": 108
+      },
+      {
+        "level": 143,
+        "cost": 108
+      },
+      {
+        "level": 144,
+        "cost": 109
+      },
+      {
+        "level": 145,
+        "cost": 110
+      },
+      {
+        "level": 146,
+        "cost": 111
+      },
+      {
+        "level": 147,
+        "cost": 111
+      },
+      {
+        "level": 148,
+        "cost": 112
+      },
+      {
+        "level": 149,
+        "cost": 113
+      },
+      {
+        "level": 150,
+        "cost": 114
+      },
+      {
+        "level": 151,
+        "cost": 114
+      },
+      {
+        "level": 152,
+        "cost": 115
+      },
+      {
+        "level": 153,
+        "cost": 116
+      },
+      {
+        "level": 154,
+        "cost": 117
+      },
+      {
+        "level": 155,
+        "cost": 117
+      },
+      {
+        "level": 156,
+        "cost": 118
+      },
+      {
+        "level": 157,
+        "cost": 119
+      },
+      {
+        "level": 158,
+        "cost": 120
+      },
+      {
+        "level": 159,
+        "cost": 120
+      },
+      {
+        "level": 160,
+        "cost": 121
+      },
+      {
+        "level": 161,
+        "cost": 122
+      },
+      {
+        "level": 162,
+        "cost": 123
+      },
+      {
+        "level": 163,
+        "cost": 123
+      },
+      {
+        "level": 164,
+        "cost": 124
+      },
+      {
+        "level": 165,
+        "cost": 125
+      },
+      {
+        "level": 166,
+        "cost": 126
+      },
+      {
+        "level": 167,
+        "cost": 126
+      },
+      {
+        "level": 168,
+        "cost": 127
+      },
+      {
+        "level": 169,
+        "cost": 128
+      },
+      {
+        "level": 170,
+        "cost": 129
+      },
+      {
+        "level": 171,
+        "cost": 129
+      },
+      {
+        "level": 172,
+        "cost": 130
+      },
+      {
+        "level": 173,
+        "cost": 131
+      },
+      {
+        "level": 174,
+        "cost": 132
+      },
+      {
+        "level": 175,
+        "cost": 132
+      },
+      {
+        "level": 176,
+        "cost": 133
+      },
+      {
+        "level": 177,
+        "cost": 134
+      },
+      {
+        "level": 178,
+        "cost": 135
+      },
+      {
+        "level": 179,
+        "cost": 135
+      },
+      {
+        "level": 180,
+        "cost": 136
+      },
+      {
+        "level": 181,
+        "cost": 137
+      },
+      {
+        "level": 182,
+        "cost": 138
+      },
+      {
+        "level": 183,
+        "cost": 138
+      },
+      {
+        "level": 184,
+        "cost": 139
+      },
+      {
+        "level": 185,
+        "cost": 140
+      },
+      {
+        "level": 186,
+        "cost": 141
+      },
+      {
+        "level": 187,
+        "cost": 141
+      },
+      {
+        "level": 188,
+        "cost": 142
+      },
+      {
+        "level": 189,
+        "cost": 143
+      },
+      {
+        "level": 190,
+        "cost": 144
+      },
+      {
+        "level": 191,
+        "cost": 144
+      },
+      {
+        "level": 192,
+        "cost": 145
+      },
+      {
+        "level": 193,
+        "cost": 146
+      },
+      {
+        "level": 194,
+        "cost": 147
+      },
+      {
+        "level": 195,
+        "cost": 147
+      },
+      {
+        "level": 196,
+        "cost": 148
+      },
+      {
+        "level": 197,
+        "cost": 149
+      },
+      {
+        "level": 198,
+        "cost": 150
+      },
+      {
+        "level": 199,
+        "cost": 150
+      },
+      {
+        "level": 200,
+        "cost": 151
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "Type": 53,
+    "Target": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxLevel": 500,
+    "EffectValue": 10,
+    "Cost": [
+      {
+        "level": 0,
+        "cost": 3
+      },
+      {
+        "level": 1,
+        "cost": 4
+      },
+      {
+        "level": 2,
+        "cost": 5
+      },
+      {
+        "level": 3,
+        "cost": 5
+      },
+      {
+        "level": 4,
+        "cost": 6
+      },
+      {
+        "level": 5,
+        "cost": 7
+      },
+      {
+        "level": 6,
+        "cost": 8
+      },
+      {
+        "level": 7,
+        "cost": 9
+      },
+      {
+        "level": 8,
+        "cost": 9
+      },
+      {
+        "level": 9,
+        "cost": 10
+      },
+      {
+        "level": 10,
+        "cost": 11
+      },
+      {
+        "level": 11,
+        "cost": 12
+      },
+      {
+        "level": 12,
+        "cost": 13
+      },
+      {
+        "level": 13,
+        "cost": 13
+      },
+      {
+        "level": 14,
+        "cost": 14
+      },
+      {
+        "level": 15,
+        "cost": 15
+      },
+      {
+        "level": 16,
+        "cost": 16
+      },
+      {
+        "level": 17,
+        "cost": 17
+      },
+      {
+        "level": 18,
+        "cost": 17
+      },
+      {
+        "level": 19,
+        "cost": 18
+      },
+      {
+        "level": 20,
+        "cost": 19
+      },
+      {
+        "level": 21,
+        "cost": 20
+      },
+      {
+        "level": 22,
+        "cost": 21
+      },
+      {
+        "level": 23,
+        "cost": 21
+      },
+      {
+        "level": 24,
+        "cost": 22
+      },
+      {
+        "level": 25,
+        "cost": 23
+      },
+      {
+        "level": 26,
+        "cost": 24
+      },
+      {
+        "level": 27,
+        "cost": 25
+      },
+      {
+        "level": 28,
+        "cost": 25
+      },
+      {
+        "level": 29,
+        "cost": 26
+      },
+      {
+        "level": 30,
+        "cost": 27
+      },
+      {
+        "level": 31,
+        "cost": 28
+      },
+      {
+        "level": 32,
+        "cost": 29
+      },
+      {
+        "level": 33,
+        "cost": 29
+      },
+      {
+        "level": 34,
+        "cost": 30
+      },
+      {
+        "level": 35,
+        "cost": 31
+      },
+      {
+        "level": 36,
+        "cost": 32
+      },
+      {
+        "level": 37,
+        "cost": 33
+      },
+      {
+        "level": 38,
+        "cost": 33
+      },
+      {
+        "level": 39,
+        "cost": 34
+      },
+      {
+        "level": 40,
+        "cost": 35
+      },
+      {
+        "level": 41,
+        "cost": 36
+      },
+      {
+        "level": 42,
+        "cost": 37
+      },
+      {
+        "level": 43,
+        "cost": 37
+      },
+      {
+        "level": 44,
+        "cost": 38
+      },
+      {
+        "level": 45,
+        "cost": 39
+      },
+      {
+        "level": 46,
+        "cost": 40
+      },
+      {
+        "level": 47,
+        "cost": 41
+      },
+      {
+        "level": 48,
+        "cost": 41
+      },
+      {
+        "level": 49,
+        "cost": 42
+      },
+      {
+        "level": 50,
+        "cost": 43
+      },
+      {
+        "level": 51,
+        "cost": 44
+      },
+      {
+        "level": 52,
+        "cost": 45
+      },
+      {
+        "level": 53,
+        "cost": 45
+      },
+      {
+        "level": 54,
+        "cost": 46
+      },
+      {
+        "level": 55,
+        "cost": 47
+      },
+      {
+        "level": 56,
+        "cost": 48
+      },
+      {
+        "level": 57,
+        "cost": 49
+      },
+      {
+        "level": 58,
+        "cost": 49
+      },
+      {
+        "level": 59,
+        "cost": 50
+      },
+      {
+        "level": 60,
+        "cost": 51
+      },
+      {
+        "level": 61,
+        "cost": 52
+      },
+      {
+        "level": 62,
+        "cost": 53
+      },
+      {
+        "level": 63,
+        "cost": 53
+      },
+      {
+        "level": 64,
+        "cost": 54
+      },
+      {
+        "level": 65,
+        "cost": 55
+      },
+      {
+        "level": 66,
+        "cost": 56
+      },
+      {
+        "level": 67,
+        "cost": 57
+      },
+      {
+        "level": 68,
+        "cost": 57
+      },
+      {
+        "level": 69,
+        "cost": 58
+      },
+      {
+        "level": 70,
+        "cost": 59
+      },
+      {
+        "level": 71,
+        "cost": 60
+      },
+      {
+        "level": 72,
+        "cost": 61
+      },
+      {
+        "level": 73,
+        "cost": 61
+      },
+      {
+        "level": 74,
+        "cost": 62
+      },
+      {
+        "level": 75,
+        "cost": 63
+      },
+      {
+        "level": 76,
+        "cost": 64
+      },
+      {
+        "level": 77,
+        "cost": 65
+      },
+      {
+        "level": 78,
+        "cost": 65
+      },
+      {
+        "level": 79,
+        "cost": 66
+      },
+      {
+        "level": 80,
+        "cost": 67
+      },
+      {
+        "level": 81,
+        "cost": 68
+      },
+      {
+        "level": 82,
+        "cost": 69
+      },
+      {
+        "level": 83,
+        "cost": 69
+      },
+      {
+        "level": 84,
+        "cost": 70
+      },
+      {
+        "level": 85,
+        "cost": 71
+      },
+      {
+        "level": 86,
+        "cost": 72
+      },
+      {
+        "level": 87,
+        "cost": 73
+      },
+      {
+        "level": 88,
+        "cost": 73
+      },
+      {
+        "level": 89,
+        "cost": 74
+      },
+      {
+        "level": 90,
+        "cost": 75
+      },
+      {
+        "level": 91,
+        "cost": 76
+      },
+      {
+        "level": 92,
+        "cost": 77
+      },
+      {
+        "level": 93,
+        "cost": 77
+      },
+      {
+        "level": 94,
+        "cost": 78
+      },
+      {
+        "level": 95,
+        "cost": 79
+      },
+      {
+        "level": 96,
+        "cost": 80
+      },
+      {
+        "level": 97,
+        "cost": 81
+      },
+      {
+        "level": 98,
+        "cost": 81
+      },
+      {
+        "level": 99,
+        "cost": 82
+      },
+      {
+        "level": 100,
+        "cost": 83
+      },
+      {
+        "level": 101,
+        "cost": 84
+      },
+      {
+        "level": 102,
+        "cost": 85
+      },
+      {
+        "level": 103,
+        "cost": 85
+      },
+      {
+        "level": 104,
+        "cost": 86
+      },
+      {
+        "level": 105,
+        "cost": 87
+      },
+      {
+        "level": 106,
+        "cost": 88
+      },
+      {
+        "level": 107,
+        "cost": 89
+      },
+      {
+        "level": 108,
+        "cost": 89
+      },
+      {
+        "level": 109,
+        "cost": 90
+      },
+      {
+        "level": 110,
+        "cost": 91
+      },
+      {
+        "level": 111,
+        "cost": 92
+      },
+      {
+        "level": 112,
+        "cost": 93
+      },
+      {
+        "level": 113,
+        "cost": 93
+      },
+      {
+        "level": 114,
+        "cost": 94
+      },
+      {
+        "level": 115,
+        "cost": 95
+      },
+      {
+        "level": 116,
+        "cost": 96
+      },
+      {
+        "level": 117,
+        "cost": 97
+      },
+      {
+        "level": 118,
+        "cost": 97
+      },
+      {
+        "level": 119,
+        "cost": 98
+      },
+      {
+        "level": 120,
+        "cost": 99
+      },
+      {
+        "level": 121,
+        "cost": 100
+      },
+      {
+        "level": 122,
+        "cost": 101
+      },
+      {
+        "level": 123,
+        "cost": 101
+      },
+      {
+        "level": 124,
+        "cost": 102
+      },
+      {
+        "level": 125,
+        "cost": 103
+      },
+      {
+        "level": 126,
+        "cost": 104
+      },
+      {
+        "level": 127,
+        "cost": 105
+      },
+      {
+        "level": 128,
+        "cost": 105
+      },
+      {
+        "level": 129,
+        "cost": 106
+      },
+      {
+        "level": 130,
+        "cost": 107
+      },
+      {
+        "level": 131,
+        "cost": 108
+      },
+      {
+        "level": 132,
+        "cost": 109
+      },
+      {
+        "level": 133,
+        "cost": 109
+      },
+      {
+        "level": 134,
+        "cost": 110
+      },
+      {
+        "level": 135,
+        "cost": 111
+      },
+      {
+        "level": 136,
+        "cost": 112
+      },
+      {
+        "level": 137,
+        "cost": 113
+      },
+      {
+        "level": 138,
+        "cost": 113
+      },
+      {
+        "level": 139,
+        "cost": 114
+      },
+      {
+        "level": 140,
+        "cost": 115
+      },
+      {
+        "level": 141,
+        "cost": 116
+      },
+      {
+        "level": 142,
+        "cost": 117
+      },
+      {
+        "level": 143,
+        "cost": 117
+      },
+      {
+        "level": 144,
+        "cost": 118
+      },
+      {
+        "level": 145,
+        "cost": 119
+      },
+      {
+        "level": 146,
+        "cost": 120
+      },
+      {
+        "level": 147,
+        "cost": 121
+      },
+      {
+        "level": 148,
+        "cost": 121
+      },
+      {
+        "level": 149,
+        "cost": 122
+      },
+      {
+        "level": 150,
+        "cost": 123
+      },
+      {
+        "level": 151,
+        "cost": 124
+      },
+      {
+        "level": 152,
+        "cost": 125
+      },
+      {
+        "level": 153,
+        "cost": 125
+      },
+      {
+        "level": 154,
+        "cost": 126
+      },
+      {
+        "level": 155,
+        "cost": 127
+      },
+      {
+        "level": 156,
+        "cost": 128
+      },
+      {
+        "level": 157,
+        "cost": 129
+      },
+      {
+        "level": 158,
+        "cost": 129
+      },
+      {
+        "level": 159,
+        "cost": 130
+      },
+      {
+        "level": 160,
+        "cost": 131
+      },
+      {
+        "level": 161,
+        "cost": 132
+      },
+      {
+        "level": 162,
+        "cost": 133
+      },
+      {
+        "level": 163,
+        "cost": 133
+      },
+      {
+        "level": 164,
+        "cost": 134
+      },
+      {
+        "level": 165,
+        "cost": 135
+      },
+      {
+        "level": 166,
+        "cost": 136
+      },
+      {
+        "level": 167,
+        "cost": 137
+      },
+      {
+        "level": 168,
+        "cost": 137
+      },
+      {
+        "level": 169,
+        "cost": 138
+      },
+      {
+        "level": 170,
+        "cost": 139
+      },
+      {
+        "level": 171,
+        "cost": 140
+      },
+      {
+        "level": 172,
+        "cost": 141
+      },
+      {
+        "level": 173,
+        "cost": 141
+      },
+      {
+        "level": 174,
+        "cost": 142
+      },
+      {
+        "level": 175,
+        "cost": 143
+      },
+      {
+        "level": 176,
+        "cost": 144
+      },
+      {
+        "level": 177,
+        "cost": 145
+      },
+      {
+        "level": 178,
+        "cost": 145
+      },
+      {
+        "level": 179,
+        "cost": 146
+      },
+      {
+        "level": 180,
+        "cost": 147
+      },
+      {
+        "level": 181,
+        "cost": 148
+      },
+      {
+        "level": 182,
+        "cost": 149
+      },
+      {
+        "level": 183,
+        "cost": 149
+      },
+      {
+        "level": 184,
+        "cost": 150
+      },
+      {
+        "level": 185,
+        "cost": 151
+      },
+      {
+        "level": 186,
+        "cost": 152
+      },
+      {
+        "level": 187,
+        "cost": 153
+      },
+      {
+        "level": 188,
+        "cost": 153
+      },
+      {
+        "level": 189,
+        "cost": 154
+      },
+      {
+        "level": 190,
+        "cost": 155
+      },
+      {
+        "level": 191,
+        "cost": 156
+      },
+      {
+        "level": 192,
+        "cost": 157
+      },
+      {
+        "level": 193,
+        "cost": 157
+      },
+      {
+        "level": 194,
+        "cost": 158
+      },
+      {
+        "level": 195,
+        "cost": 159
+      },
+      {
+        "level": 196,
+        "cost": 160
+      },
+      {
+        "level": 197,
+        "cost": 161
+      },
+      {
+        "level": 198,
+        "cost": 161
+      },
+      {
+        "level": 199,
+        "cost": 162
+      },
+      {
+        "level": 200,
+        "cost": 163
+      }
+    ]
+  }
+]

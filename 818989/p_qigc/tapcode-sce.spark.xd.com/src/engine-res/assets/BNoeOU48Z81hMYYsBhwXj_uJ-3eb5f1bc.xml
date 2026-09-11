@@ -1,0 +1,52 @@
+<renderpath>
+    <!-- DOF 景深 -->
+    <postprocess name="EngineRes/PostProcess/DOF.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsDOFEnabled" type="Bool" value="true" />
+        <execution name="ApplyDOFParameters" />
+    </postprocess>
+    <!-- FXAA -->
+    <postprocess name="EngineRes/PostProcess/FXAA2.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessFXAA" type="Bool" value="true" />
+    </postprocess>
+    <!-- 自动曝光（直方图方案；切基础方案改为 AutoExposureBasic.xml） -->
+    <postprocess name="EngineRes/PostProcess/AutoExposureLum.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessAutoExposureEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessAutoExposurePlusEnabled" type="Bool" value="false" />
+    </postprocess>
+    <postprocess name="EngineRes/PostProcess/AutoExposureUELum.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessAutoExposureEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessAutoExposurePlusEnabled" type="Bool" value="true" />
+    </postprocess>
+    <!-- 优化版本BloomHDR。
+         注意：不要给旧入口新增 condition——旧二进制对未知反射属性求值恒 false，
+         会连带关掉整个入口（资源热更先于二进制时 Bloom 会整体消失）。
+         三路径互斥由二进制侧 accessor 语义保证：UE 模式下 IsPostProcessBloomEnabled 返回 false -->
+    <postprocess name="EngineRes/PostProcess/GameBloomHDR.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessBloomEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessBloomPlusEnabled" type="Bool" value="false" />
+        <execution name="ApplyBloomHDRParameters" />
+    </postprocess>
+    <!-- 高质量版本BloomHDR -->
+    <postprocess name="EngineRes/PostProcess/GameBloomHDRPlus.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessBloomEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessBloomPlusEnabled" type="Bool" value="true" />
+        <execution name="ApplyBloomHDRParameters" />
+    </postprocess>
+    <!-- UE Gaussian Bloom（BLOOM_MODE_UE） -->
+    <postprocess name="EngineRes/PostProcess/GameBloomHDRUE.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessBloomUEEnabled" type="Bool" value="true" />
+        <execution name="ApplyBloomUEParameters" />
+    </postprocess>
+    <!-- 高斯模拟 -->
+    <postprocess name="EngineRes/PostProcess/GuassianBlur.xml">
+        <condition name="IsPostProcessEnabled" type="Bool" value="true" />
+        <condition name="IsPostProcessGaussianBlurEnabled" type="Bool" value="true" />
+    </postprocess>
+</renderpath>

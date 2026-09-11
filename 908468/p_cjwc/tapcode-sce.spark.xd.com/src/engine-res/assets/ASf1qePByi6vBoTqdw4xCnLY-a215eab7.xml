@@ -1,0 +1,54 @@
+<renderpath zPrepass="true" > 
+    <!-- <rendertarget name="depth" sizedivisor="1 1"  format="readabledepth" persistent="true"/> -->
+    <!-- clear color:fog depth:1.0 stencil:0 -->
+    <command type="clear" color="fog" depth="1.0" stencil="0" linkDepth="depth_buffer"/>
+
+    <!-- opaque -->
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" renderMask="1"/>
+    <command type="forwardlights" pass="light" renderMask="1"/>
+    <command type="scenepass" pass="postopaque" renderMask="1"/>
+
+    <!-- no blend litalpha -->
+    <command type="scenepass" pass="alphanoblend" />
+
+    <!-- XRay -->
+    <command type="scenepass" pass="xray" renderMask="7" >
+        <parameter name="FresnelColor" value="0.27 0.94 0.94 0.4" />
+    </command>
+
+    <!-- alphatest pre z-pass -->
+    <command type="scenepass" pass="depth" renderMask="2" highPriorityColorWrite="false" />
+
+    <!-- alphatest -->
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" renderMask="2" ignorePassResolve="true" highPriorityDepthTest="equal"/>
+    <command type="forwardlights" pass="light" renderMask="2" ignorePassResolve="true" highPriorityDepthTest="equal"/>
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" renderMask="2" ignorePassResolve="true" highPriorityDepthTest="equal"/>
+
+    <!-- palnnershadow - alpha -->
+    <command type="planershadow" pass="planershadow" renderMask="4" />
+
+    <!-- vdm pass-->
+    <rendertarget name="vdmdepth" tag="vdmdepth" sizedivisor="4 4" format="readabledepth"/>
+    <rendertarget name="vdmcolor" tag="vdmcolor" sizedivisor="4 4" format="rgba" filter="true"/>
+    <command type="clear" color="0 0 0 1" depth="1.0" stencil="0" output="vdmcolor" depthstencil="vdmdepth"/>
+    <command type="quad" tag="VDMDepth" vs="VDM/VDMDownsample" ps="VDM/VDMDownsample" psdefines="DISABLE_MOBILE_PRECISION" highPriorityColorWrite="false" output="vdmdepth">
+    <texture unit="diffuse" name="depth_buffer" />
+    </command>
+    <!-- alpha -->
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" renderMask="4" output="vdmcolor" depthstencil="vdmdepth"/>
+
+    <!-- vdm composite pass-->
+    <command type="quad" tag="VDMComposite" vs="VDM/VDMComposite" ps="VDM/VDMComposite" psdefines="VDM_LEVEL_LOW" output="viewport" blend="off_screen_alpha_dst">
+        <texture unit="diffuse" name="vdmcolor" />
+    </command>
+
+    <command type="scenepass" pass="postalpha" sort="backtofront" renderMask="4"/>
+    <!-- highlight -->
+    <command type="scenepass" pass="outsurface" blend="alpha" renderMask="7" >
+        <parameter name="SurfaceColor" value="0.0 1.0 0.3 0.8" />
+    </command>
+    <command type="sendevent" name="FinalRender">
+    </command>
+
+    <postprocess type="postprocess" name="EngineRes/PostProcess/EditorPostProcess.xml" />
+</renderpath>
