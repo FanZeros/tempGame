@@ -1,0 +1,4 @@
+<technique vs="Unlit" ps="Unlit" vsdefines="VERTEXCOLOR" psdefines="DIFFMAP VERTEXCOLOR">
+    <pass name="alpha" depthwrite="false" blend="addalpha" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+</technique>

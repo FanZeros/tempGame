@@ -1,0 +1,12 @@
+<technique vs="LitSolid" ps="LitSolid" vsdefines="VERTEXCOLOR" psdefines="DIFFMAP VERTEXCOLOR ALPHAMASK">
+    <pass name="base" psdefines="AMBIENT" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="litbase" psdefines="AMBIENT" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="deferred" psdefines="DEFERRED" />
+    <pass name="depth" vs="Depth" ps="Depth" psdefines="ALPHAMASK" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" psdefines="ALPHAMASK" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0 0 0 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="MatEnvMapColor" value="0 0 0" />
+</technique>

@@ -1,0 +1,4 @@
+<technique vs="UnlitMeshParticle" vsdefines="" ps="UnlitMeshParticle" psdefines="DIFFMAP">
+    <pass name="alpha" depthwrite="false" blend="addalpha" vsexcludes="UE3SOFTPARTICLE" psexcludes="UE3SOFTPARTICLE FOGOFWAR" srgbsoftresolve="true" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+</technique>

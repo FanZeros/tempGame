@@ -1,0 +1,23 @@
+<technique vs="Voxel/PBRVoxelDda" ps="Voxel/PBRVoxelDda" vsdefines="NOUV" psdefines="PBR IBL VOXELPALETTE VOXELJITTER">
+    <!-- Camera-inside variant (VoxelDdaDrawable swaps to this when the view camera is
+         within the volume AABB + near-clip margin). Back faces only: the front shell is
+         clipped by the near plane. No conservative depth — the hit is NEARER than the
+         rasterized back face, so SV_DepthGreaterEqual would clamp it wrong; this variant
+         keeps plain SV_Depth + clip() and pays full march cost (rare: at most the one or
+         two volumes containing the camera). Parameter contract matches PBRVoxelDda.xml
+         (volume-info table on TU_CUSTOM1, atlas page on TU_VOLUMEMAP). -->
+    <pass name="deferredvox" cull="cw" depthwrite="true" depthtest="lessequal"
+          vsdefines="NOUV" psdefines="DEFERRED" />
+    <!-- Light camera is outside every volume: front-face, plain-depth shadow pass.
+         No CONSERVATIVE_DEPTH_GE — slope bias + GE drops casters (T35). -->
+    <pass name="shadow" cull="ccw" depthwrite="true"
+          vsdefines="NOUV" psdefines="SHADOW" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.85" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+    <parameter name="VoxelVolumeIndex" value="0" />
+</technique>

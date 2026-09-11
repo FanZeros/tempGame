@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<lodgroup numLODs="4" autoComputeLODScreenSize="true">
+	<lodsettings lod="0" screenSize="2" maxDeviation="0" percentTriangles="100" percentVertices="100" weldingThreshold="5" hardAngleThreshold="30" baseLod="0" pixelError="8" colorWeightIndex="543515506" prioritizeBones="" prioritizeBoneWeight="0" prioritizeParts="0" prioritizePartsWeight="0" />
+	<lodsettings lod="1" screenSize="0.692266" maxDeviation="2.10709" percentTriangles="50" percentVertices="100" weldingThreshold="10" hardAngleThreshold="10" baseLod="0" pixelError="8" colorWeightIndex="0" prioritizeBones="" prioritizeBoneWeight="0" prioritizeParts="0" prioritizePartsWeight="0" />
+	<lodsettings lod="2" screenSize="0.362683" maxDeviation="5.66294" percentTriangles="25" percentVertices="100" weldingThreshold="10" hardAngleThreshold="10" baseLod="0" pixelError="8" colorWeightIndex="0" prioritizeBones="" prioritizeBoneWeight="0" prioritizeParts="0" prioritizePartsWeight="0" />
+	<lodsettings lod="3" screenSize="0.144223" maxDeviation="16.9763" percentTriangles="12" percentVertices="100" weldingThreshold="10" hardAngleThreshold="10" baseLod="0" pixelError="8" colorWeightIndex="0" prioritizeBones="" prioritizeBoneWeight="0" prioritizeParts="0" prioritizePartsWeight="0" />
+</lodgroup>

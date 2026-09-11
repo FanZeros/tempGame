@@ -1,0 +1,51 @@
+<renderpath>
+    <!-- Render targets for bloom chain (same as GameBloomHDR) -->
+    <rendertarget name="Bloom2" tag="BloomHDRPlus" sizedivisor="4 2" format="rg11b10" filter="true" />
+    <rendertarget name="Bloom4" tag="BloomHDRPlus" sizedivisor="4 4" format="rg11b10" filter="true" />
+    <rendertarget name="Bloom8" tag="BloomHDRPlus" sizedivisor="8 8" format="rg11b10" filter="true" />
+    <rendertarget name="Bloom16" tag="BloomHDRPlus" sizedivisor="16 16" format="rg11b10" filter="true" />
+    <rendertarget name="Bloom32" tag="BloomHDRPlus" sizedivisor="32 32" format="rg11b10" filter="true" />
+    <rendertarget name="Blur4" tag="BloomHDRPlus" sizedivisor="4 4" format="rg11b10" filter="true" />
+    <rendertarget name="Blur8" tag="BloomHDRPlus" sizedivisor="8 8" format="rg11b10" filter="true" />
+    <rendertarget name="Blur16" tag="BloomHDRPlus" sizedivisor="16 16" format="rg11b10" filter="true" />
+
+    <!-- Bright extraction pass (same as GameBloomHDR - output to 1/4 x 1/2) -->
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="BRIGHT" psdefines="BRIGHT" output="Bloom2" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="viewport" />
+    </command>
+
+    <!-- Downsample passes (13 tap Dual Kawase) -->
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_DOWN4" psdefines="DUALBLUR_DOWN4" output="Bloom4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bloom2" />
+    </command>
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_DOWN8" psdefines="DUALBLUR_DOWN8" output="Bloom8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bloom4" />
+    </command>
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_DOWN16" psdefines="DUALBLUR_DOWN16" output="Bloom16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bloom8" />
+    </command>
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_DOWN32" psdefines="DUALBLUR_DOWN32" output="Bloom32" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bloom16" />
+    </command>
+
+    <!-- Upsample passes (9 tap Dual Kawase, shader combines upsampled + current level) -->
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_UP16" psdefines="DUALBLUR_UP16" output="Blur16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bloom32" />
+        <texture unit="normal" name="Bloom16" />
+    </command>
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_UP8" psdefines="DUALBLUR_UP8" output="Blur8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur16" />
+        <texture unit="normal" name="Bloom8" />
+    </command>
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_UP4" psdefines="DUALBLUR_UP4" output="Blur4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur8" />
+        <texture unit="normal" name="Bloom4" />
+    </command>
+
+    <!-- Final combine pass (uses weightBloom + ACES tonemapping, same as GameBloomHDR) -->
+    <command type="quad" tag="BloomHDRPlus" vs="BloomHDRPlus" ps="BloomHDRPlus" vsdefines="DUALBLUR_COMBINE" psdefines="DUALBLUR_COMBINE" output="viewport" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="viewport" />
+        <texture unit="normal" name="Blur4" />
+        <texture unit="emissive" name="AdaptedLum" />
+    </command>
+</renderpath>

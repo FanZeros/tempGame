@@ -1,0 +1,5 @@
+<material>
+    <technique name="EngineRes/Techniques/DiffHDR.xml" quality="0" />
+    <texture unit="0" name="Textures/uffizi.ktx" />
+    <!-- <texture unit="0" name="Textures/Skybox.xml" /> -->
+</material>

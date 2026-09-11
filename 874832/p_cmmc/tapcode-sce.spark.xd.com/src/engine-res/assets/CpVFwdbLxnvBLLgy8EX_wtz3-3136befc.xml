@@ -1,0 +1,19 @@
+<technique vs="LitSolid" ps="LitSolid" vsdefines="NOUV VERTEXCOLOR VOXELJITTER" psdefines="VERTEXCOLOR VOXELPALETTE VOXELJITTER" >
+    <!-- 体素调色板渲染的 Lambert 版(PBR 版为 PBRNoTextureVCol.xml)。VOXELPALETTE:
+         顶点色只携带调色板索引与内部体素标记,颜色从 sDiffMap 的调色板纹理读取。 -->
+    <pass name="base" psdefines="AMBIENT" />
+    <pass name="litbase" psdefines="AMBIENT" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" />
+    <pass name="deferred" psdefines="DEFERRED" />
+    <pass name="depth" vs="Depth" ps="Depth" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0 0 0 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="MatEnvMapColor" value="0 0 0" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteBank" value="0" />
+    <!-- 兜底默认(缺省 uniform 为 0 会除零);引擎创建的材质克隆总会用
+         MAX_PALETTE_BANKS * 4 覆盖,真源在 VoxelPhysicsWorld。 -->
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+</technique>

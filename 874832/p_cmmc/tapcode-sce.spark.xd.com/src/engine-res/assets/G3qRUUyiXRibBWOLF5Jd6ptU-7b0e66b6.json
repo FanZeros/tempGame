@@ -1,0 +1,258 @@
+{
+    "Startup Failed": {
+        "en": "Startup Failed",
+        "zh_CN": "启动失败"
+    },
+    "Warning": {
+        "en": "Warning",
+        "zh_CN": "提示"
+    },
+    "Loading Failed": {
+        "en": "Loading Failed",
+        "zh_CN": "加载失败"
+    },
+    "OK": {
+        "en": "OK",
+        "zh_CN": "确定"
+    },
+    "Retry": {
+        "en": "Retry",
+        "zh_CN": "重试"
+    },
+    "Exit": {
+        "en": "Exit",
+        "zh_CN": "退出"
+    },
+    "Preparing direct connection...": {
+        "en": "Preparing direct connection...",
+        "zh_CN": "准备直连..."
+    },
+    "Connecting to server...": {
+        "en": "Connecting to server...",
+        "zh_CN": "连接服务器..."
+    },
+    "Connected!": {
+        "en": "Connected!",
+        "zh_CN": "已连接!"
+    },
+    "Retrying connection...": {
+        "en": "Retrying connection...",
+        "zh_CN": "正在重试连接..."
+    },
+    "Initializing...": {
+        "en": "Initializing...",
+        "zh_CN": "正在初始化..."
+    },
+    "Verifying account...": {
+        "en": "Verifying account...",
+        "zh_CN": "正在验证账号..."
+    },
+    "Connection lost, reconnecting...": {
+        "en": "Connection lost, reconnecting...",
+        "zh_CN": "连接断开，正在重连..."
+    },
+    "Connection failed, retrying...": {
+        "en": "Connection failed, retrying...",
+        "zh_CN": "连接失败，正在重试..."
+    },
+    "Login successful!": {
+        "en": "Login successful!",
+        "zh_CN": "登录成功!"
+    },
+    "Refreshing login...": {
+        "en": "Refreshing login...",
+        "zh_CN": "正在刷新登录..."
+    },
+    "Please scan QR code...": {
+        "en": "Please scan QR code...",
+        "zh_CN": "请扫描二维码..."
+    },
+    "Authenticating...": {
+        "en": "Authenticating...",
+        "zh_CN": "正在认证..."
+    },
+    "Waiting for login...": {
+        "en": "Waiting for login...",
+        "zh_CN": "等待登录..."
+    },
+    "Checking version...": {
+        "en": "Checking version...",
+        "zh_CN": "检查版本..."
+    },
+    "Loading resources...": {
+        "en": "Loading resources...",
+        "zh_CN": "加载资源..."
+    },
+    "Login verification...": {
+        "en": "Login verification...",
+        "zh_CN": "登录验证..."
+    },
+    "Ready...": {
+        "en": "Ready...",
+        "zh_CN": "准备就绪..."
+    },
+    "Parsing version...": {
+        "en": "Parsing version...",
+        "zh_CN": "正在解析版本..."
+    },
+    "Loading manifest...": {
+        "en": "Loading manifest...",
+        "zh_CN": "正在加载清单..."
+    },
+    "Parsing manifest...": {
+        "en": "Parsing manifest...",
+        "zh_CN": "正在解析清单..."
+    },
+    "Initializing resource system...": {
+        "en": "Initializing resource system...",
+        "zh_CN": "正在初始化资源系统..."
+    },
+    "Creating resource router...": {
+        "en": "Creating resource router...",
+        "zh_CN": "正在创建资源路由..."
+    },
+    "Adding cache directory...": {
+        "en": "Adding cache directory...",
+        "zh_CN": "正在添加缓存目录..."
+    },
+    "Downloading project.json...": {
+        "en": "Downloading project info...",
+        "zh_CN": "正在下载项目信息..."
+    },
+    "Checking project info...": {
+        "en": "Checking project info...",
+        "zh_CN": "正在检查项目信息..."
+    },
+    "Fetching minigame data...": {
+        "en": "Fetching game data...",
+        "zh_CN": "正在获取游戏数据..."
+    },
+    "Preparing package download...": {
+        "en": "Preparing download...",
+        "zh_CN": "正在准备下载..."
+    },
+    "Downloading": {
+        "en": "Downloading",
+        "zh_CN": "正在下载"
+    },
+    "Extracting": {
+        "en": "Extracting",
+        "zh_CN": "正在解压"
+    },
+    "Checking resources...": {
+        "en": "Checking resources...",
+        "zh_CN": "正在检查资源..."
+    },
+    "Calculating project size...": {
+        "en": "Calculating project size...",
+        "zh_CN": "正在计算项目大小..."
+    },
+    "Calculating size": {
+        "en": "Calculating size",
+        "zh_CN": "正在计算大小"
+    },
+    "Cleaning up...": {
+        "en": "Cleaning up...",
+        "zh_CN": "正在清理..."
+    },
+    "Cleaning": {
+        "en": "Cleaning",
+        "zh_CN": "正在清理"
+    },
+    "Loading": {
+        "en": "Loading",
+        "zh_CN": "正在加载"
+    },
+    "Ready": {
+        "en": "Ready",
+        "zh_CN": "准备就绪"
+    },
+    "Completed": {
+        "en": "Completed",
+        "zh_CN": "完成"
+    },
+    "Your account has logged in elsewhere.\nThis session will exit.": {
+        "en": "Your account has logged in elsewhere.\nThis session will exit.",
+        "zh_CN": "您的账号已在其他地方登录。\n当前会话将退出。"
+    },
+    "Loading startup...": {
+        "en": "Loading startup...",
+        "zh_CN": "加载启动脚本..."
+    },
+    "Configuring pipeline...": {
+        "en": "Configuring pipeline...",
+        "zh_CN": "配置启动管线..."
+    },
+    "Failed to download startup resources: ": {
+        "en": "Failed to download startup resources: ",
+        "zh_CN": "下载启动资源失败: "
+    },
+    "Failed to extract package": {
+        "en": "Failed to extract package",
+        "zh_CN": "资源包解压失败"
+    },
+    "engine-startup source not found in sourceManifests. Ensure engine-startup is published to CDN and engine-res source exists.": {
+        "en": "Startup resources not found",
+        "zh_CN": "未找到启动资源"
+    },
+    "Cannot resolve entry script": {
+        "en": "Cannot resolve entry script",
+        "zh_CN": "无法解析入口脚本"
+    },
+    "Failed to create Startup Lua VM": {
+        "en": "Failed to create script environment",
+        "zh_CN": "创建脚本环境失败"
+    },
+    "Failed to execute startup script: ": {
+        "en": "Failed to execute startup script: ",
+        "zh_CN": "执行启动脚本失败: "
+    },
+    "OnPipelineConfigure() failed in startup script": {
+        "en": "Startup pipeline configuration failed",
+        "zh_CN": "启动管线配置失败"
+    },
+    "Switch Language": {
+        "en": "Switch Language",
+        "zh_CN": "切换语言"
+    },
+    "Switching language requires restarting. Continue?": {
+        "en": "Switching language requires restarting. Continue?",
+        "zh_CN": "切换语言需要重新启动，是否继续？"
+    },
+    "Cancel": {
+        "en": "Cancel",
+        "zh_CN": "取消"
+    },
+    "Current engine version does not support language switching.": {
+        "en": "Current engine version does not support language switching.",
+        "zh_CN": "当前引擎版本未支持切换语言。"
+    },
+    "Failed to download translation files": {
+        "en": "Failed to download translation files",
+        "zh_CN": "下载翻译配置失败"
+    },
+    "TapTap Scan Login": {
+        "en": "TapTap Scan Login",
+        "zh_CN": "TapTap 扫码登录"
+    },
+    "Use TapTap to scan the QR code to log in": {
+        "en": "Use TapTap to scan the QR code to log in",
+        "zh_CN": "请使用 TapTap 扫描二维码登录"
+    },
+    "QR Code Expired": {
+        "en": "QR Code Expired",
+        "zh_CN": "二维码已过期"
+    },
+    "Refresh": {
+        "en": "Refresh",
+        "zh_CN": "刷新"
+    },
+    "QR code expired, click refresh": {
+        "en": "QR code expired, click refresh",
+        "zh_CN": "二维码已失效，请点击刷新"
+    },
+    "Please switch networks and try again": {
+        "en": "Please switch networks and try again",
+        "zh_CN": "请更换网络重试"
+    }
+}

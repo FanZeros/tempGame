@@ -1,0 +1,50 @@
+<renderpath>
+    <rendertarget name="Bright2" tag="BloomHDR Downsample" sizedivisor="2 2" format="rgba16f" filter="true" />
+    <rendertarget name="Bright4" tag="BloomHDR Downsample" sizedivisor="4 4" format="rgba16f" filter="true" />
+    <rendertarget name="Bright8" tag="BloomHDR Downsample" sizedivisor="8 8" format="rgba16f" filter="true" />
+    <rendertarget name="Bright16" tag="BloomHDR Downsample" sizedivisor="16 16" format="rgba16f" filter="true" />
+    <rendertarget name="Bright32" tag="BloomHDR Downsample" sizedivisor="32 32" format="rgba16f" filter="true" />
+    <rendertarget name="Blur2" tag="BloomHDR Upsample" sizedivisor="2 2" format="rgba16f" filter="true" />
+    <rendertarget name="Blur4" tag="BloomHDR Upsample" sizedivisor="4 4" format="rgba16f" filter="true" />
+    <rendertarget name="Blur8" tag="BloomHDR Upsample" sizedivisor="8 8" format="rgba16f" filter="true" />
+    <rendertarget name="Blur16" tag="BloomHDR Upsample" sizedivisor="16 16" format="rgba16f" filter="true" />
+
+    <command type="quad" tag="BloomHDR Downsample" vs="BloomHDR" ps="BloomHDR" vsdefines="BRIGHT" psdefines="BRIGHT2" output="Bright2" disableDepthStencilRT="true">
+        <parameter name="BloomHDRThreshold" value="0.4" />
+        <texture unit="diffuse" name="viewport" />
+    </command>
+    <command type="quad" tag="BloomHDR Downsample" vs="BloomHDR" ps="BloomHDR" vsdefines="BRIGHT" psdefines="BRIGHT4" output="Bright4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright2" />
+    </command>
+    <command type="quad" tag="BloomHDR Downsample" vs="BloomHDR" ps="BloomHDR" vsdefines="BRIGHT" psdefines="BRIGHT8" output="Bright8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright4" />
+    </command>
+    <command type="quad" tag="BloomHDR Downsample" vs="BloomHDR" ps="BloomHDR" vsdefines="BRIGHT" psdefines="BRIGHT16" output="Bright16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright8" />
+    </command>
+    <command type="quad" tag="BloomHDR Downsample" vs="BloomHDR" ps="BloomHDR" vsdefines="BRIGHT" psdefines="BRIGHT32" output="Bright32" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright16" />
+    </command>
+
+    <command type="quad" tag="BloomHDR Upsample" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE32" psdefines="COMBINE32 RESOLVE_ALPHA" output="Blur16" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright32" />
+        <texture unit="normal" name="Bright16" />
+    </command>
+    <command type="quad" tag="BloomHDR Upsample" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE16" psdefines="COMBINE16 RESOLVE_ALPHA" output="Blur8" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur16" />
+        <texture unit="normal" name="Bright8" />
+    </command>
+    <command type="quad" tag="BloomHDR Upsample" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE8" psdefines="COMBINE8 RESOLVE_ALPHA" output="Blur4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur8" />
+        <texture unit="normal" name="Bright4" />
+    </command>
+    <command type="quad" tag="BloomHDR Upsample" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE4" psdefines="COMBINE4 RESOLVE_ALPHA" output="Blur2" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur4" />
+        <texture unit="normal" name="Bright2" />
+    </command>
+    <command type="quad" tag="BloomHDR Upsample" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE2" psdefines="COMBINE2 RESOLVE_ALPHA" output="viewport" disableDepthStencilRT="true">
+        <parameter name="BloomHDRMix" value="1.0 0.2" />
+        <texture unit="diffuse" name="viewport" />
+        <texture unit="normal" name="Blur2" />
+    </command>
+</renderpath>

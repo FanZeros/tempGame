@@ -1,0 +1,20 @@
+<technique vs="Translucent/Water" ps="Translucent/Water" vsdefines="TERRAIN_TILE" psdefines="DIFFMAP WORLD_UV WATER PBR METALLIC_WORKFLOW BAKE_REFRACTION" shadingmodel="bakewater">
+    <!-- alphatest == true是为了让水排序在半透物体之前 -->
+    <pass name="litalpha" depthwrite="write" psdefines="SPECMAP AMBIENT" alphatest="true" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <!-- 水流速 -->
+    <parameter name="WaterSpeed" value="0.5 0.25" />
+    <!-- 水Tiling -->
+    <parameter name="WaveScaler" value="0.64 1.28" />
+    <!-- 波纹密度 -->
+    <parameter name="WaveDensity" value="0.1" />
+    <!-- 扰动强度 -->
+    <parameter name="NoiseStrength" value="0.2" />
+    <!-- 法线强度 -->
+    <parameter name="NormalStrength" value="0.2" />
+    <!-- x: SpecularGloss, y: SpecularFactor, z:FresnelFactor, w:Reflection -->
+    <parameter name="LightParam" value="0.78 1.46 0.2 0.39" />
+    <!-- 水体颜色 -->
+    <parameter name="WaterTint" value="1 1 1" />
+    <!-- 烘焙的水底Tiling -->
+    <parameter name="BakeRefractionTiling" value="2.56 2.56" />
+</technique>

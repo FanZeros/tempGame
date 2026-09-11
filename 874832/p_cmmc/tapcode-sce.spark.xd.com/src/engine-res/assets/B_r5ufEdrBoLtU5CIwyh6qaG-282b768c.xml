@@ -1,0 +1,121 @@
+<renderpath>
+	    <!-- 定义一些必要的rendertarget -->
+    <rendertarget name="fbtexture" tag="fbtexture" sizedivisor="1 1" format="rgba16f" filter="true" />
+    <rendertarget name="depth" sizedivisor="1 1" format="lineardepth" />
+    <command type="clear" color="1 1 1 1" depth="1.0" stencil="0" output="depth" />    
+    <command type="scenepass" pass="depth" output="depth" />
+
+    <command type="clear" color="fog" depth="1.0" stencil="0" />
+
+    <command type="clear" color="fog" depth="1.0" stencil="0" output="fbtexture"/>
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" output="fbtexture" />
+    <command type="forwardlights" pass="light" output="fbtexture" />
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" output="fbtexture" >
+    		<texture unit="normal" name="depth" />
+    </command>
+
+   
+   <!-- Bloom HDR -->
+    <rendertarget name="Bright2" tag="BloomHDR" sizedivisor="2 2" format="rgba16f" filter="true" />
+    <rendertarget name="Bright4" tag="BloomHDR" sizedivisor="4 4" format="rgba16f" filter="true" />
+    <rendertarget name="Bright8" tag="BloomHDR" sizedivisor="8 8" format="rgba16f" filter="true" />
+    <rendertarget name="Bright16" tag="BloomHDR" sizedivisor="16 16" format="rgba16f" filter="true" />
+    <rendertarget name="Blur2" tag="BloomHDR" sizedivisor="2 2" format="rgba16f" filter="true" />
+    <rendertarget name="Blur4" tag="BloomHDR" sizedivisor="4 4" format="rgba16f" filter="true" />
+    <rendertarget name="Blur8" tag="BloomHDR" sizedivisor="8 8" format="rgba16f" filter="true" />
+    <rendertarget name="Blur16" tag="BloomHDR" sizedivisor="16 16" format="rgba16f" filter="true" />
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BRIGHT" psdefines="BRIGHT" output="Bright2">
+        <parameter name="BloomHDRThreshold" value="0.8" />
+        <texture unit="diffuse" name="fbtexture" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="CopyFramebuffer" ps="CopyFramebuffer" output="Bright4">
+        <texture unit="diffuse" name="Bright2" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="CopyFramebuffer" ps="CopyFramebuffer" output="Bright8">
+        <texture unit="diffuse" name="Bright4" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="CopyFramebuffer" ps="CopyFramebuffer" output="Bright16">
+        <texture unit="diffuse" name="Bright8" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR16" psdefines="BLUR16" output="Blur16">
+        <parameter name="BloomHDRBlurDir" value="1.0 0.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Bright16" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR16" psdefines="BLUR16" output="Bright16">
+        <parameter name="BloomHDRBlurDir" value="0.0 1.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Blur16" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE16" psdefines="COMBINE16" output="Blur8">
+        <texture unit="diffuse" name="Bright8" />
+        <texture unit="normal" name="Bright16" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR8" psdefines="BLUR8" output="Bright8">
+        <parameter name="BloomHDRBlurDir" value="1.0 0.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Blur8" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR8" psdefines="BLUR8" output="Blur8">
+        <parameter name="BloomHDRBlurDir" value="0.0 1.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Bright8" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE8" psdefines="COMBINE8" output="Blur4">
+        <texture unit="diffuse" name="Bright4" />
+        <texture unit="normal" name="Blur8" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR4" psdefines="BLUR4" output="Bright4">
+        <parameter name="BloomHDRBlurDir" value="1.0 0.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Blur4" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR4" psdefines="BLUR4" output="Blur4">
+        <parameter name="BloomHDRBlurDir" value="0.0 1.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Bright4" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE4" psdefines="COMBINE4" output="Blur2">
+        <texture unit="diffuse" name="Bright2" />
+        <texture unit="normal" name="Blur4" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR2" psdefines="BLUR2" output="Bright2">
+        <parameter name="BloomHDRBlurDir" value="1.0 0.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Blur2" />
+    </command>
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="BLUR2" psdefines="BLUR2" output="Blur2">
+        <parameter name="BloomHDRBlurDir" value="0.0 1.0" />
+        <parameter name="BloomHDRBlurRadius" value="1.0" />
+        <parameter name="BloomHDRBlurSigma" value="2.0" />
+        <texture unit="diffuse" name="Bright2" />
+    </command>
+
+    <rendertarget name="fbtexturefortonemap" tag="fbtexture" sizedivisor="1 1" format="rgba16f" filter="true" />
+
+    <command type="quad" tag="BloomHDR" vs="BloomHDR" ps="BloomHDR" vsdefines="COMBINE2" psdefines="COMBINE2" output="fbtexturefortonemap">
+        <!--<parameter name="BloomHDRMix" value="1.0 0.4" /> -->
+        <parameter name="BloomHDRMix" value="1.0 0.2" />
+        <texture unit="diffuse" name="fbtexture" />
+        <texture unit="normal" name="Blur2" />
+    </command>
+
+    <command type="quad" tag="ACESApprox" vs="Tonemap" ps="Tonemap" psdefines="ACES_APPROX" output="fbtexture">
+        <parameter name="TonemapExposureBias" value="1.0" />
+        <parameter name="TonemapMaxWhite" value="4.0" />
+        <texture unit="diffuse" name="fbtexturefortonemap" />
+    </command>
+
+    <command type="quad" tag="GammaCorrection" vs="GammaCorrection" ps="GammaCorrection" output="viewport">
+        <texture unit="diffuse" name="fbtexture" />
+    </command> 
+
+
+</renderpath>

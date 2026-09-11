@@ -1,0 +1,21 @@
+<renderpath>
+    <rendertarget name="Bright4" tag="GaussianBlur" sizedivisor="4 4" format="rg11b10" filter="true" />
+    <rendertarget name="Blur4" tag="GaussianBlur" sizedivisor="4 4" format="rg11b10" filter="true" />
+    <command type="quad" tag="GaussianBlur" vs="GaussianBlur" ps="GaussianBlur" psdefines="BLURH" output="Blur4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="viewport" />
+    </command>
+    <command type = "loop" tag = "GaussianBlur" status = "start" count = "5"/>
+    <command type="quad" tag="GaussianBlur" vs="GaussianBlur" ps="GaussianBlur" psdefines="BLURV" output="Bright4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur4" />
+    </command>
+    <command type="quad" tag="GaussianBlur" vs="GaussianBlur" ps="GaussianBlur" psdefines="BLURH" output="Blur4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright4" />
+    </command>
+    <command type = "loop" tag = "GaussianBlur" status = "end"/>
+    <command type="quad" tag="GaussianBlur" vs="GaussianBlur" ps="GaussianBlur" psdefines="BLURV" output="Bright4" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur4" />
+    </command>
+    <command type="quad" tag="GaussianBlur" vs="GaussianBlur" ps="GaussianBlur" psdefines="COMBINE" output="viewport" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Bright4" />
+    </command>
+</renderpath>

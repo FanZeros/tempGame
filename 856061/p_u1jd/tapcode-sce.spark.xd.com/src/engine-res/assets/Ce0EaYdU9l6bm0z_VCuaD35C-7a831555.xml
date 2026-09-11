@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="Editor/Techniques/PBR_PackedNormal/DefaultMetallicRoughness.xml" quality="0" loddistance="0" />
+	<texture unit="diffuse" name="Vehicle/Textures/T_Car_BaseColor.tga" />
+	<texture unit="normal" name="Vehicle/Textures/T_Car_Mix.tga" />
+	<passshader pass="base" vsdefines="NORMALMAP" psdefines="NORMALMAP" />
+	<passshader pass="litbase" vsdefines="NORMALMAP" psdefines="NORMALMAP" />
+	<passshader pass="light" vsdefines="NORMALMAP" psdefines="NORMALMAP" />
+	<parameter name="UOffset" value="1 0 0 0" />
+	<parameter name="VOffset" value="0 1 0 0" />
+	<parameter name="TintColor" value="0 0 0 0" />
+	<parameter name="ColorFactor" value="1 1 1 1" />
+	<parameter name="MetallicFactor" value="1" />
+	<parameter name="RoughnessFactor" value="1" />
+	<parameter name="MetalMul0or1" value="1" />
+	<cull value="ccw" />
+	<backsideLighting enable="false" />
+	<shadowcull value="ccw" />
+	<fill value="solid" />
+	<depthbias constant="0" slopescaled="0" />
+	<alphatocoverage enable="false" />
+	<lineantialias enable="false" />
+	<renderorder value="128" />
+	<occlusion enable="true" />
+	<uvTiling value="1 1" />
+	<uvSpeed value="0 0" />
+	<texRotation value="0" />
+</material>

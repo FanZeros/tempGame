@@ -1,0 +1,11 @@
+<technique vs="PBRLitSolid" ps="PBRLitSolid" vsdefines="NOUV" psdefines="PBR IBL">
+    <pass name="litalpha" vsdefines="AO" psdefines="AMBIENT AO" depthwrite="false" blend="alpha" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+    <!-- 默认参数 -->
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.5" />
+    <parameter name="TintColor" value="0 0 0 0" /> 
+</technique>

@@ -1,0 +1,12 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Terrain/NoBlendPS" vsdefines="WORLD_TILING" shaderlab="Terrain/NoBlend.shader" shadingmodel="pbs">
+  <pass name="base" vsdefines="NORMALMAP" psdefines="NORMALMAP PACKEDNORMAL AMBIENT" />
+  <pass name="litbase" vsdefines="NORMALMAP" psdefines="NORMALMAP PACKEDNORMAL AMBIENT" />
+  <pass name="light" vsdefines="NORMALMAP" psdefines="NORMALMAP PACKEDNORMAL" depthtest="equal" depthwrite="false" blend="add" />
+  <pass name="depth" vs="Depth" ps="Depth" psexcludes="PACKEDNORMAL" />
+  <pass name="shadow" vs="Shadow" ps="Shadow" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" blend="alpha" depthwrite="false" depthtest="less" />
+  <pass name="outsurface" vs="Highlight" ps="Highlight" blend="alpha" depthtest="equal" depthwrite="false" />
+  <pass name="xray" vs="PBRPiplineVS" ps="ShaderLab/Model/XRayPS" depthtest="greater" depthwrite="false" />
+  <pass name="innerstroke" vs="Stroke/GameStroke" ps="Stroke/GameStroke" depthtest="lessequal" depthwrite="false" />
+  <pass name="outstroke" vs="Stroke/GameStroke" ps="Stroke/GameStroke" depthtest="lessequal" depthwrite="false" />
+</technique>

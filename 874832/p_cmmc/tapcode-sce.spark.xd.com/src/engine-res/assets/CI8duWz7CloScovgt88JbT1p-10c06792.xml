@@ -1,0 +1,5 @@
+<!-- 注意：编辑器的场景渲染最后不加伽马矫正，因为编辑器场景是渲染到rendertarget，之后当作一张贴图渲染到backbuffer，UI在输出的时候会做gamma矫正!!! -->
+<renderpath>
+    <postprocess name="EngineRes/PostProcess/EditorBloomHDR.xml" />
+    <postprocess name="EngineRes/PostProcess/GuassianBlur.xml" />
+</renderpath>

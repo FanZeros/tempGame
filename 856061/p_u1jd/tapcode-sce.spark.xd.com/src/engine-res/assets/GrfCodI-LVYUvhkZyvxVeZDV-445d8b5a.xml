@@ -1,0 +1,5 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/StealthRolePS" shaderlab="Model/StealthRole.shader" shadingmodel="pbs">
+  <pass name="base" colorwrite="false" alphatest="true" covered="false" srgbsoftresolve="true" srgbsoftresolveslots="0" disablefastmath="true" />
+  <pass name="litalpha" vsdefines="NORMALMAP" psdefines="NORMALMAP PACKEDNORMAL AMBIENT SPECMAP" depthtest="equal" depthwrite="false" blend="alpha" covered="false" srgbsoftresolve="true" srgbsoftresolveslots="0" disablefastmath="true" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" depthtest="less" depthwrite="false" blend="alpha" />
+</technique>

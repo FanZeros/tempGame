@@ -1,0 +1,11 @@
+<technique vs="LitSolid" ps="LitSolid" psdefines="DIFFMAP">
+    <pass name="base" vsdefines="ENVCUBEMAP" psdefines="ENVCUBEMAP" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="deferred" vsdefines="ENVCUBEMAP" psdefines="DEFERRED ENVCUBEMAP" />
+    <pass name="depth" vs="Depth" ps="Depth" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+    <parameter name="MatSpecColor" value="0 0 0 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="MatEnvMapColor" value="1 1 1" />
+</technique>

@@ -1,0 +1,8 @@
+<technique vs="Vegetation" ps="LitSolid" psdefines="DIFFMAP" >
+    <pass name="base" psdefines="AMBIENT" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="litbase" psdefines="AMBIENT" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="deferred" psdefines="DEFERRED" />
+    <pass name="depth" vs="VegetationDepth" ps="Depth" />
+    <pass name="shadow" vs="VegetationShadow" ps="Shadow" />
+</technique>

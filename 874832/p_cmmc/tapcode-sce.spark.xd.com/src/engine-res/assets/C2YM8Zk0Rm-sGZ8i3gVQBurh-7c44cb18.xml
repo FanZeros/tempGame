@@ -1,0 +1,4 @@
+<material>
+    <technique name="EngineRes/Techniques/DiffColor.xml" />
+    <parameter name="MatDiffColor" value="1.0 1.0 1.0 1.0" />
+</material>

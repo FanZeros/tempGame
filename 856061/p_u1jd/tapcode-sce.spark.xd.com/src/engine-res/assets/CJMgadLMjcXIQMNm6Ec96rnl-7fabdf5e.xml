@@ -1,0 +1,3 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/FakeShadowPS" shaderlab="Model/FakeShadow.shader" shadingmodel="lambert">
+  <pass name="alpha" depthtest="lessequal" depthwrite="false" blend="alpha" />
+</technique>

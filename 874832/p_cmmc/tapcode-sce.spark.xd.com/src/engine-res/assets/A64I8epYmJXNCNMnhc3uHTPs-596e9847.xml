@@ -1,0 +1,5 @@
+<technique vs="Skybox" ps="Skybox" psdefines="HDRSCALE">
+    <pass name="postopaque" depthwrite="false" cull="none" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <texture unit="0" name="Textures/Skybox.xml" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+</technique>

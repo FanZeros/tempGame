@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<node>
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="Player" />
+	<attribute name="Tags" />
+	<attribute name="Position" value="28.00 8.00 -4.00" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="1.00 1.00 1.00" />
+	<attribute name="Variables" />
+	<component type="RigidBody">
+		<attribute name="Physics Position" value="28.00 8.00 -4.00" />
+		<attribute name="Mass" value="1" />
+		<attribute name="Linear Factor" value="0.00 0.00 0.00" />
+		<attribute name="Angular Factor" value="0.00 0.00 0.00" />
+		<attribute name="Collision Layer" value="4" />
+		<attribute name="Collision Mask" value="65343" />
+		<attribute name="Collision Event Mode" value="Always" />
+	</component>
+	<component type="CollisionShape">
+		<attribute name="Shape Type" value="Capsule" />
+		<attribute name="Size" value="0.70 1.80 0.70" />
+		<attribute name="Offset Position" value="0.00 0.86 0.00" />
+	</component>
+	<component type="CharacterComponent">
+		<attribute name="Animation Idle" value="Platforms/Models/BetaLowpoly/Beta_Idle.ani" />
+		<attribute name="Animation Run" value="Platforms/Models/BetaLowpoly/Beta_Run.ani" />
+		<attribute name="Animation Jump" value="Platforms/Models/BetaLowpoly/Beta_JumpStart.ani" />
+		<attribute name="Animation Air" value="Platforms/Models/BetaLowpoly/Beta_JumpLoop1.ani" />
+	</component>
+	<component type="KinematicCharacterController">
+		<attribute name="Collision Layer" value="128" />
+		<attribute name="Collision Mask" value="65467" />
+	</component>
+	<node>
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="spinNode" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0.00 0.00 0.00" />
+		<attribute name="Rotation" value="-4.37114e-08 0 1 0" />
+		<attribute name="Scale" value="1.00 1.00 1.00" />
+		<attribute name="Variables" />
+		<component type="AnimatedModel">
+			<attribute name="Model" value="Model;Platforms/Models/BetaLowpoly/Beta.mdl" />
+			<attribute name="Material" value="Material;Platforms/Materials/BetaBody_MAT.xml;Platforms/Materials/BetaBody_MAT.xml;Platforms/Materials/BetaJoints_MAT.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+		<component type="AnimationController" />
+	</node>
+</node>

@@ -1,0 +1,49 @@
+{
+  "project_id": "p_u1jd",
+  "version": "1.0.188",
+  "author": {
+    "id": "1658931154"
+  },
+  "taptap_publish": {
+    "title": "宿命旅途",
+    "description": "在不断轮回的冒险中，踏上这段注定无法回头的旅途。",
+    "category": "card",
+    "screen_orientation": "portrait",
+    "developer_id": 270778,
+    "collection_type": "sce",
+    "trial_note": "V1.0.11版本更新\n1. 新增启航9服，区服数据独立隔离\n2. 上古遗迹层数扩展至40层，新增更高层挑战与奖励",
+    "app_platforms": "1,2",
+    "app_id": 856061,
+    "miniapp_id": "tapmc0rx8fp808cdee",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/c267e023-09d0-47a3-8de6-e9284eac455c/1781494739897-uploaded_aa1d433e.mp4",
+    "icon": "https://package-pd.tapsce.cn/minigame/5ec08850ce231559334ce0598d63f71cf8041a8c.png"
+  },
+  "assets": {
+    "icon": "./game_material/icon.png",
+    "screenshots": [
+      "./game_material/screenshot_1.png",
+      "./game_material/screenshot_2.png",
+      "./game_material/screenshot_3.png",
+      "./game_material/screenshot_4.png"
+    ],
+    "promotional_image": "./game_material/promotional.png",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/icon.png",
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/promotional.png",
+    "cover_horizontal": "./game_material/cover_horizontal.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/cover_horizontal.png",
+    "cover_vertical": "./game_material/cover_vertical.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/cover_vertical.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/screenshot_1.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/screenshot_2.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/screenshot_3.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/screenshot_4.png"
+    ],
+    "square_promotional_image": "./game_material/square_promotional.png",
+    "square_promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_u1jd/square_promotional.png"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_u1jd_1784881775442.png",
+    "generated_at": "2026-07-24T08:29:35.575Z"
+  }
+}

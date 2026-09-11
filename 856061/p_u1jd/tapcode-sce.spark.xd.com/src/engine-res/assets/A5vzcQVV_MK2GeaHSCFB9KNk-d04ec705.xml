@@ -1,0 +1,13 @@
+<technique vs="UnlitParticle" ps="UnlitParticle" vsdefines="VERTEXCOLOR SOFTPARTICLES" psdefines="DIFFMAP VERTEXCOLOR ADDITIVE SOFTPARTICLES">
+    <pass name="alpha" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+    <parameter name="SoftParticleFadeScale" value="0.5" />
+    <!-- Neutral UV-transform defaults. UnlitParticle's vertex shader always runs the UV
+         through rotate/scale/scroll uniforms; a material that never sets them gets all-zero
+         uniforms, which collapses every UV to (0,0) - the whole surface samples one corner
+         texel, and with an alpha texture that reads as fully invisible. The engine's own
+         particle-template materials set these explicitly; these defaults make plain
+         hand-written materials behave. -->
+    <parameter name="uvDiffParams" value="1 1 0 0" />
+    <parameter name="TexRotate1" value="0 1 0 1" />
+</technique>

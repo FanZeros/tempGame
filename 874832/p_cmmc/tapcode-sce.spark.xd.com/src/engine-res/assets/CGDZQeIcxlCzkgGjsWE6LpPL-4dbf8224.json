@@ -1,0 +1,278 @@
+{
+	"files": [
+		{
+			"name": "defaultmetallicroughness",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB",
+				"FOCUS_CLIP",
+				"HAS_Z_PREPASS FOCUS_CLIP",
+				"NOT_SUPPORT_SRGB FOCUS_CLIP",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB FOCUS_CLIP"
+			]
+		},
+		{
+			"name": "defaultmetallicroughnessalpha",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "hairsimulation",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "grayleveltwo",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"FOCUS_CLIP",
+				"HAS_Z_PREPASS FOCUS_CLIP"
+			]
+		},
+		{
+			"name": "graylevelfive",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB",
+				"FOCUS_CLIP",
+				"HAS_Z_PREPASS FOCUS_CLIP",
+				"NOT_SUPPORT_SRGB FOCUS_CLIP",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB FOCUS_CLIP"
+			]
+		},
+		{
+			"name": "stealthrolepackednormal",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "dissolvepackednormal",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "goldenpackednormal",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "staticobject",
+			"type": 1,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "tileblendonepackednormal",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "tileblendthreepackednormal",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"MAX_MIX_MATERIAL=82 BLEND_EX",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB BLEND_EX"
+			]
+		},
+		{
+			"name": "tileblendtwopackednormal",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "tileblendninepackednormal",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "tilecliff2packednormal",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"LANDSCAPE MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 CLIFF2_BLEND",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB CLIFF2_BLEND",
+				"LANDSCAPE MAX_MIX_MATERIAL=82 CLIFF2_BLEND"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"LANDSCAPE MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 CLIFF2_BLEND",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB CLIFF2_BLEND",
+				"LANDSCAPE MAX_MIX_MATERIAL=82 CLIFF2_BLEND"
+			]
+		},
+		{
+			"name": "tilecliffpackednormal",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "landscapeblend",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"MAX_MIX_MATERIAL=82 ALPHA_BLEND_DRAWABLE",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB ALPHA_BLEND_DRAWABLE"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"MAX_MIX_MATERIAL=82 ALPHA_BLEND_DRAWABLE",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB ALPHA_BLEND_DRAWABLE",
+				"MAX_MIX_MATERIAL=82 PURE_MINIMAP",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB PURE_MINIMAP",
+				"MAX_MIX_MATERIAL=82 ALPHA_BLEND_DRAWABLE PURE_MINIMAP",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB ALPHA_BLEND_DRAWABLE PURE_MINIMAP"
+			]
+		},
+		{
+			"name": "landscapeblendex",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"MAX_MIX_MATERIAL=82 PURE_MINIMAP",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB PURE_MINIMAP"
+			]
+		},
+		{
+			"name": "landscapeblenddrawable",
+			"type": 1,
+			"vs_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB"
+			],
+			"ps_defines": [
+				"MAX_MIX_MATERIAL=82",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB",
+				"MAX_MIX_MATERIAL=82 PURE_MINIMAP",
+				"MAX_MIX_MATERIAL=82 NOT_SUPPORT_SRGB PURE_MINIMAP"
+			]
+		},
+		{
+			"name": "litsolidunitymetallicroughnesspackednormal",
+			"type": 3
+		},
+		{
+			"name": "litsolidunitypackednormal",
+			"type": 3
+		}
+	]
+}
+
+
