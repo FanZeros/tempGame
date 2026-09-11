@@ -1,0 +1,4 @@
+<technique vs="Basic" ps="Basic" vsdefines="DIFFMAP VERTEXCOLOR" psdefines="DIFFMAP VERTEXCOLOR">
+    <pass name="alpha" depthwrite="false" blend="alpha" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+</technique>

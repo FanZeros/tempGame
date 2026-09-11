@@ -1,0 +1,4 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/PhantomPS" shaderlab="Model/Phantom.shader" shadingmodel="lambert">
+  <pass name="base" colorwrite="false" alphatest="true" covered="false" disablefastmath="true" />
+  <pass name="alpha" vsdefines="NORMALMAP" psdefines="NORMALMAP PACKEDNORMAL SPECMAP" depthtest="equal" depthwrite="false" blend="alpha" covered="false" disablefastmath="true" />
+</technique>

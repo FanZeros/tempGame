@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "target": "client",
+  "project_id": "p_517c",
+  "sources": {
+    "engine-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/engine-res/"
+    },
+    "official-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/official-res/"
+    }
+  },
+  "asset_prefixes": [
+    "assets",
+    "scripts"
+  ],
+  "entry": "main.lua",
+  "preload_groups": [
+    "startup",
+    "#config",
+    "startup#refs",
+    "#config#refs"
+  ],
+  "files": [
+    {
+      "uuid": "AJ_IubbsKAnpUDJFkD7nW7R4",
+      "ext": ".wav",
+      "hash": "c769a530",
+      "size": 33730,
+      "fs_path": "Sounds/Bounce4096/merge_1024.wav"
+    },
+    {
+      "uuid": "AiEiAfi3FNTQdplPmp_-mTKO",
+      "ext": ".wav",
+      "hash": "cda458d7",
+      "size": 29200,
+      "fs_path": "Sounds/Bounce4096/merge_4096.wav"
+    },
+    {
+      "uuid": "BgCviebFkuFhKjMsq6Cjz4K1",
+      "ext": ".json",
+      "groups": [
+        "#blocking"
+      ],
+      "source": "official-res",
+      "refs": [
+        "AvmfQQWPOJKQln4kISbq1qsK",
+        "B9gxWZGEvJv99DLadVBNjeBm",
+        "C5TH8Um7enDvsccQp0yKaFKv",
+        "ENWpeS8aUuN3DMZ4kLZtqc6Q",
+        "EPbSsW5xhUNav0MZt0b_VGe-",
+        "Ej2uwTLda_LOVYIAw4Bs_Hog",
+        "F4ItQUiV0gmvAelLXpk5yrTs",
+        "FmD_MVX6NJVaeW9vdQ4EIlTq",
+        "FmaJEb00vYdE9vFmbO60Xkn6",
+        "Fr5sya5vN3P0bfThXYJ2XcGw",
+        "G2FlEdwwzR0rliGuXVgGpK2C",
+        "Gegssbk9ZAijVsigDH-iMHAR",
+        "HBTyuRZ6z-VATB16tjmWi3Uo",
+        "HIsCIUT7yv1mueg3KlvzX2Xz",
+        "HTriplanarTech01aB2cDe",
+        "KTriplanarShaderFinal1",
+        "XimTixnDEW7k2OzjV7sFq9vM",
+        "iV_WrtdX3cKmljRIMhn5PZlT"
+      ],
+      "fs_path": "generated/__official_pinned_refs__.json"
+    },
+    {
+      "uuid": "BgLl0f3xKtOQet-G7PPRPTXS",
+      "ext": ".wav",
+      "hash": "07e998ff",
+      "size": 45010,
+      "fs_path": "Sounds/Bounce4096/merge_64.wav"
+    },
+    {
+      "uuid": "C3w9Jf6Bn2Yu8Pe4Gk7Mx1Ts",
+      "ext": ".lua",
+      "hash": "22e370d8",
+      "size": 11690,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Bounce4096MetaUI.lua"
+    },
+    {
+      "uuid": "C9nfmVD4EaRkNBHpcJUAINSB",
+      "ext": ".wav",
+      "hash": "46b028b8",
+      "size": 1704,
+      "fs_path": "Sounds/Bounce4096/Collision/collision_3.wav"
+    },
+    {
+      "uuid": "CE3c6SWCBTLvKxozVfWTbGYN",
+      "ext": ".wav",
+      "hash": "9caee5a6",
+      "size": 55886,
+      "fs_path": "Sounds/Bounce4096/merge_8.wav"
+    },
+    {
+      "uuid": "CG5HUZIxZ8DYZSuVIoIqDA6i",
+      "ext": ".wav",
+      "hash": "145e5cb2",
+      "size": 705644,
+      "fs_path": "Sounds/Bounce4096/bgm.wav"
+    },
+    {
+      "uuid": "COpRsZg_ymPkXEqlJvvmiGAT",
+      "ext": ".wav",
+      "hash": "e2f9e92f",
+      "size": 15038,
+      "fs_path": "Sounds/Bounce4096/launch.wav"
+    },
+    {
+      "uuid": "D2ozMVXtDNsIHEtuxh5fyqdW",
+      "ext": ".ttf",
+      "hash": "1218426a",
+      "size": 55712,
+      "groups": [
+        "startup",
+        "default#refs"
+      ],
+      "fs_path": "Fonts/TitanOne-Regular.ttf"
+    },
+    {
+      "uuid": "DEmR-TVSttOIIvOWwBz2QzuM",
+      "ext": ".wav",
+      "hash": "8b22f8a1",
+      "size": 60068,
+      "fs_path": "Sounds/Bounce4096/merge_source.wav"
+    },
+    {
+      "uuid": "EZS1mfNrKXvRJ34HRphl9D5m",
+      "ext": ".lua",
+      "hash": "ea248243",
+      "size": 195061,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "CG5HUZIxZ8DYZSuVIoIqDA6i",
+        "COpRsZg_ymPkXEqlJvvmiGAT",
+        "D2ozMVXtDNsIHEtuxh5fyqdW",
+        "GQSK0Tmc_tRWH95Er4LJFhiR",
+        "HZT9MeKHLr4RPwR-tWICzfcB",
+        "MiSansBounce4096Font01"
+      ],
+      "fs_path": "main.lua"
+    },
+    {
+      "uuid": "Efj-UcrTTjLIpiqFyQoLWrOy",
+      "ext": ".wav",
+      "hash": "1fa40746",
+      "size": 48378,
+      "fs_path": "Sounds/Bounce4096/merge_32.wav"
+    },
+    {
+      "uuid": "FSIlMVdF5BtqA_cpI2vEnP2O",
+      "ext": ".wav",
+      "hash": "625f62a9",
+      "size": 2838,
+      "fs_path": "Sounds/Bounce4096/Collision/collision_1.wav"
+    },
+    {
+      "uuid": "FjltMfczErzG1jQzXXpV4IpQ",
+      "ext": ".wav",
+      "hash": "c8f7b223",
+      "size": 27170,
+      "fs_path": "Sounds/Bounce4096/merge_8192.wav"
+    },
+    {
+      "uuid": "GQSK0Tmc_tRWH95Er4LJFhiR",
+      "ext": ".wav",
+      "hash": "ec214cc0",
+      "size": 10628,
+      "fs_path": "Sounds/Bounce4096/danger.wav"
+    },
+    {
+      "uuid": "GkqmIXlDbD6DyQAYPcmE7CKa",
+      "ext": ".wav",
+      "hash": "52c57eae",
+      "size": 60068,
+      "fs_path": "Sounds/Bounce4096/merge_4.wav"
+    },
+    {
+      "uuid": "Gr1dSTJxXzshfbNAQAV82oug",
+      "ext": ".wav",
+      "hash": "844bfe5e",
+      "size": 41878,
+      "fs_path": "Sounds/Bounce4096/merge_128.wav"
+    },
+    {
+      "uuid": "GxiX2e0j6G9hzEdmv_j_e0F7",
+      "ext": ".wav",
+      "hash": "8d32cf07",
+      "size": 38964,
+      "fs_path": "Sounds/Bounce4096/merge_256.wav"
+    },
+    {
+      "uuid": "HL_fOasWwXvT6aZa4napJnar",
+      "ext": ".lua",
+      "hash": "0727bfb4",
+      "size": 1937,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Bounce4096Theme.lua"
+    },
+    {
+      "uuid": "HNZfEQ6jb5FeOb4Fe2I5jP_L",
+      "ext": ".wav",
+      "hash": "179fbb27",
+      "size": 36252,
+      "fs_path": "Sounds/Bounce4096/merge_512.wav"
+    },
+    {
+      "uuid": "HZT9MeKHLr4RPwR-tWICzfcB",
+      "ext": ".wav",
+      "hash": "3d57664a",
+      "size": 59578,
+      "fs_path": "Sounds/Bounce4096/game_over.wav"
+    },
+    {
+      "uuid": "HiHJYW_MKuWR-mmJ6UuDskYA",
+      "ext": ".wav",
+      "hash": "c79f96f7",
+      "size": 1484,
+      "fs_path": "Sounds/Bounce4096/Collision/collision_2.wav"
+    },
+    {
+      "uuid": "HmSS8UCpGzeaizQU-CUSgDwG",
+      "ext": ".wav",
+      "hash": "679d9361",
+      "size": 31384,
+      "fs_path": "Sounds/Bounce4096/merge_2048.wav"
+    },
+    {
+      "uuid": "HnXxIdE0mRuFhMx6J42uPhff",
+      "ext": ".wav",
+      "hash": "b0651508",
+      "size": 51996,
+      "fs_path": "Sounds/Bounce4096/merge_16.wav"
+    },
+    {
+      "uuid": "HpveUc-XTAxP05orfvxMjZX9",
+      "ext": ".wav",
+      "hash": "bc4cde51",
+      "size": 12778,
+      "fs_path": "Sounds/Bounce4096/Collision/collision_4.wav"
+    },
+    {
+      "uuid": "MiSansBounce4096Font01",
+      "ext": ".ttf",
+      "hash": "e3abc32b",
+      "size": 2450044,
+      "groups": [
+        "startup",
+        "default#refs"
+      ],
+      "fs_path": "Fonts/MiSans-Bounce4096.ttf"
+    },
+    {
+      "uuid": "V8m2Kp7Qx4Nc9Rt5Hs1Za6Ld",
+      "ext": ".lua",
+      "hash": "daa42aff",
+      "size": 18336,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Bounce4096MetaGame.lua"
+    },
+    {
+      "uuid": "b7Qp2LkN8vW4xT6mR3cY9aHs",
+      "ext": ".lua",
+      "hash": "c5d01eec",
+      "size": 19021,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "SpawnManager.lua"
+    },
+    {
+      "uuid": "f_8GsAByQ_GfRSMzJZ7Pxg",
+      "ext": ".json",
+      "hash": "9517643e",
+      "size": 551,
+      "groups": [
+        "#config",
+        "#blocking"
+      ],
+      "refs": [
+        "BgCviebFkuFhKjMsq6Cjz4K1"
+      ],
+      "fs_path": "settings.json"
+    },
+    {
+      "uuid": "p7Rk3Vm9Tx2Qw8Ls5Nc1Za6H",
+      "ext": ".lua",
+      "hash": "9aa4cd5c",
+      "size": 6764,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Bounce4096Proportions.lua"
+    }
+  ],
+  "metadata": {
+    "total_files": 31,
+    "local_files": 30,
+    "remote_files": 1,
+    "total_size": 4128792,
+    "preload_files": 3,
+    "preload_size": 2506307,
+    "groups": {
+      "#blocking": {
+        "files": 8,
+        "size": 254079
+      },
+      "startup": {
+        "files": 2,
+        "size": 2505756
+      },
+      "default#refs": {
+        "files": 2,
+        "size": 2505756
+      },
+      "default": {
+        "files": 27,
+        "size": 1622485
+      },
+      "#config": {
+        "files": 1,
+        "size": 551
+      }
+    }
+  }
+}

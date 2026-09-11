@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "enabled": {
+    "Windows": false,
+    "macOS": false,
+    "Linux": false,
+    "default": false
+  },
+  "cleanup_enable_cache_gb": 8,
+  "minimum_cleanup_interval_hours": 12,
+  "retention_days": 60,
+  "max_cache_gb": {
+    "Windows": 256,
+    "macOS": 256,
+    "Linux": 256,
+    "default": 64
+  },
+  "reclaim_size_gb": {
+    "Windows": 32,
+    "macOS": 32,
+    "Linux": 32,
+    "default": 16
+  },
+  "web_cache_factor": 0.5
+}

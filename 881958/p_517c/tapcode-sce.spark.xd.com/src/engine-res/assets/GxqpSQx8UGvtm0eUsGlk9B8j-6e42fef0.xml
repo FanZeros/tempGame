@@ -1,0 +1,5 @@
+<material>
+    <!-- PBR 版体素调色板(旧 Lambert 版为 Techniques/NoTextureVCol.xml):
+         与引擎的 UE 曝光/IBL/体积雾管线同一光照通路,避免新旧路径效果差异。 -->
+    <technique name="Techniques/PBRNoTextureVCol.xml" />
+</material>

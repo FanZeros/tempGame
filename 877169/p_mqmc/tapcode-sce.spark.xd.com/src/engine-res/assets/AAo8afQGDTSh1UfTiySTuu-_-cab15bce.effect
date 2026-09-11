@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<CEParticleSystem>
+	<CEParticleEffect>
+		<module type="CEParticleModuleRequired">
+			<material value="EngineRes/particle/common/materials/alphaMaterial.material" >
+				<texture unit="0" value="EngineRes/particle/common/materials/OrientParticle.TGA" />
+				<parameter name="SoftParticleFadeScale" value="1" />
+				<parameter name="UScalar" value="1" />
+				<parameter name="VScalar" value="1" />
+				<parameter name="USpeed" value="0" />
+				<parameter name="VSpeed" value="0" />
+				<materialTag name="blend" type="Int" value="4" />
+			</material>
+			<bUseLocalSpace value="false" />
+			<screenAlignment value="0" />
+			<emitterDuration value="1" />
+			<emitterLoops value="0" />
+			<emitterDelay value="0" />
+			<interpolationMethod value="0" />
+			<subImagesHorizontal value="1" />
+			<subImagesVertical value="1" />
+			<randomImageChanges value="0" />
+			<randomImageTime value="0" />
+		</module>
+		<module type="CEParticleModuleSpawn">
+			<rate type="constant">
+				<constant value="3" />
+			</rate>
+			<burstList>
+				<point time="0" count="0" />
+			</burstList>
+		</module>
+		<module type="CEParticleModuleLifetime">
+			<lifetime type="uniform">
+				<min value="1" />
+				<max value="1" />
+			</lifetime>
+		</module>
+		<module type="CEParticleModuleSize">
+			<startSize type="uniform">
+				<min value="25 25 25" />
+				<max value="25 25 25" />
+			</startSize>
+		</module>
+		<module type="CEParticleModuleVelocity">
+			<module type="CEParticleModuleVelocityBase">
+				<bInWorldSpace value="false" />
+				<bApplyOwnerScale value="false" />
+			</module>
+			<startVelocity type="uniform">
+				<min value="-10 -10 10" />
+				<max value="10 10 10" />
+			</startVelocity>
+			<startVelocityRadial type="uniform">
+				<min value="0" />
+				<max value="0" />
+			</startVelocityRadial>
+		</module>
+		<module type="CEParticleModuleColorOverLife">
+			<colorOverLife type="constantCurve">
+				<point inVal="0" outVal="1 1 1" />
+				<point inVal="1" outVal="1 1 1" />
+			</colorOverLife>
+			<alphaOverLife type="constantCurve">
+				<point inVal="0" outVal="1" />
+				<point inVal="1" outVal="1" />
+			</alphaOverLife>
+		</module>
+		<module type="CEParticleModuleLocation">
+			<startLocation type="uniform">
+				<min value="0 0 0" />
+				<max value="0 0 0" />
+			</startLocation>
+		</module>
+	</CEParticleEffect>
+</CEParticleSystem>

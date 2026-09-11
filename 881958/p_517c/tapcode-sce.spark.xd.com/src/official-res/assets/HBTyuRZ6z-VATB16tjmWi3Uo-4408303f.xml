@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+    CelToonSolid - binary cel shading without a diffuse texture.
+    MatDiffColor is used directly as the base color.
+    Keep this technique material-only: no outline pass, post-process, or render path dependency.
+-->
+<technique vs="CelToon" ps="CelToon">
+    <pass name="base"     psdefines="AMBIENT" />
+    <pass name="litbase"  psdefines="AMBIENT" />
+    <pass name="light"    depthtest="equal" depthwrite="false" blend="add" />
+    <pass name="depth"    vs="Depth"  ps="Depth"  />
+    <pass name="shadow"   vs="Shadow" ps="Shadow" />
+
+    <parameter name="MatDiffColor"     value="1 1 1 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+
+    <parameter name="ShadowColor"      value="0.55 0.58 0.65 1" />
+    <parameter name="MidColor"         value="0.78 0.8 0.83 1" />
+    <parameter name="LightThreshold"   value="0.5 0.02 0 0" />
+    <parameter name="RimColor"         value="1 1 1 0.35" />
+    <parameter name="RimParams"        value="0.2 0.04 0 0" />
+</technique>

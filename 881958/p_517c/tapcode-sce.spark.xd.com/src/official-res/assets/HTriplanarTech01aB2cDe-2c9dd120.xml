@@ -1,0 +1,24 @@
+<technique vs="PBRTriplanarFinal" ps="PBRTriplanarFinal" vsdefines="NORMALMAP" psdefines="NORMALMAP DIFFMAP METALLIC ROUGHNESS PBR IBL">
+    <pass name="base" vsdefines="AO" psdefines="AMBIENT AO" srgbsoftresolve="true" />
+    <pass name="litbase" vsdefines="AO" psdefines="AMBIENT AO" srgbsoftresolve="true" />
+    <pass name="light" vsdefines="AO" psdefines="AO" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" />
+    <pass name="material" psdefines="MATERIAL" depthtest="equal" depthwrite="false" />
+    <pass name="depth" vs="Depth" ps="Depth" psexcludes="PACKEDNORMAL" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" psexcludes="PACKEDNORMAL" />
+
+    <texture unit="normal" name="Textures/DefaultNormal.tga" />
+    <texture unit="specular" name="Textures/DefaultRoughnessMetallic.tga" />
+
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="TextureMetallicFactor" value="1" />
+    <parameter name="TextureRoughnessFactor" value="1" />
+    <parameter name="TintColor" value="0 0 0 0" />
+
+    <!-- x: anchor 0=world, 1=object; y: tile size in world units; z: blend sharpness; w: normal strength. -->
+    <parameter name="TriplanarParams" value="0 1 4 1" />
+    <parameter name="TriplanarOffset" value="0 0 0 0" />
+    <!-- x: normal fade start distance; y: fade end distance; z: minimum far normal strength; w: reserved. -->
+    <parameter name="TriplanarNormalFade" value="5 30 0.2 0" />
+</technique>

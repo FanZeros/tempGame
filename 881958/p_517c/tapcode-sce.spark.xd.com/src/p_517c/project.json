@@ -1,0 +1,48 @@
+{
+  "project_id": "p_517c",
+  "version": "1.0.40",
+  "author": {
+    "id": "565464626"
+  },
+  "taptap_publish": {
+    "title": "弹射4096",
+    "description": "拖拽、发射、碰撞、合成！在复古保龄球道上撞出你的2048高分局！",
+    "category": "puzzle",
+    "screen_orientation": "portrait",
+    "collection_type": "sce",
+    "trial_note": "竖屏游玩；在红线下方按住方块，向后拖拽蓄力，松手发射。",
+    "transparent": false,
+    "app_platforms": "1,2",
+    "developer_id": 423438,
+    "app_id": 881958,
+    "miniapp_id": "tapmctqmxmufcqa9rp",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/p_517c/1783454002948-rec_9ce48fab-82f1-4dcd-bddb-45e15c971a81.mp4",
+    "icon": "https://package-pd.tapsce.cn/minigame/3b13cd123ec96597bcd5339c9bc44f60f49578ab.png"
+  },
+  "assets": {
+    "icon": "./game_material/icon.png",
+    "screenshots": [
+      "./game_material/screenshot_1.png",
+      "./game_material/SCREENSHOT_2026-07-24T14-21-53_02.png",
+      "./game_material/screenshot_3.png"
+    ],
+    "promotional_image": "./game_material/promotional.png",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/icon.png",
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/promotional.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/screenshot_1.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/SCREENSHOT_2026-07-24T14-21-53_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/screenshot_3.png"
+    ],
+    "cover_horizontal": "./game_material/cover_horizontal.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/cover_horizontal.png",
+    "cover_vertical": "./game_material/cover_vertical.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/cover_vertical.png",
+    "square_promotional_image": "./game_material/square_promotional.png",
+    "square_promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_517c/square_promotional.png"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_517c_1786122163988.png",
+    "generated_at": "2026-08-07T17:02:44.126Z"
+  }
+}

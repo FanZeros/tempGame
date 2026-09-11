@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="EngineRes/Techniques/Building.xml" />
+	<parameter name="MatDiffColor" value="1 0 0 1" />
+	<parameter name="MatSpecColor" value="0.5 0.5 0.5 16" />
+	<parameter name="ColorFactor" value="1.0 1.0 1.0 1.0" />
+	<parameter name="MetallicFactor" value="1.0" />
+	<parameter name="RoughnessFactor" value="1.0" />
+</material>

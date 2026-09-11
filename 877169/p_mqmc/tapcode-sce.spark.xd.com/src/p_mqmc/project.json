@@ -1,0 +1,49 @@
+{
+  "project_id": "p_mqmc",
+  "version": "1.0.391",
+  "author": {
+    "id": "282592116"
+  },
+  "taptap_publish": {
+    "title": "大剑守卫",
+    "description": "装备全刷，无内购，可选激励广告，刷刷刷",
+    "category": "rpg",
+    "screen_orientation": "portrait",
+    "developer_id": 416572,
+    "collection_type": "sce",
+    "trial_note": "纯刷无内购，激励广告仅用于主动解锁部分便捷功能",
+    "transparent": false,
+    "app_platforms": "1,2",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/5d35d4e6-a808-425d-aa80-ac9aa045e50d/1789029174545-uploaded_c507c133.mp4",
+    "app_id": 877169,
+    "miniapp_id": "tapmcycbixbkeremp4",
+    "release_phase": "official",
+    "icon": "https://package-pd.tapsce.cn/minigame/161b268b4233f3ab7b309ea0209a4828a77a43fe.png"
+  },
+  "assets": {
+    "icon": "./game_material/ICON_2026-06-26T10-01-26_01.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-06-26T10-01-26_01.png",
+      "./game_material/SCREENSHOT_2026-06-26T10-01-26_02.jpg",
+      "./game_material/SCREENSHOT_2026-06-26T10-01-26_03.png"
+    ],
+    "promotional_image": "./game_material/PROMO_2026-06-26T10-01-26_01.jpg",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/ICON_2026-06-26T10-01-26_01.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/SCREENSHOT_2026-06-26T10-01-26_01.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/SCREENSHOT_2026-06-26T10-01-26_02.jpg",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/SCREENSHOT_2026-06-26T10-01-26_03.png"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/PROMO_2026-06-26T10-01-26_01.jpg",
+    "cover_horizontal": "./game_material/COVER_HORIZONTAL_2026-09-10T08-54-50_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/COVER_HORIZONTAL_2026-09-10T08-54-50_01.png",
+    "cover_vertical": "./game_material/COVER_VERTICAL_2026-06-26T10-03-43_01.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/COVER_VERTICAL_2026-06-26T10-03-43_01.png",
+    "square_promotional_image": "./game_material/SQUARE_PROMO_2026-06-26T10-14-49_01.jpg",
+    "square_promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/大剑守卫/SQUARE_PROMO_2026-06-26T10-14-49_01.jpg"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_mqmc_1789032537085.png",
+    "generated_at": "2026-09-10T09:28:57.218Z"
+  }
+}

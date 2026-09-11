@@ -1,0 +1,20 @@
+{
+	"files": [
+		{
+			"name": "cipr",
+			"type": 1,
+			"vs_defines": [
+				"",
+				"BLEND1",
+				"BLEND3"
+			],
+			"ps_defines": [
+				"",
+				"BLEND1",
+				"BLEND3"
+			]
+		}
+	]
+}
+
+

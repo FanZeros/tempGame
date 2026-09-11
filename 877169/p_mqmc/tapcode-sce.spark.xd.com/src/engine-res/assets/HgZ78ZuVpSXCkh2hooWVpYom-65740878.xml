@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<material>
+    <technique name="Editor/Techniques/SingleLayerWaterNoDepth.xml" />
+
+    <texture unit="1" name="Editor/Textures/Engine/WaterNormal.png" />
+    <texture unit="2" name="Editor/Textures/Engine/WaterReflection.xml" />
+    <texture unit="4" name="Editor/Weather/ramp_water.tga" />
+    <texture unit="5" name="Editor/Weather/ramp_water_bottom.tga" />
+
+    <!-- 水体颜色 -->
+    <parameter name="WaterTint" value="0.2 0.4 0.8" />
+</material>

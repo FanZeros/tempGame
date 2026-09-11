@@ -1,0 +1,10 @@
+<technique vs="ShaderLab/Terrain/LandscapeBlend" ps="ShaderLab/Terrain/LandscapeBlend" shaderlab="Terrain/LandscapeBlend.shader">
+  <pass name="base" vsdefines="NORMALMAP AO BLEND_FOUR" psdefines="NORMALMAP PACKEDNORMAL AMBIENT AO BLEND_FOUR" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="litbase" vsdefines="NORMALMAP AO BLEND_FOUR" psdefines="NORMALMAP PACKEDNORMAL AMBIENT AO BLEND_FOUR" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="light" vsdefines="NORMALMAP AO BLEND_FOUR" psdefines="NORMALMAP PACKEDNORMAL AO BLEND_FOUR" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="depth" vs="Depth" ps="Depth" vsdefines="VERTEXCOLOR TERRAIN_SINK_AO_FIX" />
+  <pass name="shadow" vs="Shadow" ps="Shadow" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" blend="alpha" depthwrite="false" depthtest="less" />
+  <pass name="outsurface" vs="Highlight" ps="Highlight" blend="alpha" depthtest="equal" depthwrite="false" />
+  <pass name="xray" vs="PBRPiplineVS" ps="ShaderLab/Model/XRayPS" depthtest="greater" depthwrite="false" />
+</technique>

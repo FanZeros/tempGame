@@ -1,0 +1,29 @@
+<renderpath>
+    <rendertarget name="Blur0" tag="ComputeBlur" sizedivisor="4 4" format="rgba" filter="true" computewrite="true" />
+    <rendertarget name="Blur1" tag="ComputeBlur" sizedivisor="4 4" format="rgba" filter="true" computewrite="true" />
+    <command type="computepass" tag="ComputeBlur" csdefines="FIRST_PASS" pass="computeblur">
+        <texture unit="0" name="viewport" />
+        <texture unit="1" name="Blur0" />
+        <parameter name="BlurParams" value="3" />
+    </command>
+    <command type="computepass" tag="ComputeBlur" csdefines="BLUR_VERTICAL" pass="computeblur">
+        <texture unit="0" name="Blur0" />
+        <texture unit="1" name="Blur1" />
+        <parameter name="BlurParams" value="3" />
+    </command>
+    <command type = "loop" tag = "ComputeBlur" status = "start" count = "1"/>
+    <command type="computepass" tag="ComputeBlur" pass="computeblur">
+        <texture unit="0" name="Blur1" />
+        <texture unit="1" name="Blur0" />
+        <parameter name="BlurParams" value="3" />
+    </command>
+    <command type="computepass" tag="ComputeBlur" csdefines="BLUR_VERTICAL" pass="computeblur">
+        <texture unit="0" name="Blur0" />
+        <texture unit="1" name="Blur1" />
+        <parameter name="BlurParams" value="3" />
+    </command>
+    <command type = "loop" tag = "ComputeBlur" status = "end"/>
+    <command type="quad" tag="ComputeBlur" vs="CopyFramebuffer" ps="CopyFramebuffer" output="viewport" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="Blur1" />
+    </command>
+</renderpath>

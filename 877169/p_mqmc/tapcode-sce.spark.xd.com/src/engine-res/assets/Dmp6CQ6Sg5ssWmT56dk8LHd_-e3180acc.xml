@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<texture>
+	<quality low="0" />
+	<srgb enable="true" />
+	<address coord="u" mode="wrap" />
+	<address coord="v" mode="wrap" />
+	<address coord="w" mode="wrap" />
+    <platform name="windows">
+        <compress format="BC7" quality="medium" />
+    </platform>
+    <platform name="android">
+        <compress format="ASTC_6X6" quality="medium" />
+    </platform>
+    <platform name="ios">
+        <compress format="ASTC_6X6" quality="medium" />
+    </platform>
+    <platform name="web">
+        <compress format="ASTC_6X6" quality="medium" />
+    </platform>
+</texture>

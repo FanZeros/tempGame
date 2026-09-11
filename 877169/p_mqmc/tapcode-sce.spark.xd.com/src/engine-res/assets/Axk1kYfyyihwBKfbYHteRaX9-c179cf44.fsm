@@ -1,0 +1,97 @@
+{
+    "name": "DefaultMaleNormalFSM",
+    "defaultBlendTime": 0.2,
+
+    "parameters": {
+        "moveSpeed": {
+            "type": "float",
+            "default": 0.0,
+            "min": 0.0,
+            "max": 10.0
+        },
+        "isGrounded": {
+            "type": "bool",
+            "default": true
+        },
+        "jump": {
+            "type": "trigger"
+        }
+    },
+
+    "layers": [
+        {
+            "name": "Base",
+            "defaultState": "Locomotion",
+            "states": {
+                "Locomotion": {
+                    "blendSpace": "urhox-libs/Animation/FSM/DefaultMaleMovementBlendSpace.blendspace",
+                    "loop": true
+                },
+                "JumpStart": {
+                    "animation": "DefaultMale/Animations/DefaultMale_JumpStart.ani",
+                    "loop": false,
+                    "speed": 1.0,
+                    "blendTime": 0.1
+                },
+                "JumpAir": {
+                    "animation": "DefaultMale/Animations/DefaultMale_JumpAir.ani",
+                    "loop": true,
+                    "speed": 1.0
+                },
+                "JumpLanding": {
+                    "animation": "DefaultMale/Animations/DefaultMale_JumpLanding.ani",
+                    "loop": false,
+                    "speed": 1.0
+                }
+            },
+            "transitions": [
+                {
+                    "from": "*",
+                    "to": "JumpStart",
+                    "condition": "jump",
+                    "priority": 10,
+                    "blendTime": 0.1
+                },
+                {
+                    "from": "JumpStart",
+                    "to": "JumpAir",
+                    "condition": "animationFinished and not isGrounded",
+                    "blendTime": 0.15
+                },
+                {
+                    "from": "JumpStart",
+                    "to": "Locomotion",
+                    "condition": "isGrounded",
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "Locomotion",
+                    "to": "JumpAir",
+                    "condition": "not isGrounded",
+                    "priority": 5,
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "JumpAir",
+                    "to": "JumpLanding",
+                    "condition": "isGrounded and stateTime > 0.5",
+                    "priority": 2,
+                    "blendTime": 0.1
+                },
+                {
+                    "from": "JumpAir",
+                    "to": "Locomotion",
+                    "condition": "isGrounded",
+                    "priority": 1,
+                    "blendTime": 0.2
+                },
+                {
+                    "from": "JumpLanding",
+                    "to": "Locomotion",
+                    "condition": "animationFinished or moveSpeed > 0.5",
+                    "blendTime": 0.2
+                }
+            ]
+        }
+    ]
+}

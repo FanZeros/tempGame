@@ -1,0 +1,23 @@
+<technique vs="PBRLitSolid" ps="PBRLitSolid" vsdefines="NOUV VERTEXCOLOR VOXELJITTER" psdefines="PBR IBL VERTEXCOLOR VOXELPALETTE VOXELJITTER">
+    <!-- 体素调色板渲染的 PBR 版。VOXELPALETTE:顶点色只携带调色板索引(R)与内部
+         体素标记(G),反照率/粗糙度/金属度/高光/自发光/断面色全部从 sDiffMap 绑定的
+         256x4 调色板纹理逐像素读取(VoxelPhysicsWorld::GetPaletteTexture)。
+         VOXELJITTER = 逐体素亮度抖动(Teardown 质感),PBR+IBL 与引擎的
+         UE 曝光/泛光/环境立方图全链路一致。 -->
+    <pass name="base" vsdefines="AO" psdefines="AMBIENT AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="litbase" vsdefines="AO" psdefines="AMBIENT AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="light" vsdefines="AO" psdefines="AO" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="depth" vs="Depth" ps="Depth" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.85" />
+    <parameter name="TintColor" value="0 0 0 0" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteBank" value="0" />
+    <!-- 兜底默认(缺省 uniform 为 0 会除零);引擎创建的材质克隆总会用
+         MAX_PALETTE_BANKS * 4 覆盖,真源在 VoxelPhysicsWorld。 -->
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+</technique>

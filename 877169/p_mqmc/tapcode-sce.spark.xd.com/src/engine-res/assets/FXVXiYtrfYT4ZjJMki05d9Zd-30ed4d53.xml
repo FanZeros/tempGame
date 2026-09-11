@@ -1,0 +1,17 @@
+<technique vs="Translucent/Water" ps="Translucent/Water" vsdefines="SINGLE_LAYER_WATER" psdefines="SINGLE_LAYER_WATER COLORBUFFER_FETCH" shadingmodel="singlelayerwater">
+    <pass name="litalpha" psdefines="SPECMAP AMBIENT" depthwrite="false" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <!-- 水流速 -->
+    <parameter name="WaterSpeed" value="0.5 0.25" />
+    <!-- 水Tiling -->
+    <parameter name="WaveScaler" value="0.64 1.28" />
+    <!-- 波纹密度 -->
+    <parameter name="WaveDensity" value="0.1" />
+    <!-- 扰动强度 -->
+    <parameter name="NoiseStrength" value="0.02" />
+    <!-- 法线强度 -->
+    <parameter name="NormalStrength" value="0.2" />
+    <!-- x: SpecularGloss, y: SpecularFactor, z:FresnelFactor, w:Reflection -->
+    <parameter name="LightParam" value="0.78 1.46 0.2 0.39" />
+    <!-- 水体颜色 -->
+    <parameter name="WaterTint" value="1 1 1" />
+</technique>

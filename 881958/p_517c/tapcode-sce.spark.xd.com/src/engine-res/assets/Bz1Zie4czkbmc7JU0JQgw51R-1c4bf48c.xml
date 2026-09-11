@@ -1,0 +1,10 @@
+<renderpath finalCopy="false" >
+    <!-- clear color:black depth:1.0 stencil:0 -->
+    <command type="clear" color="0 0 0 0" depth="1.0" stencil="0" linkDepth="depth_buffer" />
+    
+    <command type="sendevent" name="__NanoVGRender__">
+    </command>
+
+    <!-- postprocess -->
+    <postprocess name="EngineRes/PostProcess/GamePostProcess.xml" />
+</renderpath>

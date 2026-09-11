@@ -1,0 +1,9 @@
+<technique vs="LitSolid" ps="LitSolid" psdefines="DIFFMAP">
+    <pass name="alpha" psdefines="EMISSIVEMAP" depthwrite="false" blend="alpha" srgbsoftresolve="true" srgbsoftresolveslots="0 3" />
+    <pass name="litalpha" vsdefines="NORMALMAP" psdefines="NORMALMAP" depthwrite="false" blend="addalpha" srgbsoftresolve="true" srgbsoftresolveslots="0 3" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" psexcludes="PACKEDNORMAL" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+    <parameter name="MatSpecColor" value="0 0 0 1" />
+    <parameter name="MatEmissiveColor" value="1 1 1" />
+    <parameter name="MatEnvMapColor" value="0 0 0" />
+</technique>

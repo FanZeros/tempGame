@@ -1,0 +1,18 @@
+<technique vs="Voxel/PBRVoxelDda" ps="Voxel/PBRVoxelDda" vsdefines="NOUV" psdefines="PBR IBL VOXELPALETTE VOXELJITTER VOXEL_SPARSE4">
+    <!-- Sparse4 outside variant. VOXEL_SPARSE4 is a compile-time PS variation for
+         every pass: Directory is TU_CUSTOM2, Pool is TU_VOLUMEMAP, and the volume
+         table is TU_CUSTOM1. Slot-7 Terrain/Paint/Weather paths are unreachable.
+         Front faces + conservative depth preserve the Dense outside-pass contract. -->
+    <pass name="deferredvox" cull="ccw" depthwrite="true" depthtest="lessequal"
+          vsdefines="NOUV" psdefines="DEFERRED CONSERVATIVE_DEPTH_GE" />
+    <pass name="shadow" cull="ccw" depthwrite="true"
+          vsdefines="NOUV" psdefines="SHADOW" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.85" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+    <parameter name="VoxelVolumeIndex" value="0" />
+</technique>

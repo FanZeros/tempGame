@@ -1,0 +1,3 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/HairSimulationPS" shaderlab="Model/HairSimulation.shader">
+  <pass name="litalpha" vsdefines="AO NORMALMAP" psdefines="AMBIENT AO NORMALMAP" depthtest="true" depthwrite="false" blend="alpha" alphatest="true" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+</technique>

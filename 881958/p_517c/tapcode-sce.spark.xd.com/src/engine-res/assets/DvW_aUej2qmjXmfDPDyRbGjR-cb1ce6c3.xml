@@ -1,0 +1,11 @@
+<technique vs="ShaderLab/Terrain/TileBlend" ps="ShaderLab/Terrain/TileBlend" shaderlab="Terrain/TileBlend.shader">
+  <pass name="base" vsdefines="NORMALMAP BLEND2 AO" psdefines="NORMALMAP PACKEDNORMAL AMBIENT BLEND2 AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="litbase" vsdefines="NORMALMAP BLEND2 AO" psdefines="NORMALMAP PACKEDNORMAL AMBIENT BLEND2 AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="light" vsdefines="NORMALMAP BLEND2 AO" psdefines="NORMALMAP PACKEDNORMAL BLEND2 AO" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="depth" vs="Depth" ps="Depth" psexcludes="PACKEDNORMAL" />
+  <pass name="shadow" vs="Shadow" ps="Shadow" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" blend="alpha" depthwrite="false" depthtest="less" />
+  <pass name="outsurface" vs="Highlight" ps="Highlight" blend="alpha" depthtest="equal" depthwrite="false" />
+  <pass name="xray" vs="PBRPiplineVS" ps="ShaderLab/Model/XRayPS" depthtest="greater" depthwrite="false" />
+  <pass name="mix" vsdefines="NORMALMAP BLEND2" psdefines="NORMALMAP BLEND2" />
+</technique>

@@ -1,0 +1,5 @@
+<material>
+    <technique name="Techniques/DiffSkybox.xml" />
+    <texture unit="diffuse" type="TextureCube" name="Textures/Skybox.ktx" />
+    <cull value="none" />
+</material>

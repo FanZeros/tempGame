@@ -1,0 +1,45 @@
+<renderpath finalCopy="false" >
+    <!-- clear color:fog depth:1.0 stencil:0 -->
+    <command type="clear" color="fog" depth="1.0" stencil="0" linkDepth="depth_buffer" />
+
+    <!-- opaque -->
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" renderMask="1" />
+    <command type="forwardlights" pass="light" renderMask="1" />
+    <command type="scenepass" pass="postopaque" renderMask="1" />
+
+    <!-- no blend litalpha -->
+    <command type="scenepass" pass="alphanoblend" />
+
+    <!-- XRay -->
+    <command type="scenepass" pass="xray" renderMask="7" >
+        <parameter name="FresnelColor" value="0.27 0.94 0.94 0.4" />
+    </command>
+
+    <!-- alphatest -->
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" renderMask="2" ignorePassResolve="true" />
+    <command type="forwardlights" pass="light" renderMask="2" ignorePassResolve="true" />
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" renderMask="2" ignorePassResolve="true" />
+
+    <!-- palnnershadow - alpha -->
+    <command type="planershadow" pass="planershadow" renderMask="4" />
+
+    <!-- alpha -->
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" renderMask="4" />
+    <command type="scenepass" pass="postalpha" sort="backtofront" renderMask="4" />
+
+    <!-- highlight -->
+    <command type="scenepass" pass="outsurface" renderMask="7" />
+
+    <!-- innerstroke -->
+    <command type="scenepass" pass="innerstroke" renderMask="7" >
+        <parameter name="StrokeWidth" value="2" />
+    </command>
+
+    <!-- outstroke -->
+    <command type="scenepass" pass="outstroke" renderMask="7" >
+        <parameter name="StrokeWidth" value="7" />
+    </command>
+
+    <!-- postprocess -->
+    <postprocess name="EngineRes/PostProcess/GamePostProcess.xml" />
+</renderpath>

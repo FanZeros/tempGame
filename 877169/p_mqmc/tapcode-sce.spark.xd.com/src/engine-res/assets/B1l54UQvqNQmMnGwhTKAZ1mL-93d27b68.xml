@@ -1,0 +1,9 @@
+<renderpath finalCopy="false" >
+    <command type="clear" color="0 0 0 0" depth="1.0" stencil="0"  />
+    <command type="renderui_back" gamma_in_shadering="false" />
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base"/>
+    <command type="forwardlights" pass="light" />
+    <command type="scenepass" pass="alpha" vertexlights="true" sort="backtofront" metadata="alpha" blend="srcdestalpha" vsdefines="CLOSESOFT" psdefines="CLOSESOFT" />
+    <command type="postprocess" name="EngineRes/PostProcess/GamePostProcess.xml" />
+    <command type="renderui_front" />
+</renderpath>

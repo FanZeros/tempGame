@@ -1,0 +1,1667 @@
+{
+  "format": 1,
+  "target": "client",
+  "project_id": "p_cmmc",
+  "sources": {
+    "engine-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/engine-res/"
+    },
+    "official-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/official-res/"
+    }
+  },
+  "asset_prefixes": [
+    "assets",
+    "scripts"
+  ],
+  "entry": "main.lua",
+  "preload_groups": [
+    "default",
+    "#config",
+    "default#refs",
+    "#config#refs"
+  ],
+  "files": [
+    {
+      "uuid": "A1zAiRGH2H6uD9UY5dvJcZXo",
+      "ext": ".json",
+      "hash": "1678179d",
+      "size": 8828,
+      "groups": [
+        "default#refs",
+        "#blocking"
+      ],
+      "fs_path": "data/map.json"
+    },
+    {
+      "uuid": "A5NNqdD-Pxyb5bFX799GICdG",
+      "ext": ".ogg",
+      "hash": "e2bd0be9",
+      "size": 3148947,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_title.ogg"
+    },
+    {
+      "uuid": "AA4dieA4ZZHaLj3BSJApPDOH",
+      "ext": ".png",
+      "hash": "7d4b8be5",
+      "size": 16549,
+      "hash@windows": "4afc5e43",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (16).png"
+    },
+    {
+      "uuid": "ABT94X05bBfzV5SR9h3pawAM",
+      "ext": ".png",
+      "hash": "4bd06692",
+      "size": 131245,
+      "hash@windows": "7a86dd01",
+      "size@windows": 295133,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/Package2.png"
+    },
+    {
+      "uuid": "ADRnmcAnC2E3zK3gw8PO1w1E",
+      "ext": ".ogg",
+      "hash": "e17ba6b0",
+      "size": 10646,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_hurt.ogg"
+    },
+    {
+      "uuid": "AG2UMeTP-r1QiuhqSAg2G7G7",
+      "ext": ".mp4",
+      "hash": "b8ddfe25",
+      "size": 1311369,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "video/start_bg.mp4"
+    },
+    {
+      "uuid": "AGIlAXi3H14TTYeVLECHcSgX",
+      "ext": ".png",
+      "hash": "ed0b9c43",
+      "size": 16549,
+      "hash@windows": "9272347f",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$2 (4).png"
+    },
+    {
+      "uuid": "AJQoUafyteqqditrEks2mPeA",
+      "ext": ".png",
+      "hash": "1442f787",
+      "size": 158557,
+      "hash@windows": "741641a6",
+      "size@windows": 174901,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_handBlast.png"
+    },
+    {
+      "uuid": "AMX8sYq9VrAgOXdW5bqrp4rw",
+      "ext": ".png",
+      "hash": "1de72632",
+      "size": 16549,
+      "hash@windows": "ebc7b78d",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$lezi.png"
+    },
+    {
+      "uuid": "AO8-yZk1hSKe5YSSxQ6OvHCx",
+      "ext": ".png",
+      "hash": "3e6604b1",
+      "size": 88429,
+      "hash@windows": "343cd302",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_item_bg.png"
+    },
+    {
+      "uuid": "APdDWXUUEK-N-_VEMe2qqElA",
+      "ext": ".png",
+      "hash": "11ee4bd9",
+      "size": 88429,
+      "hash@windows": "ee5a7902",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_titanGrip.png"
+    },
+    {
+      "uuid": "ARtzIYo-yVDmvjl0CogMzlaz",
+      "ext": ".png",
+      "hash": "8ca986cd",
+      "size": 88429,
+      "hash@windows": "efdc938e",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_poison.png"
+    },
+    {
+      "uuid": "AXEkmXWYBpEBHhJgafI7ZoUU",
+      "ext": ".png",
+      "hash": "4584e993",
+      "size": 16549,
+      "hash@windows": "06a7a627",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$2 (1).png"
+    },
+    {
+      "uuid": "Aaqk6aqbAekWgtB52Gb-mySM",
+      "ext": ".png",
+      "hash": "9fb798f1",
+      "size": 88429,
+      "hash@windows": "273c426c",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_bloodRite.png"
+    },
+    {
+      "uuid": "AbZ6uRobE-DeL5GsunajF_FJ",
+      "ext": ".ogg",
+      "hash": "984525a8",
+      "size": 4160679,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_ice.ogg"
+    },
+    {
+      "uuid": "AdtKWdIutj8TvSbe2g255z5Z",
+      "ext": ".png",
+      "hash": "9418ded1",
+      "size": 16549,
+      "hash@windows": "4d1438d8",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (22).png"
+    },
+    {
+      "uuid": "AgqE-QVofIuXNYI3QDo4D5hP",
+      "ext": ".png",
+      "hash": "8bde444c",
+      "size": 88429,
+      "hash@windows": "273863e1",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_shield.png"
+    },
+    {
+      "uuid": "AkWvMYKNs5U4-G0jwZUrvS0W",
+      "ext": ".png",
+      "hash": "6629b0ae",
+      "size": 88429,
+      "hash@windows": "9c995cd4",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_rampage.png"
+    },
+    {
+      "uuid": "AmZ6aRIeteoL5E_q63hz0Mr4",
+      "ext": ".png",
+      "hash": "f8a72ab3",
+      "size": 88429,
+      "hash@windows": "bf130e64",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_furyCleave.png"
+    },
+    {
+      "uuid": "Apo0KYqHQW_uShACKBrTypmM",
+      "ext": ".png",
+      "hash": "5cc2fece",
+      "size": 88429,
+      "hash@windows": "8512b56a",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_defend.png"
+    },
+    {
+      "uuid": "Au0TYYKLZ_0gYezsIujWKmci",
+      "ext": ".png",
+      "hash": "1e5b9666",
+      "size": 21989,
+      "hash@windows": "c74d0d22",
+      "size@windows": 49317,
+      "fs_path": "image/card/mana_1.png"
+    },
+    {
+      "uuid": "AvksSTE6ms0uw_Nt6C4eHpb9",
+      "ext": ".ogg",
+      "hash": "08f3ad66",
+      "size": 3560206,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_boss.ogg"
+    },
+    {
+      "uuid": "AxWKMevufEAt-7N5ei7KaH9A",
+      "ext": ".png",
+      "hash": "6f4156b8",
+      "size": 88429,
+      "hash@windows": "df60e18d",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_venomBlade.png"
+    },
+    {
+      "uuid": "AyouEdZDeJZ_IloR2zpjdgE9",
+      "ext": ".png",
+      "hash": "b318bcaf",
+      "size": 88429,
+      "hash@windows": "6c598347",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_oblivion.png"
+    },
+    {
+      "uuid": "B0uNiRwPnwcGSkgmk-v0zPA1",
+      "ext": ".ogg",
+      "hash": "cfd586b4",
+      "size": 19410,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_gameover.ogg"
+    },
+    {
+      "uuid": "B1xSccCaXXMcg6tP87xUmKvF",
+      "ext": ".png",
+      "hash": "52a7ca6b",
+      "size": 88429,
+      "hash@windows": "efb3ba8d",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_ironWall.png"
+    },
+    {
+      "uuid": "B3jrcZFBT5mDU6WLyHwN0lyN",
+      "ext": ".png",
+      "hash": "aee6aede",
+      "size": 16549,
+      "hash@windows": "76de2f3a",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$axe-warrior.png"
+    },
+    {
+      "uuid": "B4e0yR1K0AEfIxrm6NdCUV49",
+      "ext": ".png",
+      "hash": "d00d15ae",
+      "size": 10629,
+      "hash@windows": "88bb8578",
+      "size@windows": 21989,
+      "fs_path": "image/card/mana_2.png"
+    },
+    {
+      "uuid": "B4no6TYbNzKnnxrZ1N359T3k",
+      "ext": ".png",
+      "hash": "d6a60722",
+      "size": 88429,
+      "hash@windows": "da4ab123",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_wound.png"
+    },
+    {
+      "uuid": "B8lpsX6AVkGgVO53BzNe_puE",
+      "ext": ".png",
+      "hash": "21c4fcb5",
+      "size": 88429,
+      "hash@windows": "ca0f1fce",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_power.png"
+    },
+    {
+      "uuid": "BGisef7rYZ8D6LDmrxlvDSxW",
+      "ext": ".png",
+      "hash": "09a510c6",
+      "size": 212093,
+      "hash@windows": "c2c52a57",
+      "size@windows": 344098,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card/card_frame_clean.png"
+    },
+    {
+      "uuid": "BJ1zqSZKAS873AuE1U9oGKXQ",
+      "ext": ".png",
+      "hash": "2bd3dc0f",
+      "size": 349677,
+      "hash@windows": "81d5a22b",
+      "size@windows": 786605,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/Inside_B.png"
+    },
+    {
+      "uuid": "BK0O0f4bZzZw85AY5L1i-Ji-",
+      "ext": ".png",
+      "hash": "f2663a85",
+      "size": 88429,
+      "hash@windows": "e478ad27",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_devour.png"
+    },
+    {
+      "uuid": "BLW7iQ6JGBga2DPIat6NRCH4",
+      "ext": ".ogg",
+      "hash": "a7c9d48b",
+      "size": 13708,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_block.ogg"
+    },
+    {
+      "uuid": "BQeMgUuZwTSg4PqY7uxobDWc",
+      "ext": ".lua",
+      "hash": "557b06f2",
+      "size": 183,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "FixedMaps.lua"
+    },
+    {
+      "uuid": "Bd8rcYGcJvf_8b914ipxig_1",
+      "ext": ".png",
+      "hash": "0dedf899",
+      "size": 88429,
+      "hash@windows": "a129acda",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_reflect.png"
+    },
+    {
+      "uuid": "BgCviebFkuFhKjMsq6Cjz4K1",
+      "ext": ".json",
+      "groups": [
+        "#blocking"
+      ],
+      "source": "official-res",
+      "refs": [
+        "AvmfQQWPOJKQln4kISbq1qsK",
+        "B9gxWZGEvJv99DLadVBNjeBm",
+        "C5TH8Um7enDvsccQp0yKaFKv",
+        "ENWpeS8aUuN3DMZ4kLZtqc6Q",
+        "EPbSsW5xhUNav0MZt0b_VGe-",
+        "Ej2uwTLda_LOVYIAw4Bs_Hog",
+        "F4ItQUiV0gmvAelLXpk5yrTs",
+        "FmD_MVX6NJVaeW9vdQ4EIlTq",
+        "FmaJEb00vYdE9vFmbO60Xkn6",
+        "Fr5sya5vN3P0bfThXYJ2XcGw",
+        "G2FlEdwwzR0rliGuXVgGpK2C",
+        "Gegssbk9ZAijVsigDH-iMHAR",
+        "HBTyuRZ6z-VATB16tjmWi3Uo",
+        "HIsCIUT7yv1mueg3KlvzX2Xz",
+        "HTriplanarTech01aB2cDe",
+        "KTriplanarShaderFinal1",
+        "XimTixnDEW7k2OzjV7sFq9vM",
+        "iV_WrtdX3cKmljRIMhn5PZlT"
+      ],
+      "fs_path": "generated/__official_pinned_refs__.json"
+    },
+    {
+      "uuid": "ByBP8bXImuOOnRsbW041sMuK",
+      "ext": ".png",
+      "hash": "d22f06ea",
+      "size": 88429,
+      "hash@windows": "246a8e6f",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_furyBurst.png"
+    },
+    {
+      "uuid": "C-0b8fhESmzEcr5h4BPLVweD",
+      "ext": ".png",
+      "hash": "6fbdbfec",
+      "size": 88429,
+      "hash@windows": "9f12800a",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_battleCry.png"
+    },
+    {
+      "uuid": "C3QVuSj6kN56rVEQRWpOpBcY",
+      "ext": ".png",
+      "hash": "7b0726e1",
+      "size": 88429,
+      "hash@windows": "d52b8fbb",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_atkShield.png"
+    },
+    {
+      "uuid": "C6QU8U6G6qXdMpO6Qi9gn_iV",
+      "ext": ".png",
+      "hash": "791c1e72",
+      "size": 88429,
+      "hash@windows": "d8ab778f",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_guard.png"
+    },
+    {
+      "uuid": "C7P76fM8Vy_FQTQkkf_SRev1",
+      "ext": ".ogg",
+      "hash": "8c4ccba5",
+      "size": 15068,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_door.ogg"
+    },
+    {
+      "uuid": "CBGKmdHq4CpVhIvx28DjkLxE",
+      "ext": ".png",
+      "hash": "a046c996",
+      "size": 16549,
+      "hash@windows": "677bdbbc",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (2).png"
+    },
+    {
+      "uuid": "CH3KoXT5xPxyFqkdiMgMnIIT",
+      "ext": ".png",
+      "hash": "dd97cced",
+      "size": 16549,
+      "hash@windows": "dc903c07",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (21).png"
+    },
+    {
+      "uuid": "CObecTxtyismjKUCMC7eb055",
+      "ext": ".lua",
+      "hash": "88bbe2b4",
+      "size": 32242,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "MapGenerator.lua"
+    },
+    {
+      "uuid": "CPaCGZb761gnWuOk3SiM-3gI",
+      "ext": ".png",
+      "hash": "135e5b80",
+      "size": 16549,
+      "hash@windows": "45ab0b0c",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (18).png"
+    },
+    {
+      "uuid": "CaIaUazB81QinCmWgMnhl1xH",
+      "ext": ".png",
+      "hash": "c7e62f5e",
+      "size": 88429,
+      "hash@windows": "534a72d7",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_cleave.png"
+    },
+    {
+      "uuid": "Chqu8aG10Z5_OaFIeRz3I3Pn",
+      "ext": ".png",
+      "hash": "725e8de9",
+      "size": 88429,
+      "hash@windows": "95edf79c",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_gambit.png"
+    },
+    {
+      "uuid": "CjrbkXJhQPdsC3twghODipTb",
+      "ext": ".png",
+      "hash": "61d46c57",
+      "size": 88429,
+      "hash@windows": "0b4dabe4",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_deathDance.png"
+    },
+    {
+      "uuid": "CkpH2Uo5x1wHiq7SuiMQyB2u",
+      "ext": ".png",
+      "hash": "33e13612",
+      "size": 88429,
+      "hash@windows": "dc239b9e",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_execute.png"
+    },
+    {
+      "uuid": "Cm-w-c-DH9YU_3zwWQBnfPHB",
+      "ext": ".ogg",
+      "hash": "9faeb17f",
+      "size": 2933953,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_explore.ogg"
+    },
+    {
+      "uuid": "CpRl2f-SkSj-KX3uu4HJBlzA",
+      "ext": ".png",
+      "hash": "9a329fff",
+      "size": 10629,
+      "hash@windows": "229c3112",
+      "size@windows": 21989,
+      "fs_path": "image/card/mana_5.png"
+    },
+    {
+      "uuid": "CyfRsXkza7Pf7WyGl0ayPjfS",
+      "ext": ".ogg",
+      "hash": "6a4644b9",
+      "size": 12297,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_pickup.ogg"
+    },
+    {
+      "uuid": "CzLFEUsyTx6wNQeIM6t-hwtd",
+      "ext": ".png",
+      "hash": "cf40a957",
+      "size": 29629,
+      "hash@windows": "8417afcd",
+      "size@windows": 65805,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "IconSet.png"
+    },
+    {
+      "uuid": "D0iqGVNDT6S0z9w5v9ReuFYt",
+      "ext": ".png",
+      "hash": "e2da42ca",
+      "size": 88429,
+      "hash@windows": "ff54b380",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_bloodFrenzy.png"
+    },
+    {
+      "uuid": "D6kiSY3CYTS0GFXOaah0Ftj0",
+      "ext": ".png",
+      "hash": "dbfe6633",
+      "size": 16549,
+      "hash@windows": "1de6e2d4",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$z-snake.png"
+    },
+    {
+      "uuid": "DAIloXWeCjZGDsWwRf9UlvXN",
+      "ext": ".png",
+      "hash": "005f71d4",
+      "size": 88429,
+      "hash@windows": "4bc060f7",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_heal.png"
+    },
+    {
+      "uuid": "DFCqIbiES5WeFZFWh_ApIl_v",
+      "ext": ".ogg",
+      "hash": "d641165e",
+      "size": 15003,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_monster_attack.ogg"
+    },
+    {
+      "uuid": "DOEH6XRB2U5jGb-SczBRzVdc",
+      "ext": ".png",
+      "hash": "018d6229",
+      "size": 16549,
+      "hash@windows": "294cccbb",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (20).png"
+    },
+    {
+      "uuid": "DgmO6SpxK5uEHv5-T8LUxAHL",
+      "ext": ".png",
+      "hash": "90b3716c",
+      "size": 88429,
+      "hash@windows": "b4ed1595",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_rend.png"
+    },
+    {
+      "uuid": "DhQ5qSuNBkSYavA03Q0ACWcG",
+      "ext": ".json",
+      "hash": "0c99acbc",
+      "size": 2724,
+      "groups": [
+        "default#refs",
+        "#blocking"
+      ],
+      "fs_path": "data/glossary.json"
+    },
+    {
+      "uuid": "Dm6nwa6BJd8NRik_g7Veb53D",
+      "ext": ".json",
+      "hash": "8683c3b3",
+      "size": 15242,
+      "groups": [
+        "default#refs",
+        "#blocking"
+      ],
+      "fs_path": "data/card.json"
+    },
+    {
+      "uuid": "Duv7WXW_uI_yqFwxJ3ZfaejI",
+      "ext": ".ogg",
+      "hash": "cfceb129",
+      "size": 2594927,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_calm.ogg"
+    },
+    {
+      "uuid": "E2p8IeLHWubc_W6sj_LdPE9w",
+      "ext": ".png",
+      "hash": "9a54f4bb",
+      "size": 88429,
+      "hash@windows": "f7cfbfcc",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_nightmare.png"
+    },
+    {
+      "uuid": "E5eZkfxL22LQRTB47Ku4v4VK",
+      "ext": ".png",
+      "hash": "a7500365",
+      "size": 88429,
+      "hash@windows": "51ba5a9a",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_armorBreak.png"
+    },
+    {
+      "uuid": "E91GGavRRXgrcJj7RYnFzJSY",
+      "ext": ".png",
+      "hash": "59347529",
+      "size": 88429,
+      "hash@windows": "fb4dd725",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_bladestorm.png"
+    },
+    {
+      "uuid": "E9FIYZCaj2oRce6Iy3yBSMxZ",
+      "ext": ".png",
+      "hash": "c1a96886",
+      "size": 16549,
+      "hash@windows": "1bd83acc",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$Lady-knight.png"
+    },
+    {
+      "uuid": "EArZgXqJu1UtS-RE4_ChOVM5",
+      "ext": ".png",
+      "hash": "5d652c3b",
+      "size": 88429,
+      "hash@windows": "fe0c9de3",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_frail.png"
+    },
+    {
+      "uuid": "EDOOMXg9C5NuxfWjMGT8gJ-J",
+      "ext": ".png",
+      "hash": "942881ce",
+      "size": 88429,
+      "hash@windows": "e33eea31",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_berserkerRage.png"
+    },
+    {
+      "uuid": "EE8k2dK2TV8oiUoJapsn7R6n",
+      "ext": ".png",
+      "hash": "979af1f7",
+      "size": 88429,
+      "hash@windows": "df16120e",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_fusion.png"
+    },
+    {
+      "uuid": "ET_0cS5Sh3yApuoIVrn34mhr",
+      "ext": ".png",
+      "hash": "fdb9f24a",
+      "size": 16549,
+      "hash@windows": "6708f633",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (43).png"
+    },
+    {
+      "uuid": "EV1wcSrMGKDAOvO_-nawP6bb",
+      "ext": ".ogg",
+      "hash": "de20ae15",
+      "size": 16933,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_stairs.ogg"
+    },
+    {
+      "uuid": "EXyY0ULf2J9G0oeZMO-waZPa",
+      "ext": ".png",
+      "hash": "cf40a957",
+      "size": 29629,
+      "hash@windows": "8417afcd",
+      "size@windows": 65805,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/IconSet.png"
+    },
+    {
+      "uuid": "EYm7QUIufYkIYsjY9pgPrzPN",
+      "ext": ".ogg",
+      "hash": "af47f873",
+      "size": 3706404,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_castle.ogg"
+    },
+    {
+      "uuid": "EZG1eaYVbj3zVKnuh0lYYF27",
+      "ext": ".lua",
+      "hash": "029f9e9c",
+      "size": 26967,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "A5NNqdD-Pxyb5bFX799GICdG",
+        "AA4dieA4ZZHaLj3BSJApPDOH",
+        "ABT94X05bBfzV5SR9h3pawAM",
+        "ADRnmcAnC2E3zK3gw8PO1w1E",
+        "AGIlAXi3H14TTYeVLECHcSgX",
+        "AMX8sYq9VrAgOXdW5bqrp4rw",
+        "AXEkmXWYBpEBHhJgafI7ZoUU",
+        "AbZ6uRobE-DeL5GsunajF_FJ",
+        "AdtKWdIutj8TvSbe2g255z5Z",
+        "AvksSTE6ms0uw_Nt6C4eHpb9",
+        "B0uNiRwPnwcGSkgmk-v0zPA1",
+        "B3jrcZFBT5mDU6WLyHwN0lyN",
+        "BJ1zqSZKAS873AuE1U9oGKXQ",
+        "BLW7iQ6JGBga2DPIat6NRCH4",
+        "C7P76fM8Vy_FQTQkkf_SRev1",
+        "CBGKmdHq4CpVhIvx28DjkLxE",
+        "CH3KoXT5xPxyFqkdiMgMnIIT",
+        "CPaCGZb761gnWuOk3SiM-3gI",
+        "Cm-w-c-DH9YU_3zwWQBnfPHB",
+        "CyfRsXkza7Pf7WyGl0ayPjfS",
+        "D6kiSY3CYTS0GFXOaah0Ftj0",
+        "DFCqIbiES5WeFZFWh_ApIl_v",
+        "DOEH6XRB2U5jGb-SczBRzVdc",
+        "Duv7WXW_uI_yqFwxJ3ZfaejI",
+        "E9FIYZCaj2oRce6Iy3yBSMxZ",
+        "ET_0cS5Sh3yApuoIVrn34mhr",
+        "EV1wcSrMGKDAOvO_-nawP6bb",
+        "EYm7QUIufYkIYsjY9pgPrzPN",
+        "FOpU-U1C7dvftH-rHUjnXC6U",
+        "Fbn8cTDey7NDCtjA-ya5-qlU",
+        "FqNCaYOno4TeHmJduz9EaGSW",
+        "FxCpUcVuppsNubjHhbV849XX",
+        "G1fQYZPmjPv-barKcleZ73sN",
+        "GDzCWeMFtLpsdtFCSWcO97s7",
+        "GFtvQT9m1RAg-SNXZvAvafCH",
+        "GI8XMdaRjLUwNmpuP54pq7A0",
+        "GM2nmUpjNmAPBLTa8u59ZOYK",
+        "GTP_iV9Xa1PCGJtYcbFHcnns",
+        "GhLccd4qvI1Ut0yPRNUq_6tA",
+        "HND-YdxkK72HbHKa0d7261zW",
+        "HvXykQoPF8jiWtWksZC2aqVW"
+      ],
+      "fs_path": "data_defs.lua"
+    },
+    {
+      "uuid": "Ef1v0fExVux3EqwJJe2dfBOX",
+      "ext": ".lua",
+      "hash": "f72c3b3e",
+      "size": 470937,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "AG2UMeTP-r1QiuhqSAg2G7G7",
+        "AGIlAXi3H14TTYeVLECHcSgX",
+        "AJQoUafyteqqditrEks2mPeA",
+        "AO8-yZk1hSKe5YSSxQ6OvHCx",
+        "APdDWXUUEK-N-_VEMe2qqElA",
+        "ARtzIYo-yVDmvjl0CogMzlaz",
+        "Aaqk6aqbAekWgtB52Gb-mySM",
+        "AgqE-QVofIuXNYI3QDo4D5hP",
+        "AkWvMYKNs5U4-G0jwZUrvS0W",
+        "AmZ6aRIeteoL5E_q63hz0Mr4",
+        "Apo0KYqHQW_uShACKBrTypmM",
+        "AxWKMevufEAt-7N5ei7KaH9A",
+        "AyouEdZDeJZ_IloR2zpjdgE9",
+        "B1xSccCaXXMcg6tP87xUmKvF",
+        "B4no6TYbNzKnnxrZ1N359T3k",
+        "B8lpsX6AVkGgVO53BzNe_puE",
+        "BGisef7rYZ8D6LDmrxlvDSxW",
+        "BK0O0f4bZzZw85AY5L1i-Ji-",
+        "Bd8rcYGcJvf_8b914ipxig_1",
+        "ByBP8bXImuOOnRsbW041sMuK",
+        "C-0b8fhESmzEcr5h4BPLVweD",
+        "C3QVuSj6kN56rVEQRWpOpBcY",
+        "C6QU8U6G6qXdMpO6Qi9gn_iV",
+        "CaIaUazB81QinCmWgMnhl1xH",
+        "Chqu8aG10Z5_OaFIeRz3I3Pn",
+        "CjrbkXJhQPdsC3twghODipTb",
+        "CkpH2Uo5x1wHiq7SuiMQyB2u",
+        "CzLFEUsyTx6wNQeIM6t-hwtd",
+        "D0iqGVNDT6S0z9w5v9ReuFYt",
+        "DAIloXWeCjZGDsWwRf9UlvXN",
+        "DgmO6SpxK5uEHv5-T8LUxAHL",
+        "DhQ5qSuNBkSYavA03Q0ACWcG",
+        "Dm6nwa6BJd8NRik_g7Veb53D",
+        "E2p8IeLHWubc_W6sj_LdPE9w",
+        "E5eZkfxL22LQRTB47Ku4v4VK",
+        "E91GGavRRXgrcJj7RYnFzJSY",
+        "EArZgXqJu1UtS-RE4_ChOVM5",
+        "EDOOMXg9C5NuxfWjMGT8gJ-J",
+        "EE8k2dK2TV8oiUoJapsn7R6n",
+        "EXyY0ULf2J9G0oeZMO-waZPa",
+        "EjS7Sbt1cPiII-iL3z5Cu9_P",
+        "EtoD6bgbRNv5cVyLNe2MRtvc",
+        "EwLPOXMQT_Eq8YEhIhagDZkM",
+        "EymnMSYTT0wg9F-_1yiHsgV2",
+        "F6TmOXRug4x4eoG4VdUWseSP",
+        "F9i4sSn9hhgjDPD38sN8tpgH",
+        "FBZEyaWARf3mJ0_qZHdkotOx",
+        "FGvJidUBFAWcvetOj3N0GI3Z",
+        "FLYlIZN6cL99ttK6OUrcydY5",
+        "Fdm1QZbwcqeXupRVl9ohXgWi",
+        "FtjmWRlL8N3npLe3qqQrD3qC",
+        "GICbecuoRrKcENWMiYMfn2Qt",
+        "GMSZaQhwvyKBDj9bPy7r2wpR",
+        "GO3_aRk-9JuGU_MMYOHGhMuc",
+        "GO8muQFoZ9SFtB7YiTmbXtxC",
+        "GgC6-aEpdF4daqNmnMcx3IZd",
+        "GiI8oQRUJHVECR4gPFKDiyJA",
+        "Gl4tMUSwVo72huRVehdcfBMl",
+        "GqBweVORjK_JPyc1VVSRNq6k",
+        "Gr8boVE7IuB4cJ7r8zBXST2e",
+        "GyMRaQ4txA4D9gkgUkZYlUQ7",
+        "GyPN0V4eP1gkR3canDU1O6aV",
+        "H5QfUcjX9DpZii-pEj7wz3yL",
+        "HBoEGbIGlsq-wJWsbrJzsuCu",
+        "HEppwcUaaXQ0DT_N1JkOPw6B",
+        "HOX42V7yNEMC9bE-RM7pw7Qw",
+        "HgFP8W_ibKELBGqM98YOhktT",
+        "HgTFudQcj_7WhZ0nnSmKZPL-",
+        "HhBUuR6y9Kzt9uSX03R-xWeN",
+        "Hkg9yXbdeLSgfdDG1Nxkyyu3",
+        "Hlo-eWkM4RKzazX7ztsUwVzD",
+        "HndxAXQWM0VKXMT_du1WWkMz",
+        "HozL-QuQpyPms6vw0CqcMPEC",
+        "HqhjeX-iIzwX1fbg-Pi_Yi9b"
+      ],
+      "fs_path": "main.lua"
+    },
+    {
+      "uuid": "EjS7Sbt1cPiII-iL3z5Cu9_P",
+      "ext": ".png",
+      "hash": "dcc1a948",
+      "size": 88429,
+      "hash@windows": "416e9361",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_thunder.png"
+    },
+    {
+      "uuid": "EtoD6bgbRNv5cVyLNe2MRtvc",
+      "ext": ".png",
+      "hash": "e601c705",
+      "size": 88429,
+      "hash@windows": "55715a65",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_erode.png"
+    },
+    {
+      "uuid": "EwLPOXMQT_Eq8YEhIhagDZkM",
+      "ext": ".png",
+      "hash": "26aaab81",
+      "size": 88429,
+      "hash@windows": "cee96300",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_cardDraw.png"
+    },
+    {
+      "uuid": "EymnMSYTT0wg9F-_1yiHsgV2",
+      "ext": ".png",
+      "hash": "6e0ca51b",
+      "size": 88429,
+      "hash@windows": "17c7aae4",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_fog.png"
+    },
+    {
+      "uuid": "F6TmOXRug4x4eoG4VdUWseSP",
+      "ext": ".png",
+      "hash": "b90b823d",
+      "size": 88429,
+      "hash@windows": "ce9d6278",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_alchemy.png"
+    },
+    {
+      "uuid": "F9i4sSn9hhgjDPD38sN8tpgH",
+      "ext": ".png",
+      "hash": "cd362465",
+      "size": 88429,
+      "hash@windows": "6230e5d9",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_strike.png"
+    },
+    {
+      "uuid": "FBZEyaWARf3mJ0_qZHdkotOx",
+      "ext": ".png",
+      "hash": "5cc112ed",
+      "size": 88429,
+      "hash@windows": "01834764",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_haste.png"
+    },
+    {
+      "uuid": "FGvJidUBFAWcvetOj3N0GI3Z",
+      "ext": ".png",
+      "hash": "4ef231be",
+      "size": 88429,
+      "hash@windows": "602c80a6",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_bloodScent.png"
+    },
+    {
+      "uuid": "FIvwCZ9ea8cNt6H5bngygnP2",
+      "ext": ".png",
+      "hash": "8d11f5fa",
+      "size": 10629,
+      "hash@windows": "b1d9d476",
+      "size@windows": 21989,
+      "fs_path": "image/card/mana_4.png"
+    },
+    {
+      "uuid": "FLYlIZN6cL99ttK6OUrcydY5",
+      "ext": ".png",
+      "hash": "fa9bf39e",
+      "size": 628689,
+      "hash@windows": "53bdcbc0",
+      "size@windows": 704753,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/bg_title.png"
+    },
+    {
+      "uuid": "FOpU-U1C7dvftH-rHUjnXC6U",
+      "ext": ".png",
+      "hash": "debc51de",
+      "size": 16549,
+      "hash@windows": "36dd2bc5",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$2 (2).png"
+    },
+    {
+      "uuid": "Fbn8cTDey7NDCtjA-ya5-qlU",
+      "ext": ".png",
+      "hash": "dcdd12df",
+      "size": 16549,
+      "hash@windows": "934a2b79",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$z-golt.png"
+    },
+    {
+      "uuid": "Fdm1QZbwcqeXupRVl9ohXgWi",
+      "ext": ".png",
+      "hash": "d4a36349",
+      "size": 88429,
+      "hash@windows": "1298cfbb",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_warpath.png"
+    },
+    {
+      "uuid": "FqNCaYOno4TeHmJduz9EaGSW",
+      "ext": ".ogg",
+      "hash": "e3dd59ca",
+      "size": 24904,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_victory.ogg"
+    },
+    {
+      "uuid": "FtjmWRlL8N3npLe3qqQrD3qC",
+      "ext": ".png",
+      "hash": "00d11222",
+      "size": 88429,
+      "hash@windows": "67e44aec",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_drain.png"
+    },
+    {
+      "uuid": "FxCpUcVuppsNubjHhbV849XX",
+      "ext": ".ogg",
+      "hash": "f47d657c",
+      "size": 10638,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_btn_click.ogg"
+    },
+    {
+      "uuid": "G1fQYZPmjPv-barKcleZ73sN",
+      "ext": ".png",
+      "hash": "208fb8ac",
+      "size": 16549,
+      "hash@windows": "9b1c38c5",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$cha39.png"
+    },
+    {
+      "uuid": "GDzCWeMFtLpsdtFCSWcO97s7",
+      "ext": ".png",
+      "hash": "2788d0c4",
+      "size": 16549,
+      "hash@windows": "eefb3448",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (19).png"
+    },
+    {
+      "uuid": "GFtvQT9m1RAg-SNXZvAvafCH",
+      "ext": ".png",
+      "hash": "e13e4f71",
+      "size": 16549,
+      "hash@windows": "676a44fa",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (39).png"
+    },
+    {
+      "uuid": "GI8XMdaRjLUwNmpuP54pq7A0",
+      "ext": ".png",
+      "hash": "c40483ef",
+      "size": 16549,
+      "hash@windows": "527cb283",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$!1 (3).png"
+    },
+    {
+      "uuid": "GICbecuoRrKcENWMiYMfn2Qt",
+      "ext": ".png",
+      "hash": "9fa6d4f0",
+      "size": 88429,
+      "hash@windows": "88bf5a72",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_roar.png"
+    },
+    {
+      "uuid": "GM2nmUpjNmAPBLTa8u59ZOYK",
+      "ext": ".png",
+      "hash": "db435ae7",
+      "size": 131245,
+      "hash@windows": "6e82c1f2",
+      "size@windows": 60543,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/ruibi2.png"
+    },
+    {
+      "uuid": "GMSZaQhwvyKBDj9bPy7r2wpR",
+      "ext": ".png",
+      "hash": "ab0de8cf",
+      "size": 88429,
+      "hash@windows": "ea460168",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_groundSlam.png"
+    },
+    {
+      "uuid": "GO3_aRk-9JuGU_MMYOHGhMuc",
+      "ext": ".png",
+      "hash": "87542c80",
+      "size": 88429,
+      "hash@windows": "9aed1d89",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_convert.png"
+    },
+    {
+      "uuid": "GO8muQFoZ9SFtB7YiTmbXtxC",
+      "ext": ".ttf",
+      "hash": "0bc59216",
+      "size": 13805536,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "font.ttf"
+    },
+    {
+      "uuid": "GTP_iV9Xa1PCGJtYcbFHcnns",
+      "ext": ".ogg",
+      "hash": "174eb84f",
+      "size": 13407,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx_attack.ogg"
+    },
+    {
+      "uuid": "GWK82Tcx4RFB5B8ZYW1vKNhL",
+      "ext": ".png",
+      "hash": "e9e2bf1d",
+      "size": 10629,
+      "hash@windows": "fc1c5b81",
+      "size@windows": 21989,
+      "fs_path": "image/card/mana_0.png"
+    },
+    {
+      "uuid": "GgC6-aEpdF4daqNmnMcx3IZd",
+      "ext": ".png",
+      "hash": "9b466526",
+      "size": 88429,
+      "hash@windows": "c7423348",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_sacrifice.png"
+    },
+    {
+      "uuid": "GhLccd4qvI1Ut0yPRNUq_6tA",
+      "ext": ".ogg",
+      "hash": "992f0d69",
+      "size": 3379353,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/bgm_passage.ogg"
+    },
+    {
+      "uuid": "GiI8oQRUJHVECR4gPFKDiyJA",
+      "ext": ".png",
+      "hash": "dbcbb623",
+      "size": 88429,
+      "hash@windows": "2bd37ea9",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_armorStance.png"
+    },
+    {
+      "uuid": "Gl4tMUSwVo72huRVehdcfBMl",
+      "ext": ".png",
+      "hash": "28c45ee8",
+      "size": 88429,
+      "hash@windows": "4d9e3d07",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_shieldSlam.png"
+    },
+    {
+      "uuid": "GqBweVORjK_JPyc1VVSRNq6k",
+      "ext": ".png",
+      "hash": "51ed4408",
+      "size": 88429,
+      "hash@windows": "ae3b4439",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_curse.png"
+    },
+    {
+      "uuid": "Gr8boVE7IuB4cJ7r8zBXST2e",
+      "ext": ".png",
+      "hash": "a215dbae",
+      "size": 88429,
+      "hash@windows": "5efd06b6",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_undying.png"
+    },
+    {
+      "uuid": "GyMRaQ4txA4D9gkgUkZYlUQ7",
+      "ext": ".png",
+      "hash": "cd3fe78b",
+      "size": 88429,
+      "hash@windows": "d19fe821",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_savageBash.png"
+    },
+    {
+      "uuid": "GyPN0V4eP1gkR3canDU1O6aV",
+      "ext": ".png",
+      "hash": "b2d2a918",
+      "size": 88429,
+      "hash@windows": "08c1e274",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_pierce.png"
+    },
+    {
+      "uuid": "Gz7KgZ40Q7jBc7wvkgBhvA8m",
+      "ext": ".lua",
+      "hash": "5fc3d14b",
+      "size": 171883,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "A1zAiRGH2H6uD9UY5dvJcZXo"
+      ],
+      "fs_path": "editor.lua"
+    },
+    {
+      "uuid": "H5QfUcjX9DpZii-pEj7wz3yL",
+      "ext": ".png",
+      "hash": "0e3ba904",
+      "size": 88429,
+      "hash@windows": "d1210e2e",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_empower.png"
+    },
+    {
+      "uuid": "HBoEGbIGlsq-wJWsbrJzsuCu",
+      "ext": ".png",
+      "hash": "3103d2fd",
+      "size": 88429,
+      "hash@windows": "fa3151c0",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_firestorm.png"
+    },
+    {
+      "uuid": "HEppwcUaaXQ0DT_N1JkOPw6B",
+      "ext": ".png",
+      "hash": "f3fb792a",
+      "size": 88429,
+      "hash@windows": "bcadd0d7",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_soulBurn.png"
+    },
+    {
+      "uuid": "HND-YdxkK72HbHKa0d7261zW",
+      "ext": ".png",
+      "hash": "683cb947",
+      "size": 16549,
+      "hash@windows": "db8fb75c",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$1 (17).png"
+    },
+    {
+      "uuid": "HOX42V7yNEMC9bE-RM7pw7Qw",
+      "ext": ".png",
+      "hash": "9d6244eb",
+      "size": 88429,
+      "hash@windows": "0129f7ef",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_immortal.png"
+    },
+    {
+      "uuid": "HgFP8W_ibKELBGqM98YOhktT",
+      "ext": ".png",
+      "hash": "691cc2e8",
+      "size": 88429,
+      "hash@windows": "e324364d",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_meditate.png"
+    },
+    {
+      "uuid": "HgTFudQcj_7WhZ0nnSmKZPL-",
+      "ext": ".png",
+      "hash": "05c9b1fd",
+      "size": 88429,
+      "hash@windows": "298d86be",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_thrifty.png"
+    },
+    {
+      "uuid": "HhBUuR6y9Kzt9uSX03R-xWeN",
+      "ext": ".png",
+      "hash": "9b295019",
+      "size": 88429,
+      "hash@windows": "8271abd2",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_weaken.png"
+    },
+    {
+      "uuid": "Hkg9yXbdeLSgfdDG1Nxkyyu3",
+      "ext": ".png",
+      "hash": "fa9bf39e",
+      "size": 628689,
+      "hash@windows": "53bdcbc0",
+      "size@windows": 704753,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/bg_mode.png"
+    },
+    {
+      "uuid": "Hlo-eWkM4RKzazX7ztsUwVzD",
+      "ext": ".png",
+      "hash": "3b39c730",
+      "size": 88429,
+      "hash@windows": "6dbe9862",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_thorns.png"
+    },
+    {
+      "uuid": "HndxAXQWM0VKXMT_du1WWkMz",
+      "ext": ".png",
+      "hash": "bb87bb46",
+      "size": 88429,
+      "hash@windows": "f7147cac",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_warCry.png"
+    },
+    {
+      "uuid": "HozL-QuQpyPms6vw0CqcMPEC",
+      "ext": ".png",
+      "hash": "ca555156",
+      "size": 88429,
+      "hash@windows": "881c962c",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_heavyStrike.png"
+    },
+    {
+      "uuid": "HpxYmWO845B9NQpTTGBQfOr0",
+      "ext": ".png",
+      "hash": "25525618",
+      "size": 10629,
+      "hash@windows": "52d3d473",
+      "size@windows": 21989,
+      "fs_path": "image/card/mana_3.png"
+    },
+    {
+      "uuid": "HqhjeX-iIzwX1fbg-Pi_Yi9b",
+      "ext": ".png",
+      "hash": "0acb97aa",
+      "size": 88429,
+      "hash@windows": "1a160ecb",
+      "size@windows": 99509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/card_toughHide.png"
+    },
+    {
+      "uuid": "HvXykQoPF8jiWtWksZC2aqVW",
+      "ext": ".png",
+      "hash": "9a3e26dd",
+      "size": 16549,
+      "hash@windows": "99ad6ee6",
+      "size@windows": 37093,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/$z-lion.png"
+    },
+    {
+      "uuid": "KIo_c_qkSVGXQff6cpaQEQ",
+      "ext": ".json",
+      "hash": "1090f82d",
+      "size": 551,
+      "groups": [
+        "#config",
+        "#blocking"
+      ],
+      "refs": [
+        "BgCviebFkuFhKjMsq6Cjz4K1"
+      ],
+      "fs_path": "settings.json"
+    }
+  ],
+  "metadata": {
+    "total_files": 128,
+    "local_files": 127,
+    "remote_files": 1,
+    "total_size": 69014771,
+    "preload_files": 127,
+    "preload_size": 69014771,
+    "groups": {
+      "#blocking": {
+        "files": 10,
+        "size": 730276
+      },
+      "default": {
+        "files": 11,
+        "size": 939068
+      },
+      "#config": {
+        "files": 1,
+        "size": 551
+      },
+      "default#refs": {
+        "files": 115,
+        "size": 68075152
+      }
+    }
+  }
+}

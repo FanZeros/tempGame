@@ -1,0 +1,46 @@
+{
+  "project_id": "p_cmmc",
+  "version": "1.0.9",
+  "author": {
+    "id": "502998661"
+  },
+  "taptap_publish": {
+    "title": "纵跃魔塔",
+    "description": "《纵跃魔塔》是一款融合魔塔探索、卡牌构筑与跳跃上楼抉择的策略 RPG。玩家将在 50 层封印魔塔中收集钥匙、宝石、装备与卡牌，挑战各层怪物与强力 Boss；每次上楼都要在稳步推进和跳跃上楼之间权衡，删除卡牌换取更快攀登，打造专属战斗流派，最终击败塔顶魔王。",
+    "category": "rpg",
+    "developer_id": 27326,
+    "screen_orientation": "portrait",
+    "collection_type": "sce",
+    "trial_note": "当前版本包含 50 层魔塔探索、卡牌战斗、角色成长、跳跃上楼与删牌抉择等核心玩法。欢迎反馈平衡性、关卡节奏和操作体验。",
+    "transparent": false,
+    "app_platforms": "1,2",
+    "app_id": 874832,
+    "miniapp_id": "tapmcbdoitj6inrsjl",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/p_cmmc/1783839764223-rec_b191c0a3-27b3-4aad-9926-4490277b7a66.mp4",
+    "icon": "https://package-pd.tapsce.cn/minigame/8e8f0f0fee036156d03c1e166bd9377c5b46c035.png"
+  },
+  "assets": {
+    "icon": "./game_material/icon.png",
+    "screenshots": [
+      "./game_material/screenshot_battle.png",
+      "./game_material/screenshot_deck.png",
+      "./game_material/screenshot_map.png"
+    ],
+    "promotional_image": "./game_material/promo.jpg",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_cmmc/screenshot_battle.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_cmmc/screenshot_deck.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/p_cmmc/screenshot_map.png"
+    ],
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_cmmc/icon.png",
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/p_cmmc/promo.jpg",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/纵跃魔塔/COVER_VERTICAL_2026-07-12T08-04-02_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/纵跃魔塔/COVER_HORIZONTAL_2026-07-12T08-04-02_01.png",
+    "cover_vertical": "./.project/game_material/COVER_VERTICAL_2026-07-12T08-04-02_01.png",
+    "cover_horizontal": "./.project/game_material/COVER_HORIZONTAL_2026-07-12T08-04-02_01.png"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/p_cmmc_1783865111513.png",
+    "generated_at": "2026-07-12T14:05:11.656Z"
+  }
+}

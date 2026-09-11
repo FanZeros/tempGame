@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Root>
+	<Models>
+		<Value Name="model/m.mdl" MinLodOffset="2">
+			<Value Name="characters/_user/urhoxmorenjiaose_z4qf/" LodOffset="2" />
+		</Value>
+	</Models>
+	<Textures>
+		<Value Name="textures/m1_diffuse.tga" MaxTargetSize="128 128">
+			<Value Name="characters/_user/urhoxmorenjiaose_z4qf/" TargetSize="128 128" />
+		</Value>
+		<Value Name="textures/m1_normal.tga" MaxTargetSize="128 128">
+			<Value Name="characters/_user/urhoxmorenjiaose_z4qf/" TargetSize="128 128" />
+		</Value>
+		<Value Name="textures/m1_specular.tga" MaxTargetSize="64 64">
+			<Value Name="characters/_user/urhoxmorenjiaose_z4qf/" TargetSize="16 16" />
+		</Value>
+		<Value Name="textures/m1_emissive.tga" MaxTargetSize="64 64">
+			<Value Name="characters/_user/urhoxmorenjiaose_z4qf/" TargetSize="16 16" />
+		</Value>
+	</Textures>
+</Root>

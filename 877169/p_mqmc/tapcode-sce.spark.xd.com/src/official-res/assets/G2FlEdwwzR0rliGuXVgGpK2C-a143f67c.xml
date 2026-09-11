@@ -1,0 +1,18 @@
+<technique vs="PBRLitSolidX" ps="PBRLitSolidX" vsdefines="NORMALMAP" psdefines="NORMALMAP NORMALSCALE DIFFMAP METALLIC ROUGHNESS PBR IBL">
+    <pass name="base" vsdefines="SPECAO" psdefines="AMBIENT SPECAO" srgbsoftresolve="true" />
+    <pass name="litbase" vsdefines="SPECAO" psdefines="AMBIENT SPECAO" srgbsoftresolve="true" />
+    <pass name="light" vsdefines="SPECAO" psdefines="SPECAO" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" />
+    <pass name="material" psdefines="MATERIAL" depthtest="equal" depthwrite="false" />
+    <pass name="depth" vs="Depth" ps="Depth" psexcludes="PACKEDNORMAL" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" psexcludes="PACKEDNORMAL" />
+    <!-- 默认贴图 -->
+    <texture unit="normal" name="Textures/DefaultNormal.tga" />
+    <texture unit="specular" name="Textures/DefaultRoughnessMetallic.tga" />
+    <!-- PBR 默认参数 -->
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="TextureMetallicFactor" value="1" />
+    <parameter name="TextureRoughnessFactor" value="1" />
+    <parameter name="NormalScale" value="1" />
+</technique>

@@ -1,0 +1,4 @@
+<technique vs="Skybox" ps="Skybox">
+    <pass name="postopaque" depthwrite="false" />
+    
+</technique>

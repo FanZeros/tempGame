@@ -1,0 +1,21 @@
+<material>
+    <technique name="EngineRes/Techniques/CEPBR/PBRDiffNormal.xml" />
+    <texture unit="0" name="Textures/bolonga_lod.ktx" />
+    <texture unit="1" name="Textures/bolonga_irr.ktx" />
+    <texture unit="2" name="Models/Kachujin/Textures/Kachujin_diffuse.png" />
+    <texture unit="4" name="Models/Kachujin/Textures/Kachujin_normal.png"/>
+    <parameter name="EnvMt0" value="1 0 0 0" />
+    <parameter name="EnvMt1" value="0 1 0 0" />
+    <parameter name="EnvMt2" value="0 0 1 0" />
+    <parameter name="EnvMt3" value="0 0 0 1" />
+    <parameter name="MatDiffColor" value="1.0 1.0 1.0 1.0" />
+    <parameter name="MatSpecColor" value="1.0 1.0 1.0 1.0" />
+    <parameter name="Glossiness" value="0.7" />
+    <parameter name="MetalOrSpec" value="0" />
+    <parameter name="Reflectivity" value="0.85" />
+    <parameter name="Exposure" value="0" />
+    <parameter name="DoDiffuse" value="0" />
+    <parameter name="DoSpecular" value="0" />
+    <parameter name="DoDiffuseIbl" value="1" />
+    <parameter name="DoSpecularIbl" value="1" />
+</material>

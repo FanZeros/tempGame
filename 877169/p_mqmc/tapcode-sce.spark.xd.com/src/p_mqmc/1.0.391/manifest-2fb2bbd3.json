@@ -1,0 +1,1683 @@
+{
+  "format": 1,
+  "target": "client",
+  "project_id": "p_mqmc",
+  "sources": {
+    "engine-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/engine-res/"
+    },
+    "official-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/official-res/"
+    }
+  },
+  "asset_prefixes": [
+    "assets",
+    "scripts"
+  ],
+  "entry": "main.lua",
+  "preload_groups": [
+    "#config",
+    "#config#refs"
+  ],
+  "files": [
+    {
+      "uuid": "AAxViY9-QIq9hmwqCoqDODO9",
+      "ext": ".ttf",
+      "hash": "13da9e7c",
+      "size": 6923212,
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans.ttf"
+    },
+    {
+      "uuid": "AGRyuZ1lCl141XpdWYxMWpRD",
+      "ext": ".png",
+      "hash": "aadbabb8",
+      "size": 40217,
+      "hash@windows": "515cdd62",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/暗紫魔翼_小翅膀_净边最终.png"
+    },
+    {
+      "uuid": "AHfygSt_gTdigbs5MIKeeUAQ",
+      "ext": ".ogg",
+      "hash": "adde80e3",
+      "size": 2869473,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/music_1783313640592.ogg"
+    },
+    {
+      "uuid": "AIAE8Tq-_BEWTBgL12Gni2Sj",
+      "ext": ".png",
+      "hash": "f7cec1d0",
+      "size": 10629,
+      "hash@windows": "2eefcee5",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_普通_腐化甲虫_史莱姆风格_20260728031932.png"
+    },
+    {
+      "uuid": "AJv8magqxHq5fA9UWatKG4ER",
+      "ext": ".png",
+      "hash": "d9fa7c47",
+      "size": 40217,
+      "hash@windows": "143549dc",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/职业_守卫_20260805034407.png"
+    },
+    {
+      "uuid": "ALDI0VIZJFmEgQ1eAnGG8RcM",
+      "ext": ".png",
+      "hash": "60214d8b",
+      "size": 40217,
+      "hash@windows": "6338f2fc",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_emblem_tower_conqueror_20260906024711.png"
+    },
+    {
+      "uuid": "ALTnoaW-dubt2vmwSPVuvzzn",
+      "ext": ".png",
+      "hash": "715aecd8",
+      "size": 235437,
+      "hash@windows": "ec9156dc",
+      "size@windows": 1582169,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/标题_暗黑大剑守卫_20260714133814.png"
+    },
+    {
+      "uuid": "APnPsXx6WHCtEoFMtMEQJugS",
+      "ext": ".png",
+      "hash": "811aaf19",
+      "size": 10629,
+      "hash@windows": "d44802cf",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_sword_wave_20260716120422.png"
+    },
+    {
+      "uuid": "AYcgKViLJAg9P5BLGF48wBtQ",
+      "ext": ".png",
+      "hash": "49938cb9",
+      "size": 10629,
+      "hash@windows": "9840c46f",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_精英_暗影狼人统领_史莱姆风格_20260728032111.png"
+    },
+    {
+      "uuid": "AaKBcVlfmSph3-xdO7DIeXdC",
+      "ext": ".png",
+      "hash": "e5bf77c3",
+      "size": 10629,
+      "hash@windows": "01fd82bc",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_returning_axe_20260725030800.png"
+    },
+    {
+      "uuid": "Ak-k0fF4JG4CohCIiuWIX3et",
+      "ext": ".png",
+      "hash": "2536462d",
+      "size": 10629,
+      "hash@windows": "0c393218",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_Boss_血肉巨兽_史莱姆风格_20260728032107.png"
+    },
+    {
+      "uuid": "AsYbaW2SB4fJsgqA8sZ9bSeN",
+      "ext": ".ogg",
+      "hash": "8eabe7cb",
+      "size": 15262,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "audio/sfx/sword_hit.ogg"
+    },
+    {
+      "uuid": "AtqACX1okFMVBtU6IpqbQWvr",
+      "ext": ".png",
+      "hash": "cc828450",
+      "size": 40217,
+      "hash@windows": "00c84ce3",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_训练场.png"
+    },
+    {
+      "uuid": "Avol8dJQXzKt8yPzkajJzIEP",
+      "ext": ".png",
+      "hash": "863354e4",
+      "size": 40217,
+      "hash@windows": "b8ccd424",
+      "size@windows": 21081,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_07_clean2_weapon_07_obsidian_cleaver_20260710102513.png"
+    },
+    {
+      "uuid": "Azyo4QniuZg6AWdesQ6g6Jpu",
+      "ext": ".png",
+      "hash": "f3490596",
+      "size": 1229649,
+      "hash@windows": "7c1e7b9f",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_flower_field_20260710115830.png"
+    },
+    {
+      "uuid": "B80tsYREVblk7F92-fqDU6-U",
+      "ext": ".png",
+      "hash": "63506773",
+      "size": 10629,
+      "hash@windows": "152f2511",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_Boss_冰霜海蛇_史莱姆风格_20260728032118.png"
+    },
+    {
+      "uuid": "B8tPaTfx3NbrIwV8YhGWo4wg",
+      "ext": ".png",
+      "hash": "3e28109e",
+      "size": 1229649,
+      "hash@windows": "cd5bc45e",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_after_rain_forest_20260711050223.png"
+    },
+    {
+      "uuid": "BDxWmS4JdyRtqSYw98_6rKUu",
+      "ext": ".lua",
+      "hash": "dc06d397",
+      "size": 1753282,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "AAxViY9-QIq9hmwqCoqDODO9",
+        "AGRyuZ1lCl141XpdWYxMWpRD",
+        "AHfygSt_gTdigbs5MIKeeUAQ",
+        "AIAE8Tq-_BEWTBgL12Gni2Sj",
+        "AJv8magqxHq5fA9UWatKG4ER",
+        "ALDI0VIZJFmEgQ1eAnGG8RcM",
+        "ALTnoaW-dubt2vmwSPVuvzzn",
+        "APnPsXx6WHCtEoFMtMEQJugS",
+        "AYcgKViLJAg9P5BLGF48wBtQ",
+        "AaKBcVlfmSph3-xdO7DIeXdC",
+        "Ak-k0fF4JG4CohCIiuWIX3et",
+        "AsYbaW2SB4fJsgqA8sZ9bSeN",
+        "AtqACX1okFMVBtU6IpqbQWvr",
+        "Avol8dJQXzKt8yPzkajJzIEP",
+        "Azyo4QniuZg6AWdesQ6g6Jpu",
+        "B80tsYREVblk7F92-fqDU6-U",
+        "B8tPaTfx3NbrIwV8YhGWo4wg",
+        "BGPJEealUpOgY7y4wAh3PLSF",
+        "BJcpYXBJEKvmHW-yV7URVuMC",
+        "BKKyGYPb9tRYZIAxOLnVAO4B",
+        "BKcsqWeZ4ySZdrrCuJsAcO9D",
+        "BPe0iRE4CGCEhmxtSIizoTUs",
+        "BWlIGVeOmP4W35sgH3kl0uVw",
+        "BYogIWNEhcBrMoeiGl_tbgrQ",
+        "Baw-eeM8BBrc4_VqyDyJtqhR",
+        "BjZ0idThITyKzJAOwnvUuFQU",
+        "BjtZOZo1ah4gAlLuy6EDpTCY",
+        "BlE22TTQkTmtnMhP3Ed7Qkwh",
+        "BlIYcTsbHtGqIpvc_ncm5lYc",
+        "BlPNQc77SCifoSjnA_YHz-EX",
+        "BxPW2ZjL3BgMVYmpyNSVvTHf",
+        "C0xaUV3CzIAdDOmcDTzx9yBE",
+        "C6YFSaJzdayWnKetWFcnOG0v",
+        "C8nReQnvtRu9Nlst8J-Lvy3E",
+        "CDxV2XKRedTkuXik8IEtMZ1r",
+        "CHx_eTbXhHDDBXGfHha1PkSn",
+        "CIiFaUgAQBvcmqzIyLtL0NgP",
+        "CT1aadjik3eDQfDF6OhLPlnv",
+        "CbIVieD5lNi3yzlZTyiRrLwb",
+        "CeV2IczU_EQaAqhxwK9GxHEZ",
+        "Cnzi0ZhgiQvUQWMsso5JtukP",
+        "CvJVsbwLq9UDY63yoEqaQLLB",
+        "CxRaIckq4b6Th9eZz9U2VeGe",
+        "Cy5ZObxxNaWI4oe65s_OZTIa",
+        "D3OWsfqyDFiIyYZRWDjafE_4",
+        "D416IS-HNZxtFEyjdx-lqc-h",
+        "D8ec-eT5P_L3r7BRVDCXw6vq",
+        "DDSuOVUHonD4rLBfqa6qcFMr",
+        "DG3A2RRu9-yP4a8Gaj9gx9IE",
+        "DKklkSYnsuIj0a1_tnfX6XPn",
+        "DQJM8Y3JSIOjwKm1nikg8xWC",
+        "DUbcOaTNGNC5TlFUzMaf13ud",
+        "Ddp-mTJS0MjasfOUwRiB171k",
+        "Dp6QAbo-RYnnb-Ifi_C_2R1c",
+        "Dq0judV1pSIXcCnNz8vvWuzP",
+        "Ds3UqaZsaL9CBBhLWN7rIb3A",
+        "DzOSgZqoRjrjURampS-3mHTh",
+        "E-1eyWnjVXipAPmJCKUygLhS",
+        "E-maecFvQ8CERHWPn8Cw2rGu",
+        "E3LLaXDl9ZQrQ6QiRPp3RbU6",
+        "E5pGSZVfiJscdwQ0M3fcIwuU",
+        "EHToAWxV-TpYuYJWD2Qa3LVc",
+        "EM9PIcsSuyIN5fXUjQq5ZEIF",
+        "EMrcOcouK8OBkHtFS3YUf-BY",
+        "EYwxAYcvp9vinWPHHlgmzbaN",
+        "EemEcYAzWKibHIkgOS412pw5",
+        "Ere-Ca005NclTLEKavGUgMrd",
+        "EsIACTHJ9ICigAIEKEjUKt9D",
+        "EtgeyfIuDT5-MIlNjJb06PU-",
+        "Ezn98Vpup71qU2z8BglGBx5x",
+        "EzuLSfRvsUyZePhxg14ltcfa",
+        "F-gw2X3T7O-eglA5avJ1nL_D",
+        "F49ZcSJk4vZugfRBQsWL8uOv",
+        "F6OpsUyDKJDgov9_f17jHmcY",
+        "F777mQaUMen7fPfoPuILxOit",
+        "FFVkOU7U0g63dMYo3JR2CjwO",
+        "FJ8gybQXq_XmGBe3aEA-YLSo",
+        "FNgRIUUnhOfDn8hvdgzTMf2S",
+        "FOKOycW3ZssILnNedRUODJDX",
+        "FOnjUUYRD0PPkpc0CRTq2ODF",
+        "FPoHuTQ1ClyShc9mtVoDn95X",
+        "FR5_eZckwhhnkULYwKei9WAT",
+        "FS5AWQKNJfil-6ijxTtJb6Ye",
+        "FU2IURtMUmsCRfiziJ1YLA-L",
+        "FgVtoVmirvQYbZB0h6KPSExi",
+        "FhKdSTx4X9JySp9C2i8ImOOY",
+        "Fjk84S5xEVhNsLb-xsviLu-B",
+        "FlNNMTgE9LvmiGf8cjGmTh1m",
+        "Fp650ZkO4ryexr5Xi7W3V2PI",
+        "G4HQcd2dsdaxEYeMQ4Qo-Gpl",
+        "G4RZyT9aR-deS-xAsaOVd3Do",
+        "G5zLAajzXThJKUhKk5mGPYxK",
+        "GEsX4WrkVOPXeG2plvLz4CRg",
+        "GJposSM0KW_wNE1Q3cwDaa6a",
+        "GJv2SZKyyz0vvg4Uaqqu6poi",
+        "GLnZ2XG6T5WOyG1ld_EMkjEy",
+        "GN6ooQsOvESM-TnVwHoSaPpM",
+        "GaK7QS402sGqmi1wAcTuYcst",
+        "GbqOQVGNKHhIDM503IP8ITfT",
+        "GhjpaUcW5cnZF5Lk0N8mWMZn",
+        "GhqNaUwVfpJLV3Fr-xflvnCn",
+        "GiKWIQGpOOTaHJyCH4E6E59X",
+        "GiuKqe-l2TsEgB72c4mHso3U",
+        "Gmb16X35f88m7R_52CJd_w73",
+        "Gw1ScXz7D4zmNUq72VJMniKT",
+        "H0QboSdj5FZhrRHxRkvFtdaq",
+        "H1_zYS5_1QKH8Yrk1fs_NNEo",
+        "H5vbqajQ4aJVknuPr5Y4leO-",
+        "H8VsAR-uLykMP_oTG_MTPrrl",
+        "H8mSCaI2TylgelLqPdXib2Fq",
+        "HEfDseOAWQxeoILKAvHihr3m",
+        "HFWlCT7pb2bdFKCiqs6-posl",
+        "HW9AabAJVUXeNtGtnOIkLr56",
+        "HYH2eaa9sZussrPVZHVbj-B9",
+        "HcLrkTJji7VPwASb0SIz0FTd",
+        "HnM9ASRmxV5akuCBJfB_S6UE",
+        "HpuN0fj4-d7SVCS08PanbDyS",
+        "HqMcgRwQ1R9RGvvtFIpXkIV7",
+        "HtCmQZKV_ktiBZhk-45NX9Cp",
+        "HuEZcXcopvUNXsxWAJ-83CR8",
+        "HvtteYmY6UKhqXb22FEg837a",
+        "Hxq6IbLGuXPsVe6QZDQotwLI"
+      ],
+      "fs_path": "main.lua"
+    },
+    {
+      "uuid": "BGPJEealUpOgY7y4wAh3PLSF",
+      "ext": ".png",
+      "hash": "82e5b0d6",
+      "size": 1229649,
+      "hash@windows": "dd8e0451",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_poison_swamp_20260711050123.png"
+    },
+    {
+      "uuid": "BJcpYXBJEKvmHW-yV7URVuMC",
+      "ext": ".png",
+      "hash": "3aa89f05",
+      "size": 10629,
+      "hash@windows": "97277d93",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_dart_20260707233616.png"
+    },
+    {
+      "uuid": "BKKyGYPb9tRYZIAxOLnVAO4B",
+      "ext": ".png",
+      "hash": "bc4a978f",
+      "size": 1229649,
+      "hash@windows": "f127e207",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_castle_courtyard_20260711050502.png"
+    },
+    {
+      "uuid": "BKcsqWeZ4ySZdrrCuJsAcO9D",
+      "ext": ".png",
+      "hash": "b4614fa3",
+      "size": 10629,
+      "hash@windows": "9ca5ea2e",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_chain_lightning_20260707233612.png"
+    },
+    {
+      "uuid": "BPe0iRE4CGCEhmxtSIizoTUs",
+      "ext": ".png",
+      "hash": "f8163ec4",
+      "size": 10629,
+      "hash@windows": "b84e3de5",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_普通_墓穴蝙蝠_史莱姆风格_20260728031915.png"
+    },
+    {
+      "uuid": "BWlIGVeOmP4W35sgH3kl0uVw",
+      "ext": ".png",
+      "hash": "1f0289d5",
+      "size": 2881,
+      "hash@windows": "fd0cfd90",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/宝石图标_紫宝石_64_20260809133038.png"
+    },
+    {
+      "uuid": "BYogIWNEhcBrMoeiGl_tbgrQ",
+      "ext": ".png",
+      "hash": "43687231",
+      "size": 1229649,
+      "hash@windows": "031240c1",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_dark_dungeon_corridor_20260711050117.png"
+    },
+    {
+      "uuid": "Baw-eeM8BBrc4_VqyDyJtqhR",
+      "ext": ".png",
+      "hash": "63e55064",
+      "size": 40217,
+      "hash@windows": "a9a45bba",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_01_clean2_weapon_18_rune_broadsword_20260710102558.png"
+    },
+    {
+      "uuid": "BgCviebFkuFhKjMsq6Cjz4K1",
+      "ext": ".json",
+      "groups": [
+        "#blocking"
+      ],
+      "source": "official-res",
+      "refs": [
+        "AvmfQQWPOJKQln4kISbq1qsK",
+        "B9gxWZGEvJv99DLadVBNjeBm",
+        "C5TH8Um7enDvsccQp0yKaFKv",
+        "ENWpeS8aUuN3DMZ4kLZtqc6Q",
+        "EPbSsW5xhUNav0MZt0b_VGe-",
+        "Ej2uwTLda_LOVYIAw4Bs_Hog",
+        "F4ItQUiV0gmvAelLXpk5yrTs",
+        "FmD_MVX6NJVaeW9vdQ4EIlTq",
+        "FmaJEb00vYdE9vFmbO60Xkn6",
+        "Fr5sya5vN3P0bfThXYJ2XcGw",
+        "G2FlEdwwzR0rliGuXVgGpK2C",
+        "Gegssbk9ZAijVsigDH-iMHAR",
+        "HBTyuRZ6z-VATB16tjmWi3Uo",
+        "HIsCIUT7yv1mueg3KlvzX2Xz",
+        "HTriplanarTech01aB2cDe",
+        "KTriplanarShaderFinal1",
+        "XimTixnDEW7k2OzjV7sFq9vM",
+        "iV_WrtdX3cKmljRIMhn5PZlT"
+      ],
+      "fs_path": "generated/__official_pinned_refs__.json"
+    },
+    {
+      "uuid": "BjZ0idThITyKzJAOwnvUuFQU",
+      "ext": ".png",
+      "hash": "aba350bf",
+      "size": 351089,
+      "hash@windows": "3e76bbac",
+      "size@windows": 782545,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/battle_base_greatsword_dark_20260718130410.png"
+    },
+    {
+      "uuid": "BjtZOZo1ah4gAlLuy6EDpTCY",
+      "ext": ".png",
+      "hash": "92de6ce9",
+      "size": 10629,
+      "hash@windows": "cf53b1cd",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_blade_orbit_20260725030755.png"
+    },
+    {
+      "uuid": "BlE22TTQkTmtnMhP3Ed7Qkwh",
+      "ext": ".png",
+      "hash": "f906d48e",
+      "size": 40217,
+      "hash@windows": "a5acc71e",
+      "size@windows": 43825,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/edited_menu_图鉴_20260801132147.png"
+    },
+    {
+      "uuid": "BlIYcTsbHtGqIpvc_ncm5lYc",
+      "ext": ".png",
+      "hash": "5febf790",
+      "size": 2881,
+      "hash@windows": "c5562a3e",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/白色洗练石图标_64_20260809144440.png"
+    },
+    {
+      "uuid": "BlPNQc77SCifoSjnA_YHz-EX",
+      "ext": ".png",
+      "hash": "6b38dddd",
+      "size": 1229649,
+      "hash@windows": "97829771",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_frost_cliff_20260711050119.png"
+    },
+    {
+      "uuid": "BxPW2ZjL3BgMVYmpyNSVvTHf",
+      "ext": ".png",
+      "hash": "cfe3ef9c",
+      "size": 1229649,
+      "hash@windows": "1ed65074",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_corrupted_forest_20260711050432.png"
+    },
+    {
+      "uuid": "C0xaUV3CzIAdDOmcDTzx9yBE",
+      "ext": ".png",
+      "hash": "09f4450b",
+      "size": 40217,
+      "hash@windows": "15a76aa8",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/装备图标_像素亮蓝胸甲_20260730094206.png"
+    },
+    {
+      "uuid": "C6YFSaJzdayWnKetWFcnOG0v",
+      "ext": ".png",
+      "hash": "c3a2549f",
+      "size": 1229649,
+      "hash@windows": "d2543d10",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_moonlit_lakeside_20260711050139.png"
+    },
+    {
+      "uuid": "C8nReQnvtRu9Nlst8J-Lvy3E",
+      "ext": ".png",
+      "hash": "25fe7643",
+      "size": 158557,
+      "hash@windows": "9051b58d",
+      "size@windows": 349677,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/暗紫魔翼_大翅膀_净边最终.png"
+    },
+    {
+      "uuid": "CDxV2XKRedTkuXik8IEtMZ1r",
+      "ext": ".png",
+      "hash": "bcfeaaa3",
+      "size": 10629,
+      "hash@windows": "9f806568",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/主角_白发黑红铠甲_战斗清晰最终.png"
+    },
+    {
+      "uuid": "CHx_eTbXhHDDBXGfHha1PkSn",
+      "ext": ".png",
+      "hash": "e54d9611",
+      "size": 40217,
+      "hash@windows": "459dee09",
+      "size@windows": 19437,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_02_clean2_weapon_11_storm_scimitar_20260710102542.png"
+    },
+    {
+      "uuid": "CIiFaUgAQBvcmqzIyLtL0NgP",
+      "ext": ".png",
+      "hash": "82cb3b60",
+      "size": 88429,
+      "hash@windows": "05b427ca",
+      "size@windows": 585817,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_inner_bg_void_rift_20260906031247.png"
+    },
+    {
+      "uuid": "CT1aadjik3eDQfDF6OhLPlnv",
+      "ext": ".png",
+      "hash": "2b2c3503",
+      "size": 40217,
+      "hash@windows": "baca0914",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/装备图标_像素红宝石戒指_20260730094213.png"
+    },
+    {
+      "uuid": "CbIVieD5lNi3yzlZTyiRrLwb",
+      "ext": ".png",
+      "hash": "ca82571d",
+      "size": 1229649,
+      "hash@windows": "a69376f3",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_autumn_graveyard_arena_20260711050117.png"
+    },
+    {
+      "uuid": "CeV2IczU_EQaAqhxwK9GxHEZ",
+      "ext": ".png",
+      "hash": "2ebecd80",
+      "size": 88429,
+      "hash@windows": "e8bd862a",
+      "size@windows": 132566,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_style_void_purple_20260906024706.png"
+    },
+    {
+      "uuid": "Cnzi0ZhgiQvUQWMsso5JtukP",
+      "ext": ".png",
+      "hash": "7ffe4eea",
+      "size": 10629,
+      "hash@windows": "5505754d",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_shield_20260707233614.png"
+    },
+    {
+      "uuid": "CvJVsbwLq9UDY63yoEqaQLLB",
+      "ext": ".png",
+      "hash": "3d493296",
+      "size": 10629,
+      "hash@windows": "82543f46",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_普通_小恶魔_史莱姆风格_20260728031933.png"
+    },
+    {
+      "uuid": "CxRaIckq4b6Th9eZz9U2VeGe",
+      "ext": ".png",
+      "hash": "f1c1b0a7",
+      "size": 40217,
+      "hash@windows": "294fc54a",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_emblem_skill_scholar_20260906024708.png"
+    },
+    {
+      "uuid": "Cy5ZObxxNaWI4oe65s_OZTIa",
+      "ext": ".png",
+      "hash": "00f62ce3",
+      "size": 1229649,
+      "hash@windows": "5e32522d",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_moonlit_lake_20260710115824.png"
+    },
+    {
+      "uuid": "D3OWsfqyDFiIyYZRWDjafE_4",
+      "ext": ".png",
+      "hash": "c7bc02f1",
+      "size": 88429,
+      "hash@windows": "5fb9aa9e",
+      "size@windows": 139719,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_style_royal_gold_20260906024709.png"
+    },
+    {
+      "uuid": "D416IS-HNZxtFEyjdx-lqc-h",
+      "ext": ".png",
+      "hash": "68550c29",
+      "size": 40217,
+      "hash@windows": "827c87c3",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_分身.png"
+    },
+    {
+      "uuid": "D8ec-eT5P_L3r7BRVDCXw6vq",
+      "ext": ".png",
+      "hash": "f98bc628",
+      "size": 20041,
+      "hash@windows": "cea616cc",
+      "size@windows": 19872,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/ui/progress_bar.png"
+    },
+    {
+      "uuid": "DDSuOVUHonD4rLBfqa6qcFMr",
+      "ext": ".png",
+      "hash": "b328e340",
+      "size": 40217,
+      "hash@windows": "2873c8ad",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_属性.png"
+    },
+    {
+      "uuid": "DG3A2RRu9-yP4a8Gaj9gx9IE",
+      "ext": ".png",
+      "hash": "f56cd1c0",
+      "size": 40217,
+      "hash@windows": "7e750e7d",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/职业_战士_20260805034403.png"
+    },
+    {
+      "uuid": "DKklkSYnsuIj0a1_tnfX6XPn",
+      "ext": ".png",
+      "hash": "155c4d47",
+      "size": 88429,
+      "hash@windows": "673d28f9",
+      "size@windows": 585817,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_style_arcane_cyan_20260906024710.png"
+    },
+    {
+      "uuid": "DQJM8Y3JSIOjwKm1nikg8xWC",
+      "ext": ".png",
+      "hash": "7fb3f8eb",
+      "size": 10629,
+      "hash@windows": "90f8386b",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_血怪_猩红寄生体_史莱姆风格_20260728032101.png"
+    },
+    {
+      "uuid": "DUbcOaTNGNC5TlFUzMaf13ud",
+      "ext": ".png",
+      "hash": "2d76e8d2",
+      "size": 40217,
+      "hash@windows": "dafdd18a",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_emblem_equipment_collector_20260906024707.png"
+    },
+    {
+      "uuid": "Ddp-mTJS0MjasfOUwRiB171k",
+      "ext": ".png",
+      "hash": "980b3db2",
+      "size": 10629,
+      "hash@windows": "8c09425a",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_piercing_lance_20260725030806.png"
+    },
+    {
+      "uuid": "Dp6QAbo-RYnnb-Ifi_C_2R1c",
+      "ext": ".png",
+      "hash": "c60d2cd4",
+      "size": 2881,
+      "hash@windows": "ed332c75",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/宝石图标_蓝宝石_64_20260809133037.png"
+    },
+    {
+      "uuid": "Dq0judV1pSIXcCnNz8vvWuzP",
+      "ext": ".png",
+      "hash": "0406f805",
+      "size": 10629,
+      "hash@windows": "c97b3812",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_poison_mist_20260716120423.png"
+    },
+    {
+      "uuid": "Ds3UqaZsaL9CBBhLWN7rIb3A",
+      "ext": ".png",
+      "hash": "901345c4",
+      "size": 158557,
+      "hash@windows": "f1a7a786",
+      "size@windows": 349677,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/白金圣翼_20260714122232.png"
+    },
+    {
+      "uuid": "DzOSgZqoRjrjURampS-3mHTh",
+      "ext": ".png",
+      "hash": "af7afa82",
+      "size": 40217,
+      "hash@windows": "65da2d29",
+      "size@windows": 20014,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_05_clean2_weapon_01_crimson_greatsword_20260710102518.png"
+    },
+    {
+      "uuid": "E-1eyWnjVXipAPmJCKUygLhS",
+      "ext": ".png",
+      "hash": "ab5bc552",
+      "size": 10629,
+      "hash@windows": "fc260f17",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_holy_judgement_20260716120421.png"
+    },
+    {
+      "uuid": "E-maecFvQ8CERHWPn8Cw2rGu",
+      "ext": ".png",
+      "hash": "6c8cca73",
+      "size": 10629,
+      "hash@windows": "0d1fb075",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_freeze_20260707233613.png"
+    },
+    {
+      "uuid": "E3LLaXDl9ZQrQ6QiRPp3RbU6",
+      "ext": ".png",
+      "hash": "a54e279e",
+      "size": 20041,
+      "hash@windows": "a930e76b",
+      "size@windows": 24438,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/ui/btn_normal.png"
+    },
+    {
+      "uuid": "E5pGSZVfiJscdwQ0M3fcIwuU",
+      "ext": ".png",
+      "hash": "e606f24d",
+      "size": 1229649,
+      "hash@windows": "7f2fd403",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_coastal_reef_20260711050434.png"
+    },
+    {
+      "uuid": "EHToAWxV-TpYuYJWD2Qa3LVc",
+      "ext": ".png",
+      "hash": "616261ab",
+      "size": 40217,
+      "hash@windows": "1abb800c",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/职业_法师_20260805034400.png"
+    },
+    {
+      "uuid": "EM9PIcsSuyIN5fXUjQq5ZEIF",
+      "ext": ".png",
+      "hash": "8eba7a22",
+      "size": 88429,
+      "hash@windows": "d5fcf5fc",
+      "size@windows": 128062,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_style_nature_emerald_20260906024709.png"
+    },
+    {
+      "uuid": "EMrcOcouK8OBkHtFS3YUf-BY",
+      "ext": ".png",
+      "hash": "07f9ceff",
+      "size": 88429,
+      "hash@windows": "5c9694cd",
+      "size@windows": 135015,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_style_blood_hunt_20260906024712.png"
+    },
+    {
+      "uuid": "EYwxAYcvp9vinWPHHlgmzbaN",
+      "ext": ".png",
+      "hash": "e6fb12ca",
+      "size": 20041,
+      "hash@windows": "f5571913",
+      "size@windows": 21509,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/ui/btn_active.png"
+    },
+    {
+      "uuid": "EemEcYAzWKibHIkgOS412pw5",
+      "ext": ".png",
+      "hash": "e5ea2527",
+      "size": 10629,
+      "hash@windows": "dbb4260e",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_thunder_20260707233608.png"
+    },
+    {
+      "uuid": "Ere-Ca005NclTLEKavGUgMrd",
+      "ext": ".png",
+      "hash": "8ea9508c",
+      "size": 40217,
+      "hash@windows": "2278d5e8",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/weapon_flames_progressive/flame_lv15_progressive.png"
+    },
+    {
+      "uuid": "EsIACTHJ9ICigAIEKEjUKt9D",
+      "ext": ".png",
+      "hash": "2ee3965d",
+      "size": 40217,
+      "hash@windows": "b3d11581",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_出发.png"
+    },
+    {
+      "uuid": "EtgeyfIuDT5-MIlNjJb06PU-",
+      "ext": ".png",
+      "hash": "69537b1d",
+      "size": 10629,
+      "hash@windows": "bb641384",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_精英_腐化重甲骑士_史莱姆风格_20260728032106.png"
+    },
+    {
+      "uuid": "Ezn98Vpup71qU2z8BglGBx5x",
+      "ext": ".png",
+      "hash": "0c6ebc84",
+      "size": 628689,
+      "hash@windows": "02447820",
+      "size@windows": 704753,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/参考风主菜单背景_大剑插地_20260714130814.png"
+    },
+    {
+      "uuid": "EzuLSfRvsUyZePhxg14ltcfa",
+      "ext": ".png",
+      "hash": "109cea38",
+      "size": 10629,
+      "hash@windows": "f88cfa48",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_普通_腐化哥布林_史莱姆风格_20260728031928.png"
+    },
+    {
+      "uuid": "F-gw2X3T7O-eglA5avJ1nL_D",
+      "ext": ".png",
+      "hash": "9c4623f0",
+      "size": 88429,
+      "hash@windows": "e3ceb01b",
+      "size@windows": 76133,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_inner_bg_nature_spark_20260906031242.png"
+    },
+    {
+      "uuid": "F49ZcSJk4vZugfRBQsWL8uOv",
+      "ext": ".png",
+      "hash": "a247b83d",
+      "size": 40217,
+      "hash@windows": "47fc6822",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_强化.png"
+    },
+    {
+      "uuid": "F6OpsUyDKJDgov9_f17jHmcY",
+      "ext": ".png",
+      "hash": "d3c9360f",
+      "size": 10629,
+      "hash@windows": "a6819f9f",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_flying_sword_20260707233615.png"
+    },
+    {
+      "uuid": "F777mQaUMen7fPfoPuILxOit",
+      "ext": ".png",
+      "hash": "905ac547",
+      "size": 10629,
+      "hash@windows": "8f983b5d",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_远程_骷髅弓手_史莱姆风格_20260728031917.png"
+    },
+    {
+      "uuid": "FFVkOU7U0g63dMYo3JR2CjwO",
+      "ext": ".png",
+      "hash": "54865bd3",
+      "size": 2881,
+      "hash@windows": "100df900",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/粉色洗练石图标_64_20260809144439.png"
+    },
+    {
+      "uuid": "FJ8gybQXq_XmGBe3aEA-YLSo",
+      "ext": ".png",
+      "hash": "14c76651",
+      "size": 40217,
+      "hash@windows": "c5535b02",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/weapon_flames_progressive/flame_lv20_progressive.png"
+    },
+    {
+      "uuid": "FNgRIUUnhOfDn8hvdgzTMf2S",
+      "ext": ".png",
+      "hash": "bd7013f3",
+      "size": 40217,
+      "hash@windows": "d4b3a837",
+      "size@windows": 15884,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_03_clean2_weapon_15_blood_saber_20260710102541.png"
+    },
+    {
+      "uuid": "FOKOycW3ZssILnNedRUODJDX",
+      "ext": ".png",
+      "hash": "04815354",
+      "size": 40217,
+      "hash@windows": "a15e2e79",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_排行榜.png"
+    },
+    {
+      "uuid": "FOnjUUYRD0PPkpc0CRTq2ODF",
+      "ext": ".png",
+      "hash": "a509fd64",
+      "size": 10629,
+      "hash@windows": "fcc6ace5",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_远程_邪教法师_史莱姆风格_20260728031916.png"
+    },
+    {
+      "uuid": "FPoHuTQ1ClyShc9mtVoDn95X",
+      "ext": ".png",
+      "hash": "26aed855",
+      "size": 10629,
+      "hash@windows": "5ff98c9e",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_ground_slam_20260725030805.png"
+    },
+    {
+      "uuid": "FR5_eZckwhhnkULYwKei9WAT",
+      "ext": ".png",
+      "hash": "aadb2f41",
+      "size": 78521,
+      "hash@windows": "12d04bff",
+      "size@windows": 93047,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/ui/title_bar.png"
+    },
+    {
+      "uuid": "FS5AWQKNJfil-6ijxTtJb6Ye",
+      "ext": ".png",
+      "hash": "76aaddf9",
+      "size": 1229649,
+      "hash@windows": "68f9bea2",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_desert_ruins_20260711050118.png"
+    },
+    {
+      "uuid": "FU2IURtMUmsCRfiziJ1YLA-L",
+      "ext": ".png",
+      "hash": "2bcfb97d",
+      "size": 10629,
+      "hash@windows": "0ab5874b",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_storm_push_20260716120426.png"
+    },
+    {
+      "uuid": "FgVtoVmirvQYbZB0h6KPSExi",
+      "ext": ".png",
+      "hash": "5929ad64",
+      "size": 40217,
+      "hash@windows": "20ddb5af",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_装备.png"
+    },
+    {
+      "uuid": "FhKdSTx4X9JySp9C2i8ImOOY",
+      "ext": ".png",
+      "hash": "6d0b4b8e",
+      "size": 88429,
+      "hash@windows": "3ac3f26b",
+      "size@windows": 585817,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_inner_bg_ice_thunder_20260906031241.png"
+    },
+    {
+      "uuid": "Fjk84S5xEVhNsLb-xsviLu-B",
+      "ext": ".png",
+      "hash": "2007b8ef",
+      "size": 40217,
+      "hash@windows": "1ff73074",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_设置.png"
+    },
+    {
+      "uuid": "FlNNMTgE9LvmiGf8cjGmTh1m",
+      "ext": ".png",
+      "hash": "8f47dd93",
+      "size": 2881,
+      "hash@windows": "5b2089e3",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/宝石图标_红宝石_64_20260809133036.png"
+    },
+    {
+      "uuid": "Fp650ZkO4ryexr5Xi7W3V2PI",
+      "ext": ".png",
+      "hash": "a917d301",
+      "size": 2881,
+      "hash@windows": "e0bee5a5",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/宝石图标_绿宝石_64_20260809133035.png"
+    },
+    {
+      "uuid": "G4HQcd2dsdaxEYeMQ4Qo-Gpl",
+      "ext": ".png",
+      "hash": "6a1d5977",
+      "size": 10629,
+      "hash@windows": "0d5652d0",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_远程_虚空术士_史莱姆风格_20260728031941.png"
+    },
+    {
+      "uuid": "G4RZyT9aR-deS-xAsaOVd3Do",
+      "ext": ".png",
+      "hash": "02b2cb94",
+      "size": 10629,
+      "hash@windows": "fe64ce1f",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_flame_zone_20260725030811.png"
+    },
+    {
+      "uuid": "G5zLAajzXThJKUhKk5mGPYxK",
+      "ext": ".png",
+      "hash": "151e5d56",
+      "size": 10629,
+      "hash@windows": "eba01893",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_heal_20260707233610.png"
+    },
+    {
+      "uuid": "GEsX4WrkVOPXeG2plvLz4CRg",
+      "ext": ".png",
+      "hash": "42ae5865",
+      "size": 1229649,
+      "hash@windows": "17e63219",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_morning_flower_field_20260711050123.png"
+    },
+    {
+      "uuid": "GJposSM0KW_wNE1Q3cwDaa6a",
+      "ext": ".png",
+      "hash": "50325afb",
+      "size": 2881,
+      "hash@windows": "e233543a",
+      "size@windows": 5601,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/宝石图标_黄宝石_64_20260809133034.png"
+    },
+    {
+      "uuid": "GJv2SZKyyz0vvg4Uaqqu6poi",
+      "ext": ".png",
+      "hash": "ed3ffc0e",
+      "size": 40217,
+      "hash@windows": "480766ca",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/职业_游侠_20260805034358.png"
+    },
+    {
+      "uuid": "GLnZ2XG6T5WOyG1ld_EMkjEy",
+      "ext": ".png",
+      "hash": "fef11236",
+      "size": 10629,
+      "hash@windows": "3bded49e",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_fireball_20260707233615.png"
+    },
+    {
+      "uuid": "GN6ooQsOvESM-TnVwHoSaPpM",
+      "ext": ".png",
+      "hash": "d1e65b29",
+      "size": 88429,
+      "hash@windows": "aa6427b8",
+      "size@windows": 133410,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_inner_bg_flame_core_20260906031242.png"
+    },
+    {
+      "uuid": "GaK7QS402sGqmi1wAcTuYcst",
+      "ext": ".png",
+      "hash": "a00ccaff",
+      "size": 40217,
+      "hash@windows": "68f57076",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/main_menu_restored/menu_技能.png"
+    },
+    {
+      "uuid": "GbqOQVGNKHhIDM503IP8ITfT",
+      "ext": ".png",
+      "hash": "48684f38",
+      "size": 40217,
+      "hash@windows": "2cc5cbed",
+      "size@windows": 19706,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/weapon_flames_progressive/flame_lv10_progressive.png"
+    },
+    {
+      "uuid": "GhjpaUcW5cnZF5Lk0N8mWMZn",
+      "ext": ".png",
+      "hash": "ce5cd531",
+      "size": 1229649,
+      "hash@windows": "288e6760",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_snowstorm_pass_20260711050418.png"
+    },
+    {
+      "uuid": "GhqNaUwVfpJLV3Fr-xflvnCn",
+      "ext": ".png",
+      "hash": "2d0d8086",
+      "size": 1229649,
+      "hash@windows": "d54068b4",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_sakura_forest_path_20260711050236.png"
+    },
+    {
+      "uuid": "GiKWIQGpOOTaHJyCH4E6E59X",
+      "ext": ".png",
+      "hash": "42e26aea",
+      "size": 1229649,
+      "hash@windows": "c83caf83",
+      "size@windows": 1383241,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/clean_battle_bg_ancient_temple_gate_20260711050433.png"
+    },
+    {
+      "uuid": "GiuKqe-l2TsEgB72c4mHso3U",
+      "ext": ".png",
+      "hash": "903b4903",
+      "size": 158557,
+      "hash@windows": "9fd74f23",
+      "size@windows": 174901,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/edited_btn_help_20260721074115.png"
+    },
+    {
+      "uuid": "Gmb16X35f88m7R_52CJd_w73",
+      "ext": ".png",
+      "hash": "b52e6072",
+      "size": 10629,
+      "hash@windows": "50d967dc",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_blackhole_20260707233630.png"
+    },
+    {
+      "uuid": "Gw1ScXz7D4zmNUq72VJMniKT",
+      "ext": ".png",
+      "hash": "1d628aec",
+      "size": 40217,
+      "hash@windows": "8c48393f",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/装备图标_像素鲜绿护手_20260730094139.png"
+    },
+    {
+      "uuid": "H0QboSdj5FZhrRHxRkvFtdaq",
+      "ext": ".png",
+      "hash": "5c3d5f9b",
+      "size": 10629,
+      "hash@windows": "97ca52cd",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_血怪_血肉屠夫_史莱姆风格_修正版_20260728032300.png"
+    },
+    {
+      "uuid": "H1_zYS5_1QKH8Yrk1fs_NNEo",
+      "ext": ".png",
+      "hash": "7eaaf652",
+      "size": 40217,
+      "hash@windows": "910ebd6a",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_emblem_monster_hunter_20260906024713.png"
+    },
+    {
+      "uuid": "H5vbqajQ4aJVknuPr5Y4leO-",
+      "ext": ".png",
+      "hash": "58d49fee",
+      "size": 10629,
+      "hash@windows": "6d36d06b",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_Boss_紫晶魔龙_史莱姆风格_20260728032102.png"
+    },
+    {
+      "uuid": "H8VsAR-uLykMP_oTG_MTPrrl",
+      "ext": ".png",
+      "hash": "c94963cb",
+      "size": 40217,
+      "hash@windows": "0d4105b8",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/装备图标_像素明黄战靴_20260730094138.png"
+    },
+    {
+      "uuid": "H8mSCaI2TylgelLqPdXib2Fq",
+      "ext": ".png",
+      "hash": "f5de1cf2",
+      "size": 10629,
+      "hash@windows": "b0f8a723",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_Boss_深渊恶魔_史莱姆风格_20260728032112.png"
+    },
+    {
+      "uuid": "HEfDseOAWQxeoILKAvHihr3m",
+      "ext": ".png",
+      "hash": "977400fd",
+      "size": 10629,
+      "hash@windows": "6e07a81f",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_史莱姆_经典蓝紫_20260727140400.png"
+    },
+    {
+      "uuid": "HFWlCT7pb2bdFKCiqs6-posl",
+      "ext": ".png",
+      "hash": "65e33417",
+      "size": 10629,
+      "hash@windows": "2c8dc48c",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_普通_暗影猎犬_史莱姆风格_20260728031917.png"
+    },
+    {
+      "uuid": "HW9AabAJVUXeNtGtnOIkLr56",
+      "ext": ".png",
+      "hash": "42ad43c8",
+      "size": 88429,
+      "hash@windows": "d336c4cf",
+      "size@windows": 129119,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/title_inner_bg_aurora_core_20260906031240.png"
+    },
+    {
+      "uuid": "HYH2eaa9sZussrPVZHVbj-B9",
+      "ext": ".png",
+      "hash": "4f67a81b",
+      "size": 40217,
+      "hash@windows": "6cc5a826",
+      "size@windows": 12885,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_06_clean2_weapon_05_dragon_katana_20260710102515.png"
+    },
+    {
+      "uuid": "HcLrkTJji7VPwASb0SIz0FTd",
+      "ext": ".png",
+      "hash": "52bf0066",
+      "size": 10629,
+      "hash@windows": "2b2fafcf",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_普通_骷髅剑士_史莱姆风格_20260728031918.png"
+    },
+    {
+      "uuid": "HnM9ASRmxV5akuCBJfB_S6UE",
+      "ext": ".png",
+      "hash": "7d9fb0bc",
+      "size": 10629,
+      "hash@windows": "acaa2e6d",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/skill_meteor_20260707233631.png"
+    },
+    {
+      "uuid": "HpuN0fj4-d7SVCS08PanbDyS",
+      "ext": ".png",
+      "hash": "42e66e71",
+      "size": 10629,
+      "hash@windows": "3959fa7e",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_精英_岩石恶魔_史莱姆风格_20260728032101.png"
+    },
+    {
+      "uuid": "HqMcgRwQ1R9RGvvtFIpXkIV7",
+      "ext": ".png",
+      "hash": "d9a61f35",
+      "size": 176217,
+      "hash@windows": "9567225a",
+      "size@windows": 393305,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/ui/panel_bg.png"
+    },
+    {
+      "uuid": "HtCmQZKV_ktiBZhk-45NX9Cp",
+      "ext": ".png",
+      "hash": "823d84b7",
+      "size": 10629,
+      "hash@windows": "8f2e8180",
+      "size@windows": 21989,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/怪物_精英_火焰飞龙_史莱姆风格_20260728032100.png"
+    },
+    {
+      "uuid": "HuEZcXcopvUNXsxWAJ-83CR8",
+      "ext": ".png",
+      "hash": "54f0a5d9",
+      "size": 40217,
+      "hash@windows": "74776f91",
+      "size@windows": 87529,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/装备图标_黑红重甲_20260729141807.png"
+    },
+    {
+      "uuid": "HvtteYmY6UKhqXb22FEg837a",
+      "ext": ".png",
+      "hash": "178d73ac",
+      "size": 7976,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/weapon_flames_progressive/flame_lv5_progressive.png"
+    },
+    {
+      "uuid": "Hxq6IbLGuXPsVe6QZDQotwLI",
+      "ext": ".png",
+      "hash": "ed09f46b",
+      "size": 40217,
+      "hash@windows": "e75d54e0",
+      "size@windows": 14077,
+      "groups": [
+        "default#refs"
+      ],
+      "fs_path": "image/selected_weapons_flipped/selected_weapon_04_clean2_weapon_06_emerald_rapier_20260710102518.png"
+    },
+    {
+      "uuid": "uwFuqZ48RoKW7LiMQ79ERw",
+      "ext": ".json",
+      "hash": "5cb4f974",
+      "size": 552,
+      "groups": [
+        "#config",
+        "#blocking"
+      ],
+      "refs": [
+        "BgCviebFkuFhKjMsq6Cjz4K1"
+      ],
+      "fs_path": "settings.json"
+    }
+  ],
+  "metadata": {
+    "total_files": 125,
+    "local_files": 124,
+    "remote_files": 1,
+    "total_size": 55779561,
+    "preload_files": 1,
+    "preload_size": 552,
+    "groups": {
+      "#blocking": {
+        "files": 3,
+        "size": 1754553
+      },
+      "default": {
+        "files": 2,
+        "size": 8676494
+      },
+      "#config": {
+        "files": 1,
+        "size": 552
+      },
+      "default#refs": {
+        "files": 121,
+        "size": 47102515
+      }
+    }
+  }
+}
