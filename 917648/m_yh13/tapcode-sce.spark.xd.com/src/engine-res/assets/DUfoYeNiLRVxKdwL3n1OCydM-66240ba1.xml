@@ -1,0 +1,19 @@
+<technique vs="Voxel/PBRVoxelDda" ps="Voxel/PBRVoxelDda" vsdefines="NOUV" psdefines="PBR IBL VOXELPALETTE VOXELJITTER VOXEL_SPARSE4">
+    <!-- Sparse4 camera-inside variant. The root compile-time define applies to
+         deferred, shadow/VSM, instanced, and single-volume PS variations. Sampler
+         ABI matches the outside technique; only culling/depth semantics differ. -->
+    <pass name="deferredvox" cull="cw" depthwrite="true" depthtest="lessequal"
+          vsdefines="NOUV" psdefines="DEFERRED" />
+    <!-- The light camera is outside the volume: retain the Dense front-face,
+         plain-depth shadow contract. -->
+    <pass name="shadow" cull="ccw" depthwrite="true"
+          vsdefines="NOUV" psdefines="SHADOW" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.85" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+    <parameter name="VoxelVolumeIndex" value="0" />
+</technique>

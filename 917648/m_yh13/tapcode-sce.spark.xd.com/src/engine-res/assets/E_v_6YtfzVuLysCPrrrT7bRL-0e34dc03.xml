@@ -1,0 +1,4 @@
+<technique vs="ShaderLab/InternalPass/DebugView" ps="ShaderLab/InternalPass/DebugView" shaderlab="InternalPass/DebugView.shader">
+  <pass name="base" vsdefines="MESH_LOD_LEVEL" psdefines="MESH_LOD_LEVEL" />
+  <pass name="litalpha" vsdefines="MESH_LOD_LEVEL" psdefines="MESH_LOD_LEVEL" depthtest="true" depthwrite="true" blend="alpha" />
+</technique>

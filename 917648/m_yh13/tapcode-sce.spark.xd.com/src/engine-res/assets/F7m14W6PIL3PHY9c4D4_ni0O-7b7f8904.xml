@@ -1,0 +1,11 @@
+<technique vs="LitSolid" ps="LitSolid">
+    <pass name="base" vsdefines="AO" psdefines="AO" />
+    <pass name="light" depthtest="equal" depthwrite="false" blend="add" />
+    <pass name="deferred" vsdefines="AO" psdefines="DEFERRED AO" />
+    <pass name="depth" vs="Depth" ps="Depth" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+    <parameter name="MatSpecColor" value="0 0 0 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="MatEnvMapColor" value="0 0 0" />
+</technique>

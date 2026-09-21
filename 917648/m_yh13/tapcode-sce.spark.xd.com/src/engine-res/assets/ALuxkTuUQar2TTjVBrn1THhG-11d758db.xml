@@ -1,0 +1,7 @@
+<material>
+    <technique name="EngineRes/Techniques/CEPBR/DiffSkyboxIBL.xml" />
+    <texture unit="0" name="Textures/output_skybox.dds" />
+    <texture unit="1" name="Textures/output_iem.dds" />
+    <parameter name="BgType" value="0" />
+    <cull value="none" />
+</material>

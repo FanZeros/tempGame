@@ -1,0 +1,72 @@
+{
+	"files": [
+		{
+			"name": "floatingobject",
+			"type": 1
+		},
+		{
+			"name": "basicvcolunlitalpha",
+			"type": 1
+		},
+        {
+            "name": "basicvcolunlitalphaoutsurface",
+			"type": 1
+        },
+		{
+			"name": "water",
+			"type": 1,
+			"vs_defines": [
+				"",
+				"WATER_SHADOWD"
+			],
+			"ps_defines": [
+				"",
+				"NOT_SUPPORT_SRGB",
+				"WATER_SHADOWD",
+				"WATER_SHADOWD NOT_SUPPORT_SRGB",
+				"PURE_MINIMAP",
+				"NOT_SUPPORT_SRGB PURE_MINIMAP",
+				"WATER_SHADOWD PURE_MINIMAP",
+				"WATER_SHADOWD NOT_SUPPORT_SRGB PURE_MINIMAP"
+			]
+		},
+		{
+			"name": "singlelayerwater",
+			"type": 1,
+			"ps_defines": [
+				"",
+				"NOT_SUPPORT_SRGB",
+				"COLORBUFFER_FETCH",
+				"NOT_SUPPORT_SRGB COLORBUFFER_FETCH",
+				"PURE_MINIMAP",
+				"NOT_SUPPORT_SRGB PURE_MINIMAP",
+				"COLORBUFFER_FETCH PURE_MINIMAP",
+				"NOT_SUPPORT_SRGB COLORBUFFER_FETCH PURE_MINIMAP"
+			]
+		},
+		{
+			"name": "singlelayerwaterbake",
+			"type": 1,
+			"ps_defines": [
+				"",
+				"NOT_SUPPORT_SRGB",
+				"PURE_MINIMAP",
+				"NOT_SUPPORT_SRGB PURE_MINIMAP"
+			]
+		},
+		{
+			"name": "grassunity",
+			"type": 1
+		},
+		{
+			"name": "fakeshadow",
+			"type": 1
+		}
+	],
+	"sub_directories": [
+		"PBR_PackedNormal",
+		"Lambert",
+		"DebugView",
+		"CIPR"
+	]
+}

@@ -1,0 +1,28 @@
+<technique vs="PBRLitSolid" ps="PBRLitSolid" vsdefines="NOUV VERTEXCOLOR VOXELJITTER VOXELPACKED" psdefines="PBR IBL VERTEXCOLOR VOXELPALETTE VOXELJITTER VOXELPACKED">
+    <!-- PBRNoTextureVCol.xml 的 8 字节紧凑顶点版(VoxelChunkDrawable 专用)。VOXELPACKED:
+         a_position 为 UBYTE4_NORM——xyz 是 chunk 局部格点(0..32)、w 是面索引(法线由
+         shader 查表解码),无 normal/tangent 顶点流;晶格抖动帧改由每 drawable 常量
+         u_VoxelLatticeFrame 提供(Batch 的 instance 常量通道下发)。像素端调色板采样
+         (VOXELPALETTE)与旧路径完全一致:a_color0 仍是 R=调色板索引 G=断面标记。
+         depth/shadow pass 覆盖了 vs,不继承全局 vsdefines,故显式补 VOXELPACKED。 -->
+    <pass name="base" vsdefines="AO" psdefines="AMBIENT AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="litbase" vsdefines="AO" psdefines="AMBIENT AO" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="light" vsdefines="AO" psdefines="AO" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <!-- 子 pass 重定义了顶点 shader，不继承 technique 根节点的 vsdefines，因此这里
+         显式补齐 NOUV 与 VOXELPACKED。Depth/Shadow 在 NOUV 下使用零 UV，不再为
+         packed 顶点绑定 dummy TEXCOORD0 流。 -->
+    <pass name="depth" vs="Depth" ps="Depth" vsdefines="NOUV VOXELPACKED" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" vsdefines="NOUV VOXELPACKED" />
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Metallic" value="0" />
+    <parameter name="Roughness" value="0.85" />
+    <parameter name="TintColor" value="0 0 0 0" />
+    <parameter name="VoxelJitter" value="0.14" />
+    <parameter name="VoxelPaletteBank" value="0" />
+    <!-- 兜底默认(缺省 uniform 为 0 会除零);引擎创建的材质克隆总会用
+         MAX_PALETTE_BANKS * 4 覆盖,真源在 VoxelPhysicsWorld。 -->
+    <parameter name="VoxelPaletteAtlasHeight" value="1024" />
+    <parameter name="VoxelLatticeFrame" value="0 0 0 1" />
+</technique>

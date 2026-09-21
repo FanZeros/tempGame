@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<texture>
+	<mipmap enable="false" />
+	<quality low="0" />
+	<srgb enable="true" />
+	<address coord="u" mode="wrap" />
+	<address coord="v" mode="wrap" />
+	<address coord="w" mode="wrap" />
+</texture>
+
+

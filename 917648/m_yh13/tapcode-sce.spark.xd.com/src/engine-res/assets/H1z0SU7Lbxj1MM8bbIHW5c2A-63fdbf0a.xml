@@ -1,0 +1,17 @@
+<technique vs="PBRLitSolid" ps="PBRLitSolid" vsdefines="NORMALMAP" psdefines="NORMALMAP DIFFMAP METALLIC ROUGHNESS PBR IBL">
+    <pass name="base" vsdefines="AO" psdefines="AMBIENT AO ALPHAMASK" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="litbase" vsdefines="AO" psdefines="AMBIENT AO ALPHAMASK" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="light" vsdefines="AO" psdefines="AO ALPHAMASK" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="depth" vs="Depth" ps="Depth" psdefines="METALLIC ALPHAMASK ALPHAMASK_DIFF_A" psexcludes="PACKEDNORMAL" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" psdefines="METALLIC ALPHAMASK ALPHAMASK_DIFF_A" psexcludes="PACKEDNORMAL" />
+    <!-- 默认贴图 -->
+	<texture unit="normal" name="Textures/DefaultNormal.tga" />
+	<texture unit="specular" name="Textures/DefaultRoughnessMetallic.tga" />
+    <!-- 默认参数 -->
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="TextureMetallicFactor" value="1" />
+    <parameter name="TextureRoughnessFactor" value="1" />
+    <parameter name="TintColor" value="0 0 0 0" /> 
+</technique>

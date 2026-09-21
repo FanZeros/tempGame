@@ -1,0 +1,8 @@
+<material>
+    <technique name="Techniques/TerrainBlend.xml" />
+    <texture unit="0" name="Textures/TerrainWeights.dds" />
+    <texture unit="1" name="Terrain/TerrainDetail.xml" />
+    <texture unit="2" name="Terrain/TerrainMix.xml" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="DetailTiling" value="384 384" />
+</material>

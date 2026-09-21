@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "target": "client",
+  "project_id": "engine-startup",
+  "sources": {
+    "engine-res": {
+      "tag": "latest",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/engine-res/"
+    }
+  },
+  "asset_prefixes": [
+    "assets",
+    "scripts"
+  ],
+  "entry": "engine-startup/main.lua",
+  "preload_groups": [],
+  "files": [
+    {
+      "uuid": "-73mcwx1QB6NyLrwJxv8Kg",
+      "ext": ".json",
+      "groups": [
+        "default#refs",
+        "#blocking"
+      ],
+      "source": "engine-res",
+      "fs_path": "i18n/zh_CN.json"
+    },
+    {
+      "uuid": "AlK2YdWhzuyHYnv6NgG9x35x",
+      "ext": ".lua",
+      "hash": "e4be3f39",
+      "size": 15863,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "-73mcwx1QB6NyLrwJxv8Kg",
+        "u05oYbz5RtecsyHB9-bmKQ"
+      ],
+      "fs_path": "engine-startup/main.lua"
+    },
+    {
+      "uuid": "ChzBYU1UjLNlb3Ib6pWHAjrT",
+      "ext": ".png",
+      "hash": "eff80c51",
+      "size": 7395,
+      "fs_path": "12+.png"
+    },
+    {
+      "uuid": "ClB6QeTn0cAcLYwtKWmAlz6k",
+      "ext": ".lua",
+      "hash": "fd901035",
+      "size": 20678,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "engine-startup/anti_addict.lua"
+    },
+    {
+      "uuid": "EUpM0e_TDmSW4earVqsf73xF",
+      "ext": ".lua",
+      "hash": "c83e6771",
+      "size": 25346,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "engine-startup/loading_ui.lua"
+    },
+    {
+      "uuid": "FVHmqXc2warHUil3hYP8CPVo",
+      "ext": ".png",
+      "hash": "c5db6363",
+      "size": 2680,
+      "fs_path": "taplogo.png"
+    },
+    {
+      "uuid": "HSgokVooQcBNo8-P0kcsbyA3",
+      "ext": ".lua",
+      "hash": "e2693505",
+      "size": 49828,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "engine-startup/startup_ui.lua"
+    },
+    {
+      "uuid": "u05oYbz5RtecsyHB9-bmKQ",
+      "ext": ".json",
+      "groups": [
+        "default#refs",
+        "#blocking"
+      ],
+      "source": "engine-res",
+      "fs_path": "i18n/en.json"
+    }
+  ],
+  "metadata": {
+    "total_files": 8,
+    "local_files": 6,
+    "remote_files": 2,
+    "total_size": 121790,
+    "preload_files": 0,
+    "preload_size": 0,
+    "groups": {
+      "default": {
+        "files": 6,
+        "size": 121790,
+        "hash": "c0ad7d725e07b173f15458e32730707a37524129f82b7c2948ebf5106671a22b"
+      },
+      "#blocking": {
+        "files": 6,
+        "size": 154538,
+        "hash": "f0e9a8bdc61b1e028782142edc5ac53a99950e9158f1ca8e4e23d0237b52d95a"
+      },
+      "default#refs": {
+        "files": 2,
+        "size": 42823,
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "#engine-res": {
+        "files": 0,
+        "size": 0,
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "assets_pak": 0
+}

@@ -1,0 +1,8 @@
+<technique vs="ShaderLab/CIPR/CIPR" ps="ShaderLab/CIPR/CIPR" shaderlab="CIPR/CIPR.shader">
+  <pass name="base" />
+  <pass name="litbase" vsdefines="CLUSTER_VS" />
+  <pass name="litalpha" depthtest="true" depthwrite="true" blend="alpha" />
+  <pass name="shadow" vs="Shadow" ps="Shadow" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" depthtest="less" depthwrite="false" blend="alpha" />
+  <pass name="ciprstroke" vs="ShaderLab/CIPR/CIPRCIPRSTROKE" ps="ShaderLab/CIPR/CIPRCIPRSTROKE" cull="cw" />
+</technique>

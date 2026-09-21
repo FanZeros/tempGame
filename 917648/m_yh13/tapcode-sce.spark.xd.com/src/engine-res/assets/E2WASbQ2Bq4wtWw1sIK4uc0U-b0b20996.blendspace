@@ -1,0 +1,22 @@
+{
+    "type": "BlendSpace1D",
+    "name": "DefaultMaleRifleMovementBlendSpace",
+    "parameter": "moveSpeed",
+    "points": [
+        {
+            "value": 0,
+            "animation": "DefaultMale/Animations/DefaultMale_RifleIdle.ani",
+            "speed": 1.0
+        },
+        {
+            "value": 1.5,
+            "animation": "DefaultMale/Animations/DefaultMale_RifleWalk.ani",
+            "speed": 1.0
+        },
+        {
+            "value": 6.0,
+            "animation": "DefaultMale/Animations/DefaultMale_RifleRun.ani",
+            "speed": 1.0
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+<renderpath>
+    <command type="quad" tag="Background" vs="TexturePreview" ps="TexturePreview">
+    	<texture unit="diffuse" name="EngineRes/particle/common/materials/OrientParticle.TGA" />
+    	<parameter name="RGBAToggle" value="1 1 1 1" />
+    </command>
+</renderpath>

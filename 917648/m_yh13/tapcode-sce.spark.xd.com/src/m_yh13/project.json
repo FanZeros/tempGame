@@ -1,0 +1,42 @@
+{
+  "project_id": "m_yh13",
+  "version": "2.0.26",
+  "author": {
+    "id": "160100802"
+  },
+  "taptap_publish": {
+    "title": "掘进",
+    "description": "《掘进》是一款像素风地下钻探与流派构筑游戏。完成终极密度后，将唤醒拥有100个分支节点的世界树，并开启全新的深渊闯塔。\n\n深渊每层都是有限矿区：挖出通往下一层的裂隙、收集金币、闪现躲避怪物与追击，在每3层的普通道具三选一中构筑流派。局内可解锁专属武器，宝箱会产出临时战斗道具，F至SSS装备、随机词条与套装共鸣则构成长线刷宝目标。\n\n普通矿井仍保留十层密度、分支技能树、遗物库、矿物图鉴、星辰进度与安全返航结算。v2.0同时补齐徽章差额、铱矿保底、精炼积压处理以及终极密度技能支持。",
+    "category": "adventure",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "v2.0把《掘进》从一次次返航的矿井成长，推进到了可以长期构筑的深渊终局。世界树、闯塔、怪物、装备和排行榜都建立在原本的挖掘手感上，希望每一层都能让你认真权衡：现在撤离，还是再闯一层。\n\n这是一次体量很大的更新。数值、怪物强度和道具组合还会持续调整，欢迎留言告诉我卡住的层数、常用流派、看不懂的说明和最想加入的玩法。",
+    "app_platforms": "1,2",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/m_yh13/1787649355619-rec_8682c251-91ce-4d27-8e80-91d63914e5e8.mp4",
+    "developer_id": 430147,
+    "app_id": 917648,
+    "miniapp_id": "tapmchotel7n0cjh2t",
+    "release_phase": "public_test",
+    "icon": "https://package-pd.tapsce.cn/minigame/b4268b025753c969238ca59add57556ac6508a0f.png"
+  },
+  "assets": {
+    "icon": "./.project/game_material/ICON_DIGGIN_2_0_V2.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-08-25T08-23-50_01.png",
+      "./game_material/SCREENSHOT_2026-08-25T08-23-50_02.png",
+      "./game_material/SCREENSHOT_2026-08-25T08-23-50_03.png"
+    ],
+    "promotional_image": "./game_material/promotional.png",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/深掘冒险/ICON_2026-08-25T08-23-50_01.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/m_yh13/SCREENSHOT_2026-08-25T08-23-50_01.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/m_yh13/SCREENSHOT_2026-08-25T08-23-50_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/m_yh13/SCREENSHOT_2026-08-25T08-23-50_03.png"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/m_yh13/promotional.png",
+    "cover_vertical": "./.project/game_material/COVER_VERTICAL_2026-09-02T11-26-36_01.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/掘进/COVER_VERTICAL_2026-09-02T11-26-36_01.png",
+    "cover_horizontal": "./.project/game_material/COVER_HORIZONTAL_2026-09-02T11-26-36_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/掘进/COVER_HORIZONTAL_2026-09-02T11-26-36_01.png"
+  }
+}

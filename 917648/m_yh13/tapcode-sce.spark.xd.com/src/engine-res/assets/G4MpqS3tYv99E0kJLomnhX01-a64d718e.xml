@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<node>
+    <component type="DepthOfField">
+        <attribute name="Focal Distance" value="50.0" />
+        <attribute name="Focal Range" value="100.0" />
+        <attribute name="Far Blur Scale" value="0.5" />
+    </component>
+</node>

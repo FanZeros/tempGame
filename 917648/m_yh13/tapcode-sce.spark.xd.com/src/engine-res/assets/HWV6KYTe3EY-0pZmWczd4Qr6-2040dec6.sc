@@ -1,0 +1,30 @@
+hvec4 vScreenPos     : TEXCOORD0 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+hvec2 vUV1           : TEXCOORD1 = hvec2_init(0.0, 0.0);
+hvec2 vUV2           : TEXCOORD2 = hvec2_init(0.0, 0.0);
+hvec2 vReflectUV     : TEXCOORD3 = hvec2(0.0, 0.0);
+hvec4 vEyeVec        : TEXCOORD4 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+vec3 vNormal        : NORMAL    = vec3(0.0, 0.0, 0.0);
+vec3 vTangent       : TANGENT   = vec3(0.0, 0.0, 0.0);
+vec3 vBitangent     : BITANGENT = vec3(0.0, 0.0, 0.0);
+hvec4 vWorldPos      : TEXCOORD5 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+hvec4 vShadowPos0    : TEXCOORD6 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+hvec4 vShadowPos1    : TEXCOORD7 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+hvec4 vShadowPos2    : TEXCOORD8 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+hvec4 vShadowPos3    : TEXCOORD9 = hvec4_init(0.0, 0.0, 0.0, 0.0);
+vec3 vTerrainDataUV  : COLOR5 = vec3(0.0, 0.0, 0.0);
+vec3 vWaterBlend     : COLOR6 = vec3(0.0, 0.0, 0.0);
+
+hvec4 a_position  : POSITION;
+hvec3 a_normal    : NORMAL;
+hvec4 a_tangent   : TANGENT;
+hvec2 a_texcoord0 : TEXCOORD0;
+hvec4 a_color0    : COLOR0;
+
+hvec4 i_data0     : TEXCOORD3;
+hvec4 i_data1     : TEXCOORD4;
+hvec4 i_data2     : TEXCOORD5;
+hvec4 i_data3     : TEXCOORD6;
+hvec4 i_data4     : TEXCOORD7;
+hvec4 i_data5     : TEXCOORD8;
+hvec4 i_data6     : TEXCOORD1;
+hvec4 i_data7     : TEXCOORD2;

@@ -1,0 +1,15 @@
+<renderpath>
+    <command type="clear" color="fog" depth="1.0" stencil="0" />
+    <command type="scenepass" pass="base" vertexlights="true" metadata="base" />
+    <command type="forwardlights" pass="light" />
+    <command type="scenepass" pass="postopaque" />
+    <command type="scenepass" pass="refract">
+        <texture unit="env" name="viewport" />
+    </command>
+    <command type="scenepass" pass="outsurface" blend="alpha">
+        <parameter name="SurfaceColor" value="0.0 1.0 0.3 0.8" />
+    </command>
+    <command type="scenepass" pass="alpha" vertexlights="true" psdefines=" TONEMAP_IN_SHADERING" sort="backtofront" metadata="alpha" />
+    <command type="scenepass" pass="postalpha" sort="backtofront" />
+    <command type="sendevent" name="PostRender" />
+</renderpath>

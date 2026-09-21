@@ -1,0 +1,5 @@
+<technique vs="Unlit" ps="Unlit" psdefines="DIFFMAP" >
+    <pass name="base" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+    <pass name="deferred" psdefines="DEFERRED" />
+    <parameter name="MatDiffColor" value="0.6 0.6 0.6 1" />
+</technique>

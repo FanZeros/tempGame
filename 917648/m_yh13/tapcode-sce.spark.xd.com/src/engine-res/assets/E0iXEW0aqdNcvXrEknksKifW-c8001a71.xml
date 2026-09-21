@@ -1,0 +1,7 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/DefaultLambertPS" shaderlab="Model/DefaultLambert.shader" shadingmodel="lambert">
+  <pass name="base" vsdefines="DIFFMAP EMISSIVECOLOR" psdefines="DIFFMAP EMISSIVECOLOR" colorwrite="false" alphatest="true" covered="false" srgbsoftresolve="true" srgbsoftresolveslots="0" disablefastmath="true" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" depthtest="less" depthwrite="false" blend="alpha" />
+  <pass name="alpha" vsdefines="DIFFMAP EMISSIVECOLOR" psdefines="DIFFMAP EMISSIVECOLOR" depthtest="equal" depthwrite="false" blend="alpha" covered="false" srgbsoftresolve="true" srgbsoftresolveslots="0" disablefastmath="true" />
+  <pass name="innerstroke" vs="Stroke/GameStroke" ps="Stroke/GameStroke" depthtest="lessequal" depthwrite="false" />
+  <pass name="outstroke" vs="Stroke/GameStroke" ps="Stroke/GameStroke" depthtest="lessequal" depthwrite="false" />
+</technique>

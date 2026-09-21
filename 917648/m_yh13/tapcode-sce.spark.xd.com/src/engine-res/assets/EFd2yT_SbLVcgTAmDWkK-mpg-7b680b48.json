@@ -1,0 +1,74 @@
+{
+	"files": [
+		{
+			"name": "phantom",
+			"type": 1,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS"
+			]
+		},
+		{
+			"name": "defaultlambert",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "plantlambert",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "particlelambert",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		},
+		{
+			"name": "unlitstealth",
+			"type": 3,
+			"vs_defines": [
+				"",
+				"SCE_DISABLE_FASTMATH"
+			],
+			"ps_defines": [
+				"",
+				"HAS_Z_PREPASS",
+				"NOT_SUPPORT_SRGB",
+				"HAS_Z_PREPASS NOT_SUPPORT_SRGB"
+			]
+		}
+	]
+}
+
+

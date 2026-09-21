@@ -1,0 +1,8 @@
+<settings>
+    <innerstrokeenable value="true" />
+    <innerstrokecolor value="0 0 0 0" />
+    <innerstrokethickness value="2" />
+    <outstrokeenable value="true" />
+    <outstrokecolor value="0 0 0 0" />
+    <outstrokethickness value="7" />
+</settings>

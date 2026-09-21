@@ -1,0 +1,12 @@
+<technique vs="PBRPiplineVS" ps="ShaderLab/Model/SpeedTreePS" vsdefines="SPEED_TREE" psdefines="SPEED_TREE ALPHAMASK" shaderlab="Model/SpeedTree.shader" shadingmodel="pbs">
+  <pass name="base" vsdefines="AO" psdefines="AMBIENT AO" alphatest="true" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="litbase" vsdefines="AO" psdefines="AMBIENT AO" alphatest="true" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="light" vsdefines="AO" psdefines="AMBIENT AO" depthtest="equal" depthwrite="false" blend="add" alphatest="true" srgbsoftresolve="true" srgbsoftresolveslots="0" />
+  <pass name="depth" vs="Depth" ps="Depth" psexcludes="PACKEDNORMAL" />
+  <pass name="shadow" vs="Shadow" ps="Shadow" />
+  <pass name="planershadow" vs="PlanerShadow" ps="PlanerShadow" blend="alpha" depthwrite="false" depthtest="less" />
+  <pass name="outsurface" vs="Highlight" ps="Highlight" blend="alpha" depthtest="equal" depthwrite="false" />
+  <pass name="xray" vs="PBRPiplineVS" ps="ShaderLab/Model/XRayPS" depthtest="greater" depthwrite="false" />
+  <pass name="innerstroke" vs="Stroke/GameStroke" ps="Stroke/GameStroke" depthtest="lessequal" depthwrite="false" />
+  <pass name="outstroke" vs="Stroke/GameStroke" ps="Stroke/GameStroke" depthtest="lessequal" depthwrite="false" />
+</technique>

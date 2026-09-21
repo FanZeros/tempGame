@@ -1,0 +1,12 @@
+{
+	"files": [
+		{
+			"name": "diffunlitparticlealpha",
+			"type": 4
+		},
+		{
+			"name": "diffunlitmeshparticlealpha",
+			"type": 8
+		}
+	]
+}

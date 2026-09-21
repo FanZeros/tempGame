@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Root>
+	<Models>
+		<Value Name="BeveledCube.mdl" MinLodOffset="0">
+			<Value Name="StaticMeshes/BeveledCube/" LodOffset="0" />
+		</Value>
+	</Models>
+	<Textures>
+		<Value Name="HammeredSilverBasecolor.tga" MaxTargetSize="128 256">
+			<Value Name="Textures/Metals/" TargetSize="128 256" />
+		</Value>
+		<Value Name="HammeredSilverMix.tga" MaxTargetSize="128 256">
+			<Value Name="Textures/Metals/" TargetSize="128 256" />
+		</Value>
+	</Textures>
+</Root>

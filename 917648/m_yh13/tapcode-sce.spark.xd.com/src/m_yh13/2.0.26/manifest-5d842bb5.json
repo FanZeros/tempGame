@@ -1,0 +1,6247 @@
+{
+  "format": 1,
+  "target": "client",
+  "project_id": "m_yh13",
+  "sources": {
+    "engine-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/engine-res/"
+    },
+    "official-res": {
+      "tag": "stable",
+      "base_url": "https://tapcode-sce.spark.xd.com/src/official-res/"
+    }
+  },
+  "asset_prefixes": [
+    "assets",
+    "scripts"
+  ],
+  "entry": "diggin_main.lua",
+  "preload_groups": [
+    "startup_fonts",
+    "#config",
+    "startup_fonts#refs",
+    "#config#refs"
+  ],
+  "files": [
+    {
+      "uuid": "A-y_ueBveFiZ2M5bOX1Da1Ph",
+      "ext": ".lua",
+      "hash": "674d8035",
+      "size": 9211,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssContent.lua"
+    },
+    {
+      "uuid": "A1fhcU1pqhq6iQZUz8RCIT3h",
+      "ext": ".png",
+      "hash": "9ebeaff0",
+      "size": 341,
+      "hash@windows": "2dda63be",
+      "size@windows": 102,
+      "fs_path": "image/diggin/generated/skill_icons/CritArtefact.png"
+    },
+    {
+      "uuid": "A1vYuexKws1WKWF_hF4zRRjG",
+      "ext": ".png",
+      "hash": "22ffac4f",
+      "size": 524,
+      "fs_path": "image/diggin/original/Mission/powderKeg.png"
+    },
+    {
+      "uuid": "A2KoMRvXTMD0VdtlueQ2MaoZ",
+      "ext": ".png",
+      "hash": "814d663c",
+      "size": 213,
+      "hash@windows": "a71b5c32",
+      "size@windows": 341,
+      "fs_path": "image/diggin/generated/skill_icons/DrillDrones.png"
+    },
+    {
+      "uuid": "A2V8edf6Qzfw85q6XM64wjkE",
+      "ext": ".png",
+      "hash": "dd6fb0fb",
+      "size": 190,
+      "fs_path": "image/diggin/original/KenneyUI/tile_0781.png"
+    },
+    {
+      "uuid": "A2da2c4kOkrjgffw1H8TZ-QK",
+      "ext": ".png",
+      "hash": "dd0ca555",
+      "size": 2891,
+      "fs_path": "image/diggin/original/Tilesets/Main/Layes/sivoplavi.png"
+    },
+    {
+      "uuid": "A30ReWQOoIgMLpo7EaSwQCuD",
+      "ext": ".png",
+      "hash": "8ab71511",
+      "size": 1091,
+      "fs_path": "image/diggin/original/Player Assets/dougdug.png"
+    },
+    {
+      "uuid": "A49uGXCGup-YK2tPVFVc2aTb",
+      "ext": ".png",
+      "hash": "3847f9a7",
+      "size": 361,
+      "hash@windows": "293335a3",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/feverstone_0.png"
+    },
+    {
+      "uuid": "A4IZ2XsjMP5eWrbAXKcAehBD",
+      "ext": ".png",
+      "hash": "01785dc0",
+      "size": 361,
+      "hash@windows": "4308effa",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Ruby_0.png"
+    },
+    {
+      "uuid": "A4ktKXbooqpUg2vmk5CsU4Um",
+      "ext": ".ogg",
+      "hash": "38e4ce7a",
+      "size": 810254,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS3.ogg"
+    },
+    {
+      "uuid": "A4pDwWqrKXmWu3hE8MATyxZV",
+      "ext": ".png",
+      "hash": "71932571",
+      "size": 231,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_k.png"
+    },
+    {
+      "uuid": "A5y76XEkhQnzkoWccykcNyX0",
+      "ext": ".png",
+      "hash": "a4ad60b8",
+      "size": 295,
+      "fs_path": "image/diggin/original/Tilesets/Main/newBreaking.png"
+    },
+    {
+      "uuid": "A6a5KVw8W7gsAxGE_2Qn230P",
+      "ext": ".wav",
+      "hash": "547c5bb7",
+      "size": 66194,
+      "fs_path": "audio/sfx/rift_blessing.wav"
+    },
+    {
+      "uuid": "A9BL8Vx5in_bAtBtCT42Ms0x",
+      "ext": ".wav",
+      "hash": "007b5aec",
+      "size": 30032,
+      "fs_path": "audio/sfx/phase_dash.wav"
+    },
+    {
+      "uuid": "A9Zc2e-n_hGqYXOWkyhdp_KO",
+      "ext": ".png",
+      "hash": "2c6ef569",
+      "size": 269,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f12.png"
+    },
+    {
+      "uuid": "A9xdASNx8-2oAK62Tjf4GRMp",
+      "ext": ".png",
+      "hash": "e27367bd",
+      "size": 873,
+      "fs_path": "image/diggin/original/Tilesets/Main/ironbonanza.png"
+    },
+    {
+      "uuid": "AAlbobIn1YYYdArYPhWfd31m",
+      "ext": ".lua",
+      "hash": "7e7bea26",
+      "size": 3676,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/CombatReportRenderer.lua"
+    },
+    {
+      "uuid": "ABnreeof7SX4tt6BMlntax80",
+      "ext": ".png",
+      "hash": "6c1feecf",
+      "size": 225,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_4.png"
+    },
+    {
+      "uuid": "AC11If-JdRZ44MzqB0QnbbbO",
+      "ext": ".png",
+      "hash": "08aab897",
+      "size": 12638,
+      "fs_path": "image/diggin/original/UI/SpaceShips_Enemy-0001.png"
+    },
+    {
+      "uuid": "AC538Ww_1eQVgwHIFhLSgh8H",
+      "ext": ".png",
+      "hash": "3890cdd9",
+      "size": 361,
+      "hash@windows": "aafac1d5",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/feverstone_2.png"
+    },
+    {
+      "uuid": "ACHhsYONGKOug_RrT6LLwCXr",
+      "ext": ".png",
+      "hash": "2ace63d6",
+      "size": 5298,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer1.png"
+    },
+    {
+      "uuid": "ACKBWdqisAmraGGnrUaKC1E9",
+      "ext": ".png",
+      "hash": "f481fa58",
+      "size": 304,
+      "fs_path": "image/diggin/generated/skill_icons/FuelTank4.png"
+    },
+    {
+      "uuid": "AD7xoW6nvObSrqcwM8H3QDSP",
+      "ext": ".png",
+      "hash": "de7629b7",
+      "size": 866,
+      "fs_path": "image/diggin/original/Tilesets/Main/goldbonanza.png"
+    },
+    {
+      "uuid": "AF1Uqd1cRyPsUuQXGCUokd7P",
+      "ext": ".png",
+      "hash": "19e0d9b1",
+      "size": 213,
+      "hash@windows": "762330de",
+      "size@windows": 489,
+      "fs_path": "image/diggin/generated/hud_icons/Starmetal.png"
+    },
+    {
+      "uuid": "AH11GQNcW3RmYkRPnJfsvZXE",
+      "ext": ".png",
+      "hash": "bdbe2c4f",
+      "size": 532,
+      "fs_path": "image/diggin/original/Mission/treasureHunter.png"
+    },
+    {
+      "uuid": "AHO3IXjruTyw4YRJQZjOmr_x",
+      "ext": ".png",
+      "hash": "5fd3b321",
+      "size": 3223,
+      "fs_path": "image/diggin/original/UI/tree23.png"
+    },
+    {
+      "uuid": "AHcHGWWYYTWvZdL1o2vBUO2G",
+      "ext": ".png",
+      "hash": "a55584f8",
+      "size": 232,
+      "fs_path": "image/diggin/original/UI/Input Prompts/pad_rt.png"
+    },
+    {
+      "uuid": "AHwo4Vgfn7SyHO9Z-4fFb2wd",
+      "ext": ".png",
+      "hash": "91c6c43b",
+      "size": 200,
+      "fs_path": "image/diggin/original/UI/Input Prompts/pad_start.png"
+    },
+    {
+      "uuid": "AI-z2bHvmQRzBQ12O7gaikRZ",
+      "ext": ".png",
+      "hash": "0ac32c04",
+      "size": 361,
+      "hash@windows": "6c076c70",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/StarDebris.png"
+    },
+    {
+      "uuid": "AIWrYQJs41-JHJa81gkx4DzW",
+      "ext": ".png",
+      "hash": "b4403e8c",
+      "size": 226,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_6.png"
+    },
+    {
+      "uuid": "AJhliQkQBW9z5r5sE7F05Tzk",
+      "ext": ".png",
+      "hash": "52fc583d",
+      "size": 361,
+      "hash@windows": "f8af3f72",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/4_0.png"
+    },
+    {
+      "uuid": "AJypAbc1XwAqB0M3e6cZfLUB",
+      "ext": ".png",
+      "hash": "7dac9134",
+      "size": 361,
+      "hash@windows": "51ba355e",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/EmeraldUnsmelted_1.png"
+    },
+    {
+      "uuid": "AKExEbMp03tvXSn9afWZgcR2",
+      "ext": ".png",
+      "hash": "80b8e5a3",
+      "size": 18243,
+      "fs_path": "image/diggin/original/UI/Explosion-0001.png"
+    },
+    {
+      "uuid": "AMCbudueYkVj-YkSIMFcca2c",
+      "ext": ".png",
+      "hash": "dd3a134f",
+      "size": 213,
+      "hash@windows": "90220f50",
+      "size@windows": 489,
+      "fs_path": "image/diggin/generated/skill_icons/DynamiteAmount.png"
+    },
+    {
+      "uuid": "AMd4ya9w2jGCGN81Tq11cx5V",
+      "ext": ".png",
+      "hash": "27c0b0c4",
+      "size": 150,
+      "fs_path": "image/diggin/original/UI/locked.png"
+    },
+    {
+      "uuid": "AO324QnsrUbkzD2IcbT1v7Je",
+      "ext": ".png",
+      "hash": "26fa8e9b",
+      "size": 298,
+      "fs_path": "image/diggin/original/UI/star2.png"
+    },
+    {
+      "uuid": "APBeWVYVyY_DNyM2KIFx35c1",
+      "ext": ".png",
+      "hash": "86731c72",
+      "size": 361,
+      "hash@windows": "af0ad9b4",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/default_3.png"
+    },
+    {
+      "uuid": "APURAa2o_Dp2aFVjs9dnJ9l9",
+      "ext": ".png",
+      "hash": "a58e75f7",
+      "size": 226,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_u.png"
+    },
+    {
+      "uuid": "AQAaIVqCtXmPtIWX3xOLVw1e",
+      "ext": ".png",
+      "hash": "60a51088",
+      "size": 21115,
+      "fs_path": "image/diggin/original/KenneyUI/tilemap_white_packed.png"
+    },
+    {
+      "uuid": "AQZ-8aFxw3XdFK1HNNuZdaNo",
+      "ext": ".png",
+      "hash": "85bdb6d5",
+      "size": 177,
+      "fs_path": "image/diggin/generated/skill_icons/MiningRate1.png"
+    },
+    {
+      "uuid": "AQpJIXdkdRGDUBUavIpkGx0F",
+      "ext": ".png",
+      "hash": "b3129134",
+      "size": 284,
+      "fs_path": "image/diggin/generated/skill_icons/UpgradeStart.png"
+    },
+    {
+      "uuid": "ARa7WT6ENuWKROeb7LMh8bAW",
+      "ext": ".png",
+      "hash": "78778cdb",
+      "size": 30537,
+      "fs_path": "image/diggin/original/UI/SpaceShip_Boss-0001.png"
+    },
+    {
+      "uuid": "ARnqofpT-sYdQJ71YDFPm5os",
+      "ext": ".png",
+      "hash": "788ac38b",
+      "size": 4000,
+      "fs_path": "image/diggin/original/Tilesets/Main/parallax_2.png"
+    },
+    {
+      "uuid": "AS76YbQ1gMW8v6jVhCo-3f1V",
+      "ext": ".png",
+      "hash": "d7714aa2",
+      "size": 341,
+      "hash@windows": "ce9fd3da",
+      "size@windows": 217,
+      "fs_path": "image/diggin/generated/skill_icons/BoomstoneRange.png"
+    },
+    {
+      "uuid": "AT8BgcMq6VoWfaJWosnNwUhU",
+      "ext": ".png",
+      "hash": "5130b0a5",
+      "size": 2285,
+      "fs_path": "image/diggin/original/Tilesets/layer/starlayer.png"
+    },
+    {
+      "uuid": "ATWKiVc5NiRioufZB9o6koQj",
+      "ext": ".png",
+      "hash": "9b6c7adb",
+      "size": 7101,
+      "fs_path": "image/diggin/original/Tilesets/restOfUpgrades.png"
+    },
+    {
+      "uuid": "ATu2-TdijPmEvDQtmnTRjtnk",
+      "ext": ".png",
+      "hash": "8e8c7258",
+      "size": 341,
+      "hash@windows": "4cfc8692",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/DynamiteActive.png"
+    },
+    {
+      "uuid": "AUET8TmQugYRUIPud5MaEKAk",
+      "ext": ".png",
+      "hash": "be8ab5cb",
+      "size": 165,
+      "fs_path": "image/diggin/original/Tilesets/Main/breakingFlash0.png"
+    },
+    {
+      "uuid": "AW8MGSRxphCKJaB5OHbP5DOY",
+      "ext": ".png",
+      "hash": "09c357b7",
+      "size": 1613,
+      "fs_path": "image/diggin/original/Tilesets/Main/starmetal_chunk.png"
+    },
+    {
+      "uuid": "AWA68ew0qI0HwyCC31SbFK03",
+      "ext": ".mp3",
+      "hash": "637c0970",
+      "size": 72480,
+      "fs_path": "audio/diggin/original/Sfx/drillLoop.mp3"
+    },
+    {
+      "uuid": "AXJV0TZv_l_p_0MHKaz2zg1O",
+      "ext": ".png",
+      "hash": "4b00ed27",
+      "size": 361,
+      "hash@windows": "cbfd65df",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/DrillDroneDamage.png"
+    },
+    {
+      "uuid": "AXVeES62wcB8yq_XvcZ8yHtv",
+      "ext": ".png",
+      "hash": "0641f32e",
+      "size": 2861,
+      "fs_path": "image/diggin/original/Tilesets/Main/purply.png"
+    },
+    {
+      "uuid": "AXW28YfF-p-03estPiSDMg2v",
+      "ext": ".png",
+      "hash": "e8eb3f1e",
+      "size": 184,
+      "fs_path": "image/diggin/original/KeywordTooltips/device.png"
+    },
+    {
+      "uuid": "AZOBweR2iSBpH2tEM6qpYB5H",
+      "ext": ".png",
+      "hash": "683c2831",
+      "size": 319,
+      "fs_path": "image/diggin/original/UI/Input Prompts/stick_r_move.png"
+    },
+    {
+      "uuid": "AZWOIQzfGI7gCUg-dP12Ag3r",
+      "ext": ".png",
+      "hash": "276aad05",
+      "size": 5323,
+      "fs_path": "image/diggin/original/Tilesets/specialOres.png"
+    },
+    {
+      "uuid": "A_1dmWL_BTJEJ-Vd1a6ZrzA6",
+      "ext": ".png",
+      "hash": "e78ccba8",
+      "size": 937921,
+      "hash@windows": "2f8aa0a6",
+      "size@windows": 4720145,
+      "fs_path": "image/cover_horizontal.png"
+    },
+    {
+      "uuid": "A_SA2fskV37rhXzZeYlaQmmv",
+      "ext": ".png",
+      "hash": "0e5c3203",
+      "size": 361,
+      "hash@windows": "2fbd1c5a",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/3_0.png"
+    },
+    {
+      "uuid": "A_rXwePgdflZfjR87sn5A5M8",
+      "ext": ".png",
+      "hash": "271acc0f",
+      "size": 2533,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer11.png"
+    },
+    {
+      "uuid": "AaMlSWsL7AndokO4fWUcKesq",
+      "ext": ".png",
+      "hash": "bc85fd1f",
+      "size": 6375,
+      "fs_path": "image/diggin/original/Player Assets/image.png"
+    },
+    {
+      "uuid": "AaQaIbfgz7wj56GIcaFgvfDo",
+      "ext": ".lua",
+      "hash": "1da47ad4",
+      "size": 4301,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssBoss.lua"
+    },
+    {
+      "uuid": "AbKayeHX2s771JWxPrw018lo",
+      "ext": ".ogg",
+      "hash": "4eaf57ae",
+      "size": 53136,
+      "fs_path": "audio/diggin/original/Sfx/Overdrive.ogg"
+    },
+    {
+      "uuid": "AbpBAbWlEEz-PMeQDIWWyCJt",
+      "ext": ".mp3",
+      "hash": "3a8327ab",
+      "size": 7041623,
+      "fs_path": "audio/diggin/original/Music/Intro Story/Introdukciona muzika za kopanje.mp3"
+    },
+    {
+      "uuid": "Ac1qoeWuLRj1Ycuky3JdIMgE",
+      "ext": ".ogg",
+      "hash": "3e3dfebe",
+      "size": 4371,
+      "fs_path": "audio/sfx/kenney/ui_click.ogg"
+    },
+    {
+      "uuid": "AcCcecQU_S1QGLQh6knmZp1q",
+      "ext": ".png",
+      "hash": "849683cb",
+      "size": 361,
+      "hash@windows": "78c98a8d",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Ruby_1.png"
+    },
+    {
+      "uuid": "AdoRSSOJp9IxcBxngYLwbgFf",
+      "ext": ".png",
+      "hash": "f54fc05f",
+      "size": 1013,
+      "fs_path": "image/diggin/original/Player Assets/animacija_busilica_16px-Sheet.png"
+    },
+    {
+      "uuid": "AdvNcXnszF3IQj5kNVaXXb99",
+      "ext": ".png",
+      "hash": "61c518d2",
+      "size": 361,
+      "hash@windows": "bb1bf6be",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/default_1.png"
+    },
+    {
+      "uuid": "Af8dMZNRwEcdysiUpW_MHyjP",
+      "ext": ".ogg",
+      "hash": "1d5af927",
+      "size": 1396602,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS10.ogg"
+    },
+    {
+      "uuid": "AfE3UcS-B4J2U6vaiNnzP0hP",
+      "ext": ".png",
+      "hash": "a5b8e83f",
+      "size": 361,
+      "hash@windows": "4aa1f490",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/0_0.png"
+    },
+    {
+      "uuid": "AgHtcYTdBGc7mE2oYNM3-uaz",
+      "ext": ".png",
+      "hash": "7827263a",
+      "size": 119,
+      "fs_path": "image/diggin/original/UI/skiltreeItemBackground.png"
+    },
+    {
+      "uuid": "Agm_AZsrUElfqKuhHqEpIFif",
+      "ext": ".png",
+      "hash": "18c9eb4d",
+      "size": 251,
+      "fs_path": "image/diggin/original/UI/Input Prompts/ps_circle.png"
+    },
+    {
+      "uuid": "AkBAST-uFRL6LYYlRLm6mNKu",
+      "ext": ".png",
+      "hash": "f3cf175c",
+      "size": 350,
+      "fs_path": "image/diggin/generated/skill_icons/MiningDamage3.png"
+    },
+    {
+      "uuid": "AkP3eTdZdSBZuji7s_kBomoq",
+      "ext": ".png",
+      "hash": "933e19a5",
+      "size": 361,
+      "hash@windows": "f49c870e",
+      "size@windows": 246,
+      "fs_path": "image/diggin/generated/skill_icons/FeverstoneDuration.png"
+    },
+    {
+      "uuid": "Al_BaYhAhtwogkzSw_oAKl-O",
+      "ext": ".png",
+      "hash": "04180828",
+      "size": 456,
+      "fs_path": "image/diggin/original/Upgrades/bolji spinning pick.png"
+    },
+    {
+      "uuid": "AmDSsTCov9OkGrUczA8yzbsd",
+      "ext": ".png",
+      "hash": "01785dc0",
+      "size": 361,
+      "hash@windows": "4308effa",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/RubyUnsmelted.png"
+    },
+    {
+      "uuid": "AmeJmUqwP-uo00g_jIVjQwQD",
+      "ext": ".ttf",
+      "hash": "5abdfda5",
+      "size": 6908552,
+      "refs": [
+        "Brwm-ZqgDaqO8-tWwUJe7Mc0"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Mono-zh_hans.ttf"
+    },
+    {
+      "uuid": "AnJYeWkmVhUMXRYkfac6De3A",
+      "ext": ".png",
+      "hash": "d1aeae9d",
+      "size": 935041,
+      "hash@windows": "aeb1b45c",
+      "size@windows": 6290153,
+      "fs_path": "image/diggin/generated/abyss/abyss_loot_rarity_atlas-v1.png"
+    },
+    {
+      "uuid": "Ao7XiTBUluKcZZIBDX8KFlTR",
+      "ext": ".png",
+      "hash": "0c65b909",
+      "size": 239,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f3.png"
+    },
+    {
+      "uuid": "AodbcTs92h6yFRzVJ9Egvn4k",
+      "ext": ".png",
+      "hash": "0b431f45",
+      "size": 294,
+      "fs_path": "image/diggin/generated/skill_icons/ShrapnelRange.png"
+    },
+    {
+      "uuid": "AoeqqTSWiBrvn_4xpPrq0sBn",
+      "ext": ".png",
+      "hash": "dc4e6edd",
+      "size": 1066020,
+      "fs_path": "image/diggin/generated/world_item_impact_atlas.png"
+    },
+    {
+      "uuid": "AqDigginChineseTitleLogo1",
+      "ext": ".png",
+      "hash": "371b4155",
+      "size": 810,
+      "fs_path": "image/diggin/generated/ui/title_cn.png"
+    },
+    {
+      "uuid": "AqGoldenDrillRewardIcon1",
+      "ext": ".png",
+      "hash": "ad19b502",
+      "size": 2881,
+      "hash@windows": "bccf5750",
+      "size@windows": 5601,
+      "fs_path": "image/diggin/generated/rewards/golden_drill.png"
+    },
+    {
+      "uuid": "AqNgCScAYofEny5Pqrj6zder",
+      "ext": ".png",
+      "hash": "1d5c30e7",
+      "size": 4609,
+      "fs_path": "image/diggin/original/Tilesets/Main/moss_layer_png.png"
+    },
+    {
+      "uuid": "ArZlYTbvEmgoDrP02Bbeh-yn",
+      "ext": ".png",
+      "hash": "c0b3bf3a",
+      "size": 1706,
+      "fs_path": "image/diggin/original/Player Assets/newDoug.png"
+    },
+    {
+      "uuid": "AsJcsQmUjfBCIFN93Cwec0RN",
+      "ext": ".png",
+      "hash": "a9bc2a0d",
+      "size": 317,
+      "fs_path": "image/diggin/original/Upgrades/shrapnel.png"
+    },
+    {
+      "uuid": "AstVeSagWvdoRV5fXon5PnNa",
+      "ext": ".png",
+      "hash": "1db6c73c",
+      "size": 473,
+      "hash@windows": "d1e19867",
+      "size@windows": 745,
+      "fs_path": "image/diggin/generated/player/hit_1.png"
+    },
+    {
+      "uuid": "AusLiQ_9a21CzGTXieSYhxpd",
+      "ext": ".lua",
+      "hash": "7f60d66d",
+      "size": 20603,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/WorldTree.lua"
+    },
+    {
+      "uuid": "Avt7GXqHW2a6Ypb9WGOyS035",
+      "ext": ".png",
+      "hash": "4fc525ba",
+      "size": 3845,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer2New.png"
+    },
+    {
+      "uuid": "AwM_aTFz6M01PR_6cnp64-CV",
+      "ext": ".png",
+      "hash": "bc7bc661",
+      "size": 233,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_x.png"
+    },
+    {
+      "uuid": "AxjYYWO67f2qL_uJs18cHYox",
+      "ext": ".png",
+      "hash": "8b94f2e6",
+      "size": 473,
+      "hash@windows": "53491ae3",
+      "size@windows": 2025,
+      "fs_path": "image/diggin/generated/skill_icons/DynamiteDamage2.png"
+    },
+    {
+      "uuid": "AytEeZnlY_saDQ83tLvZVYsA",
+      "ext": ".mp3",
+      "hash": "9a6fc716",
+      "size": 96768,
+      "fs_path": "audio/diggin/original/Sfx/hitStarmetal.mp3"
+    },
+    {
+      "uuid": "AzLL2TO-n4v7bcSoPZKLJXHB",
+      "ext": ".png",
+      "hash": "b1a7f036",
+      "size": 217,
+      "fs_path": "image/diggin/original/Upgrades/target.png"
+    },
+    {
+      "uuid": "Azrk2frD-4qAdJK0ruNrjM_n",
+      "ext": ".png",
+      "hash": "a39fbde6",
+      "size": 18221,
+      "fs_path": "image/diggin/original/Tilesets/Main/bgTest.png"
+    },
+    {
+      "uuid": "AzxMMQmkjp-kkYujmApfSfOG",
+      "ext": ".png",
+      "hash": "ae794d37",
+      "size": 1402,
+      "fs_path": "image/diggin/original/Player Assets/dougLasering.png"
+    },
+    {
+      "uuid": "B-WhWcvrkVbfYD3B5u2Jd0xo",
+      "ext": ".ogg",
+      "hash": "b1e21d17",
+      "size": 20900,
+      "fs_path": "audio/sfx/kenney/level_up.ogg"
+    },
+    {
+      "uuid": "B0UoeSCmRa7tcuQR2WxbY4Fy",
+      "ext": ".png",
+      "hash": "2655170b",
+      "size": 7562,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro1.png"
+    },
+    {
+      "uuid": "B0YcERVnJhgodhCSXGYXp5qt",
+      "ext": ".lua",
+      "hash": "5339bd6c",
+      "size": 15757,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssDraft.lua"
+    },
+    {
+      "uuid": "B1n5Oeeu0x2CDN6cE03OFSaw",
+      "ext": ".png",
+      "hash": "99313172",
+      "size": 361,
+      "hash@windows": "7415b827",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Platinum_1.png"
+    },
+    {
+      "uuid": "B2A_YcpuoEL3DkinhBqkCzcc",
+      "ext": ".jpg",
+      "hash": "aac904fe",
+      "size": 489918,
+      "fs_path": "image/diggin/publishing/cover-horizontal-cn.jpg"
+    },
+    {
+      "uuid": "B2DYQSxc33XU1RzfPfrbblaD",
+      "ext": ".png",
+      "hash": "1414110a",
+      "size": 187,
+      "fs_path": "image/diggin/generated/skill_icons/WorldSize3.png"
+    },
+    {
+      "uuid": "B2j4ueEHZ-EQxaAzvywnYss-",
+      "ext": ".png",
+      "hash": "fcf2bb20",
+      "size": 231,
+      "fs_path": "image/diggin/original/Mission/depthDiver.png"
+    },
+    {
+      "uuid": "B3fJMaihl3VQN3-QpC1hwvcf",
+      "ext": ".png",
+      "hash": "8a6176cd",
+      "size": 226,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_t.png"
+    },
+    {
+      "uuid": "B4xb2Y6xmnAiJcHL7Cwzl9jS",
+      "ext": ".png",
+      "hash": "e2c40b15",
+      "size": 245,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_s.png"
+    },
+    {
+      "uuid": "B6bJaSCdtBn3yFo2HOe50gNM",
+      "ext": ".png",
+      "hash": "b40e0c72",
+      "size": 25292,
+      "fs_path": "image/diggin/original/UI/skilltreeNew.png"
+    },
+    {
+      "uuid": "B6sZEaQwUdSQueTF8BSgOiSv",
+      "ext": ".ogg",
+      "hash": "b9250a40",
+      "size": 8701,
+      "fs_path": "audio/sfx/kenney/hurt_impact_02.ogg"
+    },
+    {
+      "uuid": "B78XqTQ_VOkipY33mBNvhSNn",
+      "ext": ".png",
+      "hash": "2f9a4797",
+      "size": 169,
+      "fs_path": "image/diggin/original/Tilesets/Main/breakingLevels.png"
+    },
+    {
+      "uuid": "B7IXEbC6Oqv43tAWyI1OrS2d",
+      "ext": ".png",
+      "hash": "337d85b7",
+      "size": 503,
+      "fs_path": "image/diggin/original/Ores/resursi_ikonice.png"
+    },
+    {
+      "uuid": "B7Kliao-x9vQ3XP5eqru5gjp",
+      "ext": ".png",
+      "hash": "169be328",
+      "size": 1307,
+      "fs_path": "image/diggin/original/Player Assets/animacija_16px-Sheet.png"
+    },
+    {
+      "uuid": "B7TXIYx82d74mR_aAYWMTF3L",
+      "ext": ".ogg",
+      "hash": "4bc27b7d",
+      "size": 78722,
+      "fs_path": "audio/diggin/original/Sfx/falling.ogg"
+    },
+    {
+      "uuid": "B843WaXgH7qj2w6ZjeZgLcKg",
+      "ext": ".png",
+      "hash": "b1e4c198",
+      "size": 361,
+      "hash@windows": "e052ba93",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/DiamondUnsmelted.png"
+    },
+    {
+      "uuid": "B8BpYVH-RxrSekpWWi7Oa-zq",
+      "ext": ".png",
+      "hash": "b3d11a86",
+      "size": 235437,
+      "hash@windows": "ab23e75d",
+      "size@windows": 524445,
+      "fs_path": "image/diggin/generated/abyss_tower/fx_blink_dash-sheet-v1.png"
+    },
+    {
+      "uuid": "B8OCQVmP5-p1CXQ0dI8qnSRP",
+      "ext": ".png",
+      "hash": "0c5f3200",
+      "size": 252,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_o.png"
+    },
+    {
+      "uuid": "B8ygYeaUSKl8NKlKRpn5vosk",
+      "ext": ".png",
+      "hash": "d66415c5",
+      "size": 246,
+      "fs_path": "image/diggin/original/UI/Input Prompts/ps_square.png"
+    },
+    {
+      "uuid": "B9sIScySyT6tB1KXsYIFFuXr",
+      "ext": ".png",
+      "hash": "5e8378a4",
+      "size": 361,
+      "hash@windows": "42695e7a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Iridium_1.png"
+    },
+    {
+      "uuid": "BA9U2XY4qhgFZBs-cy7vJc34",
+      "ext": ".png",
+      "hash": "9cb61744",
+      "size": 153,
+      "fs_path": "image/diggin/generated/skill_icons/WorldSize4.png"
+    },
+    {
+      "uuid": "BAoqCTZqLrQXd8QpkqOk_OFW",
+      "ext": ".png",
+      "hash": "9717da0c",
+      "size": 1143,
+      "fs_path": "image/diggin/original/UI/Background_Space-0001.png"
+    },
+    {
+      "uuid": "BB6riR4XhM1OI9l8QdfLciUT",
+      "ext": ".png",
+      "hash": "b828a8a6",
+      "size": 268,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f8.png"
+    },
+    {
+      "uuid": "BBKaYX6EGeyST6OlFrSmFzJP",
+      "ext": ".png",
+      "hash": "8cf49cb5",
+      "size": 194,
+      "fs_path": "image/diggin/original/Tilesets/Main/breakingFlash3.png"
+    },
+    {
+      "uuid": "BDCUYTbmy9cx-1psI99Kp4PI",
+      "ext": ".ogg",
+      "hash": "72534e04",
+      "size": 8255,
+      "fs_path": "audio/diggin/original/Sfx/pickUpSfx.ogg"
+    },
+    {
+      "uuid": "BGQjQRn5IRRgAyfTfV8TtK-I",
+      "ext": ".ogg",
+      "hash": "bfef0402",
+      "size": 13615,
+      "fs_path": "audio/sfx/kenney/equip_01.ogg"
+    },
+    {
+      "uuid": "BH3CIUpQ_NCqm9GXt3MlPKR7",
+      "ext": ".png",
+      "hash": "b1025267",
+      "size": 362,
+      "fs_path": "image/diggin/original/UI/fossilSlotv2.png"
+    },
+    {
+      "uuid": "BH6WwSY_QuX2PZW875ed9sid",
+      "ext": ".ogg",
+      "hash": "a81a3491",
+      "size": 2451391,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS5.ogg"
+    },
+    {
+      "uuid": "BI1GEevzlmf9eOOqK6oAm8yR",
+      "ext": ".webp",
+      "hash": "9870f4e0",
+      "size": 1344,
+      "fs_path": "image/diggin/original/Tilesets/Main/Layes/POSLEDNJITODOR!.webp"
+    },
+    {
+      "uuid": "BJEweaNDbbNalQwyF6nOgwMg",
+      "ext": ".png",
+      "hash": "87a74acd",
+      "size": 161,
+      "fs_path": "image/diggin/generated/skill_icons/WorldSize2.png"
+    },
+    {
+      "uuid": "BKvUcaKYqHnKCMineR_Luh7U",
+      "ext": ".png",
+      "hash": "828590f1",
+      "size": 361,
+      "hash@windows": "043f6ec5",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/6_1.png"
+    },
+    {
+      "uuid": "BMLFmS2jy2XF10gERkAvQkCe",
+      "ext": ".png",
+      "hash": "0e51ce3a",
+      "size": 1198,
+      "fs_path": "image/diggin/original/Tilesets/Main/tilesetTesting.png"
+    },
+    {
+      "uuid": "BMLjAalGT-6mCJfKuHzGFDnP",
+      "ext": ".png",
+      "hash": "3a3badef",
+      "size": 4154,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer0.png"
+    },
+    {
+      "uuid": "BNACwarVABGE9j4OGtU6RFoS",
+      "ext": ".png",
+      "hash": "603aa506",
+      "size": 361,
+      "hash@windows": "27b0cac8",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/default_5.png"
+    },
+    {
+      "uuid": "BNTMCQBISbu9xEMRXCHm0pmq",
+      "ext": ".png",
+      "hash": "8c9338d7",
+      "size": 235437,
+      "hash@windows": "09aee648",
+      "size@windows": 524445,
+      "fs_path": "image/diggin/generated/abyss_tower/floor_exit_portal-sheet-v1.png"
+    },
+    {
+      "uuid": "BOVGORLyH6AqDmNja9qRAeBv",
+      "ext": ".png",
+      "hash": "b7c93a0e",
+      "size": 3561,
+      "fs_path": "image/diggin/original/Tilesets/Main/chimichongusLayer1.png"
+    },
+    {
+      "uuid": "BPEf0Rv8xS484EKpDSm-8KX1",
+      "ext": ".png",
+      "hash": "b1e4c198",
+      "size": 361,
+      "hash@windows": "e052ba93",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/Diamond.png"
+    },
+    {
+      "uuid": "BPYuif94Bp4EgPTRNwvWHjTi",
+      "ext": ".png",
+      "hash": "55b854bb",
+      "size": 2881,
+      "hash@windows": "3caa9f4d",
+      "size@windows": 885,
+      "fs_path": "image/diggin/generated/effects/explosion_1.png"
+    },
+    {
+      "uuid": "BReowZFvxlGhmaS6NghJuEnY",
+      "ext": ".ogg",
+      "hash": "1f6596a1",
+      "size": 15099,
+      "fs_path": "audio/sfx/kenney/blade_hit_02.ogg"
+    },
+    {
+      "uuid": "BTFlgV7oQ8qeeD0zwZMJ4Yxh",
+      "ext": ".png",
+      "hash": "5dadfedc",
+      "size": 213,
+      "hash@windows": "90304caf",
+      "size@windows": 489,
+      "fs_path": "image/diggin/generated/hud_icons/Silver.png"
+    },
+    {
+      "uuid": "BTZE0aZpgnfRRThRSaz4MvLu",
+      "ext": ".png",
+      "hash": "3e7ba742",
+      "size": 361,
+      "hash@windows": "c84457f1",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/DiamondUnsmelted_2.png"
+    },
+    {
+      "uuid": "BTZIQfIqoEegAP-iZKQ3ATCQ",
+      "ext": ".png",
+      "hash": "865a92d2",
+      "size": 233,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_i.png"
+    },
+    {
+      "uuid": "BU0T-UhjccYNCaR56pJ3Rpnt",
+      "ext": ".png",
+      "hash": "092d5397",
+      "size": 361,
+      "hash@windows": "8fa1cdeb",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/drill_5.png"
+    },
+    {
+      "uuid": "BUIVQR2FuAUqm4rFNYmkz5DX",
+      "ext": ".png",
+      "hash": "86c567b3",
+      "size": 236,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_z.png"
+    },
+    {
+      "uuid": "BUNGGRN-R7o0PxBcl1hMfnnh",
+      "ext": ".png",
+      "hash": "01785dc0",
+      "size": 361,
+      "hash@windows": "4308effa",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/Ruby.png"
+    },
+    {
+      "uuid": "BV4fWRXayaIUG5MwXKIi5Kiv",
+      "ext": ".png",
+      "hash": "f6961853",
+      "size": 361,
+      "hash@windows": "41596db8",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/drill_0.png"
+    },
+    {
+      "uuid": "BVFiSTrecnPownLwcsVvXwhX",
+      "ext": ".png",
+      "hash": "0646ef73",
+      "size": 341,
+      "fs_path": "image/diggin/original/Mission/resourceScout.png"
+    },
+    {
+      "uuid": "BVwpMWul1l2orTke6IG8c42q",
+      "ext": ".png",
+      "hash": "5fd3b321",
+      "size": 3223,
+      "fs_path": "image/diggin/original/Tilesets/Main/tree23.png"
+    },
+    {
+      "uuid": "BXN1UQoGrGDaPDtPj-Sfnzjw",
+      "ext": ".png",
+      "hash": "302faa87",
+      "size": 324,
+      "fs_path": "image/diggin/original/Mission/demolitionist.png"
+    },
+    {
+      "uuid": "BXWfkXL_ZTUfnqNFc_MYBgzN",
+      "ext": ".png",
+      "hash": "c1d985c3",
+      "size": 11719,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso2.png"
+    },
+    {
+      "uuid": "BYmkMQ8D_lM_WswFwyGlIFmF",
+      "ext": ".lua",
+      "hash": "0cc78b08",
+      "size": 36140,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/ActiveEffects.lua"
+    },
+    {
+      "uuid": "BYuv-W4ci3ZqIS99peGjfaz_",
+      "ext": ".png",
+      "hash": "5e0ea73e",
+      "size": 11350,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso4.png"
+    },
+    {
+      "uuid": "BZH1QTDObPXdG1Gdc2NHxhCz",
+      "ext": ".png",
+      "hash": "8c0cced2",
+      "size": 477,
+      "fs_path": "image/diggin/generated/skill_icons/LaserCapacity.png"
+    },
+    {
+      "uuid": "B_5WAe1uK3A22vZl6G_rYCj7",
+      "ext": ".png",
+      "hash": "084e44a1",
+      "size": 1728,
+      "fs_path": "image/diggin/original/UI/starmetals.png"
+    },
+    {
+      "uuid": "BcAY0QYR2xqvh-HCx7rNEXR7",
+      "ext": ".png",
+      "hash": "b544e15a",
+      "size": 732,
+      "fs_path": "image/diggin/original/Tilesets/Main/ironBonanzaNew.png"
+    },
+    {
+      "uuid": "BdFdaWApQc2DPmQmWXUmaqDR",
+      "ext": ".png",
+      "hash": "5b67b25e",
+      "size": 357,
+      "fs_path": "image/diggin/original/Player Assets/drill.png"
+    },
+    {
+      "uuid": "BdSsGWIZ9uCsfOD527E8du6l",
+      "ext": ".png",
+      "hash": "87bbc8c3",
+      "size": 372,
+      "fs_path": "image/diggin/original/Tilesets/Main/chest.png"
+    },
+    {
+      "uuid": "BdoOMfG7Gnq-RVgGeIfuJrgg",
+      "ext": ".png",
+      "hash": "c01a2f6a",
+      "size": 4789,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro5.png"
+    },
+    {
+      "uuid": "Be-o6XmE4vwFWRigbfJ7hjYS",
+      "ext": ".png",
+      "hash": "547f9517",
+      "size": 194,
+      "fs_path": "image/diggin/generated/skill_icons/ResourceTripler.png"
+    },
+    {
+      "uuid": "BeVwETIRdkUYgOMXxB5DMTNh",
+      "ext": ".png",
+      "hash": "b1d3fc53",
+      "size": 341,
+      "hash@windows": "f119b193",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/EmeraldRefinery.png"
+    },
+    {
+      "uuid": "BfRUkTwZ0vkC6xzXwdixy9ns",
+      "ext": ".png",
+      "hash": "b88675d1",
+      "size": 4033,
+      "fs_path": "image/diggin/original/Ores/digbimisijegif.png"
+    },
+    {
+      "uuid": "BfaJIYEFM66FgU6bemGrHHqt",
+      "ext": ".png",
+      "hash": "8c51671c",
+      "size": 1015,
+      "fs_path": "image/diggin/original/Tilesets/fov.png"
+    },
+    {
+      "uuid": "BgCviebFkuFhKjMsq6Cjz4K1",
+      "ext": ".json",
+      "groups": [
+        "#blocking",
+        "default"
+      ],
+      "source": "official-res",
+      "refs": [
+        "AvmfQQWPOJKQln4kISbq1qsK",
+        "B9gxWZGEvJv99DLadVBNjeBm",
+        "C5TH8Um7enDvsccQp0yKaFKv",
+        "ENWpeS8aUuN3DMZ4kLZtqc6Q",
+        "EPbSsW5xhUNav0MZt0b_VGe-",
+        "Ej2uwTLda_LOVYIAw4Bs_Hog",
+        "F4ItQUiV0gmvAelLXpk5yrTs",
+        "FmD_MVX6NJVaeW9vdQ4EIlTq",
+        "FmaJEb00vYdE9vFmbO60Xkn6",
+        "Fr5sya5vN3P0bfThXYJ2XcGw",
+        "G2FlEdwwzR0rliGuXVgGpK2C",
+        "Gegssbk9ZAijVsigDH-iMHAR",
+        "HBTyuRZ6z-VATB16tjmWi3Uo",
+        "HIsCIUT7yv1mueg3KlvzX2Xz",
+        "HTriplanarTech01aB2cDe",
+        "KTriplanarShaderFinal1",
+        "XimTixnDEW7k2OzjV7sFq9vM",
+        "iV_WrtdX3cKmljRIMhn5PZlT"
+      ],
+      "fs_path": "generated/__official_pinned_refs__.json"
+    },
+    {
+      "uuid": "BgjM6R-uAOt3QGe9TYEvDbgp",
+      "ext": ".png",
+      "hash": "d21fb005",
+      "size": 357,
+      "fs_path": "image/diggin/original/UI/startingUpg.png"
+    },
+    {
+      "uuid": "Bha1-VuTaEuIUycLHmDTqarn",
+      "ext": ".png",
+      "hash": "e23c267e",
+      "size": 569,
+      "hash@windows": "3d03a33c",
+      "size@windows": 536,
+      "fs_path": "image/diggin/generated/player/laser_3.png"
+    },
+    {
+      "uuid": "Bi-g0YVef48w0vPK8li4D2iW",
+      "ext": ".png",
+      "hash": "c16d5b05",
+      "size": 1197,
+      "hash@windows": "7c2a7914",
+      "size@windows": 766,
+      "fs_path": "image/diggin/generated/abyss_tower/fx_enemy_burst-sheet-v1.png"
+    },
+    {
+      "uuid": "BiCGoQr6dsk7e7J2cXdHjlna",
+      "ext": ".ogg",
+      "hash": "02d0f5b8",
+      "size": 15577,
+      "fs_path": "audio/sfx/kenney/crit_bell_01.ogg"
+    },
+    {
+      "uuid": "Bl1l8Q_V6bnyfRQKU7CblvNX",
+      "ext": ".png",
+      "hash": "7f9e6532",
+      "size": 361,
+      "hash@windows": "844e36c4",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/EmeraldUnsmelted_0.png"
+    },
+    {
+      "uuid": "Bl4Eyb2Z8txLF4cO_IrJ7oCS",
+      "ext": ".png",
+      "hash": "b0ae68c1",
+      "size": 2881,
+      "hash@windows": "89705586",
+      "size@windows": 1128,
+      "fs_path": "image/diggin/generated/effects/explosion_3.png"
+    },
+    {
+      "uuid": "BlQ9SfsHohgFQjIw7skgCzH9",
+      "ext": ".png",
+      "hash": "8c417b54",
+      "size": 291,
+      "fs_path": "image/diggin/original/UI/Input Prompts/xbox_y.png"
+    },
+    {
+      "uuid": "BlQU0eiZKrMs2KhJw701jgav",
+      "ext": ".png",
+      "hash": "23a6d357",
+      "size": 615,
+      "fs_path": "image/diggin/original/Tilesets/Main/goldore.png"
+    },
+    {
+      "uuid": "BlgpqRG35VnFso1aW7Sj_eeW",
+      "ext": ".png",
+      "hash": "d6f57772",
+      "size": 256,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad_left.png"
+    },
+    {
+      "uuid": "Blm4CXscBvRDI93rWkihZHlt",
+      "ext": ".png",
+      "hash": "9fc228cf",
+      "size": 341,
+      "hash@windows": "73a962dc",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/Boomerang.png"
+    },
+    {
+      "uuid": "Bly9gbtlGQolIfYOt_INErEv",
+      "ext": ".png",
+      "hash": "50693cdd",
+      "size": 8804,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro2.png"
+    },
+    {
+      "uuid": "BmdHYb5SPbD3SPcNw9fua3BM",
+      "ext": ".png",
+      "hash": "15b0dcad",
+      "size": 473,
+      "hash@windows": "a762061c",
+      "size@windows": 274,
+      "fs_path": "image/diggin/generated/skill_icons/Aftershocks.png"
+    },
+    {
+      "uuid": "BnMSCVMfQDL1zI0owPXEM2-z",
+      "ext": ".png",
+      "hash": "7f9e6532",
+      "size": 361,
+      "hash@windows": "844e36c4",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/Emerald.png"
+    },
+    {
+      "uuid": "Bo26aZCP9CI_8z_084MTrftv",
+      "ext": ".png",
+      "hash": "3171c1a3",
+      "size": 194148,
+      "fs_path": "image/diggin/original/Logo/korean.png"
+    },
+    {
+      "uuid": "Bp7VcU2J_396QKyvf9ikP6Ov",
+      "ext": ".png",
+      "hash": "b6caeb9e",
+      "size": 361,
+      "hash@windows": "7299e612",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Emerald_2.png"
+    },
+    {
+      "uuid": "BpbbcSjaZJo9m3RXPvGHFRav",
+      "ext": ".lua",
+      "hash": "ff40e202",
+      "size": 11930,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Ads.lua"
+    },
+    {
+      "uuid": "BqangUrDckED8uvDy4GfuthC",
+      "ext": ".mp3",
+      "hash": "41e2b030",
+      "size": 295680,
+      "fs_path": "audio/diggin/original/Sfx/Overheat.mp3"
+    },
+    {
+      "uuid": "BrREgW7TMev3aaueFpmB2UIp",
+      "ext": ".png",
+      "hash": "eff291a7",
+      "size": 4705,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer2.png"
+    },
+    {
+      "uuid": "BrUQeYI7BNQV14aQqLgakMWp",
+      "ext": ".png",
+      "hash": "4876dd8d",
+      "size": 2323,
+      "fs_path": "image/diggin/original/Tilesets/Main/blox.png"
+    },
+    {
+      "uuid": "Brwm-ZqgDaqO8-tWwUJe7Mc0",
+      "ext": ".xml",
+      "hash": "685fba4a",
+      "size": 62,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Mono-zh_hans.xml"
+    },
+    {
+      "uuid": "BtF9YTHYNyjXqDC5p32FthKF",
+      "ext": ".png",
+      "hash": "b1e4c198",
+      "size": 361,
+      "hash@windows": "e052ba93",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/DiamondUnsmelted_0.png"
+    },
+    {
+      "uuid": "BtY86f9RAPSXC5_E6C4sfwf9",
+      "ext": ".png",
+      "hash": "b3c3f386",
+      "size": 102281,
+      "fs_path": "image/screenshot_02.png"
+    },
+    {
+      "uuid": "BvCF6ceCdV-AuYQY1f45AitI",
+      "ext": ".webp",
+      "hash": "9843c80b",
+      "size": 32874,
+      "fs_path": "image/diggin/original/UI/skellyCursor.webp"
+    },
+    {
+      "uuid": "BwJo-c0c7wNB3p7DlR-C5tqd",
+      "ext": ".png",
+      "hash": "828590f1",
+      "size": 361,
+      "hash@windows": "043f6ec5",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/6_2.png"
+    },
+    {
+      "uuid": "BxEwOQHE01y7xWpioEh-qCT2",
+      "ext": ".png",
+      "hash": "f40e86a5",
+      "size": 1496,
+      "fs_path": "image/diggin/original/starUpgrades.png"
+    },
+    {
+      "uuid": "BxIYMRS9SACKEa2pookariUg",
+      "ext": ".png",
+      "hash": "4335580b",
+      "size": 3589,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer1.png"
+    },
+    {
+      "uuid": "BxaV2YKvYTFRa_J3LFm57AyE",
+      "ext": ".png",
+      "hash": "fb93e332",
+      "size": 178,
+      "fs_path": "image/diggin/original/Tilesets/Main/breakingFlash1.png"
+    },
+    {
+      "uuid": "Bxb1qd-4kIzK36vZagIy77tg",
+      "ext": ".png",
+      "hash": "8b45fb5b",
+      "size": 142,
+      "fs_path": "image/diggin/original/Tilesets/Main/kursor2.png"
+    },
+    {
+      "uuid": "BzEkgeN52dApxpy4pRXIu3Og",
+      "ext": ".png",
+      "hash": "ae6b7dc2",
+      "size": 2819,
+      "fs_path": "image/diggin/original/Player Assets/digbimisiasdajegif.png"
+    },
+    {
+      "uuid": "C-WwOSxjPIs-_MeoCyN2t419",
+      "ext": ".png",
+      "hash": "e476e847",
+      "size": 473,
+      "hash@windows": "c8e55a3b",
+      "size@windows": 1533,
+      "fs_path": "image/diggin/generated/skill_icons/DrillMissileDamage.png"
+    },
+    {
+      "uuid": "C-_RSVACt7xwdiqQvXbtHhu1",
+      "ext": ".png",
+      "hash": "69ead8fb",
+      "size": 213,
+      "hash@windows": "2d564d82",
+      "size@windows": 489,
+      "fs_path": "image/diggin/generated/hud_icons/Stone.png"
+    },
+    {
+      "uuid": "C0OIGSZmIXiqBP5-rdZQjB1C",
+      "ext": ".png",
+      "hash": "ac2ff035",
+      "size": 293,
+      "hash@windows": "2b685dc0",
+      "size@windows": 765,
+      "fs_path": "image/diggin/generated/skill_icons/FuelTank1.png"
+    },
+    {
+      "uuid": "C0Z2CQCOHDpMlRnwYeWX-8Q8",
+      "ext": ".png",
+      "hash": "6648aad4",
+      "size": 341,
+      "hash@windows": "c2fb1df6",
+      "size@windows": 989,
+      "fs_path": "image/diggin/generated/skill_icons/DiamondSmeltMult.png"
+    },
+    {
+      "uuid": "C2CywS-GEZ8hIVEw8JrCzITc",
+      "ext": ".lua",
+      "hash": "496b9066",
+      "size": 1803,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/CosmeticMotion.lua"
+    },
+    {
+      "uuid": "C2D9-aB6V_diz-YHefCNG1ic",
+      "ext": ".png",
+      "hash": "5f38fb5b",
+      "size": 226,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_v.png"
+    },
+    {
+      "uuid": "C2np6RNAwpUtz7zj0a10sV4g",
+      "ext": ".ogg",
+      "hash": "54b3d4c9",
+      "size": 2411873,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS7.ogg"
+    },
+    {
+      "uuid": "C8Cc2WNYzBY_PZDqHzFyl7Cf",
+      "ext": ".png",
+      "hash": "5f194488",
+      "size": 436,
+      "fs_path": "image/diggin/original/UI/upgradeNodesUI.png"
+    },
+    {
+      "uuid": "C8NdMfj3wdlLT2PLDsi_q2g0",
+      "ext": ".png",
+      "hash": "a6a0b027",
+      "size": 361,
+      "hash@windows": "306c0317",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/drill_4.png"
+    },
+    {
+      "uuid": "C8O3aRGmopvJ6y3yWPmgbQ_o",
+      "ext": ".png",
+      "hash": "1648c597",
+      "size": 248,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_2.png"
+    },
+    {
+      "uuid": "C8gakfbP_jCWtJY54FDIevG1",
+      "ext": ".png",
+      "hash": "3e07c6e0",
+      "size": 361,
+      "hash@windows": "f7a5399a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/drill_1.png"
+    },
+    {
+      "uuid": "C9Y2qX3ojF57_2qDpe8MU38d",
+      "ext": ".png",
+      "hash": "fc37291d",
+      "size": 341,
+      "hash@windows": "d23b326f",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/BouncingBall.png"
+    },
+    {
+      "uuid": "C9bs4R2Fs8T8yIRhCPGz8Rvb",
+      "ext": ".png",
+      "hash": "979b669b",
+      "size": 447,
+      "fs_path": "image/diggin/original/Player Assets/dag1.png"
+    },
+    {
+      "uuid": "C9fZ0TmFlWe0vjeL_tpkmRjy",
+      "ext": ".png",
+      "hash": "64816f8f",
+      "size": 247,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_5.png"
+    },
+    {
+      "uuid": "CA2cee-rfz_k2dR1vDUXPoFT",
+      "ext": ".png",
+      "hash": "57e41f2a",
+      "size": 361,
+      "hash@windows": "5568046d",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/BulletWormDamage.png"
+    },
+    {
+      "uuid": "CBzH0bqWk_5O7GJTyWBnmExh",
+      "ext": ".png",
+      "hash": "52fc583d",
+      "size": 361,
+      "hash@windows": "f8af3f72",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/4_1.png"
+    },
+    {
+      "uuid": "CD1qmeoc2WUIl4VzEravXlML",
+      "ext": ".png",
+      "hash": "684cce22",
+      "size": 352,
+      "fs_path": "image/diggin/generated/skill_icons/GoldBonanza.png"
+    },
+    {
+      "uuid": "CDBbsWCutBGfX0AoK11VgbaB",
+      "ext": ".png",
+      "hash": "2cd239c0",
+      "size": 451,
+      "fs_path": "image/diggin/original/Player Assets/newDrill.png"
+    },
+    {
+      "uuid": "CDnc-SRNmum0gOMgQj_0THyC",
+      "ext": ".png",
+      "hash": "7fe3ed3a",
+      "size": 361,
+      "hash@windows": "2d77eb9c",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/fuelstone_0.png"
+    },
+    {
+      "uuid": "CE11ERomjOvtNpyqj5E6TeZs",
+      "ext": ".png",
+      "hash": "7f9e6532",
+      "size": 361,
+      "hash@windows": "844e36c4",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Emerald.png"
+    },
+    {
+      "uuid": "CF2VoU1wpF5g11zpMwJI0G3e",
+      "ext": ".png",
+      "hash": "f966534a",
+      "size": 3552,
+      "fs_path": "image/diggin/original/UI/Asteroids-0001.png"
+    },
+    {
+      "uuid": "CFGA-erJoBZcGueIEWOV9WPM",
+      "ext": ".lua",
+      "hash": "0cf0e00d",
+      "size": 16830,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssProgressionRenderer.lua"
+    },
+    {
+      "uuid": "CG2K4V9LLK5cZ3Fq-DL9rRZl",
+      "ext": ".png",
+      "hash": "3a5904e1",
+      "size": 585,
+      "fs_path": "image/diggin/original/Player Assets/krtek.png"
+    },
+    {
+      "uuid": "CHPfiftxV5POuoI-Tw5-zREG",
+      "ext": ".png",
+      "hash": "0438ea48",
+      "size": 510,
+      "fs_path": "image/diggin/generated/skill_icons/TheWorm.png"
+    },
+    {
+      "uuid": "CHzegXuu_X2a_uskFDOBGY6g",
+      "ext": ".png",
+      "hash": "828590f1",
+      "size": 361,
+      "hash@windows": "043f6ec5",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/6_0.png"
+    },
+    {
+      "uuid": "CIjp6YT8jL1GkoAzSWATfVDH",
+      "ext": ".png",
+      "hash": "936c0011",
+      "size": 4570,
+      "fs_path": "image/diggin/original/UI/UI_sprites-0001.png"
+    },
+    {
+      "uuid": "CJDi2YXpYMeUOsuyOOKnkVna",
+      "ext": ".png",
+      "hash": "c791f731",
+      "size": 184555,
+      "fs_path": "image/screenshot_03.png"
+    },
+    {
+      "uuid": "CJOYQfjAKueG8z7f3QYD7-AI",
+      "ext": ".ogg",
+      "hash": "780c062e",
+      "size": 2715787,
+      "fs_path": "audio/diggin/original/Music/Main Menu/Diggin Main Menu.ogg"
+    },
+    {
+      "uuid": "CJynAWQ66RmJYg6PfTt_IzrW",
+      "ext": ".png",
+      "hash": "51cb1f0f",
+      "size": 226,
+      "fs_path": "image/diggin/original/Tilesets/Main/uminable.png"
+    },
+    {
+      "uuid": "CLVfkYz8hI7o0pRMlE3uLFkB",
+      "ext": ".png",
+      "hash": "7e0308f9",
+      "size": 361,
+      "hash@windows": "2931de53",
+      "size@windows": 1245,
+      "fs_path": "image/diggin/generated/skill_icons/BoomerangDamage.png"
+    },
+    {
+      "uuid": "CL_r0eAwsj3WCfCmOV1HN6bz",
+      "ext": ".png",
+      "hash": "18db7e5d",
+      "size": 2877,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer12.png"
+    },
+    {
+      "uuid": "CLeN6TCx6K3yfBXbMlDkJ_oc",
+      "ext": ".png",
+      "hash": "e23ddfff",
+      "size": 350,
+      "fs_path": "image/diggin/original/Player Assets/dynamite.png"
+    },
+    {
+      "uuid": "CMDhUVmaPzP0_G046Ze6bwD0",
+      "ext": ".png",
+      "hash": "2a26a57e",
+      "size": 1210,
+      "fs_path": "image/diggin/original/UI/skillTreeBackgroundSheet.png"
+    },
+    {
+      "uuid": "CNf4AdFqctJH4iLBMalN4wQg",
+      "ext": ".ogg",
+      "hash": "9986bb8b",
+      "size": 2868429,
+      "fs_path": "audio/diggin/original/Music/Skill Tree/Skill tree.ogg"
+    },
+    {
+      "uuid": "COX5AXyt6bamlDOZRQ8krMNu",
+      "ext": ".png",
+      "hash": "957496d4",
+      "size": 717,
+      "fs_path": "image/diggin/original/UI/tooltips.png"
+    },
+    {
+      "uuid": "CPbCMfTuPwLbmkpgAtb4rkQI",
+      "ext": ".ogg",
+      "hash": "f7af682a",
+      "size": 24617,
+      "fs_path": "audio/diggin/original/Sfx/fossilsarifactsdraft.ogg"
+    },
+    {
+      "uuid": "CPb_kXmsHBHp8RjlgFVNwm6N",
+      "ext": ".ogg",
+      "hash": "113d2d0f",
+      "size": 7564,
+      "fs_path": "audio/diggin/original/Sfx/addSFX.ogg"
+    },
+    {
+      "uuid": "CWnZSVXCoioiPif25qwnoswv",
+      "ext": ".png",
+      "hash": "b0fd4cae",
+      "size": 174,
+      "fs_path": "image/diggin/generated/skill_icons/MiningRate2.png"
+    },
+    {
+      "uuid": "CXoDwXySz3nTHFSfRgyi6OQo",
+      "ext": ".lua",
+      "hash": "634c9a5a",
+      "size": 71742,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/State.lua"
+    },
+    {
+      "uuid": "CXwT0SS1reiu5eMAZpZm2KXV",
+      "ext": ".png",
+      "hash": "8731d1bd",
+      "size": 1167,
+      "fs_path": "image/diggin/original/Tilesets/Main/bedrockLayer.png"
+    },
+    {
+      "uuid": "CYQBmXcn-BuFAT3D1xCq-Lvl",
+      "ext": ".png",
+      "hash": "11466031",
+      "size": 904,
+      "fs_path": "image/diggin/original/Tilesets/Main/frenzy.png"
+    },
+    {
+      "uuid": "CZhxMcuzxPw9pAMcBzRupyhL",
+      "ext": ".png",
+      "hash": "8e27ebe1",
+      "size": 361,
+      "hash@windows": "99594731",
+      "size@windows": 1245,
+      "fs_path": "image/diggin/generated/skill_icons/CritDamage1.png"
+    },
+    {
+      "uuid": "C_X0sbE2eUqZC4r9SgSUBWqA",
+      "ext": ".png",
+      "hash": "41d42e56",
+      "size": 361,
+      "hash@windows": "6cc2fa37",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/1_0.png"
+    },
+    {
+      "uuid": "Ca3Isaa-_Niu6oHYDTK-f_QT",
+      "ext": ".png",
+      "hash": "dd630332",
+      "size": 99,
+      "fs_path": "image/diggin/original/Tilesets/Main/singleTile.png"
+    },
+    {
+      "uuid": "Camv-UhB6EmkupO24yRGIoIU",
+      "ext": ".png",
+      "hash": "f37b3757",
+      "size": 3708,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer7.png"
+    },
+    {
+      "uuid": "Cav2ydzVWiCCxKepxw_Vw1Am",
+      "ext": ".png",
+      "hash": "488e5e70",
+      "size": 5651,
+      "fs_path": "image/diggin/original/Ores/VIDan_fossil_animacija_bolja_da_ja_sam_gugalingorovic.png"
+    },
+    {
+      "uuid": "CcweaZBmuqQXY9APO5rQxQ9a",
+      "ext": ".png",
+      "hash": "d37a35c4",
+      "size": 361,
+      "hash@windows": "b9d1ee5d",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/2_2.png"
+    },
+    {
+      "uuid": "CdWdyXYlqrd0Ahh9Z5ehgF1p",
+      "ext": ".png",
+      "hash": "0c5f3200",
+      "size": 252,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_0.png"
+    },
+    {
+      "uuid": "CeC66au9EhQ7IQ0To5nIMZXa",
+      "ext": ".png",
+      "hash": "c68b63f6",
+      "size": 293,
+      "hash@windows": "9d44d963",
+      "size@windows": 765,
+      "fs_path": "image/diggin/generated/skill_icons/FuelTank2.png"
+    },
+    {
+      "uuid": "CePP8Y8_4hR6oQ4Rvc7la0JQ",
+      "ext": ".png",
+      "hash": "3941af9b",
+      "size": 848,
+      "fs_path": "image/diggin/original/Player Assets/DRILL_ANIMATION.png"
+    },
+    {
+      "uuid": "Cf9oiTSMMUW71KtQHx3y28mn",
+      "ext": ".png",
+      "hash": "1a7f5d19",
+      "size": 267,
+      "fs_path": "image/diggin/original/UI/Input Prompts/mouse_left.png"
+    },
+    {
+      "uuid": "CfTTcWwA_BY3TlhElTbT4jLn",
+      "ext": ".png",
+      "hash": "682b61e0",
+      "size": 4104,
+      "fs_path": "image/diggin/original/Player Assets/newTilese.png"
+    },
+    {
+      "uuid": "CfZdqaeRKGJ4jJ6ObJ3Z2rAo",
+      "ext": ".png",
+      "hash": "838d1dcd",
+      "size": 170,
+      "fs_path": "image/diggin/original/laserdetail.png"
+    },
+    {
+      "uuid": "CffwsX-jAq8t9ir6h3JB-3PK",
+      "ext": ".png",
+      "hash": "1eb550b5",
+      "size": 250,
+      "fs_path": "image/diggin/generated/skill_icons/ShockwaveRadius.png"
+    },
+    {
+      "uuid": "Cflh4RnWaUheV0Tg2T_zwb1k",
+      "ext": ".jpg",
+      "hash": "d66d7637",
+      "size": 577487,
+      "fs_path": "image/diggin/publishing/cover-square-cn.jpg"
+    },
+    {
+      "uuid": "CgiVOUDS3HbNnGwti3sqWY_f",
+      "ext": ".png",
+      "hash": "62125172",
+      "size": 989,
+      "fs_path": "image/diggin/original/Player Assets/vidan.png"
+    },
+    {
+      "uuid": "Ch0GkfjKNcqxEcZIaip8EyhT",
+      "ext": ".png",
+      "hash": "98fcecf2",
+      "size": 347,
+      "fs_path": "image/diggin/generated/skill_icons/MiningDamage2.png"
+    },
+    {
+      "uuid": "Cj9qmYaGtINPK3DIdFeU3NUr",
+      "ext": ".png",
+      "hash": "24ff1bc2",
+      "size": 3542,
+      "fs_path": "image/diggin/original/Tilesets/Main/chimichongusLayer.png"
+    },
+    {
+      "uuid": "CjrfgUEC9p2wIHZQEdaES9xd",
+      "ext": ".png",
+      "hash": "a0074907",
+      "size": 228,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_j.png"
+    },
+    {
+      "uuid": "CndSyYr-dJoe9iXrKC1MzH_r",
+      "ext": ".png",
+      "hash": "41cc90fb",
+      "size": 223,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_1.png"
+    },
+    {
+      "uuid": "CqOH0SvgnH5jrFz4b18OpTLz",
+      "ext": ".ogg",
+      "hash": "c668df36",
+      "size": 5159,
+      "fs_path": "audio/diggin/original/Sfx/MouseDown.ogg"
+    },
+    {
+      "uuid": "Cqb7QWEOdqaberuPqlSBzI-h",
+      "ext": ".png",
+      "hash": "637f1d55",
+      "size": 271,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad_right.png"
+    },
+    {
+      "uuid": "CqeYMYRJREUQkmcOku1rlb3C",
+      "ext": ".png",
+      "hash": "53a4db79",
+      "size": 361,
+      "hash@windows": "c736e62d",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/feverstone_1.png"
+    },
+    {
+      "uuid": "CrWLEcjL173Pq5aoSiMWYzYW",
+      "ext": ".png",
+      "hash": "6faee101",
+      "size": 361,
+      "hash@windows": "132683af",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/10_2.png"
+    },
+    {
+      "uuid": "Cro0WVQV3GURTayNl1D2nXMJ",
+      "ext": ".png",
+      "hash": "43f6e9b8",
+      "size": 640,
+      "fs_path": "image/diggin/original/Tilesets/Main/chestWorld.png"
+    },
+    {
+      "uuid": "Cs8lUaatR98bVOuutN4QIRQ8",
+      "ext": ".png",
+      "hash": "1c03cafd",
+      "size": 361,
+      "hash@windows": "8154a5eb",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/DynamiteRadius.png"
+    },
+    {
+      "uuid": "CsD0eUYmL_28RHvL8PPWplt7",
+      "ext": ".lua",
+      "hash": "f837cbd4",
+      "size": 1822,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/WorldTreeEarly.lua"
+    },
+    {
+      "uuid": "CsDpgb6k5nZJ_tgQO0vbkBkP",
+      "ext": ".png",
+      "hash": "83424111",
+      "size": 361,
+      "hash@windows": "0a269a28",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Platinum.png"
+    },
+    {
+      "uuid": "CsodmU1zIMBivtTRV9XLhyZm",
+      "ext": ".png",
+      "hash": "bb5f6cdd",
+      "size": 213,
+      "hash@windows": "7c510339",
+      "size@windows": 341,
+      "fs_path": "image/diggin/generated/skill_icons/FuelEfficiency2.png"
+    },
+    {
+      "uuid": "CtlxQc03mPU6gXH0ZyUvtczQ",
+      "ext": ".png",
+      "hash": "236afc54",
+      "size": 366,
+      "fs_path": "image/diggin/original/UI/fossilSlot.png"
+    },
+    {
+      "uuid": "CumG4ZLHEMcbXkO9EH8-VQ3L",
+      "ext": ".png",
+      "hash": "01785dc0",
+      "size": 361,
+      "hash@windows": "4308effa",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Ruby.png"
+    },
+    {
+      "uuid": "CvQhofkyp8cmagGBNK6fqPuo",
+      "ext": ".png",
+      "hash": "a7b22d75",
+      "size": 361,
+      "hash@windows": "b5906116",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/Feverstone.png"
+    },
+    {
+      "uuid": "CwsG4U2llvmRv_cyVeT1v64I",
+      "ext": ".png",
+      "hash": "d61856bd",
+      "size": 220,
+      "fs_path": "image/diggin/original/Tilesets/Main/ores.png"
+    },
+    {
+      "uuid": "Cx5YQStYQ0TAQu_iDKekQV-i",
+      "ext": ".png",
+      "hash": "5f87a825",
+      "size": 361,
+      "hash@windows": "1ba1a0c0",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Platinum_2.png"
+    },
+    {
+      "uuid": "CxULGUDxW0rQpJOVAblnQ5Eb",
+      "ext": ".png",
+      "hash": "81884040",
+      "size": 15223,
+      "fs_path": "image/diggin/original/UI/SpaceShips_Player-0001.png"
+    },
+    {
+      "uuid": "Cxz8URqvtfTTHaPRS8pfgNdm",
+      "ext": ".png",
+      "hash": "eec98d54",
+      "size": 12322,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro6.png"
+    },
+    {
+      "uuid": "CyJwWdraaSi97qGftLf_YpYr",
+      "ext": ".lua",
+      "hash": "de282278",
+      "size": 18501,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/World.lua"
+    },
+    {
+      "uuid": "CyazafKVRxN5tvFNxJ7aR6lA",
+      "ext": ".png",
+      "hash": "a6535398",
+      "size": 2900,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer9.png"
+    },
+    {
+      "uuid": "CytneeeXCvmSKX-rcRuVmonV",
+      "ext": ".png",
+      "hash": "59310b54",
+      "size": 251,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_8.png"
+    },
+    {
+      "uuid": "D-qawX6Tv_RG7fdq_8JVp0yB",
+      "ext": ".ttf",
+      "hash": "dc213d82",
+      "size": 5646728,
+      "groups": [
+        "startup_fonts",
+        "default"
+      ],
+      "fs_path": "Fonts/diggin/fusion-pixel-12px-proportional-zh_hans.ttf"
+    },
+    {
+      "uuid": "D1lzKRR_z0NJNma5RUCufdMz",
+      "ext": ".png",
+      "hash": "f5e49f42",
+      "size": 3427,
+      "fs_path": "image/diggin/original/Player Assets/dougFalling.png"
+    },
+    {
+      "uuid": "D1yIgb2nL6uzMoishl8eeIGh",
+      "ext": ".lua",
+      "hash": "f21cb5e7",
+      "size": 200666,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/data/SkillTreeData.lua"
+    },
+    {
+      "uuid": "D29WgaxP0T9Ibt-qJnyUiCrr",
+      "ext": ".png",
+      "hash": "f83632ea",
+      "size": 361,
+      "hash@windows": "ff6e3e65",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/FieldOfView4.png"
+    },
+    {
+      "uuid": "D2_Tyei7nA-auDlhPcyK5Bbp",
+      "ext": ".png",
+      "hash": "68423110",
+      "size": 3433,
+      "fs_path": "image/diggin/original/image.png"
+    },
+    {
+      "uuid": "D3S70b1vzkZuy1URYAF54K0o",
+      "ext": ".lua",
+      "hash": "16d0ce30",
+      "size": 88241,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Renderer.lua"
+    },
+    {
+      "uuid": "D3e7GWvdEshF7svvqWgNtg0x",
+      "ext": ".png",
+      "hash": "4bddb0a3",
+      "size": 2831,
+      "fs_path": "image/diggin/original/Tilesets/Main/Layes/narandzastocrveni.png"
+    },
+    {
+      "uuid": "D3gE-XSUo9fm2w8LhYf9gKWs",
+      "ext": ".lua",
+      "hash": "75970c67",
+      "size": 1009,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/RunCombatStats.lua"
+    },
+    {
+      "uuid": "D4MwqZquHfMY2QmwkzXDVDYu",
+      "ext": ".png",
+      "hash": "2e0448cd",
+      "size": 9741,
+      "fs_path": "image/diggin/original/UI/skillTreeIcons.png"
+    },
+    {
+      "uuid": "D4uI2ZDsgD2PW6yuaOFbno0n",
+      "ext": ".png",
+      "hash": "421d56ac",
+      "size": 229,
+      "fs_path": "image/diggin/generated/skill_icons/OverdriveRegen.png"
+    },
+    {
+      "uuid": "D5LXobSzcZKHWO1BfUFhH-j_",
+      "ext": ".png",
+      "hash": "e4441048",
+      "size": 178,
+      "fs_path": "image/diggin/original/KeywordTooltips/drill.png"
+    },
+    {
+      "uuid": "D5VxQQqSSYnUzn4awiGbEfMf",
+      "ext": ".png",
+      "hash": "811ff6b1",
+      "size": 330,
+      "fs_path": "image/diggin/original/UI/Input Prompts/stick_l_move.png"
+    },
+    {
+      "uuid": "D78PIfNRXpN0o4Vici34DQmR",
+      "ext": ".png",
+      "hash": "e8eb6703",
+      "size": 2145,
+      "fs_path": "image/diggin/original/UI/Exhaust-0001.png"
+    },
+    {
+      "uuid": "D7FaefETBxZ58dMBDkkA8zEr",
+      "ext": ".png",
+      "hash": "35494d86",
+      "size": 3612,
+      "fs_path": "image/diggin/original/Ores/digbifosilgif.png"
+    },
+    {
+      "uuid": "D7_68W7T9lG5d8ckFuQsAiuI",
+      "ext": ".png",
+      "hash": "92475163",
+      "size": 141,
+      "fs_path": "image/diggin/generated/skill_icons/WorldSize1.png"
+    },
+    {
+      "uuid": "D7es2XlsrasNRzjmGY_oWTvs",
+      "ext": ".png",
+      "hash": "4983ea0e",
+      "size": 5205,
+      "fs_path": "image/diggin/original/UI/resources2.png"
+    },
+    {
+      "uuid": "D7wKCQuW63nMh_MUsAclYjOQ",
+      "ext": ".png",
+      "hash": "7f9e6532",
+      "size": 361,
+      "hash@windows": "844e36c4",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Emerald_0.png"
+    },
+    {
+      "uuid": "D8PbSfm644_lEKTVpsVwZmcp",
+      "ext": ".png",
+      "hash": "ad8d7248",
+      "size": 156159,
+      "fs_path": "image/diggin/original/japanese.png"
+    },
+    {
+      "uuid": "D9qCEedxeLUApk-_nHbPeDzE",
+      "ext": ".png",
+      "hash": "15e97b46",
+      "size": 717,
+      "fs_path": "image/diggin/original/UI/diggin_pixel_logo.png"
+    },
+    {
+      "uuid": "DA-a4fpgoY8ZcWWmFJj72Qug",
+      "ext": ".png",
+      "hash": "ed531298",
+      "size": 205,
+      "fs_path": "image/diggin/generated/skill_icons/Laser.png"
+    },
+    {
+      "uuid": "DAgpoR5tpUJFocxlz0XM91TE",
+      "ext": ".png",
+      "hash": "653bb1ab",
+      "size": 418,
+      "fs_path": "image/diggin/generated/skill_icons/IridiumBonanza.png"
+    },
+    {
+      "uuid": "DAkXEbeLNcM7Xt9zx6IvNQj8",
+      "ext": ".png",
+      "hash": "01785dc0",
+      "size": 361,
+      "hash@windows": "4308effa",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/RubyUnsmelted_0.png"
+    },
+    {
+      "uuid": "DAsnoZy33MQCw5XiSjA4zn9T",
+      "ext": ".png",
+      "hash": "c9130c61",
+      "size": 6780,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro4.png"
+    },
+    {
+      "uuid": "DBFg2eg4MW7mtpvzSk6E18SO",
+      "ext": ".lua",
+      "hash": "8f8cc7c3",
+      "size": 8332,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin_main.lua"
+    },
+    {
+      "uuid": "DD8NaetIkwoNVnP4NlLFV28i",
+      "ext": ".ogg",
+      "hash": "59907c0c",
+      "size": 15532,
+      "fs_path": "audio/sfx/kenney/blade_hit_01.ogg"
+    },
+    {
+      "uuid": "DDCzebVKuqOOYtfPIK_Ll05Z",
+      "ext": ".png",
+      "hash": "20b78f9d",
+      "size": 361,
+      "hash@windows": "2915cf2f",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/abyss_tower/pickup_coin-v1.png"
+    },
+    {
+      "uuid": "DDdQcVAWok2d_ilhKCbxNJkU",
+      "ext": ".png",
+      "hash": "51a74f04",
+      "size": 361,
+      "hash@windows": "748184e7",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/AugmentSilver.png"
+    },
+    {
+      "uuid": "DDm1yYcFXqa2964wP4Jc26ly",
+      "ext": ".png",
+      "hash": "ae3d82ec",
+      "size": 12253,
+      "fs_path": "image/diggin/original/UI/Bullets-0001.png"
+    },
+    {
+      "uuid": "DEG2Sf3F5NqMEoADVOjz0dx7",
+      "ext": ".png",
+      "hash": "6686c329",
+      "size": 4086,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer4.png"
+    },
+    {
+      "uuid": "DFCrAUKdfX6gC6JlnnGiYPB5",
+      "ext": ".png",
+      "hash": "64046a92",
+      "size": 243,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f4.png"
+    },
+    {
+      "uuid": "DFnB-bDb6e1QQya25CUX8Olb",
+      "ext": ".png",
+      "hash": "7dac9134",
+      "size": 361,
+      "hash@windows": "51ba355e",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Emerald_1.png"
+    },
+    {
+      "uuid": "DG-fCc1bfxwCpU2OMGXKbeo5",
+      "ext": ".png",
+      "hash": "231c0ecd",
+      "size": 357,
+      "fs_path": "image/diggin/generated/skill_icons/FuelstoneFrequency.png"
+    },
+    {
+      "uuid": "DGP9IbCLgV3_oCH58-gH9xxq",
+      "ext": ".png",
+      "hash": "dccf328b",
+      "size": 447,
+      "fs_path": "image/diggin/original/Upgrades/wormBullet.png"
+    },
+    {
+      "uuid": "DGt6iUCa9mxZOm9GMLwrWNVq",
+      "ext": ".png",
+      "hash": "d94fb69e",
+      "size": 361,
+      "hash@windows": "f33b6e1a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/crack_2.png"
+    },
+    {
+      "uuid": "DH9DEVHkma7wc1Vkva454Xew",
+      "ext": ".png",
+      "hash": "d37a35c4",
+      "size": 361,
+      "hash@windows": "b9d1ee5d",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/2_1.png"
+    },
+    {
+      "uuid": "DItSebs1HX8mRCL3DkSfOcOl",
+      "ext": ".png",
+      "hash": "9b8977c3",
+      "size": 361,
+      "hash@windows": "b18be669",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Silver_0.png"
+    },
+    {
+      "uuid": "DJBdcYpNHMyRIp3Cp_yKIHDM",
+      "ext": ".png",
+      "hash": "615908d2",
+      "size": 361,
+      "hash@windows": "f12128c9",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/11_1.png"
+    },
+    {
+      "uuid": "DJTyIbj56wi7FOTgjSVH8i7n",
+      "ext": ".png",
+      "hash": "4cdeb61a",
+      "size": 1670,
+      "fs_path": "image/diggin/original/Zgrada/zgrada2.png"
+    },
+    {
+      "uuid": "DKFYYcOR4hnIB4kckLCJCwwj",
+      "ext": ".ogg",
+      "hash": "2d97e6ea",
+      "size": 4316,
+      "fs_path": "audio/diggin/original/Sfx/voice0.ogg"
+    },
+    {
+      "uuid": "DKlcQRvSGhdcctz1LfOCNogU",
+      "ext": ".png",
+      "hash": "1213b32a",
+      "size": 235437,
+      "hash@windows": "0bd9ac63",
+      "size@windows": 524445,
+      "fs_path": "image/diggin/generated/abyss_tower/rift_core_break-sheet-v1.png"
+    },
+    {
+      "uuid": "DNuDAXg1w6njxcY8jNBCqH0x",
+      "ext": ".png",
+      "hash": "80dc38c9",
+      "size": 349,
+      "fs_path": "image/diggin/generated/skill_icons/LaserChargeSpeed.png"
+    },
+    {
+      "uuid": "DO5dYYpR_cVlragtok2VrnOY",
+      "ext": ".png",
+      "hash": "50bc215e",
+      "size": 408,
+      "fs_path": "image/diggin/generated/skill_icons/ShrapnelDamage.png"
+    },
+    {
+      "uuid": "DOQ_eUwokro6RejfVAqvHDkt",
+      "ext": ".png",
+      "hash": "09a7c70c",
+      "size": 361,
+      "hash@windows": "d87450c2",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/9_0.png"
+    },
+    {
+      "uuid": "DObHyVWZ50OnkM8B7-GC9-9u",
+      "ext": ".lua",
+      "hash": "2c6435b6",
+      "size": 13711,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/WorldTreeRenderer.lua"
+    },
+    {
+      "uuid": "DOufWeE1nMrQbHdxSoQr3gJp",
+      "ext": ".png",
+      "hash": "951c5c17",
+      "size": 361,
+      "hash@windows": "ceac5a0d",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_fire_centipede-v1.png"
+    },
+    {
+      "uuid": "DPdkCRuxzPbC9h9N1AZWFFVV",
+      "ext": ".lua",
+      "hash": "149675cb",
+      "size": 1862,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Util.lua"
+    },
+    {
+      "uuid": "DQWu0cqtOxACVlH_tFxAE_FI",
+      "ext": ".png",
+      "hash": "a99ad651",
+      "size": 2608,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer4.png"
+    },
+    {
+      "uuid": "DQZwKcfr9AuD1Y43b6Zg8XNc",
+      "ext": ".png",
+      "hash": "addf7cd8",
+      "size": 239,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_m.png"
+    },
+    {
+      "uuid": "DQd9eVFZM8QgSw2TbYf5klzE",
+      "ext": ".png",
+      "hash": "89b75612",
+      "size": 3479,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer0New.png"
+    },
+    {
+      "uuid": "DQnq-X53mEDBAq6JUKBbLOTG",
+      "ext": ".png",
+      "hash": "e2ee307b",
+      "size": 1312,
+      "fs_path": "image/diggin/original/Zgrada/zgrada resurs/zgrada resurs postolje.png"
+    },
+    {
+      "uuid": "DSFMmbZxntsmZjZDC2aZkqmE",
+      "ext": ".png",
+      "hash": "0fa929b3",
+      "size": 4634,
+      "fs_path": "image/diggin/original/Tilesets/Main/mining.png"
+    },
+    {
+      "uuid": "DSSNSX5lIcJi37zGZd1T64DL",
+      "ext": ".png",
+      "hash": "cd1fe62b",
+      "size": 361,
+      "hash@windows": "a0e8f362",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Gold_1.png"
+    },
+    {
+      "uuid": "DSmTiWNl7uZGXcIOErhGBm97",
+      "ext": ".png",
+      "hash": "b1813b95",
+      "size": 5970,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso1.png"
+    },
+    {
+      "uuid": "DT6Sca9MgdLWUYt19J3jCfEI",
+      "ext": ".png",
+      "hash": "95172c22",
+      "size": 361,
+      "hash@windows": "89d34a61",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/7_1.png"
+    },
+    {
+      "uuid": "DTdTYRfe0-hpWJbrGRwDtoDX",
+      "ext": ".ogg",
+      "hash": "8ac25a49",
+      "size": 8800,
+      "fs_path": "audio/sfx/kenney/hurt_impact_01.ogg"
+    },
+    {
+      "uuid": "DTw1QSSmr6Hb65P1DLn14XJe",
+      "ext": ".png",
+      "hash": "b02e014b",
+      "size": 213,
+      "hash@windows": "cfb32b1c",
+      "size@windows": 489,
+      "fs_path": "image/diggin/generated/hud_icons/Gold.png"
+    },
+    {
+      "uuid": "DUXv6cpVoz_vtrKjGQAecUiJ",
+      "ext": ".png",
+      "hash": "3e7ba742",
+      "size": 361,
+      "hash@windows": "c84457f1",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Diamond_2.png"
+    },
+    {
+      "uuid": "DVxM0RvDEoib1F_bWgldnrVG",
+      "ext": ".png",
+      "hash": "c28fb46b",
+      "size": 241,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f7.png"
+    },
+    {
+      "uuid": "DVybyTrRWXfktJuJp5i2vaU6",
+      "ext": ".lua",
+      "hash": "4c43e8a2",
+      "size": 4533,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/ProgressionController.lua"
+    },
+    {
+      "uuid": "DVygyZ8Glzn51LfZCoeJpW0J",
+      "ext": ".ogg",
+      "hash": "65592171",
+      "size": 34350,
+      "fs_path": "audio/diggin/original/Sfx/missionClaim.ogg"
+    },
+    {
+      "uuid": "DWCkSYc3TzQqTbEFzjWvyroe",
+      "ext": ".png",
+      "hash": "7ebd597b",
+      "size": 361,
+      "hash@windows": "fe4c4602",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/DiamondUnsmelted.png"
+    },
+    {
+      "uuid": "DWDFQSuZCsDau5T8wKVioI06",
+      "ext": ".png",
+      "hash": "fd68edf8",
+      "size": 293,
+      "hash@windows": "cc64ec30",
+      "size@windows": 765,
+      "fs_path": "image/diggin/generated/skill_icons/DiamondRefinery.png"
+    },
+    {
+      "uuid": "DXT8weyVpXyk7J1VhIFDViP6",
+      "ext": ".mp3",
+      "hash": "961437df",
+      "size": 437868,
+      "fs_path": "audio/diggin/original/Music/liska1.mp3"
+    },
+    {
+      "uuid": "DZMSYRJBwMLBxWR82VW8SV3d",
+      "ext": ".png",
+      "hash": "c5ebd632",
+      "size": 280,
+      "fs_path": "image/diggin/original/UI/Input Prompts/stick_r_click.png"
+    },
+    {
+      "uuid": "D_qhQR9LYN3BCW_RT0dXV3tR",
+      "ext": ".png",
+      "hash": "ce1067e5",
+      "size": 3462,
+      "fs_path": "image/diggin/original/Tilesets/Main/emerald_sulfur_layer.png"
+    },
+    {
+      "uuid": "DaUKwTEmDFnp9P4INfRubfrc",
+      "ext": ".lua",
+      "hash": "40afe5a0",
+      "size": 43805,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssMode.lua"
+    },
+    {
+      "uuid": "DbWcmSQMcjACp98XQY-KgRXA",
+      "ext": ".png",
+      "hash": "9b555403",
+      "size": 361,
+      "hash@windows": "b29037d3",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/default_0.png"
+    },
+    {
+      "uuid": "Dbl5mfL07-StzsQSXNvfLb6p",
+      "ext": ".png",
+      "hash": "47db42fd",
+      "size": 249,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_p.png"
+    },
+    {
+      "uuid": "DcCGsbr7qLffffn6TODLYHrK",
+      "ext": ".png",
+      "hash": "ad19c5d6",
+      "size": 617,
+      "fs_path": "image/diggin/original/Player Assets/DRILL_ANIMATION2.png"
+    },
+    {
+      "uuid": "DdRL0ZRMKfGLOg1iTVfjlAPh",
+      "ext": ".ogg",
+      "hash": "90b03e53",
+      "size": 2732034,
+      "fs_path": "audio/diggin/original/Music/Skill Tree/Skill TreeOST.ogg"
+    },
+    {
+      "uuid": "De9AiY2SVrqRdWQuEu4Cjy4X",
+      "ext": ".png",
+      "hash": "27b20128",
+      "size": 248,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f9.png"
+    },
+    {
+      "uuid": "DewNgYRr5RTynC8zxrsUcfqe",
+      "ext": ".png",
+      "hash": "9d5c5d56",
+      "size": 361,
+      "hash@windows": "f2e97658",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/FactoryOre.png"
+    },
+    {
+      "uuid": "Df5H2eJ-iuCT4YOKpfVRj6T7",
+      "ext": ".png",
+      "hash": "0a1c752e",
+      "size": 361,
+      "hash@windows": "9d17ecdd",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/FieldOfView2.png"
+    },
+    {
+      "uuid": "DhBGwcSDMi1XQSS1xdZHW9hy",
+      "ext": ".png",
+      "hash": "ccb3a82c",
+      "size": 241,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f11.png"
+    },
+    {
+      "uuid": "DhYJaZBDRrjO7vMVnIXlXCpO",
+      "ext": ".png",
+      "hash": "fc6b55d3",
+      "size": 282,
+      "fs_path": "image/diggin/original/UI/Input Prompts/stick_l_click.png"
+    },
+    {
+      "uuid": "DhcrSQZS_haXr_QU9H4Pf7Tb",
+      "ext": ".png",
+      "hash": "cc070a21",
+      "size": 222,
+      "fs_path": "image/diggin/original/UI/Input Prompts/stick_l.png"
+    },
+    {
+      "uuid": "DigginAbyssBombardmentIconV1",
+      "ext": ".png",
+      "hash": "4d2e4f3e",
+      "size": 2881,
+      "hash@windows": "ff1a2246",
+      "size@windows": 5601,
+      "fs_path": "image/diggin/generated/skill_icons/AbyssBombardment.png"
+    },
+    {
+      "uuid": "DigginAbyssChaserV1",
+      "ext": ".png",
+      "hash": "1a23abfe",
+      "size": 52105,
+      "hash@windows": "6eb563df",
+      "size@windows": 116377,
+      "fs_path": "image/diggin/generated/abyss/abyss_chaser-v1.png"
+    },
+    {
+      "uuid": "DigginAbyssChestClusterV1",
+      "ext": ".png",
+      "hash": "279df651",
+      "size": 4257,
+      "hash@windows": "ec51bc5c",
+      "size@windows": 9441,
+      "fs_path": "image/diggin/generated/abyss/event_chest_cluster-v1.png"
+    },
+    {
+      "uuid": "DigginAbyssExplosiveVeinV1",
+      "ext": ".png",
+      "hash": "64f2cfb2",
+      "size": 4961,
+      "hash@windows": "c9f59c00",
+      "size@windows": 10433,
+      "fs_path": "image/diggin/generated/abyss/event_explosive_vein-v1.png"
+    },
+    {
+      "uuid": "DigginAbyssGateV1",
+      "ext": ".png",
+      "hash": "8a26fb14",
+      "size": 26197,
+      "hash@windows": "16fa7686",
+      "size@windows": 56629,
+      "fs_path": "image/diggin/generated/abyss/abyss_gate-v1.png"
+    },
+    {
+      "uuid": "DigginAbyssGoldenLayerV1",
+      "ext": ".png",
+      "hash": "d2d22f1a",
+      "size": 4961,
+      "hash@windows": "868f599d",
+      "size@windows": 31577,
+      "fs_path": "image/diggin/generated/abyss/event_golden_layer-v1.png"
+    },
+    {
+      "uuid": "DigginAbyssHighRiskV1",
+      "ext": ".png",
+      "hash": "c278c5ec",
+      "size": 4961,
+      "hash@windows": "9752b581",
+      "size@windows": 10433,
+      "fs_path": "image/diggin/generated/abyss/event_high_risk-v1.png"
+    },
+    {
+      "uuid": "DigginAbyssIdentityV1",
+      "ext": ".lua",
+      "hash": "92392ba1",
+      "size": 2948,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssIdentity.lua"
+    },
+    {
+      "uuid": "DigginCosmeticsS2V1",
+      "ext": ".lua",
+      "hash": "6a3ee2a4",
+      "size": 5422,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Cosmetics.lua"
+    },
+    {
+      "uuid": "DigginMeteorDrillArrayIconV1",
+      "ext": ".png",
+      "hash": "a7725316",
+      "size": 3139,
+      "fs_path": "image/diggin/generated/skill_icons/MeteorDrillArray.png"
+    },
+    {
+      "uuid": "DigginS2CharactersAtlasV1",
+      "ext": ".png",
+      "hash": "93ebac27",
+      "size": 939041,
+      "hash@windows": "21604736",
+      "size@windows": 1567923,
+      "fs_path": "image/diggin/generated/abyss/s2-characters-v1.png"
+    },
+    {
+      "uuid": "DigginS2DrillsAtlasV1",
+      "ext": ".png",
+      "hash": "17ea35ee",
+      "size": 939041,
+      "hash@windows": "a78a438d",
+      "size@windows": 1290858,
+      "fs_path": "image/diggin/generated/abyss/s2-drills-v1.png"
+    },
+    {
+      "uuid": "DigginSeasonHonorsS1V1",
+      "ext": ".lua",
+      "hash": "521bf5c3",
+      "size": 1052,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/SeasonHonors.lua"
+    },
+    {
+      "uuid": "DigginSeasonHubS2V1",
+      "ext": ".lua",
+      "hash": "26b041cd",
+      "size": 4718,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/SeasonHub.lua"
+    },
+    {
+      "uuid": "DigginSeasonOneCostumesV1",
+      "ext": ".png",
+      "hash": "a0e7a89f",
+      "size": 935041,
+      "hash@windows": "ec2b93a7",
+      "size@windows": 419071,
+      "fs_path": "image/diggin/generated/abyss/season1_costumes-v1.png"
+    },
+    {
+      "uuid": "DigginShardTyphoonIconV1",
+      "ext": ".png",
+      "hash": "640ff07e",
+      "size": 5795,
+      "fs_path": "image/diggin/generated/skill_icons/ShardTyphoon.png"
+    },
+    {
+      "uuid": "DigginSingularityDrillIconV1",
+      "ext": ".png",
+      "hash": "b5cebc82",
+      "size": 5099,
+      "fs_path": "image/diggin/generated/skill_icons/SingularityDrill.png"
+    },
+    {
+      "uuid": "DigginWorldTreePointV1",
+      "ext": ".png",
+      "hash": "911c1e03",
+      "size": 3672,
+      "fs_path": "image/diggin/generated/world_tree/world_tree_point-v1.png"
+    },
+    {
+      "uuid": "DigginWorldTreePointV2",
+      "ext": ".png",
+      "hash": "74cfcea9",
+      "size": 7613,
+      "fs_path": "image/diggin/generated/world_tree/world_tree_point-v2.png"
+    },
+    {
+      "uuid": "DigginWorldTreeV1",
+      "ext": ".png",
+      "hash": "efeed23c",
+      "size": 85624,
+      "fs_path": "image/diggin/generated/world_tree/world_tree-v1.png"
+    },
+    {
+      "uuid": "Diq46fLiNPJukbjiYcXEnqDE",
+      "ext": ".png",
+      "hash": "ad950416",
+      "size": 361,
+      "hash@windows": "7b7a486a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/1.png"
+    },
+    {
+      "uuid": "DjNsWUUknyrO9vlK5lm4QSUw",
+      "ext": ".png",
+      "hash": "cd27b2d8",
+      "size": 293,
+      "hash@windows": "3e36e594",
+      "size@windows": 765,
+      "fs_path": "image/diggin/generated/skill_icons/Collector.png"
+    },
+    {
+      "uuid": "DjO54ZdyJjcnlcuOc_SdColG",
+      "ext": ".png",
+      "hash": "6d270dac",
+      "size": 231,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad.png"
+    },
+    {
+      "uuid": "DjRgWVF0QKq5AhzNFzwT_Nsx",
+      "ext": ".png",
+      "hash": "3fc15f7f",
+      "size": 236,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_w.png"
+    },
+    {
+      "uuid": "Djb-yeaAKSm-u8rlu-7-R4gp",
+      "ext": ".png",
+      "hash": "642e6ec0",
+      "size": 361,
+      "hash@windows": "ad4284c8",
+      "size@windows": 275,
+      "fs_path": "image/diggin/generated/skill_icons/FeverstoneSpawnRate.png"
+    },
+    {
+      "uuid": "DjblGRwukKYcwV8dTrP-olrI",
+      "ext": ".png",
+      "hash": "616ec729",
+      "size": 11869,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro3.png"
+    },
+    {
+      "uuid": "DkBlyWNGv14bZ50cHwxX3BF1",
+      "ext": ".png",
+      "hash": "52a1a9b5",
+      "size": 23692,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso6.png"
+    },
+    {
+      "uuid": "DkYJwaMrK-LnkHt_312Pb8jZ",
+      "ext": ".ogg",
+      "hash": "1aeb2979",
+      "size": 5064,
+      "fs_path": "audio/diggin/original/Sfx/MouseUp.ogg"
+    },
+    {
+      "uuid": "Dkn7EcLNESKBzAGz-_Masf2_",
+      "ext": ".png",
+      "hash": "ccbb5c72",
+      "size": 689,
+      "fs_path": "image/diggin/original/Player Assets/kalinkovic.png"
+    },
+    {
+      "uuid": "DkofOf3huUdB9ObgZ5Q4YImm",
+      "ext": ".png",
+      "hash": "9297ee4c",
+      "size": 4136,
+      "fs_path": "image/diggin/original/Tilesets/Main/layerfix.png"
+    },
+    {
+      "uuid": "Dl3fsXv2nV5S_Dc8eZw6XZxu",
+      "ext": ".png",
+      "hash": "96e08f5f",
+      "size": 341,
+      "hash@windows": "383107d3",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/DrillDroneSpeed.png"
+    },
+    {
+      "uuid": "DlpiQViJyWN5I-Ji0Oh2y069",
+      "ext": ".png",
+      "hash": "517280ff",
+      "size": 4619,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso7.png"
+    },
+    {
+      "uuid": "DndBkVRxbhDMYLcEzY6Lsnqg",
+      "ext": ".png",
+      "hash": "c067900a",
+      "size": 825,
+      "hash@windows": "75a13561",
+      "size@windows": 777,
+      "fs_path": "image/diggin/generated/modifiers/chest_0.png"
+    },
+    {
+      "uuid": "DnqF4RTAuQgkPtDbl4m141KU",
+      "ext": ".png",
+      "hash": "7af13ede",
+      "size": 8840,
+      "fs_path": "image/diggin/original/UI/Background_Nebula-0002.png"
+    },
+    {
+      "uuid": "DoIFGadSjcvyCmNSzymjOfoz",
+      "ext": ".png",
+      "hash": "40a597d3",
+      "size": 156,
+      "fs_path": "image/diggin/original/UI/chestUITop.png"
+    },
+    {
+      "uuid": "DoRNiYA4XZ64QohNciLYB4UQ",
+      "ext": ".ogg",
+      "hash": "805bd1ea",
+      "size": 11066,
+      "fs_path": "audio/diggin/original/Sfx/UIClick_Button Playful Deny Incorrect-031_OS_Quute UI.ogg"
+    },
+    {
+      "uuid": "Dq4Amf1xBbPE4e1_iEqe93m7",
+      "ext": ".png",
+      "hash": "a45a12bc",
+      "size": 338,
+      "fs_path": "image/diggin/original/Upgrades/drill missile.png"
+    },
+    {
+      "uuid": "DqsN0aXlTEN5B7Zw-qjOyVfg",
+      "ext": ".png",
+      "hash": "449ab239",
+      "size": 674,
+      "fs_path": "image/diggin/original/Mission/hoarder.png"
+    },
+    {
+      "uuid": "Dr-l6TLwJNhCcXA8bgvRWF8e",
+      "ext": ".png",
+      "hash": "831e8722",
+      "size": 223,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_e.png"
+    },
+    {
+      "uuid": "Dr4-0UH3AbpSWBrhCymMSLRa",
+      "ext": ".png",
+      "hash": "e9ed8212",
+      "size": 213,
+      "hash@windows": "653bb115",
+      "size@windows": 341,
+      "fs_path": "image/diggin/generated/skill_icons/BulletWorms.png"
+    },
+    {
+      "uuid": "DrQzkTeS0xmTN4cPxFmX08PQ",
+      "ext": ".png",
+      "hash": "61bbcf3b",
+      "size": 409,
+      "fs_path": "image/diggin/original/finalFrontier.png"
+    },
+    {
+      "uuid": "DrrfmVW6wGFJiINMV7HyGU_p",
+      "ext": ".png",
+      "hash": "e0f948da",
+      "size": 361,
+      "hash@windows": "8b402dfc",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Gold.png"
+    },
+    {
+      "uuid": "DssyCXxR_IK5xDEBdn4fIMO7",
+      "ext": ".png",
+      "hash": "2fcb379a",
+      "size": 361,
+      "hash@windows": "0bbb746d",
+      "size@windows": 202,
+      "fs_path": "image/diggin/generated/skill_icons/AftershockArtefact.png"
+    },
+    {
+      "uuid": "DtKIUdJORzoNKiUdhYSxQrpg",
+      "ext": ".png",
+      "hash": "01bbadfe",
+      "size": 361,
+      "hash@windows": "0830e1d7",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Starmetal.png"
+    },
+    {
+      "uuid": "DtUNMejCpuP7ixzQKlT6oUs0",
+      "ext": ".png",
+      "hash": "6f4ad0f0",
+      "size": 249,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f6.png"
+    },
+    {
+      "uuid": "DtaN8d8F3bODjTYKiYpz4hPL",
+      "ext": ".wav",
+      "hash": "2b197bc4",
+      "size": 75014,
+      "fs_path": "audio/sfx/rift_portal.wav"
+    },
+    {
+      "uuid": "Du1dKZZnxN7TeDkG_9BHf20S",
+      "ext": ".png",
+      "hash": "71a56404",
+      "size": 361,
+      "hash@windows": "bb49fb0e",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/crack_0.png"
+    },
+    {
+      "uuid": "DuFTaQIsyBnq_9h_1LH-Ocwb",
+      "ext": ".png",
+      "hash": "4a7fabdc",
+      "size": 1658,
+      "fs_path": "image/diggin/original/Zgrada/zgrada resurs/zgrada resurs.png"
+    },
+    {
+      "uuid": "DuIuia_pdcdnwJrZl9uvtT0y",
+      "ext": ".png",
+      "hash": "91a0dc58",
+      "size": 361,
+      "hash@windows": "e1085290",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Silver_1.png"
+    },
+    {
+      "uuid": "DuJsYUvg6eAfGHnWUjVX0CfL",
+      "ext": ".png",
+      "hash": "819cd145",
+      "size": 255,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f5.png"
+    },
+    {
+      "uuid": "DugrMY-TUVfc3oZw2_jR9MFy",
+      "ext": ".png",
+      "hash": "b369adbb",
+      "size": 173,
+      "fs_path": "image/diggin/original/KeywordTooltips/quake.png"
+    },
+    {
+      "uuid": "DvXpwWyryoUtw7NJV4zYN8Jt",
+      "ext": ".png",
+      "hash": "9b6d7a6a",
+      "size": 361,
+      "hash@windows": "5aa0a5d8",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/5_2.png"
+    },
+    {
+      "uuid": "Dv_fMST2CKxchqKkpxKoBGIC",
+      "ext": ".png",
+      "hash": "01bbadfe",
+      "size": 361,
+      "hash@windows": "0830e1d7",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Starmetal_0.png"
+    },
+    {
+      "uuid": "DyINAQqgEi6Vm0I_QWYNLdWJ",
+      "ext": ".png",
+      "hash": "2f98b8e3",
+      "size": 4537,
+      "fs_path": "image/diggin/original/Tilesets/Main/parallax_1.png"
+    },
+    {
+      "uuid": "DyNluXeajidXWPsVHErJjV26",
+      "ext": ".png",
+      "hash": "d94fb69e",
+      "size": 361,
+      "hash@windows": "f33b6e1a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/2.png"
+    },
+    {
+      "uuid": "DyoGqUk6HBPudaTKPxc2o49N",
+      "ext": ".png",
+      "hash": "2c6704dd",
+      "size": 3909,
+      "fs_path": "image/diggin/original/Player Assets/chestOpening.png"
+    },
+    {
+      "uuid": "Dz6OWaEU_KVQd-jpg21OkSLx",
+      "ext": ".png",
+      "hash": "4d29ae33",
+      "size": 361,
+      "hash@windows": "40b82dfa",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/boomstone_2.png"
+    },
+    {
+      "uuid": "Dzl-KQZbr29pxwmGf6Qu_i-W",
+      "ext": ".png",
+      "hash": "5f529c49",
+      "size": 86,
+      "hash@windows": "7ba6ed7c",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/12_1.png"
+    },
+    {
+      "uuid": "E-wOufiN3gZvqGgWWGxBVwkf",
+      "ext": ".png",
+      "hash": "02003673",
+      "size": 361,
+      "hash@windows": "671c8a7b",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/default_2.png"
+    },
+    {
+      "uuid": "E-x-OQyGugdCT0mhF1OOHAF9",
+      "ext": ".png",
+      "hash": "739b4ef2",
+      "size": 259,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad_h.png"
+    },
+    {
+      "uuid": "E1ikGZJJdOLe4qb-wxPk2e_Y",
+      "ext": ".png",
+      "hash": "1bbb5f10",
+      "size": 388,
+      "fs_path": "image/diggin/original/Tilesets/Main/backgroundTileset.png"
+    },
+    {
+      "uuid": "E2GjuV-LcnvTULE8_n3v5eJO",
+      "ext": ".png",
+      "hash": "8a4bd208",
+      "size": 586,
+      "fs_path": "image/diggin/original/UI/iron.png"
+    },
+    {
+      "uuid": "E2_h-ZeQBIY_eSvn6EBz8BuP",
+      "ext": ".png",
+      "hash": "24ac4bb6",
+      "size": 361,
+      "hash@windows": "dea6bd6c",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Iridium_0.png"
+    },
+    {
+      "uuid": "E3RjGfePWA7GVn9yXuBSTced",
+      "ext": ".png",
+      "hash": "95172c22",
+      "size": 361,
+      "hash@windows": "89d34a61",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/7_0.png"
+    },
+    {
+      "uuid": "E4kRkYHApxF4L8d9kFKXJhXX",
+      "ext": ".png",
+      "hash": "0464adc6",
+      "size": 236,
+      "fs_path": "image/diggin/original/Upgrades/bolji termit dron.png"
+    },
+    {
+      "uuid": "E4p2R8nK6sV1cJ9mT7qW3xYz",
+      "ext": ".lua",
+      "hash": "52cf862d",
+      "size": 4611,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/data/RelicData.lua"
+    },
+    {
+      "uuid": "E5DViQvo6Rniu_Qx3ZUv5Ksu",
+      "ext": ".png",
+      "hash": "ac0e7876",
+      "size": 4664,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer2.png"
+    },
+    {
+      "uuid": "E5GZ6dGkNm2gFFMIMlb8qsv2",
+      "ext": ".png",
+      "hash": "c83b52b1",
+      "size": 361,
+      "hash@windows": "0db2b090",
+      "size@windows": 192,
+      "fs_path": "image/diggin/generated/skill_icons/BulletWormCount.png"
+    },
+    {
+      "uuid": "E5oFMQIH-D7AqTTQkp2-4Sba",
+      "ext": ".png",
+      "hash": "02c11925",
+      "size": 424,
+      "fs_path": "image/diggin/original/Mission/blockBreaker.png"
+    },
+    {
+      "uuid": "E6IsoXSUfPC8P_LvIdcTf4me",
+      "ext": ".png",
+      "hash": "95172c22",
+      "size": 361,
+      "hash@windows": "89d34a61",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/7_2.png"
+    },
+    {
+      "uuid": "E7cUKXc5ZB62vtVcmA2tSSWi",
+      "ext": ".png",
+      "hash": "28aaec27",
+      "size": 595,
+      "fs_path": "image/diggin/original/Player Assets/hit_sprite_2.png"
+    },
+    {
+      "uuid": "E84Q0ZOYUzYGBpt5PmPN-LBL",
+      "ext": ".png",
+      "hash": "438c44d4",
+      "size": 4727,
+      "fs_path": "image/diggin/original/Tilesets/specialOresTile.png"
+    },
+    {
+      "uuid": "E8VFUQIjAr83O6YyC9T4xVy6",
+      "ext": ".png",
+      "hash": "69e7fcd9",
+      "size": 361,
+      "hash@windows": "902aec93",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Stone_1.png"
+    },
+    {
+      "uuid": "E9p6OX-JJz8TlhOVKQvo5GbM",
+      "ext": ".mp4",
+      "hash": "137dcb22",
+      "size": 10069884,
+      "fs_path": "video/youyingxiang_gameplay_trailer.mp4"
+    },
+    {
+      "uuid": "ECOd0dTV8tq1RzS4lV33gGDR",
+      "ext": ".png",
+      "hash": "b9d528d3",
+      "size": 213,
+      "hash@windows": "e17ffd41",
+      "size@windows": 341,
+      "fs_path": "image/diggin/generated/skill_icons/FuelEfficiency1.png"
+    },
+    {
+      "uuid": "ED3F4YBSxij-rZiIXX8If2sM",
+      "ext": ".png",
+      "hash": "948fd783",
+      "size": 361,
+      "hash@windows": "67675d16",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Stone.png"
+    },
+    {
+      "uuid": "EDwKQc7zUEO_KeRxkxokersX",
+      "ext": ".png",
+      "hash": "280f54b5",
+      "size": 361,
+      "hash@windows": "c85ff22c",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/StarStone.png"
+    },
+    {
+      "uuid": "EFidGZFobnFCjI-UH5HmMXKR",
+      "ext": ".png",
+      "hash": "d4ee09ba",
+      "size": 281,
+      "fs_path": "image/diggin/original/UI/Input Prompts/generic_b.png"
+    },
+    {
+      "uuid": "EFsFCQv88kkXOJqmkzQ-3Pi_",
+      "ext": ".png",
+      "hash": "c76583b1",
+      "size": 293,
+      "hash@windows": "2e69b1c4",
+      "size@windows": 154,
+      "fs_path": "image/diggin/generated/skill_icons/CritChance1.png"
+    },
+    {
+      "uuid": "EHrRyX0jAgVK0LbRxqfGAMA9",
+      "ext": ".png",
+      "hash": "a87c19be",
+      "size": 232,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_n.png"
+    },
+    {
+      "uuid": "EHtKwVoaWxIsIu07gpGCzWYf",
+      "ext": ".png",
+      "hash": "af530dac",
+      "size": 703,
+      "fs_path": "image/diggin/original/Tilesets/Main/chest_22x22open.png"
+    },
+    {
+      "uuid": "EI5EuRrFaEP_T7ExuUt1vhbw",
+      "ext": ".png",
+      "hash": "35c25345",
+      "size": 341,
+      "hash@windows": "7e28ab13",
+      "size@windows": 179,
+      "fs_path": "image/diggin/generated/skill_icons/FuelEfficiency3.png"
+    },
+    {
+      "uuid": "EIajMTmTT6iGrjLsFmxAZ-SW",
+      "ext": ".png",
+      "hash": "1d8f8531",
+      "size": 22684,
+      "fs_path": "image/diggin/original/KenneyUI/tilemap_white.png"
+    },
+    {
+      "uuid": "EJGOYUiSreizTOzBi89NN3Ut",
+      "ext": ".png",
+      "hash": "bea8e2c9",
+      "size": 341,
+      "hash@windows": "2e4c96da",
+      "size@windows": 212,
+      "fs_path": "image/diggin/generated/skill_icons/Boomstone.png"
+    },
+    {
+      "uuid": "EJorWayC1KZyEM-TNjuFSUGT",
+      "ext": ".png",
+      "hash": "d44e3cfe",
+      "size": 361,
+      "hash@windows": "9fb71485",
+      "size@windows": 337,
+      "fs_path": "image/diggin/generated/skill_icons/CritChain.png"
+    },
+    {
+      "uuid": "EK5G0ckig8TDCSXScLo1STbH",
+      "ext": ".png",
+      "hash": "f41179ac",
+      "size": 2325,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer1.5.png"
+    },
+    {
+      "uuid": "EL7N2ayAmaAOVklDot_hpAOC",
+      "ext": ".png",
+      "hash": "8eaecae3",
+      "size": 473,
+      "hash@windows": "318a067a",
+      "size@windows": 745,
+      "fs_path": "image/diggin/generated/player/hit_0.png"
+    },
+    {
+      "uuid": "ELpqMVjH-BUsXS-3cdxBwh1U",
+      "ext": ".png",
+      "hash": "5c1fc4a6",
+      "size": 15510,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso5.png"
+    },
+    {
+      "uuid": "ELrDcZmQZBEjPzXMQTWXoJjf",
+      "ext": ".png",
+      "hash": "afcb64dc",
+      "size": 2452,
+      "fs_path": "image/diggin/original/Tilesets/layer/zuti layer.png"
+    },
+    {
+      "uuid": "EMJrIf56ZJxxl0gje-IEW-To",
+      "ext": ".png",
+      "hash": "969aac87",
+      "size": 231,
+      "fs_path": "image/diggin/original/UI/Input Prompts/pad_lt.png"
+    },
+    {
+      "uuid": "EMdSGa9h0bUyjJTdqvIIdQ3k",
+      "ext": ".png",
+      "hash": "f471938e",
+      "size": 5648,
+      "fs_path": "image/diggin/original/UI/Background_Nebula-0001.png"
+    },
+    {
+      "uuid": "EMf4IbwCwwmP9Xra_3y5VILd",
+      "ext": ".lua",
+      "hash": "e9897de6",
+      "size": 5180,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/DrillMechanicsCatalog.lua"
+    },
+    {
+      "uuid": "EMoFmawK96Rxg5bgXh7WAwRr",
+      "ext": ".png",
+      "hash": "3b005cd3",
+      "size": 847,
+      "fs_path": "image/diggin/original/Player Assets/sofronije.png"
+    },
+    {
+      "uuid": "ENlq4cpRuRMq228PAvS26wiM",
+      "ext": ".ogg",
+      "hash": "89dc1924",
+      "size": 2804858,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS8.ogg"
+    },
+    {
+      "uuid": "ENsvcaPVYGX4EnLP7NZjeGUP",
+      "ext": ".png",
+      "hash": "cd483477",
+      "size": 361,
+      "hash@windows": "bbbea518",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_glowing_wisp-v1.png"
+    },
+    {
+      "uuid": "EOMcQUsBCjenuy1js1LOEYNO",
+      "ext": ".lua",
+      "hash": "9f52d10b",
+      "size": 24993,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssItems.lua"
+    },
+    {
+      "uuid": "EPAu-RRQQ99p2R6tuW1LMQee",
+      "ext": ".png",
+      "hash": "4781e3b8",
+      "size": 361,
+      "hash@windows": "e05ba5ea",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Iridium_2.png"
+    },
+    {
+      "uuid": "EPS12WapZ3kvzbVdkWbiSPkT",
+      "ext": ".png",
+      "hash": "a8953f14",
+      "size": 293,
+      "hash@windows": "7a8d9707",
+      "size@windows": 765,
+      "fs_path": "image/diggin/generated/skill_icons/DrillDroneArtefact.png"
+    },
+    {
+      "uuid": "EQCTERChhVe6oUPi6wX7xa3V",
+      "ext": ".png",
+      "hash": "349c3c5f",
+      "size": 931,
+      "fs_path": "image/diggin/original/Tilesets/Main/bedrockLayerParallax.png"
+    },
+    {
+      "uuid": "ER8O2d5Yw-Mz1KdhqkRjOxXg",
+      "ext": ".png",
+      "hash": "2a4e321e",
+      "size": 4109,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer10 starmetal.png"
+    },
+    {
+      "uuid": "ERB74R6YrTL8VBhZEmUVxAgj",
+      "ext": ".png",
+      "hash": "7f20ea84",
+      "size": 271,
+      "fs_path": "image/diggin/generated/skill_icons/RubyRefinery.png"
+    },
+    {
+      "uuid": "ESuEoV0VoFvapCat5mMZ6l6w",
+      "ext": ".lua",
+      "hash": "5afa4fcf",
+      "size": 5538,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/ArtefactCodex.lua"
+    },
+    {
+      "uuid": "ET3RSUllEE4Fg-pa5C3MonAe",
+      "ext": ".png",
+      "hash": "f3b6aa31",
+      "size": 723,
+      "fs_path": "image/diggin/original/Tilesets/newWormHead.png"
+    },
+    {
+      "uuid": "ETwKyYEYZc7wrfj7C27tqPoh",
+      "ext": ".png",
+      "hash": "a8ab2aa4",
+      "size": 239,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_3.png"
+    },
+    {
+      "uuid": "EU-66bEKBCggNSttVnzqpel4",
+      "ext": ".png",
+      "hash": "6d8ce57d",
+      "size": 473,
+      "hash@windows": "761e7953",
+      "size@windows": 2025,
+      "fs_path": "image/diggin/generated/skill_icons/BoomstoneDamage2.png"
+    },
+    {
+      "uuid": "EU1vgYV4z9S9Q12FermHB6y5",
+      "ext": ".png",
+      "hash": "bf156cfe",
+      "size": 201,
+      "fs_path": "image/diggin/original/Tilesets/Main/bgOverlaz.png"
+    },
+    {
+      "uuid": "EUma-R0elNqJKhgqezKR547j",
+      "ext": ".ttf",
+      "hash": "13da9e7c",
+      "size": 6923212,
+      "refs": [
+        "HohdYeNDxwvWlWMBU9S_glBT"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans.ttf"
+    },
+    {
+      "uuid": "EUnkmQGH6cNmMeqadBuaQF2U",
+      "ext": ".png",
+      "hash": "54b7d538",
+      "size": 7218,
+      "fs_path": "image/diggin/original/UI/Barrier-0001.png"
+    },
+    {
+      "uuid": "EWF-wSGguQRMygTRhCwp2uB-",
+      "ext": ".png",
+      "hash": "5f529c49",
+      "size": 86,
+      "hash@windows": "7ba6ed7c",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/12_0.png"
+    },
+    {
+      "uuid": "EWeigUEB__SVqRAmrweoA-CL",
+      "ext": ".png",
+      "hash": "6e17a1f5",
+      "size": 15700,
+      "fs_path": "image/diggin/original/UI/Background_SmallStars-0001.png"
+    },
+    {
+      "uuid": "EXBUAZ8y-JIbnYRCM0i4noKP",
+      "ext": ".png",
+      "hash": "5f921321",
+      "size": 361,
+      "hash@windows": "37dda036",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/flash_1.png"
+    },
+    {
+      "uuid": "EZ03wTfm6DvyW4HllK37dv8d",
+      "ext": ".png",
+      "hash": "ef58c447",
+      "size": 3014,
+      "fs_path": "image/diggin/original/Tilesets/moreUIpgradesimage.png"
+    },
+    {
+      "uuid": "EZFx2Rca-QT5y3WcEBmJ6aGr",
+      "ext": ".png",
+      "hash": "bdf7458a",
+      "size": 140,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_blank.png"
+    },
+    {
+      "uuid": "E_3tceuPBlTnLGXdikcsADfH",
+      "ext": ".png",
+      "hash": "79a76e81",
+      "size": 256,
+      "fs_path": "image/diggin/original/UI/Input Prompts/ps_cross.png"
+    },
+    {
+      "uuid": "E__aoa69PM6DNhrpG02wu6_V",
+      "ext": ".lua",
+      "hash": "dbf576a6",
+      "size": 12509,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssLeaderboard.lua"
+    },
+    {
+      "uuid": "Ea5LaVaUYZaQ-HyzWLZxOggk",
+      "ext": ".png",
+      "hash": "9825a197",
+      "size": 305,
+      "fs_path": "image/diggin/generated/skill_icons/FuelTank5.png"
+    },
+    {
+      "uuid": "EbPj2QYStN0bVlg3U10WD6PS",
+      "ext": ".png",
+      "hash": "9d5c5d56",
+      "size": 361,
+      "hash@windows": "f2e97658",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/FactoryOre.png"
+    },
+    {
+      "uuid": "EbVAidFFJmztqGlqBnn7pJ1o",
+      "ext": ".png",
+      "hash": "c5c5b790",
+      "size": 1792,
+      "fs_path": "image/diggin/original/Tilesets/Main/details.png"
+    },
+    {
+      "uuid": "EbpvkfqHizih2j3MNvj10_W3",
+      "ext": ".png",
+      "hash": "71a56404",
+      "size": 361,
+      "hash@windows": "bb49fb0e",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/0.png"
+    },
+    {
+      "uuid": "Ec3jqSImcvXJVifoFXK27KW9",
+      "ext": ".png",
+      "hash": "ce26b691",
+      "size": 361,
+      "hash@windows": "619c40b2",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/drops/MissionRewardOre.png"
+    },
+    {
+      "uuid": "Ecg9ocV5mnVcQ5MY1lvWAFXB",
+      "ext": ".png",
+      "hash": "7415958c",
+      "size": 265,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad_v.png"
+    },
+    {
+      "uuid": "Ecqi2XGC1giiUu_X7JX1DqAs",
+      "ext": ".png",
+      "hash": "247d2e1c",
+      "size": 4420,
+      "fs_path": "image/diggin/original/Tilesets/Main/layer1New.png"
+    },
+    {
+      "uuid": "EfWcsUcDSskXRpSajtQpcIAk",
+      "ext": ".png",
+      "hash": "2820aa19",
+      "size": 2320,
+      "fs_path": "image/diggin/original/Zgrada/zgrada1.png"
+    },
+    {
+      "uuid": "EfmMORdUlfJXhzkMISqSKovR",
+      "ext": ".png",
+      "hash": "f0605f4c",
+      "size": 361,
+      "hash@windows": "dabdfc84",
+      "size@windows": 330,
+      "fs_path": "image/diggin/generated/skill_icons/DrillMissileSpawnRate.png"
+    },
+    {
+      "uuid": "Ej46AYvbpdpiBHEePG357RLI",
+      "ext": ".png",
+      "hash": "73cd24f5",
+      "size": 251,
+      "fs_path": "image/diggin/generated/skill_icons/SpinningPickaxe.png"
+    },
+    {
+      "uuid": "EjYlaV2lmVpJVqN6qhC2pOrM",
+      "ext": ".lua",
+      "hash": "2e7f804c",
+      "size": 7309,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssLeaderboardController.lua"
+    },
+    {
+      "uuid": "Ejoi4TBI7c_gLohHKnS7N15V",
+      "ext": ".png",
+      "hash": "c9ddb0ce",
+      "size": 312,
+      "fs_path": "image/diggin/generated/skill_icons/RubySmeltSpeed.png"
+    },
+    {
+      "uuid": "Elcacb9glOARYT-v6XqZIOTj",
+      "ext": ".png",
+      "hash": "948fd783",
+      "size": 361,
+      "hash@windows": "67675d16",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Stone_0.png"
+    },
+    {
+      "uuid": "ElfdueLtw2vq8TkEf7PehMeu",
+      "ext": ".png",
+      "hash": "15b8e70c",
+      "size": 3879,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer5.png"
+    },
+    {
+      "uuid": "EmQg0deiIffG4iJh_cl00ETb",
+      "ext": ".png",
+      "hash": "f4ce318c",
+      "size": 245,
+      "fs_path": "image/diggin/original/Player Assets/busilo.png"
+    },
+    {
+      "uuid": "EnHpwdMoWTMCyvNyA-MIzo3S",
+      "ext": ".ogg",
+      "hash": "cdd8c514",
+      "size": 765304,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS9-2.ogg"
+    },
+    {
+      "uuid": "EnQOGduePtiskulu5ZI0gMNx",
+      "ext": ".png",
+      "hash": "c2801a77",
+      "size": 229,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_9.png"
+    },
+    {
+      "uuid": "EnYJEQK17IEm2-xqIeqxeVTm",
+      "ext": ".png",
+      "hash": "61136a4c",
+      "size": 331,
+      "fs_path": "image/diggin/original/Player Assets/busiloNew.png"
+    },
+    {
+      "uuid": "EnlF8egAlE2VXUHaEcqH2KkF",
+      "ext": ".png",
+      "hash": "405ca989",
+      "size": 2756,
+      "fs_path": "image/diggin/original/Tilesets/Main/purp_rock_layer_png.png"
+    },
+    {
+      "uuid": "Eoi_CZR-aoWNkP9PFAtpnizM",
+      "ext": ".png",
+      "hash": "6135f68e",
+      "size": 716,
+      "fs_path": "image/diggin/original/Tilesets/Main/ironore.png"
+    },
+    {
+      "uuid": "EojK6ZpkZKYUWOYdsh9VJBHc",
+      "ext": ".png",
+      "hash": "6007e3c1",
+      "size": 284,
+      "fs_path": "image/diggin/original/Tilesets/Main/overlay1-export.png"
+    },
+    {
+      "uuid": "EpJ3eRGic6AjGCHwpIgEJ5HS",
+      "ext": ".png",
+      "hash": "6157693a",
+      "size": 361,
+      "hash@windows": "754aeebf",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/CollectorMult.png"
+    },
+    {
+      "uuid": "EqAtlasV2Diggin20260905X",
+      "ext": ".png",
+      "hash": "810b30a5",
+      "size": 936065,
+      "hash@windows": "0b854cdb",
+      "size@windows": 6292265,
+      "fs_path": "image/diggin/generated/abyss/abyss_equipment_atlas-v2.png"
+    },
+    {
+      "uuid": "EqQIIS5ehQCBI5UdRN4L9P1U",
+      "ext": ".png",
+      "hash": "300d1367",
+      "size": 258,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_q.png"
+    },
+    {
+      "uuid": "EqVIIeCVXvgyHOjC1lfw2u3N",
+      "ext": ".png",
+      "hash": "847fedf2",
+      "size": 361,
+      "hash@windows": "2966822e",
+      "size@windows": 1245,
+      "fs_path": "image/diggin/generated/skill_icons/DynamiteDamage.png"
+    },
+    {
+      "uuid": "ErEumSfsPkzrab1wEBUsimF8",
+      "ext": ".png",
+      "hash": "205fe273",
+      "size": 222,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_l.png"
+    },
+    {
+      "uuid": "EtL2eQkfzPzLckwLq8nLpOF1",
+      "ext": ".png",
+      "hash": "2daa430a",
+      "size": 473,
+      "hash@windows": "8691b5b4",
+      "size@windows": 420,
+      "fs_path": "image/diggin/generated/skill_icons/AftershockDamage.png"
+    },
+    {
+      "uuid": "Ev90AeV8cZp7lkcoofIUpM30",
+      "ext": ".png",
+      "hash": "e14426cd",
+      "size": 418,
+      "fs_path": "image/diggin/generated/skill_icons/SpinningPickaxeDamage.png"
+    },
+    {
+      "uuid": "EvHcwcbj-syvWX2r6KsB_MfO",
+      "ext": ".png",
+      "hash": "3120f527",
+      "size": 2879,
+      "fs_path": "image/diggin/original/Tilesets/Main/greeny.png"
+    },
+    {
+      "uuid": "EvUs0WwfuSeT8liO-pQN1ouA",
+      "ext": ".png",
+      "hash": "e0f948da",
+      "size": 361,
+      "hash@windows": "8b402dfc",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Gold_0.png"
+    },
+    {
+      "uuid": "Evk_wbEFJM91eOkiQ0wLxfBE",
+      "ext": ".png",
+      "hash": "744ac3b8",
+      "size": 312,
+      "fs_path": "image/diggin/generated/skill_icons/RubySmeltMult.png"
+    },
+    {
+      "uuid": "EwBQObXtDc7TCS5zpoXySCVS",
+      "ext": ".png",
+      "hash": "615908d2",
+      "size": 361,
+      "hash@windows": "f12128c9",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/11_0.png"
+    },
+    {
+      "uuid": "ExRawQ7YMUpN2kLvRwOUuTgN",
+      "ext": ".ogg",
+      "hash": "eee6e396",
+      "size": 889850,
+      "fs_path": "audio/diggin/original/Music/Starmetal/Star Metal.ogg"
+    },
+    {
+      "uuid": "EyDD4aHuzNjWazvJf47SeWZx",
+      "ext": ".png",
+      "hash": "0284a9aa",
+      "size": 208,
+      "fs_path": "image/diggin/original/Upgrades/artefac.png"
+    },
+    {
+      "uuid": "EycJgWW7WqX1B3e85WUS8TXx",
+      "ext": ".ogg",
+      "hash": "3583641b",
+      "size": 10399,
+      "fs_path": "audio/sfx/kenney/hurt_impact_03.ogg"
+    },
+    {
+      "uuid": "EyyoUT0CeNCMzcLEFYQYCFpr",
+      "ext": ".png",
+      "hash": "9e7135a6",
+      "size": 520,
+      "fs_path": "image/diggin/original/Upgrades/busilica otvorena.png"
+    },
+    {
+      "uuid": "EzLOWTY_4pFONLFtC8HCp33u",
+      "ext": ".ogg",
+      "hash": "ba53ebae",
+      "size": 5795,
+      "fs_path": "audio/sfx/kenney/impact_light_01.ogg"
+    },
+    {
+      "uuid": "F-w2wUut7OBNYI8ZSGolm3dC",
+      "ext": ".png",
+      "hash": "ba31833f",
+      "size": 193,
+      "fs_path": "image/diggin/generated/skill_icons/MiningSpeed.png"
+    },
+    {
+      "uuid": "F-xoGQ9Ew5Bd4BXAOa9lxsQ_",
+      "ext": ".png",
+      "hash": "d9a24d37",
+      "size": 484,
+      "fs_path": "image/diggin/original/Tilesets/Main/boomstoneOverlay.png"
+    },
+    {
+      "uuid": "F0KIQSr4kHyQuw3au5UDkiMx",
+      "ext": ".png",
+      "hash": "b81c96cc",
+      "size": 116,
+      "fs_path": "image/diggin/original/UI/unchecked.png"
+    },
+    {
+      "uuid": "F0V5KRtS8AK4aNDliEtxGiqa",
+      "ext": ".png",
+      "hash": "6e6e7e6d",
+      "size": 261,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad_down.png"
+    },
+    {
+      "uuid": "F0v7eRl97Dtck0hZl4klYZy3",
+      "ext": ".wav",
+      "hash": "2751fa7b",
+      "size": 24740,
+      "fs_path": "audio/sfx/essence_pickup.wav"
+    },
+    {
+      "uuid": "F20OOfcEeI7OsZKKF0PNcQeC",
+      "ext": ".wav",
+      "hash": "ff9d65b0",
+      "size": 37088,
+      "fs_path": "audio/sfx/shadow_crit.wav"
+    },
+    {
+      "uuid": "F2HbgdxVkWFOrKbJs5uBhrLl",
+      "ext": ".png",
+      "hash": "4826bed8",
+      "size": 195,
+      "fs_path": "image/diggin/generated/skill_icons/LastDitchEffort.png"
+    },
+    {
+      "uuid": "F3FOkQZuszbGTf2n4d1T6jCh",
+      "ext": ".png",
+      "hash": "83424111",
+      "size": 361,
+      "hash@windows": "0a269a28",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/Platinum.png"
+    },
+    {
+      "uuid": "F3Uv2ThD1MOEzsvE7y0LVgEV",
+      "ext": ".png",
+      "hash": "6ab114fb",
+      "size": 473,
+      "hash@windows": "4d78a1a0",
+      "size@windows": 745,
+      "fs_path": "image/diggin/generated/skill_icons/FallingPickaxe.png"
+    },
+    {
+      "uuid": "F3mXyYuvNn1I2OWpFCoqyq2E",
+      "ext": ".png",
+      "hash": "7512f27f",
+      "size": 293,
+      "fs_path": "image/diggin/generated/skill_icons/FuelTank3.png"
+    },
+    {
+      "uuid": "F6FBKTxlYBWIcCLCIeBKG6IN",
+      "ext": ".png",
+      "hash": "d37a35c4",
+      "size": 361,
+      "hash@windows": "b9d1ee5d",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/2_0.png"
+    },
+    {
+      "uuid": "F6WpeVJvVM94D3cfu5pxQHsy",
+      "ext": ".png",
+      "hash": "f48d4041",
+      "size": 302,
+      "fs_path": "image/diggin/generated/skill_icons/SpinningPickaxeCount.png"
+    },
+    {
+      "uuid": "F736uUGm3_bTBjfewe3W0Fx0",
+      "ext": ".png",
+      "hash": "7b986d31",
+      "size": 975939,
+      "fs_path": "image/diggin/publishing/app-icon-cn-v2.png"
+    },
+    {
+      "uuid": "F7V--Y6-8TCVJ-Aj9Nk_xnVO",
+      "ext": ".png",
+      "hash": "94391e30",
+      "size": 295,
+      "fs_path": "image/diggin/original/UI/Input Prompts/xbox_a.png"
+    },
+    {
+      "uuid": "FAlRUTiZ_md3zpnBDhbjlA8g",
+      "ext": ".png",
+      "hash": "ce26b691",
+      "size": 361,
+      "hash@windows": "619c40b2",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/hud_icons/MissionRewardOre.png"
+    },
+    {
+      "uuid": "FB2NoSQwDYtK-yuMLcriENDB",
+      "ext": ".lua",
+      "hash": "9c8e1ef3",
+      "size": 19452,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssRenderer.lua"
+    },
+    {
+      "uuid": "FBJyQZT7tQzDzFpvu7gWijIv",
+      "ext": ".png",
+      "hash": "ad950416",
+      "size": 361,
+      "hash@windows": "7b7a486a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/crack_1.png"
+    },
+    {
+      "uuid": "FB_RkQJV-vS-Ve8merALhDRs",
+      "ext": ".png",
+      "hash": "b6caeb9e",
+      "size": 361,
+      "hash@windows": "7299e612",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/EmeraldUnsmelted_2.png"
+    },
+    {
+      "uuid": "FEY5aZr9JZT8YfkEbFhrcATG",
+      "ext": ".lua",
+      "hash": "6b4256cc",
+      "size": 9659,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssMetaRenderer.lua"
+    },
+    {
+      "uuid": "FFopUcEGyZ3IzDBKGi4vEAcM",
+      "ext": ".lua",
+      "hash": "05896ac8",
+      "size": 7011,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/DrillGameplay.lua"
+    },
+    {
+      "uuid": "FGJHEcinzHlbDxkAZldJyMuq",
+      "ext": ".png",
+      "hash": "59011333",
+      "size": 361,
+      "hash@windows": "b574ed68",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/BoomstoneSpawnRate.png"
+    },
+    {
+      "uuid": "FHO7kcIH1DhwGfcHT6j41UD5",
+      "ext": ".png",
+      "hash": "26402b3a",
+      "size": 341,
+      "hash@windows": "90030abf",
+      "size@windows": 989,
+      "fs_path": "image/diggin/generated/skill_icons/BouncingBallDamage.png"
+    },
+    {
+      "uuid": "FHzWaXpR6iu8nYBoz2RGxmYu",
+      "ext": ".png",
+      "hash": "3f4da7e1",
+      "size": 473,
+      "hash@windows": "f588b3f2",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/skill_icons/AftershockAmount.png"
+    },
+    {
+      "uuid": "FI4UKVxNmki6lUTG1QzPVgmD",
+      "ext": ".png",
+      "hash": "9b6d7a6a",
+      "size": 361,
+      "hash@windows": "5aa0a5d8",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/5_1.png"
+    },
+    {
+      "uuid": "FI5t8b-fbV_hEXFI1czXyGw_",
+      "ext": ".ogg",
+      "hash": "e9fffc36",
+      "size": 2471619,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS2.ogg"
+    },
+    {
+      "uuid": "FI8gsT8H9eMP-lTUjIMTc2AZ",
+      "ext": ".wav",
+      "hash": "d5d21985",
+      "size": 19448,
+      "fs_path": "audio/sfx/shadow_hit.wav"
+    },
+    {
+      "uuid": "FIYLEcq8S9IFdvHPRlAYPwRX",
+      "ext": ".png",
+      "hash": "cf7bd479",
+      "size": 415,
+      "fs_path": "image/diggin/original/Tilesets/Main/chestOpen.png"
+    },
+    {
+      "uuid": "FJ8rSQrZ9eWnCWRhk948RvyZ",
+      "ext": ".png",
+      "hash": "1fdc815b",
+      "size": 341,
+      "hash@windows": "75c59b17",
+      "size@windows": 174,
+      "fs_path": "image/diggin/generated/skill_icons/FuelEfficiency4.png"
+    },
+    {
+      "uuid": "FJWKsSCuxFfE4V58YzGonJvr",
+      "ext": ".png",
+      "hash": "b1829e08",
+      "size": 7781,
+      "fs_path": "image/diggin/original/UI/Mine-0001.png"
+    },
+    {
+      "uuid": "FJso8ZcLN2hQca880LE8lQBc",
+      "ext": ".ogg",
+      "hash": "57a78ccc",
+      "size": 8378,
+      "fs_path": "audio/diggin/original/Sfx/denySFX.ogg"
+    },
+    {
+      "uuid": "FKjUYVoWZWSlIqgnYdoLveWq",
+      "ext": ".ogg",
+      "hash": "a97027b4",
+      "size": 1408706,
+      "fs_path": "audio/music/cynic_battle_loop.ogg"
+    },
+    {
+      "uuid": "FLzz2VvIIB2K1ay7azPCzaBG",
+      "ext": ".png",
+      "hash": "94e65672",
+      "size": 1247594,
+      "fs_path": "image/diggin/generated/world_tree_early_atlas.png"
+    },
+    {
+      "uuid": "FM7beSxHXID5Y4dxgMX9DlOd",
+      "ext": ".ogg",
+      "hash": "b9d3283b",
+      "size": 6844,
+      "fs_path": "audio/diggin/original/Sfx/HoverSFX.ogg"
+    },
+    {
+      "uuid": "FMVlQc0y58Gm11jGIdE8MPQC",
+      "ext": ".png",
+      "hash": "d54f9431",
+      "size": 164,
+      "fs_path": "image/diggin/original/Upgrades/laserdetail.png"
+    },
+    {
+      "uuid": "FNO4kZUI1zsJJrCbbbUJrbYN",
+      "ext": ".png",
+      "hash": "9b8977c3",
+      "size": 361,
+      "hash@windows": "b18be669",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Silver.png"
+    },
+    {
+      "uuid": "FNV94QPBtcXPXKj6omkWsJLV",
+      "ext": ".png",
+      "hash": "5079661e",
+      "size": 280,
+      "fs_path": "image/diggin/original/Mission/gasGuzzler.png"
+    },
+    {
+      "uuid": "FNdVAWYZbCV0u4tltVFry9gf",
+      "ext": ".png",
+      "hash": "7ffb6511",
+      "size": 2881,
+      "hash@windows": "27f2f45c",
+      "size@windows": 724,
+      "fs_path": "image/diggin/generated/effects/explosion_5.png"
+    },
+    {
+      "uuid": "FOLoedpS19D3KTXix2vXM9FL",
+      "ext": ".png",
+      "hash": "534f433e",
+      "size": 251,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_b.png"
+    },
+    {
+      "uuid": "FONfkVhMy3Fq_u7JDAm0sm4b",
+      "ext": ".png",
+      "hash": "ad05dea0",
+      "size": 278,
+      "fs_path": "image/diggin/original/UI/Input Prompts/generic_y.png"
+    },
+    {
+      "uuid": "FONuMYauB-BySWaI_ccQAumP",
+      "ext": ".png",
+      "hash": "99eb77cc",
+      "size": 183,
+      "fs_path": "image/diggin/original/KenneyUI/tile_0578.png"
+    },
+    {
+      "uuid": "FOtrkTqPNM8RWlxU-qGPnlJs",
+      "ext": ".png",
+      "hash": "8415a3af",
+      "size": 386,
+      "fs_path": "image/diggin/original/Tilesets/Main/sleeping.png"
+    },
+    {
+      "uuid": "FOuZeaDnHcl4wqXTAlyJpoHN",
+      "ext": ".png",
+      "hash": "70f3d4c0",
+      "size": 534,
+      "fs_path": "image/diggin/original/Mission/paleonthologist.png"
+    },
+    {
+      "uuid": "FPBRCRtXM6b_F5_qV0xifgtq",
+      "ext": ".png",
+      "hash": "8fd16150",
+      "size": 290,
+      "fs_path": "image/diggin/original/UI/Input Prompts/xbox_b.png"
+    },
+    {
+      "uuid": "FQ8tgeJnISXjVcgZRx9odF2b",
+      "ext": ".png",
+      "hash": "cd61238c",
+      "size": 361,
+      "hash@windows": "927bba7d",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/drill_2.png"
+    },
+    {
+      "uuid": "FQXHcamx4Xp3Dt3YgKGzSBf6",
+      "ext": ".png",
+      "hash": "386caff2",
+      "size": 11856,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscenetest.png"
+    },
+    {
+      "uuid": "FQr7mUnpSZqd622i6WYVgKfe",
+      "ext": ".ogg",
+      "hash": "402a6589",
+      "size": 1717916,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS4.ogg"
+    },
+    {
+      "uuid": "FRLQacwK5aStRGQvLUkxubNa",
+      "ext": ".png",
+      "hash": "801fef47",
+      "size": 341,
+      "hash@windows": "5af2d8d6",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/AugmentStone.png"
+    },
+    {
+      "uuid": "FRcyyah5KsnYMeXuISzkZE5T",
+      "ext": ".png",
+      "hash": "832b6e09",
+      "size": 177110,
+      "fs_path": "image/diggin/original/Logo/Diggin_logo_traditionalchinese.png"
+    },
+    {
+      "uuid": "FSxeyS6cQzmmL47MInLMIgjt",
+      "ext": ".mp3",
+      "hash": "153c2499",
+      "size": 97536,
+      "fs_path": "audio/diggin/original/Sfx/universfield-cinematic-impact-hit-352702.mp3"
+    },
+    {
+      "uuid": "FTnGoak5XiIIjkNuA01-89ih",
+      "ext": ".ogg",
+      "hash": "d58deaf2",
+      "size": 2178543,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS6.ogg"
+    },
+    {
+      "uuid": "FUDHwQR4Ft8YEGyt1-ELpF60",
+      "ext": ".ttf",
+      "hash": "38899216",
+      "size": 67612,
+      "groups": [
+        "startup_fonts",
+        "default"
+      ],
+      "fs_path": "Fonts/diggin/bitcell_memesbruh03.ttf"
+    },
+    {
+      "uuid": "FXKaKd-yugWF0ZxUjYeq2SL9",
+      "ext": ".png",
+      "hash": "26362c6a",
+      "size": 2374,
+      "fs_path": "image/diggin/original/Tilesets/Main/Layes/ljubicasto.png"
+    },
+    {
+      "uuid": "FXdl4f_RYqUxjUSB4L-xdFVv",
+      "ext": ".png",
+      "hash": "5f529c49",
+      "size": 86,
+      "hash@windows": "7ba6ed7c",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/12_2.png"
+    },
+    {
+      "uuid": "FZOaSYgBTqCuAotX4h7XKxn4",
+      "ext": ".png",
+      "hash": "5db7192a",
+      "size": 10498,
+      "fs_path": "image/diggin/original/Tilesets/Main/flowers.png"
+    },
+    {
+      "uuid": "FZjwUSknPsdY7McdfLmBSR1F",
+      "ext": ".png",
+      "hash": "d019ddeb",
+      "size": 232,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_g.png"
+    },
+    {
+      "uuid": "F_SEsZAhy2S1pK62vMehc7RH",
+      "ext": ".png",
+      "hash": "b765580f",
+      "size": 361,
+      "hash@windows": "b669f4bb",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Diamond_1.png"
+    },
+    {
+      "uuid": "FbmNCfhUB27ccMbSdfuJIL_4",
+      "ext": ".png",
+      "hash": "80a05b6a",
+      "size": 20558,
+      "fs_path": "image/diggin/original/KenneyUI/tilemap_black_packed.png"
+    },
+    {
+      "uuid": "FbsM8QVtkL0U2dp6cU9HVujS",
+      "ext": ".png",
+      "hash": "1fddc868",
+      "size": 361,
+      "hash@windows": "58177021",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/EmeraldUnsmelted.png"
+    },
+    {
+      "uuid": "Fbw_gcFaQaRcYub78Jm1fd2f",
+      "ext": ".png",
+      "hash": "d71ac443",
+      "size": 361,
+      "hash@windows": "f0e3c529",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_rat-v1.png"
+    },
+    {
+      "uuid": "Fco4Qbl-xH98kZf4lEUoSxLt",
+      "ext": ".lua",
+      "hash": "3438a477",
+      "size": 2952,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Audio.lua"
+    },
+    {
+      "uuid": "FesC2ZSmvKq0A03xSzLN06Tp",
+      "ext": ".png",
+      "hash": "ea5c8e80",
+      "size": 442,
+      "fs_path": "image/diggin/original/Player Assets/dag2.png"
+    },
+    {
+      "uuid": "FhJ7UYI5SEZOUxn_u1eQHdiv",
+      "ext": ".png",
+      "hash": "353aabbf",
+      "size": 276,
+      "fs_path": "image/diggin/generated/skill_icons/ShrapnelCount.png"
+    },
+    {
+      "uuid": "Fi2kKX11ZlTQIeqbYZRZMB-S",
+      "ext": ".png",
+      "hash": "1e142928",
+      "size": 770,
+      "fs_path": "image/diggin/original/Zgrada/zgrada resurs/zgrada resurs brusilica.png"
+    },
+    {
+      "uuid": "FiORCbfJhxUy9j6tDtiuYdCT",
+      "ext": ".png",
+      "hash": "6faee101",
+      "size": 361,
+      "hash@windows": "132683af",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/10_0.png"
+    },
+    {
+      "uuid": "FitrSYQWH9TtJqRANBF-PXrR",
+      "ext": ".png",
+      "hash": "83424111",
+      "size": 361,
+      "hash@windows": "0a269a28",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Platinum_0.png"
+    },
+    {
+      "uuid": "Fj6Tgeqpgxn_XegniQO7JnfL",
+      "ext": ".xml",
+      "hash": "685fba4a",
+      "size": 62,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans-Bold.xml"
+    },
+    {
+      "uuid": "Fj_CcQOE2M10UFLWv3GFN7TA",
+      "ext": ".png",
+      "hash": "41d42e56",
+      "size": 361,
+      "hash@windows": "6cc2fa37",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/1_2.png"
+    },
+    {
+      "uuid": "FkCvUQGG-jLAuJYVYL_Bar8J",
+      "ext": ".png",
+      "hash": "eca80f0d",
+      "size": 197,
+      "fs_path": "image/diggin/original/UI/Input Prompts/pad_select.png"
+    },
+    {
+      "uuid": "FlsEsZGyXL5Y7oSPGvYN0KNj",
+      "ext": ".png",
+      "hash": "79f20950",
+      "size": 2884,
+      "fs_path": "image/diggin/original/UI/skillTreeUpgradesUI.png"
+    },
+    {
+      "uuid": "FmbbyUUZZAfzFujgAXVmxrc4",
+      "ext": ".png",
+      "hash": "41d42e56",
+      "size": 361,
+      "hash@windows": "6cc2fa37",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/1_1.png"
+    },
+    {
+      "uuid": "FmwUKW6fbo-os_pAuJdQNfmy",
+      "ext": ".ogg",
+      "hash": "9751c62d",
+      "size": 10208,
+      "fs_path": "audio/sfx/kenney/equip_02.ogg"
+    },
+    {
+      "uuid": "Fn3iEZJbq6R1u96nC3rIO9ss",
+      "ext": ".lua",
+      "hash": "062d052c",
+      "size": 7299,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssPassives.lua"
+    },
+    {
+      "uuid": "FoguyXBNAksVPHKaKWoDHt9k",
+      "ext": ".ogg",
+      "hash": "11a97b96",
+      "size": 7817,
+      "fs_path": "audio/diggin/original/Sfx/StoneBroken.ogg"
+    },
+    {
+      "uuid": "FoiCwdVLb6YL9I4LjIwwfMne",
+      "ext": ".png",
+      "hash": "a0681397",
+      "size": 361,
+      "hash@windows": "80fc332a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/AugmentGold.png"
+    },
+    {
+      "uuid": "FpWtGf_1NZJUpm9BQ8Bz2SNg",
+      "ext": ".png",
+      "hash": "46be39f1",
+      "size": 230,
+      "fs_path": "image/diggin/original/UI/Input Prompts/pad_rb.png"
+    },
+    {
+      "uuid": "FrTkUd6QJ-NMio78ggkH4VGs",
+      "ext": ".png",
+      "hash": "8b2ef1fd",
+      "size": 361,
+      "hash@windows": "4a21c9e2",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Gold_2.png"
+    },
+    {
+      "uuid": "FuYViTBDSbrhpN2dDasDyW1l",
+      "ext": ".png",
+      "hash": "c2d304f7",
+      "size": 246,
+      "fs_path": "image/diggin/generated/skill_icons/OverdriveActive.png"
+    },
+    {
+      "uuid": "Fv1WuUeqCl6elG_L8807IzIi",
+      "ext": ".png",
+      "hash": "c9eeb01e",
+      "size": 344,
+      "fs_path": "image/diggin/generated/skill_icons/LaserDamage.png"
+    },
+    {
+      "uuid": "FvwrIRaIr2cNyZ1OuYNwRkEU",
+      "ext": ".png",
+      "hash": "99afbc14",
+      "size": 355,
+      "fs_path": "image/diggin/generated/skill_icons/MiningDamage4.png"
+    },
+    {
+      "uuid": "FwbCseN4JuBLlBrwm819Inav",
+      "ext": ".png",
+      "hash": "f75d17c5",
+      "size": 467,
+      "fs_path": "image/diggin/generated/skill_icons/TermiteDrones.png"
+    },
+    {
+      "uuid": "Fx0nEYeKXkoyF9tEEw7o0rZb",
+      "ext": ".lua",
+      "hash": "acaf85dd",
+      "size": 6764,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/EffectRenderer.lua"
+    },
+    {
+      "uuid": "Fy2FsUrF7ctt_bNFWTR--Wsx",
+      "ext": ".png",
+      "hash": "6fa1e5d8",
+      "size": 257,
+      "fs_path": "image/diggin/generated/skill_icons/OverdriveEnergy.png"
+    },
+    {
+      "uuid": "FyDW8S2nFwfvHduf-vhzE4kn",
+      "ext": ".png",
+      "hash": "7b6da502",
+      "size": 2877,
+      "fs_path": "image/diggin/original/Tilesets/layer/zeleni layer.png"
+    },
+    {
+      "uuid": "Fyv5OUPVcI82B5UZs3oRiTUc",
+      "ext": ".png",
+      "hash": "3c20dd63",
+      "size": 436,
+      "fs_path": "image/diggin/original/Upgrades/boomerang pickaxe.png"
+    },
+    {
+      "uuid": "FzaPuSABvbOMzkLoVRpwOynC",
+      "ext": ".png",
+      "hash": "0ec91d73",
+      "size": 601,
+      "fs_path": "image/diggin/original/Player Assets/hit_sprite.png"
+    },
+    {
+      "uuid": "FzzZ2dfTloCU0idH1uz4XH7Q",
+      "ext": ".ogg",
+      "hash": "a278aab7",
+      "size": 7279,
+      "fs_path": "audio/sfx/kenney/crit_metal_01.ogg"
+    },
+    {
+      "uuid": "G-8FIc9DpHUgVdegwMm-NgQR",
+      "ext": ".png",
+      "hash": "66387e42",
+      "size": 569,
+      "hash@windows": "04caac99",
+      "size@windows": 599,
+      "fs_path": "image/diggin/generated/player/laser_1.png"
+    },
+    {
+      "uuid": "G-8h6a-YJkEfLgmecH7Kidl5",
+      "ext": ".png",
+      "hash": "09a7c70c",
+      "size": 361,
+      "hash@windows": "d87450c2",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/9_1.png"
+    },
+    {
+      "uuid": "G1j4uRUN1XZhKCycaMyROJR7",
+      "ext": ".lua",
+      "hash": "f65689ea",
+      "size": 8631,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssLeaderboardRenderer.lua"
+    },
+    {
+      "uuid": "G2drGV-Ir96uOngPmA015YQ0",
+      "ext": ".lua",
+      "hash": "a78ada46",
+      "size": 33120,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssTower.lua"
+    },
+    {
+      "uuid": "G3GImXupg1mkZ6iKvTBOJNhd",
+      "ext": ".png",
+      "hash": "a7503cd0",
+      "size": 742,
+      "fs_path": "image/diggin/original/UI/starsTest.png"
+    },
+    {
+      "uuid": "G6Tf4SjDpCHYlNa_02VEpBiN",
+      "ext": ".png",
+      "hash": "3edd0fb9",
+      "size": 361,
+      "hash@windows": "f8968fb8",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/RubyUnsmelted_2.png"
+    },
+    {
+      "uuid": "G6e_US5X4ZUAhijsq3CtmY7H",
+      "ext": ".ogg",
+      "hash": "ccf98e12",
+      "size": 18345,
+      "fs_path": "audio/diggin/original/Sfx/explosionSfx.ogg"
+    },
+    {
+      "uuid": "G7CJ6cCSsy-7QE2D6ApHB0FT",
+      "ext": ".ogg",
+      "hash": "1cad1981",
+      "size": 678630,
+      "fs_path": "audio/music/dark_shrine_menu.ogg"
+    },
+    {
+      "uuid": "G9LQMZ38XxYPo968Uzq7zy1-",
+      "ext": ".png",
+      "hash": "8b9e1da1",
+      "size": 569,
+      "hash@windows": "dc03a35f",
+      "size@windows": 562,
+      "fs_path": "image/diggin/generated/player/laser_2.png"
+    },
+    {
+      "uuid": "G9gPkXx2eVG5JBvlSWOTYHDE",
+      "ext": ".ogg",
+      "hash": "1b16e8b6",
+      "size": 1188451,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS9-1.ogg"
+    },
+    {
+      "uuid": "GAdkEfyJ35KRJloYJ7l4b_TI",
+      "ext": ".png",
+      "hash": "50430611",
+      "size": 3082,
+      "fs_path": "image/diggin/original/Upgrades/artifacts.png"
+    },
+    {
+      "uuid": "GBW1Ofxi1qZ6OQATzdsMQNdI",
+      "ext": ".png",
+      "hash": "25ed0436",
+      "size": 361,
+      "hash@windows": "51991e2a",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Silver_2.png"
+    },
+    {
+      "uuid": "GCEA-Y1BhnwRHvwMxrFjtYaO",
+      "ext": ".png",
+      "hash": "9e2884b0",
+      "size": 365,
+      "fs_path": "image/diggin/generated/skill_icons/Molenir.png"
+    },
+    {
+      "uuid": "GEC8OcPmEDumDBtqvN6zyldG",
+      "ext": ".png",
+      "hash": "b765580f",
+      "size": 361,
+      "hash@windows": "b669f4bb",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/DiamondUnsmelted_1.png"
+    },
+    {
+      "uuid": "GEUjMbRcp-T2RV6y5KrKv8zS",
+      "ext": ".png",
+      "hash": "0e5c3203",
+      "size": 361,
+      "hash@windows": "2fbd1c5a",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/3_2.png"
+    },
+    {
+      "uuid": "GEWZOQdWXJEktk3F7KKldcBG",
+      "ext": ".png",
+      "hash": "7b90c640",
+      "size": 349677,
+      "hash@windows": "cca8ca53",
+      "size@windows": 786605,
+      "fs_path": "image/diggin/generated/abyss_tower/shop_terminal-sheet-v1.png"
+    },
+    {
+      "uuid": "GEuOscuXl77VcaL0spWdQxOe",
+      "ext": ".png",
+      "hash": "29c482f0",
+      "size": 361,
+      "hash@windows": "02777194",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/boomstone_0.png"
+    },
+    {
+      "uuid": "GFxAydbLuH0MBFt5rXSLY8rC",
+      "ext": ".png",
+      "hash": "975d6c3e",
+      "size": 341,
+      "hash@windows": "a900368b",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/DynamiteCooldown.png"
+    },
+    {
+      "uuid": "GG98MQG5mRVmQG8brHIe8l_i",
+      "ext": ".ogg",
+      "hash": "7637a8a8",
+      "size": 96854,
+      "fs_path": "audio/diggin/original/Sfx/UIData_Computing Scan Loopable-008_OS_Quute UI.ogg"
+    },
+    {
+      "uuid": "GGQXaRDbENwiU-syNbBclpOi",
+      "ext": ".lua",
+      "hash": "dd79c864",
+      "size": 6713,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/SkillText.lua"
+    },
+    {
+      "uuid": "GGRZYZ76qY97n4I329tqTztY",
+      "ext": ".png",
+      "hash": "d4d413f3",
+      "size": 293,
+      "hash@windows": "c71816eb",
+      "size@windows": 765,
+      "fs_path": "image/diggin/generated/skill_icons/CollectorSpeed.png"
+    },
+    {
+      "uuid": "GHe4keUa4L5UrRfsY_1pGq6j",
+      "ext": ".png",
+      "hash": "aecd71ef",
+      "size": 253,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f1.png"
+    },
+    {
+      "uuid": "GI2SwSFmose0KqRMiGPR2gq0",
+      "ext": ".png",
+      "hash": "09a7c70c",
+      "size": 361,
+      "hash@windows": "d87450c2",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/9_2.png"
+    },
+    {
+      "uuid": "GICgIXtK6-AK0KtYsK_zPos-",
+      "ext": ".png",
+      "hash": "8d6d973d",
+      "size": 308,
+      "fs_path": "image/diggin/original/UI/Input Prompts/mouse_wheel_up.png"
+    },
+    {
+      "uuid": "GJZCYY1IHngiZuz9fhwxUaZv",
+      "ext": ".png",
+      "hash": "eb12ca5c",
+      "size": 361,
+      "hash@windows": "b258636a",
+      "size@windows": 1241,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_unholy_skull-v1.png"
+    },
+    {
+      "uuid": "GJvYoWw1sLdTUkH-SZGC_W47",
+      "ext": ".png",
+      "hash": "2fc9c64f",
+      "size": 3708,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer10.png"
+    },
+    {
+      "uuid": "GKMDEf2h3eIbWDoF2xJLV-B5",
+      "ext": ".png",
+      "hash": "2ffa4da4",
+      "size": 185,
+      "fs_path": "image/diggin/original/KeywordTooltips/explosion.png"
+    },
+    {
+      "uuid": "GMB-CUkW_ZWUAB1LMNGKDahw",
+      "ext": ".png",
+      "hash": "cee1347c",
+      "size": 792,
+      "fs_path": "image/diggin/original/UI/resources.png"
+    },
+    {
+      "uuid": "GMLnaaBch2bX1V77d1EA5lsL",
+      "ext": ".png",
+      "hash": "c4e8538e",
+      "size": 754,
+      "fs_path": "image/diggin/original/Upgrades/hammer.png"
+    },
+    {
+      "uuid": "GO9v-UQdlZ7eqFd4i3GvbqiD",
+      "ext": ".png",
+      "hash": "420357a6",
+      "size": 124,
+      "fs_path": "image/diggin/original/UI/checked.png"
+    },
+    {
+      "uuid": "GP3m0fUKQkADaWE0XJ7jzUn_",
+      "ext": ".png",
+      "hash": "76cc07ad",
+      "size": 349677,
+      "hash@windows": "51a27e02",
+      "size@windows": 786605,
+      "fs_path": "image/diggin/generated/abyss_tower/chest_items-atlas-v1.png"
+    },
+    {
+      "uuid": "GQqO2QC4LIbS-dUTTdx1m4Xf",
+      "ext": ".png",
+      "hash": "c7869560",
+      "size": 2881,
+      "hash@windows": "3bf92aba",
+      "size@windows": 1053,
+      "fs_path": "image/diggin/generated/effects/explosion_2.png"
+    },
+    {
+      "uuid": "GRx-edkpfPe6TuBJB67-NscL",
+      "ext": ".png",
+      "hash": "9ce0a2ff",
+      "size": 21642,
+      "fs_path": "image/diggin/original/KenneyUI/tilemap_black.png"
+    },
+    {
+      "uuid": "GSITERMacnhu_UiDsjcLgGGK",
+      "ext": ".png",
+      "hash": "a8a432d4",
+      "size": 361,
+      "hash@windows": "8e5a0367",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/BoomerangSpawnRate.png"
+    },
+    {
+      "uuid": "GT0nsUp3H-DaeA14qUkr1pht",
+      "ext": ".png",
+      "hash": "9e9986c3",
+      "size": 361,
+      "fs_path": "image/diggin/original/Player Assets/playerAssetTesting.png"
+    },
+    {
+      "uuid": "GUaRWdo4INTEeI3liAFlkIZC",
+      "ext": ".lua",
+      "hash": "e4b39780",
+      "size": 79180,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/App.lua"
+    },
+    {
+      "uuid": "GUtoyT4fd0hgINSYnZTiOO8E",
+      "ext": ".png",
+      "hash": "b1e4c198",
+      "size": 361,
+      "hash@windows": "e052ba93",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Diamond.png"
+    },
+    {
+      "uuid": "GVchYcFV_yXdAAm15g28xZCY",
+      "ext": ".png",
+      "hash": "231df6ed",
+      "size": 174925,
+      "hash@windows": "ad693aed",
+      "size@windows": 393405,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_wisp_projectile-sheet-v1.png"
+    },
+    {
+      "uuid": "GVdvgVC2CDupN29xrIy8XUQy",
+      "ext": ".png",
+      "hash": "21b1abb9",
+      "size": 12632,
+      "fs_path": "image/diggin/original/UI/Bonuses-0001.png"
+    },
+    {
+      "uuid": "GWmU6ZWeky7Ftwa7JquiB7J2",
+      "ext": ".png",
+      "hash": "dc050341",
+      "size": 361,
+      "hash@windows": "a6cd7e47",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/modifiers/boomstone_1.png"
+    },
+    {
+      "uuid": "GX_F-XMi5GDZZEvcEZCQn0ST",
+      "ext": ".ogg",
+      "hash": "070c6be0",
+      "size": 5468,
+      "fs_path": "audio/sfx/kenney/pickup_01.ogg"
+    },
+    {
+      "uuid": "GXj9ORdk0AzgLSF43i-DiHWQ",
+      "ext": ".png",
+      "hash": "7f9e6532",
+      "size": 361,
+      "hash@windows": "844e36c4",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/EmeraldUnsmelted.png"
+    },
+    {
+      "uuid": "GXnU8fOlqPHB9Dt3YEqnoF_O",
+      "ext": ".png",
+      "hash": "84099b79",
+      "size": 336,
+      "fs_path": "image/diggin/generated/skill_icons/ShockwaveDamage.png"
+    },
+    {
+      "uuid": "GXu-gff_oCSQKl9jHK5F5LM8",
+      "ext": ".png",
+      "hash": "3555b3e6",
+      "size": 955,
+      "fs_path": "image/diggin/original/Ores/platinum.png"
+    },
+    {
+      "uuid": "GY5_qW1_ROV8xYZKzVjQkHKE",
+      "ext": ".ogg",
+      "hash": "325bf0a3",
+      "size": 103323,
+      "fs_path": "audio/diggin/original/Sfx/Overheat.ogg"
+    },
+    {
+      "uuid": "GYFTuecoSfhL-mf1-PSHyYDi",
+      "ext": ".png",
+      "hash": "1843dfa7",
+      "size": 287,
+      "fs_path": "image/diggin/original/UI/Input Prompts/generic_a.png"
+    },
+    {
+      "uuid": "Gb31cfh-fiAJnAs5dKHq1I_A",
+      "ext": ".png",
+      "hash": "9abc33c0",
+      "size": 253,
+      "fs_path": "image/diggin/original/Tilesets/Main/dark_earth_block.png"
+    },
+    {
+      "uuid": "GbVgKaJMDReOQiOhB1UkgO7I",
+      "ext": ".png",
+      "hash": "4105e98f",
+      "size": 156,
+      "fs_path": "image/diggin/generated/skill_icons/ShockwaveActive.png"
+    },
+    {
+      "uuid": "GcJTwSGj-K1TNGbApuFRYm0d",
+      "ext": ".png",
+      "hash": "5c6df9fa",
+      "size": 375,
+      "fs_path": "image/diggin/original/UI/shockwav.png"
+    },
+    {
+      "uuid": "GdZPafxq9mey55D-7iqGDSCN",
+      "ext": ".png",
+      "hash": "42971895",
+      "size": 235,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_y.png"
+    },
+    {
+      "uuid": "GfWcIXsTWuzMnJieGd1r7AnT",
+      "ext": ".png",
+      "hash": "21214eb5",
+      "size": 235,
+      "fs_path": "image/diggin/original/UI/Input Prompts/stick_r.png"
+    },
+    {
+      "uuid": "Gg2_MZX0Afrv5dfrOMeFmHHq",
+      "ext": ".png",
+      "hash": "7fa5d516",
+      "size": 33535,
+      "fs_path": "image/diggin/original/UI/dignlogotype.png"
+    },
+    {
+      "uuid": "GgWK0cyrBbIw5G3rh7MmTbbh",
+      "ext": ".png",
+      "hash": "9d6112c2",
+      "size": 225,
+      "fs_path": "image/diggin/original/UI/Input Prompts/pad_lb.png"
+    },
+    {
+      "uuid": "GhiPeRSyzizpILbJqkJKkW1U",
+      "ext": ".png",
+      "hash": "b2677732",
+      "size": 284,
+      "fs_path": "image/diggin/generated/skill_icons/Fuelstone.png"
+    },
+    {
+      "uuid": "GhvCyQhfRw6KbtHXndcrs90z",
+      "ext": ".png",
+      "hash": "50062387",
+      "size": 361,
+      "hash@windows": "8391fcc5",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/flash_0.png"
+    },
+    {
+      "uuid": "Ghvj2dqyKHqEwkG6Dk0fyQnA",
+      "ext": ".png",
+      "hash": "8371e070",
+      "size": 293,
+      "hash@windows": "78225f2a",
+      "size@windows": 149,
+      "fs_path": "image/diggin/generated/skill_icons/CritChance2.png"
+    },
+    {
+      "uuid": "GiSLEVn0AYpZgt_ZSVzqBDGa",
+      "ext": ".png",
+      "hash": "5ad0d738",
+      "size": 361,
+      "hash@windows": "86cded48",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Platinum_3.png"
+    },
+    {
+      "uuid": "GkNQIfWKN2d-crKulBEppHRA",
+      "ext": ".png",
+      "hash": "27565ab6",
+      "size": 157,
+      "fs_path": "image/diggin/original/UI/chestUIBottom.png"
+    },
+    {
+      "uuid": "GkzhqXPFB2oTCn5hAaI1gMeZ",
+      "ext": ".png",
+      "hash": "c5ea8144",
+      "size": 265,
+      "fs_path": "image/diggin/original/Mission/overclocked.png"
+    },
+    {
+      "uuid": "Gl4f2T1jrP6A3nuoRht-mCq5",
+      "ext": ".png",
+      "hash": "d824a307",
+      "size": 1186,
+      "fs_path": "image/diggin/original/Player Assets/todor.png"
+    },
+    {
+      "uuid": "Gl8pEXCysvWprh94M3fraqsB",
+      "ext": ".png",
+      "hash": "e2e585d1",
+      "size": 2559,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer8.png"
+    },
+    {
+      "uuid": "GlY9ga-Ri-0miWef0CnzQapl",
+      "ext": ".png",
+      "hash": "1a9324a4",
+      "size": 569,
+      "hash@windows": "e8162d8c",
+      "size@windows": 577,
+      "fs_path": "image/diggin/generated/player/laser_0.png"
+    },
+    {
+      "uuid": "GmABOQ3rE_pgMCppXt8fqs7_",
+      "ext": ".lua",
+      "hash": "2b1caa09",
+      "size": 3377,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssDifficulty.lua"
+    },
+    {
+      "uuid": "GmFvYeqhZEOzMFY2FkC_DZ5B",
+      "ext": ".ogg",
+      "hash": "c43b76bd",
+      "size": 2407399,
+      "fs_path": "audio/diggin/original/Music/Outro Story/Outro music.ogg"
+    },
+    {
+      "uuid": "Gn3j8XVccK7Pi_xnxS5HNZX3",
+      "ext": ".png",
+      "hash": "08ef5312",
+      "size": 341,
+      "hash@windows": "ea7f0680",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/AugmentPlatinum.png"
+    },
+    {
+      "uuid": "Gn4oKRPgvNIpSe9bMevOTcp3",
+      "ext": ".png",
+      "hash": "a5b8e83f",
+      "size": 361,
+      "hash@windows": "4aa1f490",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/0_1.png"
+    },
+    {
+      "uuid": "GoC2uXV3kwyaUpW4O16-4AOb",
+      "ext": ".ttf",
+      "hash": "c455d240",
+      "size": 7006220,
+      "refs": [
+        "Fj6Tgeqpgxn_XegniQO7JnfL"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans-Bold.ttf"
+    },
+    {
+      "uuid": "Gp4NsdmWSVqBAKUtumvAglZf",
+      "ext": ".wav",
+      "hash": "0acc244b",
+      "size": 28268,
+      "fs_path": "audio/sfx/player_hurt.wav"
+    },
+    {
+      "uuid": "Gq2Y4QEkrfDgTGJA9mfb4y0c",
+      "ext": ".png",
+      "hash": "3c4dad65",
+      "size": 2505,
+      "fs_path": "image/diggin/original/Tilesets/Main/grass ahhTilemap.png"
+    },
+    {
+      "uuid": "GrZzeQB2wFl3YJCcN3KxBA5z",
+      "ext": ".png",
+      "hash": "832b6e09",
+      "size": 177110,
+      "fs_path": "image/diggin/original/Logo/Diggin_logo_simplifiedchinese.png"
+    },
+    {
+      "uuid": "GrqpId14r-myrpXrWcdwY31g",
+      "ext": ".png",
+      "hash": "bd1aadb6",
+      "size": 531,
+      "fs_path": "image/diggin/original/Tilesets/Main/newOres.png"
+    },
+    {
+      "uuid": "Gt3kwXi9ovrLjJwruZAH6ZH1",
+      "ext": ".png",
+      "hash": "576e547a",
+      "size": 106192,
+      "fs_path": "image/screenshot_01.png"
+    },
+    {
+      "uuid": "GtNMKfic2ryH0WyN4ExIm6ry",
+      "ext": ".png",
+      "hash": "68abb55c",
+      "size": 361,
+      "hash@windows": "5feeaf2e",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Silver_3.png"
+    },
+    {
+      "uuid": "GvEyifZOZkpcK6azwQgq9NZo",
+      "ext": ".ogg",
+      "hash": "31f27553",
+      "size": 2615525,
+      "fs_path": "audio/diggin/original/Music/Gameplay/DENS1.ogg"
+    },
+    {
+      "uuid": "GvP1qcJpX67lsBmgxxc64AMJ",
+      "ext": ".ogg",
+      "hash": "f36833d9",
+      "size": 6901,
+      "fs_path": "audio/sfx/kenney/pickup_03.ogg"
+    },
+    {
+      "uuid": "Gw0cUbuCp0yH6B4qNLSBfGR5",
+      "ext": ".png",
+      "hash": "b1e4c198",
+      "size": 361,
+      "hash@windows": "e052ba93",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Diamond_0.png"
+    },
+    {
+      "uuid": "GxMUeYyjXbIRIZhi3dCwznDo",
+      "ext": ".png",
+      "hash": "037ff3f4",
+      "size": 229,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f.png"
+    },
+    {
+      "uuid": "GyukgfsXo4oyTmYMCm5rFNce",
+      "ext": ".png",
+      "hash": "cdc7c1f9",
+      "size": 240,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_c.png"
+    },
+    {
+      "uuid": "Gz-z8XK405u1rrUJMr_XPTDX",
+      "ext": ".png",
+      "hash": "b02310c7",
+      "size": 341,
+      "hash@windows": "e5285860",
+      "size@windows": 873,
+      "fs_path": "image/diggin/generated/skill_icons/DiamondSmeltSpeed.png"
+    },
+    {
+      "uuid": "GzvkCVfcm3KsJs2QDVoXU3CR",
+      "ext": ".png",
+      "hash": "2c8d483c",
+      "size": 3864,
+      "fs_path": "image/diggin/original/UI/fossils.png"
+    },
+    {
+      "uuid": "H-BdScDUh_ZKnTFEIXR1dmZh",
+      "ext": ".png",
+      "hash": "849683cb",
+      "size": 361,
+      "hash@windows": "78c98a8d",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/RubyUnsmelted_1.png"
+    },
+    {
+      "uuid": "H-NK2VUZVEmYXSSEFVwdVW75",
+      "ext": ".png",
+      "hash": "6fdbe07b",
+      "size": 489,
+      "fs_path": "image/diggin/generated/skill_icons/OverdriveStrength2.png"
+    },
+    {
+      "uuid": "H-NWcZUAvC-SVbSUeIdEDUCP",
+      "ext": ".lua",
+      "hash": "917ed42b",
+      "size": 20330,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssInscriptions.lua"
+    },
+    {
+      "uuid": "H-lYsU4EdQifxBO7Oi0zPaTq",
+      "ext": ".ogg",
+      "hash": "71882f57",
+      "size": 5463,
+      "fs_path": "audio/sfx/kenney/pickup_02.ogg"
+    },
+    {
+      "uuid": "H0DdUR5AVobDzueldy2KeZjx",
+      "ext": ".png",
+      "hash": "b64f7296",
+      "size": 540,
+      "fs_path": "image/diggin/original/Tilesets/Main/fuelstone.png"
+    },
+    {
+      "uuid": "H0qvEegL4eRI0iVlxKsmSoLF",
+      "ext": ".png",
+      "hash": "d190d8ae",
+      "size": 473,
+      "hash@windows": "f0d5e7d3",
+      "size@windows": 745,
+      "fs_path": "image/diggin/generated/skill_icons/DrillMissileAoE.png"
+    },
+    {
+      "uuid": "H1Uq4XTiGswh2jpLo382U39m",
+      "ext": ".png",
+      "hash": "5c28d73c",
+      "size": 193,
+      "fs_path": "image/diggin/generated/skill_icons/MiningRate3.png"
+    },
+    {
+      "uuid": "H2t_YY1lm8pvVkGBGImzKt4N",
+      "ext": ".png",
+      "hash": "4c45f449",
+      "size": 299,
+      "fs_path": "image/diggin/original/UI/Input Prompts/xbox_x.png"
+    },
+    {
+      "uuid": "H35FkfUvgPt4HfK_3rUcC-oz",
+      "ext": ".png",
+      "hash": "615908d2",
+      "size": 361,
+      "hash@windows": "f12128c9",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/11_2.png"
+    },
+    {
+      "uuid": "H3mj6TlaG2JzL5oFvgdpyHGd",
+      "ext": ".png",
+      "hash": "4826bed8",
+      "size": 195,
+      "fs_path": "image/diggin/generated/skill_icons/LastDitchArtefact.png"
+    },
+    {
+      "uuid": "H3o4Gd1gloNax6mcn9oBFfjg",
+      "ext": ".png",
+      "hash": "8207a3f6",
+      "size": 4178,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer6.png"
+    },
+    {
+      "uuid": "H4HLieJByufdxwJYi9Q7QDUi",
+      "ext": ".png",
+      "hash": "8b2ed4dc",
+      "size": 361,
+      "hash@windows": "688ae515",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/EmeraldSmeltSpeed.png"
+    },
+    {
+      "uuid": "H4Pu4az0NTu7jGKbKq_809kE",
+      "ext": ".lua",
+      "hash": "563e799e",
+      "size": 28249,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssLoot.lua"
+    },
+    {
+      "uuid": "H4TkYWkf1-tP4dLM0YgxV8Ze",
+      "ext": ".png",
+      "hash": "3edd0fb9",
+      "size": 361,
+      "hash@windows": "f8968fb8",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/ores/Ruby_2.png"
+    },
+    {
+      "uuid": "H4YdAY31cafdozUfqec6ZsFY",
+      "ext": ".png",
+      "hash": "b57d32cb",
+      "size": 361,
+      "hash@windows": "b6737339",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_hungry_mimic-v1.png"
+    },
+    {
+      "uuid": "H4geeSvQIyN9F19xh01_Ivlw",
+      "ext": ".png",
+      "hash": "198546e9",
+      "size": 991,
+      "fs_path": "image/diggin/original/Upgrades/WORM.png"
+    },
+    {
+      "uuid": "H5C1yXzny6Ff0Fr-IoIFjbLl",
+      "ext": ".ogg",
+      "hash": "a4f91d2a",
+      "size": 6970,
+      "fs_path": "audio/diggin/original/Sfx/UIClick_Tactile Super Tiny Incremental-016_OS_Quute UI.ogg"
+    },
+    {
+      "uuid": "H5Fg8aG7v8AKtXgOijlL7dQJ",
+      "ext": ".png",
+      "hash": "a5b8e83f",
+      "size": 361,
+      "hash@windows": "4aa1f490",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/0_2.png"
+    },
+    {
+      "uuid": "H6CGWV2QQe-FybK4QpnRBjh9",
+      "ext": ".png",
+      "hash": "871cfb54",
+      "size": 255,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_esc.png"
+    },
+    {
+      "uuid": "H71DaQ1S-k3_Mw66MZQSSVMP",
+      "ext": ".png",
+      "hash": "6f9b189d",
+      "size": 2533,
+      "fs_path": "image/diggin/original/Tilesets/Main/tree1.png"
+    },
+    {
+      "uuid": "H7UnaTDwd-55LEipnokf0lhi",
+      "ext": ".png",
+      "hash": "515268c2",
+      "size": 5722,
+      "fs_path": "image/diggin/original/UI/Background_Stars-0001.png"
+    },
+    {
+      "uuid": "H9mKWQNlmo2JuBz0-kfZiog5",
+      "ext": ".png",
+      "hash": "3187743d",
+      "size": 361,
+      "hash@windows": "3b8473bb",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/damage/flash_2.png"
+    },
+    {
+      "uuid": "H9qvUZi5B_6HjhDyKeKLokHE",
+      "ext": ".webp",
+      "hash": "0dc7b105",
+      "size": 1486,
+      "fs_path": "image/diggin/original/Tilesets/Main/Layes/ovazelena.webp"
+    },
+    {
+      "uuid": "HA60yVD2UClYjdY3T16uZZhV",
+      "ext": ".png",
+      "hash": "b4611d07",
+      "size": 473,
+      "hash@windows": "9b63c52d",
+      "size@windows": 210,
+      "fs_path": "image/diggin/generated/skill_icons/AftershockSpread.png"
+    },
+    {
+      "uuid": "HA_2afRpxxSIfwTWw7H0bMQG",
+      "ext": ".png",
+      "hash": "78f11831",
+      "size": 889,
+      "fs_path": "image/diggin/original/Tilesets/Main/skillTreeChest.png"
+    },
+    {
+      "uuid": "HB528Wxfbxqat6p0cExmcii5",
+      "ext": ".png",
+      "hash": "14c911fc",
+      "size": 846,
+      "fs_path": "image/diggin/original/Upgrades/falling pickaxe.png"
+    },
+    {
+      "uuid": "HB_cmQQrSyr6Zc4ggXLMxZSm",
+      "ext": ".png",
+      "hash": "e05007f1",
+      "size": 223,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_h.png"
+    },
+    {
+      "uuid": "HC-o0TlLv2CJcA-ysC2h3U2E",
+      "ext": ".png",
+      "hash": "1daa9c95",
+      "size": 271,
+      "fs_path": "image/diggin/original/UI/Input Prompts/mouse_right.png"
+    },
+    {
+      "uuid": "HCZ_aTUUw6pwtlbY57oOWfVw",
+      "ext": ".png",
+      "hash": "24ac4bb6",
+      "size": 361,
+      "hash@windows": "dea6bd6c",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/Iridium.png"
+    },
+    {
+      "uuid": "HCdbcZ-9-zvk9e6k3v5xQh3w",
+      "ext": ".png",
+      "hash": "7eaec875",
+      "size": 229,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_7.png"
+    },
+    {
+      "uuid": "HD3MgYxvzeOkR8UeVCIB_8wP",
+      "ext": ".png",
+      "hash": "144ed1ef",
+      "size": 363,
+      "fs_path": "image/diggin/original/UI/star1.png"
+    },
+    {
+      "uuid": "HE7nqde6POEJeH16dU2v18WY",
+      "ext": ".lua",
+      "hash": "07a57aa1",
+      "size": 4790,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Controls.lua"
+    },
+    {
+      "uuid": "HFCUSWZ305eSPwVxItxzdnrP",
+      "ext": ".png",
+      "hash": "5d9525ed",
+      "size": 602,
+      "fs_path": "image/diggin/generated/effects/explosion_0.png"
+    },
+    {
+      "uuid": "HFDhwaPCMnagW5upwGpWxzAc",
+      "ext": ".png",
+      "hash": "7b417776",
+      "size": 411,
+      "fs_path": "image/diggin/original/Upgrades/dynamiteAsset.png"
+    },
+    {
+      "uuid": "HFLAKUyjDGF_5hIK7WHqbOvw",
+      "ext": ".lua",
+      "hash": "8ec2ab1c",
+      "size": 1977,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssSynergies.lua"
+    },
+    {
+      "uuid": "HFg8OXwBntczNaFdkAeSNO87",
+      "ext": ".png",
+      "hash": "ad8d7248",
+      "size": 156159,
+      "fs_path": "image/diggin/original/Logo/japanese.png"
+    },
+    {
+      "uuid": "HFx-cUxtu4F57J4tIURzJjg4",
+      "ext": ".webp",
+      "hash": "045265fc",
+      "size": 1448,
+      "fs_path": "image/diggin/original/Tilesets/Main/Layes/313.webp"
+    },
+    {
+      "uuid": "HG4jsWJgtHqjI0bAReizuMkx",
+      "ext": ".png",
+      "hash": "655e5ed5",
+      "size": 16947,
+      "fs_path": "image/diggin/original/UI/Background_Full-0001.png"
+    },
+    {
+      "uuid": "HGDxUbOz5_SzekrfgFk8nhTK",
+      "ext": ".png",
+      "hash": "00a97dce",
+      "size": 361,
+      "hash@windows": "eaeb5e39",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/FieldOfView1.png"
+    },
+    {
+      "uuid": "HHXAca8IvomQ_P6jYg-b2sEv",
+      "ext": ".lua",
+      "hash": "e4ef9442",
+      "size": 17038,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssRunTools.lua"
+    },
+    {
+      "uuid": "HHnO0Tqeqq9DCHwlPgFcCFq8",
+      "ext": ".png",
+      "hash": "66ceb6eb",
+      "size": 341,
+      "hash@windows": "6026f001",
+      "size@windows": 989,
+      "fs_path": "image/diggin/generated/skill_icons/EmeraldSmeltMult.png"
+    },
+    {
+      "uuid": "HI-5yfRr982vJS6-YNAv8kN2",
+      "ext": ".png",
+      "hash": "53210be4",
+      "size": 10215,
+      "fs_path": "image/diggin/original/UI/iconsNew.png"
+    },
+    {
+      "uuid": "HIdmyV8H_P7s7vo7LZyBQOLa",
+      "ext": ".png",
+      "hash": "fb762cf9",
+      "size": 3323,
+      "fs_path": "image/diggin/original/Tilesets/airlinefood.png"
+    },
+    {
+      "uuid": "HJC_OXy0B4nGHqjzAdNeocRb",
+      "ext": ".png",
+      "hash": "56cc32c0",
+      "size": 361,
+      "hash@windows": "2e1daf42",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/BouncingBallArtefact.png"
+    },
+    {
+      "uuid": "HK122cRpqVe_AUJYQM8V_EfR",
+      "ext": ".png",
+      "hash": "a789d744",
+      "size": 232,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_d.png"
+    },
+    {
+      "uuid": "HKvOUcE4PkX11XtqD8p63CR4",
+      "ext": ".lua",
+      "hash": "3983f634",
+      "size": 4766,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/MobileControlLayout.lua"
+    },
+    {
+      "uuid": "HMayoesMMM_T1YdPF5QKPIjF",
+      "ext": ".lua",
+      "hash": "d2fe8b1c",
+      "size": 1184,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssBuildChoice.lua"
+    },
+    {
+      "uuid": "HN12CSdCBq34TuEdAZMNZNLe",
+      "ext": ".png",
+      "hash": "f43cf5a8",
+      "size": 19073,
+      "fs_path": "image/diggin/original/CutsceneOutro/cso3.png"
+    },
+    {
+      "uuid": "HNNgaSWjjLu9m3Z9qUocZt3v",
+      "ext": ".png",
+      "hash": "e7bebefa",
+      "size": 361,
+      "hash@windows": "bc8e9e71",
+      "size@windows": 308,
+      "fs_path": "image/diggin/generated/skill_icons/DrillMissiles.png"
+    },
+    {
+      "uuid": "HNu-IWHQKjUM4XJjmL5X-OY2",
+      "ext": ".png",
+      "hash": "cefecd4c",
+      "size": 361,
+      "hash@windows": "f11e2e32",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/BulletWormCooldown.png"
+    },
+    {
+      "uuid": "HOdzYXEyFP4c0niO-aYq7Ni4",
+      "ext": ".png",
+      "hash": "6dcde00c",
+      "size": 249,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_r.png"
+    },
+    {
+      "uuid": "HP5w-ezeFtZ8nXKJ8XNZ4Aj2",
+      "ext": ".png",
+      "hash": "d3dd3d8a",
+      "size": 355,
+      "fs_path": "image/diggin/original/Upgrades/bouncing ball.png"
+    },
+    {
+      "uuid": "HQ0ayXeqnBtqJimAaGLG-K9t",
+      "ext": ".png",
+      "hash": "7e0308f9",
+      "size": 361,
+      "hash@windows": "2931de53",
+      "size@windows": 1245,
+      "fs_path": "image/diggin/generated/skill_icons/BoomerangArtefact.png"
+    },
+    {
+      "uuid": "HQO26bKj0ABLMctjslmolUhW",
+      "ext": ".png",
+      "hash": "68ed3a8f",
+      "size": 226,
+      "fs_path": "image/diggin/generated/skill_icons/SilverBonanza.png"
+    },
+    {
+      "uuid": "HQpuoVtMVAL5BvJZBhGbQeqo",
+      "ext": ".png",
+      "hash": "280f54b5",
+      "size": 361,
+      "hash@windows": "c85ff22c",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/StarStone.png"
+    },
+    {
+      "uuid": "HS7WoeRA-7VSTDlBniSP8U3i",
+      "ext": ".png",
+      "hash": "63e6b483",
+      "size": 2881,
+      "hash@windows": "fc2af90d",
+      "size@windows": 974,
+      "fs_path": "image/diggin/generated/effects/explosion_4.png"
+    },
+    {
+      "uuid": "HScxSVeSFk_7hi8dfBIE6_1F",
+      "ext": ".ogg",
+      "hash": "086a6a2a",
+      "size": 5212,
+      "fs_path": "audio/diggin/original/Sfx/hitStoneSfx.ogg"
+    },
+    {
+      "uuid": "HSl8uZOiI3-e-7DxIWHx3VgT",
+      "ext": ".png",
+      "hash": "2ddea0dd",
+      "size": 250,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f2.png"
+    },
+    {
+      "uuid": "HU9EIdjVHtrJjaAr-n-ATSqn",
+      "ext": ".png",
+      "hash": "33bb7336",
+      "size": 361,
+      "hash@windows": "e0014a88",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/default_4.png"
+    },
+    {
+      "uuid": "HUvvoR-yWJ_UImcCW4myoFgV",
+      "ext": ".png",
+      "hash": "0ac32c04",
+      "size": 361,
+      "hash@windows": "6c076c70",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/StarDebris.png"
+    },
+    {
+      "uuid": "HW0gscveCk7i25SO4XIVHFrP",
+      "ext": ".ogg",
+      "hash": "b1c414c0",
+      "size": 32281,
+      "fs_path": "audio/diggin/original/Sfx/Click2.ogg"
+    },
+    {
+      "uuid": "HWTm6SXqgSDKnocY5_szo6eH",
+      "ext": ".png",
+      "hash": "c0f00319",
+      "size": 361,
+      "hash@windows": "ae5af910",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/skill_icons/BouncingBallBounces.png"
+    },
+    {
+      "uuid": "HXczaa8xuwFvfRZ6xr7K-68v",
+      "ext": ".png",
+      "hash": "88a1a85d",
+      "size": 118477,
+      "hash@windows": "ba9060d0",
+      "size@windows": 262317,
+      "fs_path": "image/diggin/generated/abyss_tower/route_icons-atlas-v1.png"
+    },
+    {
+      "uuid": "HXl4Of7IN9J4N2LOf9XV-aix",
+      "ext": ".png",
+      "hash": "ac99a611",
+      "size": 4337,
+      "fs_path": "image/diggin/original/Zgrada/devices upper world.png"
+    },
+    {
+      "uuid": "HYxTgdWl4Mb-3G8TajhlCTET",
+      "ext": ".png",
+      "hash": "6faee101",
+      "size": 361,
+      "hash@windows": "132683af",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/10_1.png"
+    },
+    {
+      "uuid": "HZKykd0gqoALXr6seJ-JuDYm",
+      "ext": ".png",
+      "hash": "7f570896",
+      "size": 361,
+      "hash@windows": "d37e6998",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/abyss_tower/enemy_ash_spider-v1.png"
+    },
+    {
+      "uuid": "HZyHGaXBEXYgf_wE9vucMHg6",
+      "ext": ".mp3",
+      "hash": "474e36e6",
+      "size": 3230880,
+      "fs_path": "audio/diggin/original/Music/musiko.mp3"
+    },
+    {
+      "uuid": "H_SAcT98gvUfB6mHp0R6fG2b",
+      "ext": ".png",
+      "hash": "c66b782c",
+      "size": 745,
+      "fs_path": "image/diggin/original/Tilesets/ironOre.png"
+    },
+    {
+      "uuid": "H_qkKWngZVka2RqZ_8Jqf7Xm",
+      "ext": ".png",
+      "hash": "38417df4",
+      "size": 10234,
+      "fs_path": "image/diggin/original/UI/iconsNewNew.png"
+    },
+    {
+      "uuid": "HaEQybr2EC1HTIACkQ5YamPg",
+      "ext": ".png",
+      "hash": "a23c8ca4",
+      "size": 877,
+      "fs_path": "image/diggin/original/Player Assets/Sprite-0001.png"
+    },
+    {
+      "uuid": "HbYGsf-4QQ6G3gMpJxbhx9YD",
+      "ext": ".png",
+      "hash": "820ecbb6",
+      "size": 279,
+      "fs_path": "image/diggin/original/Mission/bigSpender.png"
+    },
+    {
+      "uuid": "HcNbgfor0bXbQqQ465AzFr9g",
+      "ext": ".png",
+      "hash": "533598b9",
+      "size": 736,
+      "fs_path": "image/diggin/original/Tilesets/Main/boomstone.png"
+    },
+    {
+      "uuid": "HcX2qYnsDSkRTVvNVLW3IwBA",
+      "ext": ".png",
+      "hash": "24ac4bb6",
+      "size": 361,
+      "hash@windows": "dea6bd6c",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/drops/Iridium.png"
+    },
+    {
+      "uuid": "HcXc4UvE2evxK-s-OAysKUhu",
+      "ext": ".png",
+      "hash": "52fc583d",
+      "size": 361,
+      "hash@windows": "f8af3f72",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/4_2.png"
+    },
+    {
+      "uuid": "Hccm0QRI8QxToq-3OO-Ndgr2",
+      "ext": ".png",
+      "hash": "9eef4b90",
+      "size": 935041,
+      "hash@windows": "d9cb8146",
+      "size@windows": 6290153,
+      "fs_path": "image/diggin/generated/abyss_inscriptions/inscription_atlas-25-v1.png"
+    },
+    {
+      "uuid": "HcyM6Q0dkOIn0m5bWME27Iyt",
+      "ext": ".png",
+      "hash": "efdc8470",
+      "size": 251,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_a.png"
+    },
+    {
+      "uuid": "HdYmSWJDWpuXxU7v_MllgZAE",
+      "ext": ".png",
+      "hash": "2a4440d1",
+      "size": 285,
+      "fs_path": "image/diggin/original/Tilesets/Main/overlay1.png"
+    },
+    {
+      "uuid": "Hej2wUCbu0fn_Iuta7d8zZxZ",
+      "ext": ".png",
+      "hash": "bf18c369",
+      "size": 361,
+      "hash@windows": "9b2c555f",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/player/drill_3.png"
+    },
+    {
+      "uuid": "HeodMVWF-vNhlQfXshHzez8k",
+      "ext": ".png",
+      "hash": "214ee60e",
+      "size": 341,
+      "hash@windows": "ca9b1aeb",
+      "size@windows": 989,
+      "fs_path": "image/diggin/generated/skill_icons/AugmentIridium.png"
+    },
+    {
+      "uuid": "HfQoITvebIOFnfp_S_ljLr9P",
+      "ext": ".png",
+      "hash": "2b0d4ee2",
+      "size": 59305,
+      "hash@windows": "736bbc8e",
+      "size@windows": 131225,
+      "fs_path": "image/diggin/generated/abyss_tower/pickup_fuel-sheet-v1.png"
+    },
+    {
+      "uuid": "HfwYYQu9rIzFAe4xF7pahGm-",
+      "ext": ".png",
+      "hash": "97451f6b",
+      "size": 305,
+      "fs_path": "image/diggin/original/UI/drill_cursor.png"
+    },
+    {
+      "uuid": "HhOxSQXQ7qkszHosNXmBaDCQ",
+      "ext": ".png",
+      "hash": "9b6d7a6a",
+      "size": 361,
+      "hash@windows": "5aa0a5d8",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/5_0.png"
+    },
+    {
+      "uuid": "HheICXNRH1uj4O-kb47BTAG4",
+      "ext": ".png",
+      "hash": "48c3c681",
+      "size": 345,
+      "fs_path": "image/diggin/original/UI/newUI.png"
+    },
+    {
+      "uuid": "Hhh4ia1xJCec3cWle8C509WH",
+      "ext": ".mp3",
+      "hash": "27043282",
+      "size": 19680,
+      "fs_path": "audio/diggin/original/Sfx/starstone.mp3"
+    },
+    {
+      "uuid": "Hi3RoYbvYvGF4c9ANy5bUOPi",
+      "ext": ".png",
+      "hash": "48d170d0",
+      "size": 380,
+      "fs_path": "image/diggin/generated/skill_icons/OverdriveStrength.png"
+    },
+    {
+      "uuid": "HiwHqeKQRpXvE2_hYvf8NFTE",
+      "ext": ".png",
+      "hash": "5cec6ea2",
+      "size": 260,
+      "fs_path": "image/diggin/generated/skill_icons/Shrapnel.png"
+    },
+    {
+      "uuid": "HjXB8XwlamA3e6bkehYA_gfg",
+      "ext": ".png",
+      "hash": "4ae1d398",
+      "size": 4038,
+      "fs_path": "image/diggin/original/Tilesets/layer/layer3.png"
+    },
+    {
+      "uuid": "HjkZ-VgvprD9mBeQkakjAKBK",
+      "ext": ".png",
+      "hash": "b2f9c01a",
+      "size": 288,
+      "fs_path": "image/diggin/original/UI/Input Prompts/generic_x.png"
+    },
+    {
+      "uuid": "Hk7GKbYjbTPyakOS4y8e98Db",
+      "ext": ".png",
+      "hash": "91a9ce63",
+      "size": 341,
+      "hash@windows": "e0ab8826",
+      "size@windows": 989,
+      "fs_path": "image/diggin/generated/skill_icons/DrillDroneCount.png"
+    },
+    {
+      "uuid": "HkT74YaGm3L-ZH8CLegfQNg2",
+      "ext": ".png",
+      "hash": "d9c5812c",
+      "size": 160,
+      "fs_path": "image/diggin/generated/skill_icons/MovementSpeed1.png"
+    },
+    {
+      "uuid": "HkurwV4b9fYjXFgcrEGdd_4R",
+      "ext": ".png",
+      "hash": "64726fa4",
+      "size": 361,
+      "hash@windows": "f634c537",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/hud_icons/RubyUnsmelted.png"
+    },
+    {
+      "uuid": "Hn2MucwiyE6OcksllNDQ7w0H",
+      "ext": ".png",
+      "hash": "2adbbafb",
+      "size": 1390,
+      "fs_path": "image/diggin/original/Tilesets/Main/edges.png"
+    },
+    {
+      "uuid": "Hn90ydpkA-BFrvedzb38D1du",
+      "ext": ".lua",
+      "hash": "ee36df4a",
+      "size": 8360,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/DropController.lua"
+    },
+    {
+      "uuid": "HnThuS9BZ0Jq0713sUwuaIkH",
+      "ext": ".png",
+      "hash": "a3ea3c93",
+      "size": 246,
+      "fs_path": "image/diggin/original/UI/Input Prompts/ps_triangle.png"
+    },
+    {
+      "uuid": "HnhBseTztuOw77yNg4-pDTKz",
+      "ext": ".png",
+      "hash": "b3c143f7",
+      "size": 283,
+      "fs_path": "image/diggin/original/UI/Input Prompts/key_f10.png"
+    },
+    {
+      "uuid": "HnlvmRVUfxycdQX0WFe-WiD1",
+      "ext": ".png",
+      "hash": "bd60af13",
+      "size": 361,
+      "hash@windows": "94d3cd19",
+      "size@windows": 473,
+      "fs_path": "image/diggin/generated/effects/dynamite.png"
+    },
+    {
+      "uuid": "Hns9wWagE6gu04bCpEzQyz4E",
+      "ext": ".png",
+      "hash": "ebf04deb",
+      "size": 361,
+      "hash@windows": "f0de17c1",
+      "size@windows": 1245,
+      "fs_path": "image/diggin/generated/skill_icons/DrillMissileArtefact.png"
+    },
+    {
+      "uuid": "Hnyp4Vz-EggeumArhsZ3w7Kt",
+      "ext": ".png",
+      "hash": "667b7f9b",
+      "size": 630,
+      "fs_path": "image/diggin/original/UI/uistuf.png"
+    },
+    {
+      "uuid": "Ho4WOcTuy3M2-CLzBhVWJQhp",
+      "ext": ".lua",
+      "hash": "dc61f684",
+      "size": 919,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/AbyssPortalSchedule.lua"
+    },
+    {
+      "uuid": "Ho8q6ZquZDlxWcafXS3aTnKb",
+      "ext": ".png",
+      "hash": "2d6d96b0",
+      "size": 263,
+      "fs_path": "image/diggin/generated/skill_icons/PlatinumBonanza.png"
+    },
+    {
+      "uuid": "HohdYeNDxwvWlWMBU9S_glBT",
+      "ext": ".xml",
+      "hash": "685fba4a",
+      "size": 62,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "Fonts/FusionPixel-12px-Prop-zh_hans.xml"
+    },
+    {
+      "uuid": "HshYka46gsKj_DjST-uJYtHv",
+      "ext": ".png",
+      "hash": "ac4874c4",
+      "size": 11959,
+      "fs_path": "image/diggin/original/CutsceneIntro/cutscene intro7.png"
+    },
+    {
+      "uuid": "HsmR2RDXQreI6npTeEyda_8e",
+      "ext": ".lua",
+      "hash": "f05fd113",
+      "size": 2321,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/DamageBreakdown.lua"
+    },
+    {
+      "uuid": "HtnjiZQqLDq5zoWDfhTWp4x0",
+      "ext": ".png",
+      "hash": "0e5c3203",
+      "size": 361,
+      "hash@windows": "2fbd1c5a",
+      "size@windows": 289,
+      "fs_path": "image/diggin/generated/layers/3_1.png"
+    },
+    {
+      "uuid": "Hu6z-QnG0uvAtGcohSJbHlBY",
+      "ext": ".ogg",
+      "hash": "7c6140b8",
+      "size": 12391,
+      "fs_path": "audio/sfx/kenney/blessing_confirm.ogg"
+    },
+    {
+      "uuid": "HuCz4fcU1OOaqRW0NAdkSRNJ",
+      "ext": ".png",
+      "hash": "46dbbf64",
+      "size": 392,
+      "fs_path": "image/diggin/original/Upgrades/drilldrone.png"
+    },
+    {
+      "uuid": "HwVT-WJp6q4mopaxMZ0wFwoH",
+      "ext": ".lua",
+      "hash": "a1234ac0",
+      "size": 24343,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Config.lua"
+    },
+    {
+      "uuid": "HwdTObow-cNcCo3Vf52lzRE4",
+      "ext": ".png",
+      "hash": "6ce1be37",
+      "size": 245,
+      "fs_path": "image/diggin/original/UI/Input Prompts/dpad_up.png"
+    },
+    {
+      "uuid": "HxJ7yaMqd2Aq5tcGdeSyJpdj",
+      "ext": ".png",
+      "hash": "740c52bd",
+      "size": 316,
+      "fs_path": "image/diggin/original/UI/Input Prompts/mouse_wheel_down.png"
+    },
+    {
+      "uuid": "HxU0-ZMiat99_YIpY8UOoKo3",
+      "ext": ".lua",
+      "hash": "d55db89b",
+      "size": 1532,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/WorldItemVisuals.lua"
+    },
+    {
+      "uuid": "HyS2idpfZpip0u6WnCVbOAcO",
+      "ext": ".png",
+      "hash": "f6e19c24",
+      "size": 334,
+      "fs_path": "image/diggin/generated/skill_icons/MiningDamage1.png"
+    },
+    {
+      "uuid": "HydUoSOvE0cWsZQ72SKp88nJ",
+      "ext": ".png",
+      "hash": "7284e988",
+      "size": 1131,
+      "fs_path": "image/diggin/original/Tilesets/augments.png"
+    },
+    {
+      "uuid": "HzsuEdzK9pqR6y9i7PPLn7YY",
+      "ext": ".png",
+      "hash": "a427d0a2",
+      "size": 361,
+      "hash@windows": "06d6ceca",
+      "size@windows": 1245,
+      "fs_path": "image/diggin/generated/skill_icons/BoomstoneDamage.png"
+    },
+    {
+      "uuid": "ItAtlasV2Diggin20260905X",
+      "ext": ".png",
+      "hash": "d9380ee0",
+      "size": 2122504,
+      "fs_path": "image/diggin/generated/world_tree/abyss_world_items_atlas-v2.png"
+    },
+    {
+      "uuid": "O6qkWSaeQqGTD43vdAeUfw",
+      "ext": ".json",
+      "hash": "e35f66de",
+      "size": 550,
+      "groups": [
+        "#config",
+        "default",
+        "#blocking"
+      ],
+      "refs": [
+        "BgCviebFkuFhKjMsq6Cjz4K1"
+      ],
+      "fs_path": "settings.json"
+    },
+    {
+      "uuid": "enydUykRjkfRh2aS87Ev-jN0",
+      "ext": ".lua",
+      "hash": "70ce7a1e",
+      "size": 2831,
+      "groups": [
+        "default",
+        "#blocking"
+      ],
+      "fs_path": "diggin/Laser.lua"
+    },
+    {
+      "uuid": "k51pSPma0xmPfVuE8U05oMF1",
+      "ext": ".png",
+      "hash": "aadd7148",
+      "size": 59305,
+      "hash@windows": "9d07e029",
+      "size@windows": 131225,
+      "fs_path": "image/diggin/generated/abyss_shop/merchant_counter-v1.png"
+    }
+  ],
+  "metadata": {
+    "total_files": 775,
+    "local_files": 774,
+    "remote_files": 1,
+    "total_size": 109250865,
+    "preload_files": 3,
+    "preload_size": 5714890,
+    "groups": {
+      "#blocking": {
+        "files": 59,
+        "size": 953008
+      },
+      "default": {
+        "files": 775,
+        "size": 109251584
+      },
+      "startup_fonts": {
+        "files": 2,
+        "size": 5714340
+      },
+      "#config": {
+        "files": 1,
+        "size": 550
+      }
+    }
+  }
+}

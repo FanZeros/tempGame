@@ -1,0 +1,30 @@
+{
+  "urls": [
+    "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings",
+
+    "https://coding.dashscope.aliyuncs.com/v1/chat/completions",
+    "https://coding.dashscope.aliyuncs.com/v1/embeddings",
+    "https://coding.dashscope.aliyuncs.com/apps/anthropic/v1/messages",
+
+    "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "https://ark.cn-beijing.volces.com/api/v3/embeddings",
+
+    "https://ark.cn-beijing.volces.com/api/coding/v1/messages",
+
+    "https://ark.cn-beijing.volces.com/api/coding/v3/chat/completions",
+    "https://ark.cn-beijing.volces.com/api/coding/v3/embeddings",
+
+    "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "https://open.bigmodel.cn/api/paas/v4/embeddings",
+    "https://open.bigmodel.cn/api/anthropic/v1/messages",
+
+    "https://api.deepseek.com/chat/completions",
+    "https://api.deepseek.com/v1/chat/completions",
+    "https://api.deepseek.com/anthropic/v1/messages"
+  ],
+  "domains": [
+    "game-algo-admin.dictapis.cn",
+    "game-algo-sdk.dictapis.cn"
+  ]
+}

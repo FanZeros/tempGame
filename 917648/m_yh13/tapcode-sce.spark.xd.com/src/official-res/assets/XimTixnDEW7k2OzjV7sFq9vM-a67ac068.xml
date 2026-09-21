@@ -1,0 +1,49 @@
+<technique vs="PBRLeaves" ps="PBRLeaves" psdefines="DIFFMAP PBR IBL">
+    <pass name="base" vsdefines="AO" psdefines="AMBIENT AO ALPHAMASK" srgbsoftresolve="true" />
+    <pass name="litbase" vsdefines="AO" psdefines="AMBIENT AO ALPHAMASK" srgbsoftresolve="true" />
+    <pass name="light" vsdefines="AO" psdefines="AO ALPHAMASK" depthtest="equal" depthwrite="false" blend="add" srgbsoftresolve="true" />
+    <pass name="material" psdefines="MATERIAL" depthtest="equal" depthwrite="false" />
+    <!-- Forward only: UE TwoSidedFoliage does not map cleanly to the current deferred GBuffer path. -->
+    <pass name="depth" vs="PBRLeavesDepth" ps="PBRLeavesDepth" psdefines="ALPHAMASK" psexcludes="PACKEDNORMAL" />
+    <pass name="shadow" vs="PBRLeavesShadow" ps="PBRLeavesShadow" psdefines="ALPHAMASK" psexcludes="PACKEDNORMAL" />
+    <!-- PBR defaults (UE5: Metallic=0, Roughness=1, geometric normal) -->
+    <parameter name="MatDiffColor" value="1 1 1 1" />
+    <parameter name="MatSpecColor" value="0.5 0.5 0.5 1" />
+    <parameter name="MatEmissiveColor" value="0 0 0" />
+    <parameter name="Roughness" value="1.0" />
+    <parameter name="Metallic" value="0.0" />
+    <!-- Backface shading -->
+    <parameter name="BackFaceColor" value="0.5 0.5 0.5 1" />
+    <parameter name="BackFacePower" value="0.3" />
+    <!-- Subsurface scattering -->
+    <parameter name="SubsurfaceColor" value="0.2 0.5 0.1 1" />
+    <parameter name="SubsurfacePower" value="0.5" />
+    <!-- Color Fresnel rim 总开关默认关(UE master ColorFresnelAlpha=0)
+         FresnelColor/Power/Extension/Fraction 不在 technique 提供默认值,
+         由各 MI 在需要时自己设置(避免编辑器显示和 UE 不一致的猜测值) -->
+    <parameter name="ColorFresnelAlpha" value="0" />
+    <parameter name="FresnelInversion" value="0" />
+    <!-- 2_Extras (UE master 默认值,各 MI 可覆盖) -->
+    <parameter name="TwoSidedSignEffect" value="0" />
+    <parameter name="TwoSidedSignNormalColor" value="0 0 1 1" />
+    <parameter name="FoliageStyle" value="0" />
+    <!-- Fresnel emissive (UE 名对齐): Power/Extension/Alpha + EmissivePower(=0 关闭) -->
+    <parameter name="EmissiveFresnelPower" value="2.0" />
+    <parameter name="EmissiveFresnelExtension" value="0.0" />
+    <parameter name="EmissiveFresnelFraction" value="0.0" />
+    <parameter name="EmissiveFresnelAlpha" value="0.5" />
+    <parameter name="EmissivePower" value="0.0" />
+    <parameter name="SelectionColor" value="0 0 0 0" />
+    <!-- HSV (UE M_Leaves master 默认: Hue=0, Saturation=0.5, Value=0.4) -->
+    <parameter name="Hue" value="0" />
+    <parameter name="Saturation" value="0.5" />
+    <parameter name="Value" value="0.4" />
+    <!-- Radial gradient AO(UE: GradientScaleU > 0 启用,=0 关闭) -->
+    <parameter name="GradientPower" value="0.8" />
+    <parameter name="GradientRadius" value="0.368" />
+    <parameter name="GradientCenterU" value="0.5" />
+    <parameter name="GradientCenterV" value="0.5" />
+    <parameter name="GradientScaleU" value="0" />
+    <!-- Hide Faces Seen From Edge(UE 暴露给 MI 覆盖,boolean 0/1,默认开) -->
+    <parameter name="HideEdgeFaces" value="1" />
+</technique>

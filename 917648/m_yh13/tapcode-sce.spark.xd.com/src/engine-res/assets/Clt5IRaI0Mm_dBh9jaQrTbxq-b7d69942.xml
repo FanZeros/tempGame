@@ -1,0 +1,43 @@
+<renderpath>
+    <!-- Render targets -->
+    <rendertarget name="HDR128" tag="AutoExposure" size="128 128" format="rgba16f" filter="true" />
+    <rendertarget name="HistogramRows" tag="AutoExposure" size="16 128" format="rgba32f" filter="false" />
+    <rendertarget name="Histogram" tag="AutoExposure" size="16 1" format="rgba32f" filter="false" />
+    <rendertarget name="AdaptedLum" tag="AutoExposure" size="1 1" format="rgba16f" filter="false" persistent="true" />
+    <rendertarget name="PrevAdaptedLum" tag="AutoExposure" size="1 1" format="rgba16f" filter="false" />
+
+    <!-- Pass 1: Copy viewport to 128x128 -->
+    <command type="quad" tag="AutoExposure" vs="CopyFramebuffer" ps="CopyFramebuffer" output="HDR128">
+        <texture unit="diffuse" name="viewport" />
+    </command>
+
+    <!-- Pass 2: Build per-row histogram (16x128, 64 bins) -->
+    <command type="quad" tag="AutoExposure" vs="HistogramBuild" ps="HistogramBuild" output="HistogramRows" disableDepthStencilRT="true">
+        <!-- HistogramParams: x=scale(63/(logMax-logMin)), y=bias(-logMin*scale), z=logMin, w=logMax -->
+        <parameter name="HistogramParams" value="5.25 42.0 -8.0 4.0" />
+        <texture unit="diffuse" name="HDR128" />
+    </command>
+
+    <!-- Pass 3: Reduce 128 rows to 1 row (16x1) -->
+    <command type="quad" tag="AutoExposure" vs="HistogramReduce" ps="HistogramReduce" output="Histogram" disableDepthStencilRT="true">
+        <texture unit="diffuse" name="HistogramRows" />
+    </command>
+
+    <!-- Pass 4: Save previous adapted luminance -->
+    <command type="quad" tag="AutoExposure" vs="CopyFramebuffer" ps="CopyFramebuffer" output="PrevAdaptedLum">
+        <texture unit="diffuse" name="AdaptedLum" />
+    </command>
+
+    <!-- Pass 5: Percentile filtering + temporal adaptation -->
+    <command type="quad" tag="AutoExposure" vs="HistogramExposure" ps="HistogramExposure" output="AdaptedLum" disableDepthStencilRT="true">
+        <parameter name="HistogramParams" value="5.25 42.0 -8.0 4.0" />
+        <!-- ExposurePercentiles: x=lowPercent, y=highPercent, z=blackBucketInfluence -->
+        <parameter name="ExposurePercentiles" value="0.80 0.95 0.0 0.0" />
+        <!-- ExposureSpeedParams: x=speedUp, y=speedDown (f-stops/s) -->
+        <parameter name="ExposureSpeedParams" value="2.0 1.0 0.0 0.0" />
+        <!-- ExposureLumRange: x=minBrightness, y=maxBrightness -->
+        <parameter name="ExposureLumRange" value="0.03 1000.0 0.0 0.0" />
+        <texture unit="diffuse" name="Histogram" />
+        <texture unit="normal" name="PrevAdaptedLum" />
+    </command>
+</renderpath>
